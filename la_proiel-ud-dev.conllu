@@ -1,3 +1,4 @@
+# newdoc id = Jerome's_Vulgate,_Matthew_5
 # source = Jerome's Vulgate, Matthew 5
 # text = videns autem turbas ascendit in montem et cum sedisset accesserunt ad eum discipuli eius et aperiens os suum docebat eos dicens
 # sent_id = 12841
@@ -1034,6 +1035,7 @@
 10	perfectus	perfectus	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	advcl	_	ref=MATT_5.48
 11	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	_	ref=MATT_5.48
 
+# newdoc id = Jerome's_Vulgate,_Mark_5
 # source = Jerome's Vulgate, Mark 5
 # text = et venerunt trans fretum maris in regionem Gerasenorum
 # sent_id = 10551
@@ -1967,6 +1969,7 @@
 4	illi	ille	ADJ	Pd	Case=Dat|Gender=Fem|Number=Sing	3	iobj	_	ref=MARK_5.43
 5	manducare	manduco	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	3	xcomp	_	ref=MARK_5.43
 
+# newdoc id = Jerome's_Vulgate,_Luke_5
 # source = Jerome's Vulgate, Luke 5
 # text = factum est autem cum turbae inruerent in eum ut audirent verbum Dei et ipse stabat secus stagnum Gennesareth
 # sent_id = 16575
@@ -2969,6 +2972,7 @@
 2	melius	bonus	ADJ	A-	Case=Nom|Degree=Cmp|Gender=Neut|Number=Sing	0	root	_	ref=LUKE_5.39
 3	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	ref=LUKE_5.39
 
+# newdoc id = Jerome's_Vulgate,_Luke_15
 # source = Jerome's Vulgate, Luke 15
 # text = erant autem adpropinquantes ei publicani et peccatores ut audirent illum
 # sent_id = 17546
@@ -3704,6 +3708,7 @@
 16	inventus	invenio	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	10	conj	_	ref=LUKE_15.32
 17	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	aux:pass	_	ref=LUKE_15.32
 
+# newdoc id = Jerome's_Vulgate,_John_5
 # source = Jerome's Vulgate, John 5
 # text = post haec erat dies festus Iudaeorum et ascendit Iesus Hierosolymis
 # sent_id = 18687
@@ -4746,6 +4751,7 @@
 9	verbis	verbum	NOUN	Nb	Case=Dat|Gender=Neut|Number=Plur	10	iobj	_	ref=JOHN_5.47
 10	credetis	credo	VERB	V-	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	ref=JOHN_5.47
 
+# newdoc id = Jerome's_Vulgate,_Acts_5
 # source = Jerome's Vulgate, Acts 5
 # text = vir autem quidam nomine Ananias cum Saffira uxore sua vendidit agrum et fraudavit de pretio agri conscia uxore sua
 # sent_id = 23623
@@ -5704,6 +5710,7 @@
 14	Christum	Christus	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	13	obj:dir	_	ref=ACTS_5.42
 15	Iesum	Iesus	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	14	flat:name	_	ref=ACTS_5.42
 
+# newdoc id = Jerome's_Vulgate,_Acts_6
 # source = Jerome's Vulgate, Acts 6
 # text = in diebus autem illis crescente numero discipulorum factus est murmur Graecorum adversus Hebraeos eo quod dispicerentur in ministerio cotidiano viduae eorum
 # sent_id = 23690
@@ -6026,6 +6033,7 @@
 13	faciem	facies	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	12	obj:dir	_	ref=ACTS_6.15
 14	angeli	angelus	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	13	nmod	_	ref=ACTS_6.15
 
+# newdoc id = Jerome's_Vulgate,_Acts_9
 # source = Jerome's Vulgate, Acts 9
 # text = Saulus autem adhuc inspirans minarum et caedis in discipulos Domini accessit ad principem sacerdotum et petiit ab eo epistulas in Damascum ad synagogas ut si quos invenisset huius viae viros ac mulieres vinctos perduceret in Hierusalem
 # sent_id = 23881
@@ -7082,6 +7090,7 @@
 12	Simonem	Simon	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	8	appos	_	ref=ACTS_9.43
 13	coriarium	coriarius	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	12	appos	_	ref=ACTS_9.43
 
+# newdoc id = Jerome's_Vulgate,_Acts_10
 # source = Jerome's Vulgate, Acts 10
 # text = vir autem quidam erat in Caesarea nomine Cornelius centurio cohortis quae dicitur Italica religiosus et timens Deum cum omni domo sua faciens elemosynas multas plebi et deprecans Deum semper
 # sent_id = 23963
@@ -8164,6 +8173,7 @@
 6	aliquot	aliquot	DET	Px	_	7	det	_	ref=ACTS_10.48
 7	diebus	dies	NOUN	Nb	Case=Abl|Gender=Fem,Masc|Number=Plur	5	obl	_	ref=ACTS_10.48
 
+# newdoc id = Jerome's_Vulgate,_Romans_1
 # source = Jerome's Vulgate, Romans 1
 # text = Paulus servus Christi Iesu vocatus apostolus segregatus in evangelium Dei quod ante promiserat per prophetas suos in scripturis sanctis de Filio suo qui factus est ex semine David secundum carnem qui praedestinatus est Filius Dei in virtute secundum Spiritum sanctificationis ex resurrectione mortuorum Iesu Christi Domini nostri
 # sent_id = 26537
@@ -8754,6 +8764,7 @@
 7	consentiunt	consentio	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	ref=ROM_1.32
 8	facientibus	facio	VERB	V-	Case=Abl|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	7	advcl	_	ref=ROM_1.32
 
+# newdoc id = Jerome's_Vulgate,_Revelation_1
 # source = Jerome's Vulgate, Revelation 1
 # text = apocalypsis Iesu Christi quam dedit illi Deus palam facere servis suis quae oportet fieri cito
 # sent_id = 33460
@@ -9274,6 +9285,7 @@
 5	ecclesiae	ecclesia	NOUN	Nb	Case=Nom|Gender=Fem|Number=Plur	0	root	_	ref=REV_1.20
 6	sunt	sum	AUX	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	ref=REV_1.20
 
+# newdoc id = Jerome's_Vulgate,_Revelation_2
 # source = Jerome's Vulgate, Revelation 2
 # text = angelo Ephesi ecclesiae scribe
 # sent_id = 33498
@@ -10025,6 +10037,7 @@
 7	dicat	dico	VERB	V-	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	ccomp	_	ref=REV_2.29
 8	ecclesiis	ecclesia	NOUN	Nb	Case=Dat|Gender=Fem|Number=Plur	7	iobj	_	ref=REV_2.29
 
+# newdoc id = Epistulae_ad_Atticum,_Book_1,_letter_10
 # source = Epistulae ad Atticum, Book 1, letter 10
 # text = cum essem in Tusculano erit hoc tibi pro illo tuo cum essem in Ceramico verum tamen cum ibi essem Roma puer a sorore tua missus epistulam mihi abs te adlatam dedit nuntiavit que eo ipso die post meridiem iturum eum qui ad te proficisceretur
 # sent_id = 75991
@@ -10415,6 +10428,7 @@
 2	me	ego	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=1|PronType=Prs	3	obj:dir	_	ref=1.10.6
 3	appellat	apello	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=1.10.6
 
+# newdoc id = Epistulae_ad_Atticum,_Book_1,_letter_11
 # source = Epistulae ad Atticum, Book 1, letter 11
 # text = et mea sponte faciebam antea et post duabus epistulis tuis perdiligenter in eandem rationem scriptis magno opere sum commotus
 # sent_id = 76006
@@ -10739,6 +10753,7 @@
 12	quam	quam#1	ADV	Df	_	9	advmod	_	ref=1.11.3
 13	reliquisti	relinquo	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	12	ccomp	_	ref=1.11.3
 
+# newdoc id = Epistulae_ad_Atticum,_Book_1,_letter_12
 # source = Epistulae ad Atticum, Book 1, letter 12
 # text = Teucris illa lentum sane negotium ne que Cornelius ad Terentiam postea rediit
 # sent_id = 76019
@@ -11153,6 +11168,7 @@
 6	Pisone	Piso	PROPN	Ne	Case=Abl|Gender=Masc|Number=Sing	5	flat:name	_	ref=1.12.4
 7	consulibus	consul	NOUN	Nb	Case=Abl|Gender=Masc|Number=Plur	1	advcl	_	ref=1.12.4
 
+# newdoc id = Epistulae_ad_Atticum,_Book_2,_letter_18
 # source = Epistulae ad Atticum, Book 2, letter 18
 # text = accepi aliquot epistulas tuas ex quibus intellexi quam suspenso animo et sollicito scire averes quid esset novi
 # sent_id = 76796
@@ -11611,6 +11627,7 @@
 7	inclamaro	inclamo	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	8	advcl	_	ref=2.18.4
 8	advoles	advolo	VERB	V-	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	2	advcl	_	ref=2.18.4
 
+# newdoc id = Epistulae_ad_Atticum,_Book_2,_letter_19
 # source = Epistulae ad Atticum, Book 2, letter 19
 # text = multa me sollicitant et ex rei publicae tanto motu et ex iis periculis quae mihi ipsi intenduntur et sescenta sunt
 # sent_id = 76822
@@ -12507,6 +12524,7 @@
 6	noster	noster	ADJ	Ps	Case=Nom|Gender=Masc|Number=Sing|Person=1|Poss=Yes	7	nmod	_	ref=2.19.5
 7	Pompeius	Pompeius	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	ref=2.19.5
 
+# newdoc id = Epistulae_ad_Atticum,_Book_3,_letter_17
 # source = Epistulae ad Atticum, Book 3, letter 17
 # text = de Quinto fratre nuntii nobis tristes ne c varii venerant ex ante diem III non.Iun. usque ad prid Kal Sept
 # sent_id = 83569
@@ -12744,6 +12762,7 @@
 3	Nonas	expression	ADV	Df	_	2	flat	_	ref=3.17.3
 4	Sept	Sept	ADV	Df	_	2	flat	_	ref=3.17.3
 
+# newdoc id = Epistulae_ad_Atticum,_Book_4,_letter_5
 # source = Epistulae ad Atticum, Book 4, letter 5
 # text = ai n tu
 # sent_id = 77516
@@ -13165,6 +13184,7 @@
 2	velim	volo#1	VERB	V-	Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=4.5.2
 3	laudes	laudo	VERB	V-	Mood=Sub|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	_	ref=4.5.2
 
+# newdoc id = Epistulae_ad_Atticum,_Book_4,_letter_12
 # source = Epistulae ad Atticum, Book 4, letter 12
 # text = Egnatius Romae est
 # sent_id = 77653
@@ -13314,6 +13334,7 @@
 4	tota	totus	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	amod	_	ref=4.12.1
 5	salutat	saluto	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=4.12.1
 
+# newdoc id = Epistulae_ad_Atticum,_Book_4,_letter_13
 # source = Epistulae ad Atticum, Book 4, letter 13
 # text = nos in Tusculanum venisse a. d. xvii Kal. Dec. video te scire
 # sent_id = 77667
@@ -13531,6 +13552,7 @@
 13	hospes	hospes	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	14	advmod	_	ref=4.13.2
 14	veniam	venio	VERB	V-	Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	_	ref=4.13.2
 
+# newdoc id = Epistulae_ad_Atticum,_Book_4,_letter_14
 # source = Epistulae ad Atticum, Book 4, letter 14
 # text = Vestorius noster me per litteras fecit certiorem te Roma a. d. vi Idus Maias putari profectum esse tardius quam dixeras quod minus valuisses
 # sent_id = 77687
@@ -13712,6 +13734,7 @@
 2	ut	ut	SCONJ	G-	_	3	mark	_	ref=4.14.2
 3	valeas	valeo	VERB	V-	Mood=Sub|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	_	ref=4.14.2
 
+# newdoc id = Epistulae_ad_Atticum,_Book_5,_letter_16
 # source = Epistulae ad Atticum, Book 5, letter 16
 # text = etsi in ipso itinere et via discedebant publicanorum tabellarii et eramus in cursu tamen surripiendum aliquid putavi spati ne me immemorem mandati tui putares
 # sent_id = 78240
@@ -14018,6 +14041,7 @@
 6	aberant	absum	VERB	V-	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	acl	_	ref=5.16.4
 7	tridui	triduum	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	6	obl	_	ref=5.16.4
 
+# newdoc id = Epistulae_ad_Atticum,_Book_5,_letter_17
 # source = Epistulae ad Atticum, Book 5, letter 17
 # text = accepi Roma sine epistula tua fasciculum litterarum
 # sent_id = 78256
@@ -14403,6 +14427,7 @@
 16	potuerit	possum	VERB	V-	Aspect=Perf|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	17	advcl	_	ref=5.17.6
 17	discesserit	discedo	VERB	V-	Aspect=Perf|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	acl	_	ref=5.17.6
 
+# newdoc id = Commentarii_belli_Gallici,_Caes.,_Gall._1.31
 # source = Commentarii belli Gallici, Caes., Gall. 1.31
 # text = Eo concilio dimisso idem principes civitatum qui ante fuerant ad Caesarem reverterunt petierunt que uti sibi secreto in occulto de sua omnium que salute cum eo agere liceret
 # sent_id = 52758
@@ -14977,6 +15002,7 @@
 28	posse	possum	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	15	conj	_	ref=1.31.15
 29	defendere	defendo	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	28	xcomp	_	ref=1.31.15
 
+# newdoc id = Commentarii_belli_Gallici,_Caes.,_Gall._1.32
 # source = Commentarii belli Gallici, Caes., Gall. 1.32
 # text = Hac oratione ab Diviciaco habita omnes qui aderant magno fletu auxilium a Caesare petere coeperunt
 # sent_id = 52779
@@ -15121,6 +15147,7 @@
 71	essent	sum	AUX	V-	Aspect=Imp|Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	72	cop	_	ref=1.32.5
 72	perferendi	perfero	VERB	V-	Case=Nom|Gender=Masc|Number=Plur|VerbForm=Gdv	53	conj	_	ref=1.32.5
 
+# newdoc id = Commentarii_belli_Gallici,_Caes.,_Gall._1.33
 # source = Commentarii belli Gallici, Caes., Gall. 1.33
 # text = His rebus cognitis Caesar Gallorum animos verbis confirmavit pollicitus que est sibi eam rem curae futuram
 # sent_id = 52784
@@ -15304,6 +15331,7 @@
 12	non	non	ADV	Df	Polarity=Neg	13	advmod	_	ref=1.33.4
 13	videretur	video	VERB	V-	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	9	advcl	_	ref=1.33.4
 
+# newdoc id = Commentarii_belli_Gallici,_Caes.,_Gall._2.1
 # source = Commentarii belli Gallici, Caes., Gall. 2.1
 # text = Cum esset Caesar in citeriore Gallia ita uti supra demonstravimus crebri ad eum rumores adferebantur litteris que item Labieni certior fiebat omnes Belgas quam tertiam esse Galliae partem dixeramus contra populum Romanum coniurare obsides que inter se dare
 # sent_id = 52960
@@ -15447,6 +15475,7 @@
 8	consequi	consequor	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Pass	9	xcomp	_	ref=2.1.4
 9	poterant	possum	VERB	V-	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=2.1.4
 
+# newdoc id = Commentarii_belli_Gallici,_Caes.,_Gall._2.2
 # source = Commentarii belli Gallici, Caes., Gall. 2.2
 # text = His nuntiis litteris que commotus Caesar duas legiones in citeriore Gallia novas conscripsit et inita aestate in ulteriorem Galliam qui deduceret Quintum Pedium legatum misit
 # sent_id = 52965
@@ -15563,6 +15592,7 @@
 12	Belgarum	Belgae	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	ref=2.2.4
 13	pervenit	pervenio	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	ref=2.2.4
 
+# newdoc id = Commentarii_belli_Gallici,_Caes.,_Gall._2.3
 # source = Commentarii belli Gallici, Caes., Gall. 2.3
 # text = Eo cum de improviso celerius que omnium opinione venisset Remi qui proximi Galliae ex Belgis sunt ad eum legatos Iccium et Andebrogium primos civitatis miserunt qui dicerent se sua que omnia in fidem atque potestatem populi Romani permittere ne que se cum reliquis Belgis consensisse ne que contra populum Romanum coniurasse paratos que esse et obsides dare et imperata facere et oppidis recipere et frumento ceteris que rebus iuvare
 # sent_id = 52971
@@ -15691,6 +15721,7 @@
 50	iis	is	PRON	Pp	Case=Abl|Gender=Masc|Number=Plur|Person=3|PronType=Prs	51	obl	_	ref=2.3.5
 51	consentirent	consentio	VERB	V-	Aspect=Imp|Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	46	ccomp	_	ref=2.3.5
 
+# newdoc id = Commentarii_belli_Gallici,_Caes.,_Gall._3.11
 # source = Commentarii belli Gallici, Caes., Gall. 3.11
 # text = Itaque Titum Labienum legatum in Treveros qui proximi flumini Rheno sunt cum equitatu mittit
 # sent_id = 53195
@@ -15832,6 +15863,7 @@
 4	copiis	copia	NOUN	Nb	Case=Abl|Gender=Fem|Number=Plur	5	obl	_	ref=3.11.5
 5	contendit	contendo	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=3.11.5
 
+# newdoc id = Commentarii_belli_Gallici,_Caes.,_Gall._3.12
 # source = Commentarii belli Gallici, Caes., Gall. 3.12
 # text = Erant eius modi fere situs oppidorum ut posita in extremis lingulis promunturiis que ne que pedibus aditum haberent cum ex alto se aestus incitavisset quod accidit semper horarum duodecim spatio ne que navibus quod rursus minuente aestu naves in vadis adflictarentur
 # sent_id = 53201
@@ -15973,6 +16005,7 @@
 27	difficultas	difficultas	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	ref=3.12.5
 28	navigandi	navigo	VERB	V-	Case=Gen|VerbForm=Ger	27	acl	_	ref=3.12.5
 
+# newdoc id = Commentarii_belli_Gallici,_Caes.,_Gall._3.13
 # source = Commentarii belli Gallici, Caes., Gall. 3.13
 # text = Namque ipsorum naves ad hunc modum factae armatae que erant
 # sent_id = 53205
@@ -16212,6 +16245,7 @@
 7	erat	sum	AUX	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	cop	_	ref=3.13.9
 8	extimescendus	extimesco	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Gdv	0	root	_	ref=3.13.9
 
+# newdoc id = Commentarii_belli_Gallici,_Caes.,_Gall._4.11
 # source = Commentarii belli Gallici, Caes., Gall. 4.11
 # text = Caesar cum ab hoste non amplius passuum duodecim milibus abesset ut erat constitutum ad eum legati revertuntur
 # sent_id = 53349
@@ -16393,6 +16427,7 @@
 25	propius	prope	ADV	Df	Degree=Cmp	26	advmod	_	ref=4.11.6
 26	accessisset	accedo	VERB	V-	Mood=Sub|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin|Voice=Act	20	advcl	_	ref=4.11.6
 
+# newdoc id = Commentarii_belli_Gallici,_Caes.,_Gall._4.12
 # source = Commentarii belli Gallici, Caes., Gall. 4.12
 # text = At hostes ubi primum nostros equites conspexerunt quorum erat quinque milium numerus cum ipsi non amplius octingentos equites haberent quod ii qui frumentandi causa erant trans Mosam profecti nondum redierant nihil timentibus nostris quod legati eorum paulo ante a Caesare discesserant atque is dies indutiis erat ab his petitus impetu facto celeriter nostros perturbaverunt
 # sent_id = 53356
@@ -16583,6 +16618,7 @@
 22	interfectus	interficio	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	20	conj	_	ref=4.12.6
 23	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	22	aux:pass	_	ref=4.12.6
 
+# newdoc id = Commentarii_belli_Gallici,_Caes.,_Gall._4.13
 # source = Commentarii belli Gallici, Caes., Gall. 4.13
 # text = Hoc facto proelio Caesar ne que iam sibi legatos audiendos ne que condiciones accipiendas arbitrabatur ab iis qui per dolum atque insidias petita pace ultro bellum intulissent
 # sent_id = 53361
@@ -16762,6 +16798,7 @@
 15	subsequi	subsequor	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Pass	16	ccomp	_	ref=4.13.6
 16	iussit	iubeo	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	ref=4.13.6
 
+# newdoc id = Commentarii_belli_Gallici,_Caes.,_Gall._6.16
 # source = Commentarii belli Gallici, Caes., Gall. 6.16
 # text = Natio est omnis Gallorum admodum dedita religionibus atque ob eam causam qui sunt adfecti gravioribus morbis qui que in proeliis periculis que versantur aut pro victimis homines immolant aut se immolaturos vovent administris que ad ea sacrificia druidibus utuntur quod pro vita hominis nisi hominis vita reddatur non posse deorum immortalium numen placari arbitrantur publice que eiusdem generis habent instituta sacrificia
 # sent_id = 54006
