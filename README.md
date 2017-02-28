@@ -12,7 +12,7 @@ The development data consists of Matthew 5, Mark 5, John 5, Luke 5 and 15, Acts 
 
 ## Changelog
 
-No change since UD v1.2.
+V2.0 The treebank was converted to UDv2 and the data splits were changed.
 
 
 Documentation status: stub
