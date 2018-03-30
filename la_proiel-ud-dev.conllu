@@ -14607,10 +14607,10 @@
 4	etiam	etiam	ADV	Df	_	2	conj	_	ref=4.13.2
 5	te	tu	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=2|PronType=Prs	6	obj	_	ref=4.13.2
 6	rogo	rogo	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=4.13.2
-7	τὴν	greek.expression	X	F-	_	9	flat:foreign	_	ref=4.13.2
-8	παροῦσαν	greek.expression	X	F-	_	9	amod	_	ref=4.13.2
-9	κατάστασιν	greek.expression	X	F-	_	1	appos	_	ref=4.13.2
-10	τυπωδῶς	greek.expression	X	F-	_	9	amod	_	ref=4.13.2
+7	τὴν	greek.expression	X	F-	_	1	appos	_	ref=4.13.2
+8	παροῦσαν	greek.expression	X	F-	_	7	amod	_	ref=4.13.2
+9	κατάστασιν	greek.expression	X	F-	_	7	fixed	_	ref=4.13.2
+10	τυπωδῶς	greek.expression	X	F-	_	7	amod	_	ref=4.13.2
 11	ne	ne	SCONJ	G-	_	14	mark	_	ref=4.13.2
 12	istuc	istuc	ADV	Df	_	14	advmod	_	ref=4.13.2
 13	hospes	hospes	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	14	advmod	_	ref=4.13.2
