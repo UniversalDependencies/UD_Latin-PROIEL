@@ -11891,7 +11891,7 @@
 1	nihil	nihil	ADJ	Px	Case=Nom|Gender=Neut|Number=Sing	0	root	_	ref=1.13.4
 2	ἐν	greek.expression	X	F-	_	5	iobj	_	ref=1.13.4
 3	τοῖς	greek.expression	X	F-	_	2	iobj	_	ref=1.13.4
-4	πολιτικοῖς	greek.expression	X	F-	_	3	fixed	_	ref=1.13.4
+4	πολιτικοῖς	greek.expression	X	F-	_	3	flat:foreign	_	ref=1.13.4
 5	inlustre	inlustris	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	1	advmod	_	ref=1.13.4
 
 # source = Epistulae ad Atticum, Book 1, letter 13
@@ -14814,7 +14814,7 @@
 1	de	de	ADP	R-	_	2	case	_	ref=4.7.2
 2	Metello	Metellus	PROPN	Ne	Case=Abl|Gender=Masc|Number=Sing	0	root	_	ref=4.7.2
 3	οὐχ	greek.expression	X	F-	_	2	ccomp	_	ref=4.7.2
-4	ὁσίη	greek.expression	X	F-	_	3	fixed	_	ref=4.7.2
+4	ὁσίη	greek.expression	X	F-	_	3	flat:foreign	_	ref=4.7.2
 5	φθιμένοισιν	greek.expression	X	F-	_	3	orphan	_	ref=4.7.2
 6	sed	sed	CCONJ	C-	_	2	cc	_	ref=4.7.2
 7	tamen	tamen	ADV	Df	_	13	discourse	_	ref=4.7.2
@@ -14929,7 +14929,7 @@
 1	ὁ	greek.expression	X	F-	_	2	nsubj	_	ref=4.7.3
 2	δὲ	greek.expression	X	F-	_	0	root	_	ref=4.7.3
 3	οὐκ	greek.expression	X	F-	_	2	flat:foreign	_	ref=4.7.3
-4	ἐμπάζετο	greek.expression	X	F-	_	2	fixed	_	ref=4.7.3
+4	ἐμπάζετο	greek.expression	X	F-	_	2	flat:foreign	_	ref=4.7.3
 5	μύθων	greek.expression	X	F-	_	2	iobj	_	ref=4.7.3
 
 # source = Epistulae ad Atticum, Book 4, letter 7

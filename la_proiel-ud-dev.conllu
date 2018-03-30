@@ -13542,18 +13542,6 @@
 19	intelleges	intellego	VERB	V-	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	10	conj	_	ref=2.19.5
 
 # source = Epistulae ad Atticum, Book 2, letter 19
-# text = in iis epistulis me Laelium te Furium faciam
-# sent_id = 76873
-1	in	in	ADP	R-	_	3	case	_	ref=2.19.5
-2	iis	is	DET	Pd	Case=Abl|Number=Plur	3	det	_	ref=2.19.5
-3	epistulis	epistula	NOUN	Nb	Case=Abl|Gender=Fem|Number=Plur	8	obl	_	ref=2.19.5
-4	me	ego	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=1|PronType=Prs	8	obj	_	ref=2.19.5
-5	Laelium	Laelius	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	8	xcomp	_	ref=2.19.5
-6	te	tu	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=2|PronType=Prs	8	conj	_	ref=2.19.5
-7	Furium	Furius	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	6	orphan	_	ref=2.19.5
-8	faciam	facio	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	ref=2.19.5
-
-# source = Epistulae ad Atticum, Book 2, letter 19
 # text = cetera erunt ἐν αἰνιγμοῖς
 # sent_id = 81805
 1	cetera	ceterus	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	3	nsubj	_	ref=2.19.5
@@ -14609,7 +14597,7 @@
 6	rogo	rogo	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=4.13.2
 7	τὴν	greek.expression	X	F-	_	1	appos	_	ref=4.13.2
 8	παροῦσαν	greek.expression	X	F-	_	7	amod	_	ref=4.13.2
-9	κατάστασιν	greek.expression	X	F-	_	7	fixed	_	ref=4.13.2
+9	κατάστασιν	greek.expression	X	F-	_	7	flat:foreign	_	ref=4.13.2
 10	τυπωδῶς	greek.expression	X	F-	_	7	amod	_	ref=4.13.2
 11	ne	ne	SCONJ	G-	_	14	mark	_	ref=4.13.2
 12	istuc	istuc	ADV	Df	_	14	advmod	_	ref=4.13.2
