@@ -174,8 +174,8 @@
 # source = Jerome's Vulgate, Matthew 5
 # text = quod si sal evanuerit in quo sallietur ad nihilum valet ultra nisi ut mittatur foras et conculcetur ab hominibus
 # sent_id = 12862
-1	quod	qui	PRON	Pr	Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	2	fixed	_	ref=MATT_5.13
-2	si	si	SCONJ	G-	_	4	mark	_	ref=MATT_5.13
+1	quod	qui	PRON	Pr	Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	4	mark	_	ref=MATT_5.13
+2	si	si	SCONJ	G-	_	1	fixed	_	ref=MATT_5.13
 3	sal	sal	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	ref=MATT_5.13
 4	evanuerit	evanesco	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	10	advcl	_	ref=MATT_5.13
 5	in	in	ADP	R-	_	6	case	_	ref=MATT_5.13
@@ -571,8 +571,8 @@
 # source = Jerome's Vulgate, Matthew 5
 # text = quod si oculus tuus dexter scandalizat te erue eum et proice abs te
 # sent_id = 12894
-1	quod	qui	PRON	Pr	Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	2	fixed	_	ref=MATT_5.29
-2	si	si	SCONJ	G-	_	6	mark	_	ref=MATT_5.29
+1	quod	qui	PRON	Pr	Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	6	mark	_	ref=MATT_5.29
+2	si	si	SCONJ	G-	_	1	fixed	_	ref=MATT_5.29
 3	oculus	oculus	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	ref=MATT_5.29
 4	tuus	tuus	ADJ	Ps	Case=Nom|Gender=Masc|Number=Sing|Person=2|Poss=Yes	3	nmod	_	ref=MATT_5.29
 5	dexter	dexter	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	ref=MATT_5.29
@@ -10025,6 +10025,1091 @@
 7	dicat	dico	VERB	V-	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	ccomp	_	ref=REV_2.29
 8	ecclesiis	ecclesia	NOUN	Nb	Case=Dat|Gender=Fem|Number=Plur	7	iobj	_	ref=REV_2.29
 
+# source = Opus agriculturae, II. De quattuor rebus, quibus agricultura consistit
+# text = Primo igitur eligendi et bene colendi agri ratio quattuor rebus constat aere aqua terra industria
+# sent_id = 159698
+1	Primo	primo	ADV	Df	_	11	advmod	_	ref=1.2.1
+2	igitur	igitur	ADV	Df	_	11	discourse	_	ref=1.2.1
+3	eligendi	eligo	VERB	V-	Case=Gen|Gender=Masc|Number=Sing|VerbForm=Gdv	8	acl	_	ref=1.2.1
+4	et	et	CCONJ	C-	_	3	cc	_	ref=1.2.1
+5	bene	bene	ADV	Df	Degree=Pos	3	advmod	_	ref=1.2.1
+6	colendi	colo	VERB	V-	Case=Gen|Gender=Masc|Number=Sing|VerbForm=Gdv	3	conj	_	ref=1.2.1
+7	agri	ager	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	3	nsubj	_	ref=1.2.1
+8	ratio	ratio	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	ref=1.2.1
+9	quattuor	quattuor	NUM	Ma	_	10	nummod	_	ref=1.2.1
+10	rebus	res	NOUN	Nb	Case=Abl|Gender=Fem|Number=Plur	11	iobj	_	ref=1.2.1
+11	constat	consto	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=1.2.1
+12	aere	aer	NOUN	Nb	Case=Abl|Gender=Masc|Number=Sing	10	appos	_	ref=1.2.1
+13	aqua	aqua	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	12	conj	_	ref=1.2.1
+14	terra	terra	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	12	conj	_	ref=1.2.1
+15	industria	industria	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	12	conj	_	ref=1.2.1
+
+# source = Opus agriculturae, II. De quattuor rebus, quibus agricultura consistit
+# text = Ex his tria naturalia unum facultatis et uoluntatis est
+# sent_id = 159699
+1	Ex	ex	ADP	R-	_	2	case	_	ref=1.2.1
+2	his	hic	ADJ	Pd	Case=Abl|Number=Plur	3	nmod	_	ref=1.2.1
+3	tria	tres	NUM	Ma	Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	ref=1.2.1
+4	naturalia	naturalis	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	0	root	_	ref=1.2.1
+5	unum	unus	NUM	Ma	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	ref=1.2.1
+6	facultatis	facultas	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	4	conj	_	ref=1.2.1
+7	et	et	CCONJ	C-	_	6	cc	_	ref=1.2.1
+8	uoluntatis	uoluntas	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	6	conj	_	ref=1.2.1
+9	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	ref=1.2.1
+
+# source = Opus agriculturae, II. De quattuor rebus, quibus agricultura consistit
+# text = Naturae est quod in primis spectare oportet ut eis locis quae colere destinabis aer sit salutaris et clemens aqua salubris et facilis uel ibi nascens uel adducta uel imbre collecta terra uero fecunda et situ commoda
+# sent_id = 159700
+1	Naturae	natura	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	0	root	_	ref=1.2.1
+2	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	ref=1.2.1
+3	quod	qui	PRON	Pr	Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	6	obj	_	ref=1.2.1
+4	in	in	ADP	R-	_	5	case	_	ref=1.2.1
+5	primis	primus	ADJ	Mo	Case=Abl|Gender=Neut|Number=Plur	6	advmod	_	ref=1.2.1
+6	spectare	specto	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	7	ccomp	_	ref=1.2.1
+7	oportet	oportet	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	_	ref=1.2.1
+8	ut	ut	SCONJ	G-	_	16	mark	_	ref=1.2.1
+9	eis	is	DET	Pd	Case=Abl|Number=Plur	10	det	_	ref=1.2.1
+10	locis	locum	NOUN	Nb	Case=Abl|Gender=Neut|Number=Plur	16	obl	_	ref=1.2.1
+11	quae	qui	PRON	Pr	Case=Acc|Gender=Neut|Number=Plur|PronType=Rel	12	obj	_	ref=1.2.1
+12	colere	colo	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	13	xcomp	_	ref=1.2.1
+13	destinabis	destino	VERB	V-	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	10	acl	_	ref=1.2.1
+14	aer	aer	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	ref=1.2.1
+15	sit	sum	AUX	V-	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	cop	_	ref=1.2.1
+16	salutaris	salutaris	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	advcl	_	ref=1.2.1
+17	et	et	CCONJ	C-	_	16	cc	_	ref=1.2.1
+18	clemens	clemens	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	16	conj	_	ref=1.2.1
+19	aqua	aqua	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	ref=1.2.1
+20	salubris	salubris	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	16	conj	_	ref=1.2.1
+21	et	et	CCONJ	C-	_	20	cc	_	ref=1.2.1
+22	facilis	facilis	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	20	conj	_	ref=1.2.1
+23	uel	vel	CCONJ	C-	_	25	cc	_	ref=1.2.1
+24	ibi	ibi	ADV	Df	_	25	advmod	_	ref=1.2.1
+25	nascens	nascor	VERB	V-	Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	20	advcl	_	ref=1.2.1
+26	uel	vel	CCONJ	C-	_	25	cc	_	ref=1.2.1
+27	adducta	adduco	VERB	V-	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	25	conj	_	ref=1.2.1
+28	uel	vel	CCONJ	C-	_	25	cc	_	ref=1.2.1
+29	imbre	imber	NOUN	Nb	Case=Abl|Gender=Masc|Number=Sing	30	obl	_	ref=1.2.1
+30	collecta	colligo#1	VERB	V-	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	25	conj	_	ref=1.2.1
+31	terra	terra	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	33	nsubj	_	ref=1.2.1
+32	uero	vero	ADV	Df	_	33	discourse	_	ref=1.2.1
+33	fecunda	fecundus	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	16	conj	_	ref=1.2.1
+34	et	et	CCONJ	C-	_	33	cc	_	ref=1.2.1
+35	situ	situs	NOUN	Nb	Case=Abl|Gender=Masc|Number=Sing	36	obl	_	ref=1.2.1
+36	commoda	commodus	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	33	conj	_	ref=1.2.1
+
+# source = Opus agriculturae, XII. De lumine et altitudine
+# text = Mensura uero haec seruanda est in tricliniis atque cubiculis ut quanta latitudo uel longitudo fuerit in unum conputetur et eius medietas in altitudinem conferatur
+# sent_id = 159877
+1	Mensura	mensura	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	ref=1.12.1
+2	uero	vero	ADV	Df	_	4	discourse	_	ref=1.12.1
+3	haec	hic	DET	Pd	Case=Nom|Gender=Fem|Number=Sing	1	det	_	ref=1.12.1
+4	seruanda	servo	VERB	V-	Case=Nom|Gender=Fem|Number=Sing|VerbForm=Gdv	0	root	_	ref=1.12.1
+5	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	ref=1.12.1
+6	in	in	ADP	R-	_	7	case	_	ref=1.12.1
+7	tricliniis	triclinium	NOUN	Nb	Case=Abl|Gender=Neut|Number=Plur	4	obl	_	ref=1.12.1
+8	atque	atque	CCONJ	C-	_	7	cc	_	ref=1.12.1
+9	cubiculis	cubiculum	NOUN	Nb	Case=Abl|Gender=Neut|Number=Plur	7	conj	_	ref=1.12.1
+10	ut	ut	SCONJ	G-	_	18	mark	_	ref=1.12.1
+11	quanta	quantus	PRON	Pr	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	18	csubj:pass	_	ref=1.12.1
+12	latitudo	latitudo	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	ref=1.12.1
+13	uel	vel	CCONJ	C-	_	12	cc	_	ref=1.12.1
+14	longitudo	longitudo	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	12	conj	_	ref=1.12.1
+15	fuerit	sum	AUX	V-	Aspect=Perf|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	11	cop	_	ref=1.12.1
+16	in	in	ADP	R-	_	17	case	_	ref=1.12.1
+17	unum	unus	NUM	Ma	Case=Acc|Gender=Neut|Number=Sing	18	obl	_	ref=1.12.1
+18	conputetur	computo	VERB	V-	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	4	ccomp	_	ref=1.12.1
+19	et	et	CCONJ	C-	_	18	cc	_	ref=1.12.1
+20	eius	is	PRON	Pp	Case=Gen|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	det	_	ref=1.12.1
+21	medietas	medietas	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	24	nsubj:pass	_	ref=1.12.1
+22	in	in	ADP	R-	_	23	case	_	ref=1.12.1
+23	altitudinem	altitudo	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	24	obl	_	ref=1.12.1
+24	conferatur	confero	VERB	V-	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	18	conj	_	ref=1.12.1
+
+# source = Opus agriculturae, XVI. De uitanda ualle, quae propter aquas diligi solet
+# text = Vitandum est autem quod plerique fecerunt aquae causa uillas infimis uallibus mergere et paucorum dierum uoluptatem praeferre habitatorum saluti
+# sent_id = 159896
+1	Vitandum	vito	VERB	V-	Case=Nom|Gender=Neut|Number=Sing|VerbForm=Gdv	0	root	_	ref=1.16.1
+2	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	ref=1.16.1
+3	autem	autem	ADV	Df	_	1	discourse	_	ref=1.16.1
+4	quod	qui	PRON	Pr	Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	6	obj	_	ref=1.16.1
+5	plerique	plerusque	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	6	nsubj	_	ref=1.16.1
+6	fecerunt	facio	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	nsubj	_	ref=1.16.1
+7	aquae	aqua	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	ref=1.16.1
+8	causa	causa	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	6	obl	_	ref=1.16.1
+9	uillas	villa	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	12	obj	_	ref=1.16.1
+10	infimis	infimus	ADJ	A-	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	ref=1.16.1
+11	uallibus	vallis	NOUN	Nb	Case=Dat|Gender=Fem|Number=Plur	12	iobj	_	ref=1.16.1
+12	mergere	mergo	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	6	advcl	_	ref=1.16.1
+13	et	et	CCONJ	C-	_	12	cc	_	ref=1.16.1
+14	paucorum	paucus	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	15	amod	_	ref=1.16.1
+15	dierum	dies	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	ref=1.16.1
+16	uoluptatem	voluptas	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	17	obj	_	ref=1.16.1
+17	praeferre	praefero	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	12	conj	_	ref=1.16.1
+18	habitatorum	habitator	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	ref=1.16.1
+19	saluti	salus	NOUN	Nb	Case=Dat|Gender=Fem|Number=Sing	17	iobj	_	ref=1.16.1
+
+# source = Opus agriculturae, XVI. De uitanda ualle, quae propter aquas diligi solet
+# text = quod magis metuemus si prouincia quam colimus de morbis aestate suspecta est
+# sent_id = 159897
+1	quod	qui	PRON	Pr	Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	3	obj	_	ref=1.16.1
+2	magis	magis	ADV	Df	_	3	advmod	_	ref=1.16.1
+3	metuemus	metuo	VERB	V-	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	ref=1.16.1
+4	si	si	SCONJ	G-	_	11	mark	_	ref=1.16.1
+5	prouincia	provincia	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	11	nsubj:pass	_	ref=1.16.1
+6	quam	qui	PRON	Pr	Case=Acc|Gender=Fem|Number=Sing|PronType=Rel	7	obj	_	ref=1.16.1
+7	colimus	colo	VERB	V-	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl	_	ref=1.16.1
+8	de	de	ADP	R-	_	9	case	_	ref=1.16.1
+9	morbis	morbus	NOUN	Nb	Case=Abl|Gender=Masc|Number=Plur	11	obl	_	ref=1.16.1
+10	aestate	aestas	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	11	obl	_	ref=1.16.1
+11	suspecta	suspicio	VERB	V-	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	advcl	_	ref=1.16.1
+12	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux:pass	_	ref=1.16.1
+
+# source = Opus agriculturae, XVI. De uitanda ualle, quae propter aquas diligi solet
+# text = Cui si fons desit aut puteus cisternas construere conueniat quibus omnium conduci possit aqua tectorum
+# sent_id = 159898
+1	Cui	qui	PRON	Pr	Case=Dat|Gender=Fem|Number=Sing|PronType=Rel	4	iobj	_	ref=1.16.1
+2	si	si	SCONJ	G-	_	4	mark	_	ref=1.16.1
+3	fons	fons	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	ref=1.16.1
+4	desit	desum	VERB	V-	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	advcl	_	ref=1.16.1
+5	aut	aut	CCONJ	C-	_	3	cc	_	ref=1.16.1
+6	puteus	puteus	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	ref=1.16.1
+7	cisternas	cisterna	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	8	obj	_	ref=1.16.1
+8	construere	construo	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	9	ccomp	_	ref=1.16.1
+9	conueniat	convenio	VERB	V-	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=1.16.1
+10	quibus	qui	PRON	Pr	Case=Abl|Gender=Fem|Number=Plur|PronType=Rel	12	obl	_	ref=1.16.1
+11	omnium	omnis	DET	Px	Case=Gen|Gender=Neut|Number=Plur	15	det	_	ref=1.16.1
+12	conduci	conduco	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Pass	13	xcomp	_	ref=1.16.1
+13	possit	possum	VERB	V-	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl	_	ref=1.16.1
+14	aqua	aqua	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	ref=1.16.1
+15	tectorum	tectum	NOUN	Nb	Case=Gen|Gender=Neut|Number=Plur	14	nmod	_	ref=1.16.1
+
+# source = Opus agriculturae, XVI. De uitanda ualle, quae propter aquas diligi solet
+# text = Fiunt autem hoc modo
+# sent_id = 159899
+1	Fiunt	fio	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=1.16.1
+2	autem	autem	ADV	Df	_	1	discourse	_	ref=1.16.1
+3	hoc	hic	DET	Pd	Case=Abl|Gender=Masc|Number=Sing	4	det	_	ref=1.16.1
+4	modo	modus	NOUN	Nb	Case=Abl|Gender=Masc|Number=Sing	1	obl	_	ref=1.16.1
+
+# source = Opus agriculturae, XXII. De corte
+# text = Cors ad meridiem pateat et obiecta sit soli quia facilius erit propter ea quae insunt animalia ad aestatis temperandum calorem porticus furcis asseribus et fronde formari quae uel scindulis uel si copia suppetit tegulis uel si facilius et sine inpensa placuerit tegentur caricibus aut genestis
+# sent_id = 159947
+1	Cors	cohors	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	ref=1.22.1
+2	ad	ad	ADP	R-	_	3	case	_	ref=1.22.1
+3	meridiem	meridies	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	4	obl	_	ref=1.22.1
+4	pateat	pateo	VERB	V-	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=1.22.1
+5	et	et	CCONJ	C-	_	4	cc	_	ref=1.22.1
+6	obiecta	obicio	VERB	V-	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	conj	_	ref=1.22.1
+7	sit	sum	AUX	V-	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux:pass	_	ref=1.22.1
+8	soli	sol	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	6	iobj	_	ref=1.22.1
+9	quia	quia	SCONJ	G-	_	10	mark	_	ref=1.22.1
+10	facilius	facile	ADV	Df	Degree=Cmp	6	advcl	_	ref=1.22.1
+11	erit	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	10	cop	_	ref=1.22.1
+12	propter	propter	ADP	R-	_	16	case	_	ref=1.22.1
+13	ea	is	PRON	Pp	Case=Acc|Gender=Neut|Number=Plur|Person=3|PronType=Prs	16	det	_	ref=1.22.1
+14	quae	qui	PRON	Pr	Case=Nom|Gender=Neut|Number=Plur|PronType=Rel	15	nsubj	_	ref=1.22.1
+15	insunt	insum	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	acl	_	ref=1.22.1
+16	animalia	animal	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	10	obl	_	ref=1.22.1
+17	ad	ad	ADP	R-	_	19	case	_	ref=1.22.1
+18	aestatis	aestas	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	ref=1.22.1
+19	temperandum	tempero	VERB	V-	Case=Acc|Gender=Masc|Number=Sing|VerbForm=Gdv	26	advcl	_	ref=1.22.1
+20	calorem	calor	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	19	nsubj	_	ref=1.22.1
+21	porticus	porticus	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	26	nsubj:pass	_	ref=1.22.1
+22	furcis	furca	NOUN	Nb	Case=Abl|Gender=Fem|Number=Plur	26	obl	_	ref=1.22.1
+23	asseribus	asser	NOUN	Nb	Case=Abl|Gender=Masc|Number=Plur	22	conj	_	ref=1.22.1
+24	et	et	CCONJ	C-	_	22	cc	_	ref=1.22.1
+25	fronde	frons	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	22	conj	_	ref=1.22.1
+26	formari	formo	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Pass	10	ccomp	_	ref=1.22.1
+27	quae	qui	PRON	Pr	Case=Nom|Gender=Fem|Number=Plur|PronType=Rel	42	nsubj:pass	_	ref=1.22.1
+28	uel	vel	CCONJ	C-	_	29	cc	_	ref=1.22.1
+29	scindulis	scindula	NOUN	Nb	Case=Abl|Gender=Fem|Number=Plur	42	obl	_	ref=1.22.1
+30	uel	vel	CCONJ	C-	_	29	cc	_	ref=1.22.1
+31	si	si	SCONJ	G-	_	33	mark	_	ref=1.22.1
+32	copia	copia	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	33	nsubj	_	ref=1.22.1
+33	suppetit	suppeto	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	34	acl	_	ref=1.22.1
+34	tegulis	tegula	NOUN	Nb	Case=Abl|Gender=Fem|Number=Plur	29	conj	_	ref=1.22.1
+35	uel	vel	CCONJ	C-	_	29	cc	_	ref=1.22.1
+36	si	si	SCONJ	G-	_	41	mark	_	ref=1.22.1
+37	facilius	facile	ADV	Df	Degree=Cmp	41	advmod	_	ref=1.22.1
+38	et	et	CCONJ	C-	_	37	cc	_	ref=1.22.1
+39	sine	sine	ADP	R-	_	40	case	_	ref=1.22.1
+40	inpensa	impensa	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	37	conj	_	ref=1.22.1
+41	placuerit	placeo	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	43	acl	_	ref=1.22.1
+42	tegentur	tego	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Pass	21	acl	_	ref=1.22.1
+43	caricibus	carex	NOUN	Nb	Case=Abl|Gender=Fem|Number=Plur	29	conj	_	ref=1.22.1
+44	aut	aut	CCONJ	C-	_	43	cc	_	ref=1.22.1
+45	genestis	genesta	NOUN	Nb	Case=Abl|Gender=Fem|Number=Plur	43	conj	_	ref=1.22.1
+
+# source = Opus agriculturae, XXVI. De turdis
+# text = Aliud uero cubiculum turdos nutriat
+# sent_id = 159962
+1	Aliud	alius	DET	Px	Case=Nom|Gender=Neut|Number=Sing	3	det	_	ref=1.26.1
+2	uero	vero	ADV	Df	_	5	discourse	_	ref=1.26.1
+3	cubiculum	cubiculum	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	ref=1.26.1
+4	turdos	turdus	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	5	obj	_	ref=1.26.1
+5	nutriat	nutrio	VERB	V-	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=1.26.1
+
+# source = Opus agriculturae, XXVI. De turdis
+# text = Qui si alieno tempore saginentur et uoluptatem cibi et reditum maximum praestant parcitati beneficium ministrante luxuria
+# sent_id = 159963
+1	Qui	qui	PRON	Pr	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	12	nsubj	_	ref=1.26.1
+2	si	si	SCONJ	G-	_	5	mark	_	ref=1.26.1
+3	alieno	alienus	ADJ	A-	Case=Abl|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	ref=1.26.1
+4	tempore	tempus	NOUN	Nb	Case=Abl|Gender=Neut|Number=Sing	5	obl	_	ref=1.26.1
+5	saginentur	sagino	VERB	V-	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	12	advcl	_	ref=1.26.1
+6	et	et	CCONJ	C-	_	7	cc	_	ref=1.26.1
+7	uoluptatem	voluptas	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	ref=1.26.1
+8	cibi	cibus	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	ref=1.26.1
+9	et	et	CCONJ	C-	_	7	cc	_	ref=1.26.1
+10	reditum	reditus	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	7	conj	_	ref=1.26.1
+11	maximum	magnus	ADJ	A-	Case=Acc|Degree=Sup|Gender=Masc|Number=Sing	10	amod	_	ref=1.26.1
+12	praestant	praesto	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=1.26.1
+13	parcitati	parcitas	NOUN	Nb	Case=Dat|Gender=Fem|Number=Sing	15	iobj	_	ref=1.26.1
+14	beneficium	beneficium	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	15	obj	_	ref=1.26.1
+15	ministrante	ministro	VERB	V-	Case=Abl|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	12	advcl	_	ref=1.26.1
+16	luxuria	luxuria	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	15	nsubj	_	ref=1.26.1
+
+# source = Opus agriculturae, XXVI. De turdis
+# text = Sit autem locus mundus et lucidus et undique leuigatus
+# sent_id = 159964
+1	Sit	sum	AUX	V-	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	ref=1.26.1
+2	autem	autem	ADV	Df	_	4	discourse	_	ref=1.26.1
+3	locus	locus	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	ref=1.26.1
+4	mundus	mundus	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	ref=1.26.1
+5	et	et	CCONJ	C-	_	4	cc	_	ref=1.26.1
+6	lucidus	lucidus	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	conj	_	ref=1.26.1
+7	et	et	CCONJ	C-	_	4	cc	_	ref=1.26.1
+8	undique	undique	ADV	Df	_	9	advmod	_	ref=1.26.1
+9	leuigatus	levigo	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	conj	_	ref=1.26.1
+
+# source = Opus agriculturae, XXVI. De turdis
+# text = Transuersae in hoc perticae figuntur quibus possint post inclusum uolatum sedere
+# sent_id = 159965
+1	Transuersae	transverto	VERB	V-	Aspect=Perf|Case=Nom|Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	4	acl	_	ref=1.26.1
+2	in	in	ADP	R-	_	3	case	_	ref=1.26.1
+3	hoc	hic	ADJ	Pd	Case=Abl|Gender=Masc|Number=Sing	5	obl	_	ref=1.26.1
+4	perticae	pertica	NOUN	Nb	Case=Nom|Gender=Fem|Number=Plur	5	nsubj:pass	_	ref=1.26.1
+5	figuntur	figo	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	ref=1.26.1
+6	quibus	qui	PRON	Pr	Case=Abl|Gender=Fem|Number=Plur|PronType=Rel	11	iobj	_	ref=1.26.1
+7	possint	possum	VERB	V-	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl	_	ref=1.26.1
+8	post	post	ADP	R-	_	10	case	_	ref=1.26.1
+9	inclusum	includo	VERB	V-	Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	10	acl	_	ref=1.26.1
+10	uolatum	volatus	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	7	obl	_	ref=1.26.1
+11	sedere	sedeo	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	7	xcomp	_	ref=1.26.1
+
+# source = Opus agriculturae, XXVI. De turdis
+# text = Rami etiam uirides saepe mutentur
+# sent_id = 159966
+1	Rami	ramus	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	5	nsubj:pass	_	ref=1.26.2
+2	etiam	etiam	ADV	Df	_	5	discourse	_	ref=1.26.2
+3	uirides	viridis	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	1	amod	_	ref=1.26.2
+4	saepe	saepe	ADV	Df	Degree=Pos	5	advmod	_	ref=1.26.2
+5	mutentur	muto	VERB	V-	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	ref=1.26.2
+
+# source = Opus agriculturae, XXVI. De turdis
+# text = Caricae tunsae mixtis pollinibus largissime praebeantur
+# sent_id = 159967
+1	Caricae	carica	NOUN	Nb	Case=Nom|Gender=Fem|Number=Plur	6	nsubj:pass	_	ref=1.26.2
+2	tunsae	tundo	VERB	V-	Aspect=Perf|Case=Nom|Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	1	acl	_	ref=1.26.2
+3	mixtis	misceo	VERB	V-	Aspect=Perf|Case=Abl|Gender=Neut|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	6	advcl	_	ref=1.26.2
+4	pollinibus	pollen	NOUN	Nb	Case=Abl|Gender=Neut|Number=Plur	3	nsubj:pass	_	ref=1.26.2
+5	largissime	large	ADV	Df	Degree=Sup	6	advmod	_	ref=1.26.2
+6	praebeantur	praebeo	VERB	V-	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	ref=1.26.2
+
+# source = Opus agriculturae, XXVI. De turdis
+# text = Myrti etiam si facultas est lentisci oleastri ederae arbuti semina interdum ad excludenda fastidia et maxime aqua munda tribuatur
+# sent_id = 159968
+1	Myrti	myrtum	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	ref=1.26.2
+2	etiam	etiam	ADV	Df	_	0	root	_	ref=1.26.2
+3	si	si	SCONJ	G-	_	4	mark	_	ref=1.26.2
+4	facultas	facultas	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	2	advcl	_	ref=1.26.2
+5	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	ref=1.26.2
+6	lentisci	lentiscus	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	ref=1.26.2
+7	oleastri	oleaster	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	ref=1.26.2
+8	ederae	hedera	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	ref=1.26.2
+9	arbuti	arbutum	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	ref=1.26.2
+10	semina	semen	NOUN	Nb	Case=Nom|Gender=Neut|Number=Plur	2	nsubj	_	ref=1.26.2
+11	interdum	interdum	ADV	Df	_	2	advmod	_	ref=1.26.2
+12	ad	ad	ADP	R-	_	13	case	_	ref=1.26.2
+13	excludenda	excludo	VERB	V-	Case=Acc|Gender=Neut|Number=Plur|VerbForm=Gdv	2	advcl	_	ref=1.26.2
+14	fastidia	fastidium	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	13	nsubj	_	ref=1.26.2
+15	et	et	CCONJ	C-	_	2	cc	_	ref=1.26.2
+16	maxime	magis	ADV	Df	Degree=Sup	19	advmod	_	ref=1.26.2
+17	aqua	aqua	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	19	nsubj:pass	_	ref=1.26.2
+18	munda	mundus	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	ref=1.26.2
+19	tribuatur	tribuo	VERB	V-	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	2	conj	_	ref=1.26.2
+
+# source = Opus agriculturae, XXVI. De turdis
+# text = Claudantur inlaesi et recens capti mixtis aliquibus ante nutritis quorum societate ad capiendos cibos pauidam nouae captiuitatis maestitudinem consolentur
+# sent_id = 159969
+1	Claudantur	claudo	VERB	V-	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	ref=1.26.2
+2	inlaesi	illaesus	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	1	xcomp	_	ref=1.26.2
+3	et	et	CCONJ	C-	_	2	cc	_	ref=1.26.2
+4	recens	recens	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	5	advmod	_	ref=1.26.2
+5	capti	capio	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	2	conj	_	ref=1.26.2
+6	mixtis	misceo	VERB	V-	Aspect=Perf|Case=Abl|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	1	advcl	_	ref=1.26.2
+7	aliquibus	aliquis	ADJ	Px	Case=Abl|Gender=Masc|Number=Plur	6	nsubj:pass	_	ref=1.26.2
+8	ante	ante	ADV	Df	_	9	advmod	_	ref=1.26.2
+9	nutritis	nutrio	VERB	V-	Aspect=Perf|Case=Abl|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	7	acl	_	ref=1.26.2
+10	quorum	qui	PRON	Pr	Case=Gen|Gender=Masc|Number=Plur|PronType=Rel	11	det	_	ref=1.26.2
+11	societate	societas	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	19	obl	_	ref=1.26.2
+12	ad	ad	ADP	R-	_	13	case	_	ref=1.26.2
+13	capiendos	capio	VERB	V-	Case=Acc|Gender=Masc|Number=Plur|VerbForm=Gdv	19	advcl	_	ref=1.26.2
+14	cibos	cibus	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	13	nsubj	_	ref=1.26.2
+15	pauidam	pavidus	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	ref=1.26.2
+16	nouae	novus	ADJ	A-	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	ref=1.26.2
+17	captiuitatis	captivitas	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	ref=1.26.2
+18	maestitudinem	maestitudo	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	19	obj	_	ref=1.26.2
+19	consolentur	consolor	VERB	V-	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	7	acl	_	ref=1.26.2
+
+# source = Opus agriculturae, XXXII. De fenili, paleario, lignario
+# text = Feni palearum ligni cannarum repositiones nil refert in qua parte dummodo siccae sint atque perflabiles et longe remoueantur a uilla propter casum subripientis incendii
+# sent_id = 160067
+1	Feni	faenum	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	ref=1.32.1
+2	palearum	palea	NOUN	Nb	Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	ref=1.32.1
+3	ligni	lignum	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	ref=1.32.1
+4	cannarum	canna	NOUN	Nb	Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	ref=1.32.1
+5	repositiones	repositio	NOUN	Nb	Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	ref=1.32.1
+6	nil	nihil	ADJ	Px	Case=Acc|Gender=Neut|Number=Sing	7	obl	_	ref=1.32.1
+7	refert	refero	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=1.32.1
+8	in	in	ADP	R-	_	10	case	_	ref=1.32.1
+9	qua	qui	PRON	Pi	Case=Abl|Gender=Fem|Number=Sing|PronType=Int	10	det	_	ref=1.32.1
+10	parte	pars	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	7	ccomp	_	ref=1.32.1
+11	dummodo	dummodo	SCONJ	G-	_	12	mark	_	ref=1.32.1
+12	siccae	siccus	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	7	advcl	_	ref=1.32.1
+13	sint	sum	AUX	V-	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	cop	_	ref=1.32.1
+14	atque	atque	CCONJ	C-	_	12	cc	_	ref=1.32.1
+15	perflabiles	perflabilis	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	12	conj	_	ref=1.32.1
+16	et	et	CCONJ	C-	_	12	cc	_	ref=1.32.1
+17	longe	longe	ADV	Df	Degree=Pos	18	advmod	_	ref=1.32.1
+18	remoueantur	removeo	VERB	V-	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	12	conj	_	ref=1.32.1
+19	a	ab	ADP	R-	_	20	case	_	ref=1.32.1
+20	uilla	villa	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	18	obl	_	ref=1.32.1
+21	propter	propter	ADP	R-	_	22	case	_	ref=1.32.1
+22	casum	casus	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	18	obl	_	ref=1.32.1
+23	subripientis	surripio	VERB	V-	Case=Gen|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	24	acl	_	ref=1.32.1
+24	incendii	incendium	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	22	nmod	_	ref=1.32.1
+
+# source = Opus agriculturae, XXXVI. De area
+# text = Area longe a uilla esse non debet et propter exportandi facilitatem et ut fraus minor timeatur domini uel procuratoris uicinitate suspecta
+# sent_id = 160175
+1	Area	area	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	ref=1.36.1
+2	longe	longe	ADV	Df	Degree=Pos	7	xcomp	_	ref=1.36.1
+3	a	ab	ADP	R-	_	4	case	_	ref=1.36.1
+4	uilla	villa	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	2	obl	_	ref=1.36.1
+5	esse	sum	AUX	V-	Tense=Pres|VerbForm=Inf|Voice=Act	2	cop	_	ref=1.36.1
+6	non	non	ADV	Df	Polarity=Neg	7	advmod	_	ref=1.36.1
+7	debet	debeo	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=1.36.1
+8	et	et	CCONJ	C-	_	11	cc	_	ref=1.36.1
+9	propter	propter	ADP	R-	_	11	case	_	ref=1.36.1
+10	exportandi	exporto	VERB	V-	Case=Gen|VerbForm=Ger	11	acl	_	ref=1.36.1
+11	facilitatem	facilitas	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	7	obl	_	ref=1.36.1
+12	et	et	CCONJ	C-	_	11	cc	_	ref=1.36.1
+13	ut	ut	SCONJ	G-	_	16	mark	_	ref=1.36.1
+14	fraus	fraus	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	16	nsubj:pass	_	ref=1.36.1
+15	minor	parvus	ADJ	A-	Case=Nom|Degree=Cmp|Gender=Fem|Number=Sing	16	xcomp	_	ref=1.36.1
+16	timeatur	timeo	VERB	V-	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	11	conj	_	ref=1.36.1
+17	domini	dominus	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	ref=1.36.1
+18	uel	vel	CCONJ	C-	_	17	cc	_	ref=1.36.1
+19	procuratoris	procurator	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	17	conj	_	ref=1.36.1
+20	uicinitate	vicinitas	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	21	obl	_	ref=1.36.1
+21	suspecta	suspicio	VERB	V-	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	16	advcl	_	ref=1.36.1
+
+# source = Opus agriculturae, XXXVI. De area
+# text = Sit autem uel strata silice uel saxo montis excisa uel sub ipso triturae tempore ungulis pecorum et aquae admixtione solidata
+# sent_id = 160176
+1	Sit	sum	AUX	V-	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux:pass	_	ref=1.36.1
+2	autem	autem	ADV	Df	_	4	discourse	_	ref=1.36.1
+3	uel	vel	CCONJ	C-	_	4	cc	_	ref=1.36.1
+4	strata	sterno	VERB	V-	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	ref=1.36.1
+5	silice	silex	NOUN	Nb	Case=Abl|Gender=Masc|Number=Sing	4	obl	_	ref=1.36.1
+6	uel	vel	CCONJ	C-	_	4	cc	_	ref=1.36.1
+7	saxo	saxum	NOUN	Nb	Case=Abl|Gender=Neut|Number=Sing	9	obl	_	ref=1.36.1
+8	montis	mons	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	ref=1.36.1
+9	excisa	excido#2	VERB	V-	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	conj	_	ref=1.36.1
+10	uel	vel	CCONJ	C-	_	4	cc	_	ref=1.36.1
+11	sub	sub	ADP	R-	_	14	case	_	ref=1.36.1
+12	ipso	ipse	DET	Pd	Case=Abl|Gender=Masc|Number=Sing	14	det	_	ref=1.36.1
+13	triturae	tritura	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	ref=1.36.1
+14	tempore	tempus	NOUN	Nb	Case=Abl|Gender=Neut|Number=Sing	20	obl	_	ref=1.36.1
+15	ungulis	ungula	NOUN	Nb	Case=Abl|Gender=Fem|Number=Plur	20	obl	_	ref=1.36.1
+16	pecorum	pecus	NOUN	Nb	Case=Gen|Gender=Neut|Number=Plur	15	nmod	_	ref=1.36.1
+17	et	et	CCONJ	C-	_	15	cc	_	ref=1.36.1
+18	aquae	aqua	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	ref=1.36.1
+19	admixtione	admixtio	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	15	conj	_	ref=1.36.1
+20	solidata	solido	VERB	V-	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	conj	_	ref=1.36.1
+
+# source = Opus agriculturae, XXXVI. De area
+# text = Sit circa hanc locus alter planus et purus in quem frumenta transfusa refrigerentur et horreis inferantur
+# sent_id = 160177
+1	Sit	sum	AUX	V-	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	ref=1.36.1
+2	circa	circa	ADP	R-	_	3	case	_	ref=1.36.1
+3	hanc	hic	ADJ	Pd	Case=Acc|Gender=Fem|Number=Sing	0	root	_	ref=1.36.1
+4	locus	locus	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	ref=1.36.1
+5	alter	alter	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	ref=1.36.1
+6	planus	planus	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	ref=1.36.1
+7	et	et	CCONJ	C-	_	6	cc	_	ref=1.36.1
+8	purus	purus	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	conj	_	ref=1.36.1
+9	in	in	ADP	R-	_	10	case	_	ref=1.36.1
+10	quem	qui	PRON	Pr	Case=Acc|Gender=Masc|Number=Sing|PronType=Rel	12	obl	_	ref=1.36.1
+11	frumenta	frumentum	NOUN	Nb	Case=Nom|Gender=Neut|Number=Plur	13	nsubj:pass	_	ref=1.36.1
+12	transfusa	transfundo	VERB	V-	Aspect=Perf|Case=Nom|Gender=Neut|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	13	advcl	_	ref=1.36.1
+13	refrigerentur	refrigero	VERB	V-	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	4	acl	_	ref=1.36.1
+14	et	et	CCONJ	C-	_	13	cc	_	ref=1.36.1
+15	horreis	horreum	NOUN	Nb	Case=Dat|Gender=Neut|Number=Plur	16	iobj	_	ref=1.36.1
+16	inferantur	infero	VERB	V-	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	13	conj	_	ref=1.36.1
+
+# source = Opus agriculturae, XXXVI. De area
+# text = quae res in eorum durabilitate proficiet
+# sent_id = 160178
+1	quae	qui	PRON	Pr	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	2	det	_	ref=1.36.1
+2	res	res	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	ref=1.36.1
+3	in	in	ADP	R-	_	5	case	_	ref=1.36.1
+4	eorum	is	PRON	Pp	Case=Gen|Gender=Neut|Number=Plur|Person=3|PronType=Prs	5	det	_	ref=1.36.1
+5	durabilitate	durabilitas	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	6	obl	_	ref=1.36.1
+6	proficiet	proficio	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	ref=1.36.1
+
+# source = Opus agriculturae, XXXVI. De area
+# text = Fiat deinde undecumque proximum tectum maxime in umidis regionibus sub quo propter imbres subitos frumenta si necessitas coegerit raptim uel munda uel semitrita ponantur
+# sent_id = 160179
+1	Fiat	fio	VERB	V-	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=1.36.1
+2	deinde	deinde	ADV	Df	_	1	advmod	_	ref=1.36.1
+3	undecumque	undecumque	ADV	Df	_	5	advmod	_	ref=1.36.1
+4	proximum	proximus	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	1	advmod	_	ref=1.36.1
+5	tectum	tectum	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	1	nsubj	_	ref=1.36.1
+6	maxime	magis	ADV	Df	Degree=Sup	7	advmod	_	ref=1.36.1
+7	in	in	ADP	R-	_	9	case	_	ref=1.36.1
+8	umidis	umidus	ADJ	A-	Case=Abl|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	ref=1.36.1
+9	regionibus	regio	NOUN	Nb	Case=Abl|Gender=Fem|Number=Plur	1	obl	_	ref=1.36.1
+10	sub	sub	ADP	R-	_	11	case	_	ref=1.36.1
+11	quo	qui	PRON	Pr	Case=Abl|Gender=Neut|Number=Sing|PronType=Rel	24	obl	_	ref=1.36.1
+12	propter	propter	ADP	R-	_	13	case	_	ref=1.36.1
+13	imbres	imber	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	24	obl	_	ref=1.36.1
+14	subitos	subeo	VERB	V-	Aspect=Perf|Case=Acc|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	13	acl	_	ref=1.36.1
+15	frumenta	frumentum	NOUN	Nb	Case=Nom|Gender=Neut|Number=Plur	24	nsubj:pass	_	ref=1.36.1
+16	si	si	SCONJ	G-	_	18	mark	_	ref=1.36.1
+17	necessitas	necessitas	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	ref=1.36.1
+18	coegerit	cogo	VERB	V-	Aspect=Perf|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	24	advcl	_	ref=1.36.1
+19	raptim	raptim	ADV	Df	_	24	advmod	_	ref=1.36.1
+20	uel	vel	CCONJ	C-	_	21	cc	_	ref=1.36.1
+21	munda	mundus	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	24	advmod	_	ref=1.36.1
+22	uel	vel	CCONJ	C-	_	21	cc	_	ref=1.36.1
+23	semitrita	semitritus	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	21	conj	_	ref=1.36.1
+24	ponantur	pono	VERB	V-	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	5	acl	_	ref=1.36.1
+
+# source = Opus agriculturae, XXXVI. De area
+# text = Sit autem loco sublimi et undecumque perflabili longe tamen ab hortis uineis atque pometis
+# sent_id = 160180
+1	Sit	sum	AUX	V-	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	ref=1.36.1
+2	autem	autem	ADV	Df	_	3	discourse	_	ref=1.36.1
+3	loco	locus	NOUN	Nb	Case=Abl|Gender=Masc|Number=Sing	0	root	_	ref=1.36.1
+4	sublimi	sublimis	ADJ	A-	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	3	advmod	_	ref=1.36.1
+5	et	et	CCONJ	C-	_	4	cc	_	ref=1.36.1
+6	undecumque	undecumque	ADV	Df	_	7	advmod	_	ref=1.36.1
+7	perflabili	perflabilis	ADJ	A-	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	4	conj	_	ref=1.36.1
+8	longe	longe	ADV	Df	Degree=Pos	3	appos	_	ref=1.36.1
+9	tamen	tamen	ADV	Df	_	10	discourse	_	ref=1.36.1
+10	ab	ab	ADP	R-	_	11	case	_	ref=1.36.1
+11	hortis	hortus	NOUN	Nb	Case=Abl|Gender=Masc|Number=Plur	8	obl	_	ref=1.36.1
+12	uineis	vinea	NOUN	Nb	Case=Abl|Gender=Fem|Number=Plur	11	conj	_	ref=1.36.1
+13	atque	atque	CCONJ	C-	_	11	cc	_	ref=1.36.1
+14	pometis	pometum	NOUN	Nb	Case=Abl|Gender=Neut|Number=Plur	11	conj	_	ref=1.36.1
+
+# source = Opus agriculturae, XXXVI. De area
+# text = Nam sicut radicibus uirgultorum prosunt laetamen et paleae ita insidentes frondibus has perforant atque arere conpellunt
+# sent_id = 160181
+1	Nam	nam	ADV	Df	_	13	discourse	_	ref=1.36.1
+2	sicut	sicut	ADV	Dq	PronType=Rel	5	advmod	_	ref=1.36.1
+3	radicibus	radix	NOUN	Nb	Case=Dat|Gender=Fem|Number=Plur	5	iobj	_	ref=1.36.1
+4	uirgultorum	virgultum	NOUN	Nb	Case=Gen|Gender=Neut|Number=Plur	3	nmod	_	ref=1.36.1
+5	prosunt	prosum	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	advcl	_	ref=1.36.1
+6	laetamen	laetamen	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	ref=1.36.1
+7	et	et	CCONJ	C-	_	6	cc	_	ref=1.36.1
+8	paleae	palea	NOUN	Nb	Case=Nom|Gender=Fem|Number=Plur	6	conj	_	ref=1.36.1
+9	ita	ita	ADV	Df	_	13	advmod	_	ref=1.36.1
+10	insidentes	insido	VERB	V-	Case=Nom|Gender=Neut|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	13	advcl	_	ref=1.36.1
+11	frondibus	frons	NOUN	Nb	Case=Dat|Gender=Fem|Number=Plur	10	iobj	_	ref=1.36.1
+12	has	hic	ADJ	Pd	Case=Acc|Gender=Fem|Number=Plur	13	obj	_	ref=1.36.1
+13	perforant	perforo	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=1.36.1
+14	atque	atque	CCONJ	C-	_	13	cc	_	ref=1.36.1
+15	arere	areo	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	16	xcomp	_	ref=1.36.1
+16	conpellunt	compello	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	conj	_	ref=1.36.1
+
+# source = Opus agriculturae, II. De pratis abstinendis in locis macris
+# text = Apricis aut macris aut aridis locis prata iam purganda sunt et a pecore uindicanda
+# sent_id = 160262
+1	Apricis	apricus	ADJ	A-	Case=Abl|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	ref=2.2.1
+2	aut	aut	CCONJ	C-	_	3	cc	_	ref=2.2.1
+3	macris	macer	ADJ	A-	Case=Abl|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	ref=2.2.1
+4	aut	aut	CCONJ	C-	_	5	cc	_	ref=2.2.1
+5	aridis	aridus	ADJ	A-	Case=Abl|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	ref=2.2.1
+6	locis	locus	NOUN	Nb	Case=Abl|Gender=Masc|Number=Plur	9	obl	_	ref=2.2.1
+7	prata	pratum	NOUN	Nb	Case=Nom|Gender=Neut|Number=Plur	9	nsubj	_	ref=2.2.1
+8	iam	iam	ADV	Df	_	9	advmod	_	ref=2.2.1
+9	purganda	purgo	VERB	V-	Case=Nom|Gender=Neut|Number=Plur|VerbForm=Gdv	0	root	_	ref=2.2.1
+10	sunt	sum	AUX	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	_	ref=2.2.1
+11	et	et	CCONJ	C-	_	9	cc	_	ref=2.2.1
+12	a	ab	ADP	R-	_	13	case	_	ref=2.2.1
+13	pecore	pecus	NOUN	Nb	Case=Abl|Gender=Neut|Number=Sing	14	obl:agent	_	ref=2.2.1
+14	uindicanda	vindico	VERB	V-	Case=Nom|Gender=Neut|Number=Plur|VerbForm=Gdv	9	conj	_	ref=2.2.1
+
+# source = Opus agriculturae, XII. De mensura pastini italica
+# text = Secundum hunc numerum omnia quae uolueris pastinare discuties
+# sent_id = 160323
+1	Secundum	secundum	ADP	R-	_	3	case	_	ref=2.12.1
+2	hunc	hic	DET	Pd	Case=Acc|Gender=Masc|Number=Sing	3	det	_	ref=2.12.1
+3	numerum	numerus	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	8	obl	_	ref=2.12.1
+4	omnia	omnis	ADJ	Px	Case=Acc|Gender=Neut|Number=Plur	8	obj	_	ref=2.12.1
+5	quae	qui	PRON	Pr	Case=Acc|Gender=Neut|Number=Plur|PronType=Rel	7	obj	_	ref=2.12.1
+6	uolueris	volo#1	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	4	acl	_	ref=2.12.1
+7	pastinare	pastino	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	6	xcomp	_	ref=2.12.1
+8	discuties	discutio	VERB	V-	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	ref=2.12.1
+
+# source = Opus agriculturae, XVI. De signandis animalibus et lardi et pernarum confectione et echini et rapis
+# text = Hoc mense sicut Columella dicit maturi agni et animalia omnia minora atque maiora charactere signentur
+# sent_id = 160463
+1	Hoc	hic	DET	Pd	Case=Abl|Gender=Masc|Number=Sing	2	det	_	ref=2.16.1
+2	mense	mensis	NOUN	Nb	Case=Abl|Gender=Masc|Number=Sing	15	obl	_	ref=2.16.1
+3	sicut	sicut	ADV	Dq	PronType=Rel	5	advmod	_	ref=2.16.1
+4	Columella	Columella	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	ref=2.16.1
+5	dicit	dico	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	advcl	_	ref=2.16.1
+6	maturi	maturus	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	ref=2.16.1
+7	agni	agnus	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	15	nsubj:pass	_	ref=2.16.1
+8	et	et	CCONJ	C-	_	7	cc	_	ref=2.16.1
+9	animalia	animal	NOUN	Nb	Case=Nom|Gender=Neut|Number=Plur	7	conj	_	ref=2.16.1
+10	omnia	omnis	DET	Px	Case=Nom|Gender=Neut|Number=Plur	9	det	_	ref=2.16.1
+11	minora	parvus	ADJ	A-	Case=Nom|Degree=Cmp|Gender=Neut|Number=Plur	9	amod	_	ref=2.16.1
+12	atque	atque	CCONJ	C-	_	11	cc	_	ref=2.16.1
+13	maiora	magnus	ADJ	A-	Case=Nom|Degree=Cmp|Gender=Neut|Number=Plur	11	conj	_	ref=2.16.1
+14	charactere	character	NOUN	Nb	Case=Abl|Gender=Masc|Number=Sing	15	obl	_	ref=2.16.1
+15	signentur	signo	VERB	V-	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	ref=2.16.1
+
+# source = Opus agriculturae, XVI. De signandis animalibus et lardi et pernarum confectione et echini et rapis
+# text = Hoc tempore lardi echini salsi raporum condiendorum et pernarum iusta confectio est
+# sent_id = 160464
+1	Hoc	hic	DET	Pd	Case=Abl|Gender=Neut|Number=Sing	2	det	_	ref=2.16.1
+2	tempore	tempus	NOUN	Nb	Case=Abl|Gender=Neut|Number=Sing	0	root	_	ref=2.16.1
+3	lardi	lardum	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	ref=2.16.1
+4	echini	echinus	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	3	conj	_	ref=2.16.1
+5	salsi	sallo	VERB	V-	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	acl	_	ref=2.16.1
+6	raporum	rapum	NOUN	Nb	Case=Gen|Gender=Neut|Number=Plur	3	conj	_	ref=2.16.1
+7	condiendorum	condio	VERB	V-	Case=Gen|Gender=Neut|Number=Plur|VerbForm=Gdv	6	acl	_	ref=2.16.1
+8	et	et	CCONJ	C-	_	3	cc	_	ref=2.16.1
+9	pernarum	perna	NOUN	Nb	Case=Gen|Gender=Neut|Number=Plur	3	conj	_	ref=2.16.1
+10	iusta	iustus	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	ref=2.16.1
+11	confectio	confectio	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	ref=2.16.1
+12	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	ref=2.16.1
+
+# source = Opus agriculturae, XXII. De caedenda materie
+# text = Hoc etiam mense caedenda materies est ad fabricam cum luna decrescit et redicae uel pali faciendi
+# sent_id = 160480
+1	Hoc	hic	DET	Pd	Case=Abl|Gender=Masc|Number=Sing	3	det	_	ref=2.22.1
+2	etiam	etiam	ADV	Df	_	4	discourse	_	ref=2.22.1
+3	mense	mensis	NOUN	Nb	Case=Abl|Gender=Masc|Number=Sing	4	obl	_	ref=2.22.1
+4	caedenda	caedo	VERB	V-	Case=Nom|Gender=Fem|Number=Sing|VerbForm=Gdv	0	root	_	ref=2.22.1
+5	materies	materies	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	ref=2.22.1
+6	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	ref=2.22.1
+7	ad	ad	ADP	R-	_	8	case	_	ref=2.22.1
+8	fabricam	fabrica	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	ref=2.22.1
+9	cum	cum	SCONJ	G-	_	11	mark	_	ref=2.22.1
+10	luna	luna	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	ref=2.22.1
+11	decrescit	decresco	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	_	ref=2.22.1
+12	et	et	CCONJ	C-	_	4	cc	_	ref=2.22.1
+13	redicae	ridica	NOUN	Nb	Case=Nom|Gender=Fem|Number=Plur	16	nsubj	_	ref=2.22.1
+14	uel	vel	CCONJ	C-	_	13	cc	_	ref=2.22.1
+15	pali	palus#2	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	13	conj	_	ref=2.22.1
+16	faciendi	facio	VERB	V-	Case=Nom|Gender=Masc|Number=Plur|VerbForm=Gdv	4	conj	_	ref=2.22.1
+
+# source = Opus agriculturae, II. De proscindendis collibus
+# text = Locis tepidis aut si tempus clemens et siccum fuerit colles pingues uel hoc mense proscinde
+# sent_id = 160485
+1	Locis	locus	NOUN	Nb	Case=Abl|Gender=Neut|Number=Plur	15	obl	_	ref=3.2.1
+2	tepidis	tepidus	ADJ	A-	Case=Abl|Degree=Pos|Gender=Neut|Number=Plur	1	amod	_	ref=3.2.1
+3	aut	aut	CCONJ	C-	_	1	cc	_	ref=3.2.1
+4	si	si	SCONJ	G-	_	6	mark	_	ref=3.2.1
+5	tempus	tempus	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	ref=3.2.1
+6	clemens	clemens	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	1	conj	_	ref=3.2.1
+7	et	et	CCONJ	C-	_	6	cc	_	ref=3.2.1
+8	siccum	siccus	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	6	conj	_	ref=3.2.1
+9	fuerit	sum	AUX	V-	Aspect=Perf|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	cop	_	ref=3.2.1
+10	colles	collis	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	15	obj	_	ref=3.2.1
+11	pingues	pinguis	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	ref=3.2.1
+12	uel	vel	ADV	Df	_	14	advmod	_	ref=3.2.1
+13	hoc	hic	DET	Pd	Case=Abl|Gender=Masc|Number=Sing	14	det	_	ref=3.2.1
+14	mense	mensis	NOUN	Nb	Case=Abl|Gender=Masc|Number=Sing	15	obl	_	ref=3.2.1
+15	proscinde	proscindo	VERB	V-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=3.2.1
+
+# source = Opus agriculturae, XII. De putandis uineis communibus altis uel humilibus
+# text = Hoc mense locis frigidis aliquatenus et temperatis uitium iusta putatio
+# sent_id = 160597
+1	Hoc	hic	DET	Pd	Case=Abl|Gender=Masc|Number=Sing	2	det	_	ref=3.12.1
+2	mense	mensis	NOUN	Nb	Case=Abl|Gender=Masc|Number=Sing	0	root	_	ref=3.12.1
+3	locis	locus	NOUN	Nb	Case=Abl|Gender=Neut|Number=Plur	2	obl	_	ref=3.12.1
+4	frigidis	frigidus	ADJ	A-	Case=Abl|Degree=Pos|Gender=Neut|Number=Plur	3	amod	_	ref=3.12.1
+5	aliquatenus	aliquatenus	ADV	Df	_	4	advmod	_	ref=3.12.1
+6	et	et	CCONJ	C-	_	4	cc	_	ref=3.12.1
+7	temperatis	temperatus	ADJ	A-	Case=Abl|Degree=Pos|Gender=Neut|Number=Plur	4	conj	_	ref=3.12.1
+8	uitium	vitis	NOUN	Nb	Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	ref=3.12.1
+9	iusta	iustus	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	ref=3.12.1
+10	putatio	putatio	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	ref=3.12.1
+
+# source = Opus agriculturae, XII. De putandis uineis communibus altis uel humilibus
+# text = Sed ubi multae sunt uineae diuidantur et pars earum quae septemtrionem respiciet uerno putetur
+# sent_id = 160598
+1	Sed	sed	CCONJ	C-	_	6	cc	_	ref=3.12.1
+2	ubi	ubi	ADV	Dq	PronType=Rel	4	advmod	_	ref=3.12.1
+3	multae	multus	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	ref=3.12.1
+4	sunt	sum	AUX	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	_	ref=3.12.1
+5	uineae	vinea	NOUN	Nb	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	ref=3.12.1
+6	diuidantur	divido	VERB	V-	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	ref=3.12.1
+7	et	et	CCONJ	C-	_	6	cc	_	ref=3.12.1
+8	pars	pars	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	14	nsubj:pass	_	ref=3.12.1
+9	earum	is	PRON	Pp	Case=Gen|Gender=Fem|Number=Plur|Person=3|PronType=Prs	8	nmod	_	ref=3.12.1
+10	quae	qui	PRON	Pr	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	12	nsubj	_	ref=3.12.1
+11	septemtrionem	septentriones	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	12	obj	_	ref=3.12.1
+12	respiciet	respicio	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	8	acl	_	ref=3.12.1
+13	uerno	vernus	ADJ	A-	Case=Abl|Degree=Pos|Gender=Neut|Number=Sing	14	advmod	_	ref=3.12.1
+14	putetur	puto	VERB	V-	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	6	conj	_	ref=3.12.1
+
+# source = Opus agriculturae, XII. De putandis uineis communibus altis uel humilibus
+# text = alia pars aduersa clementioribus plagis recidatur autumno
+# sent_id = 160599
+1	alia	alius	DET	Px	Case=Nom|Gender=Fem|Number=Sing	2	det	_	ref=3.12.1
+2	pars	pars	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	6	nsubj:pass	_	ref=3.12.1
+3	aduersa	adverto	VERB	V-	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	advcl	_	ref=3.12.1
+4	clementioribus	clemens	ADJ	A-	Case=Dat|Degree=Cmp|Gender=Fem|Number=Plur	5	amod	_	ref=3.12.1
+5	plagis	plaga	NOUN	Nb	Case=Dat|Gender=Fem|Number=Plur	3	iobj	_	ref=3.12.1
+6	recidatur	recido#2	VERB	V-	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	ref=3.12.1
+7	autumno	autumnus	NOUN	Nb	Case=Abl|Gender=Neut|Number=Sing	6	obl	_	ref=3.12.1
+
+# source = Opus agriculturae, XII. De putandis uineis communibus altis uel humilibus
+# text = Sed in putatione semper nitamur ut uitis fiat in crure robustior ne debili uiticulae duo duramenta seruemus
+# sent_id = 160600
+1	Sed	sed	CCONJ	C-	_	5	cc	_	ref=3.12.1
+2	in	in	ADP	R-	_	3	case	_	ref=3.12.1
+3	putatione	putatio	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	5	obl	_	ref=3.12.1
+4	semper	semper	ADV	Df	_	5	advmod	_	ref=3.12.1
+5	nitamur	nitor	VERB	V-	Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	ref=3.12.1
+6	ut	ut	SCONJ	G-	_	8	mark	_	ref=3.12.1
+7	uitis	vitis	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	ref=3.12.1
+8	fiat	fio	VERB	V-	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	ccomp	_	ref=3.12.1
+9	in	in	ADP	R-	_	10	case	_	ref=3.12.1
+10	crure	crus	NOUN	Nb	Case=Abl|Gender=Neut|Number=Sing	8	obl	_	ref=3.12.1
+11	robustior	robustus	ADJ	A-	Case=Nom|Degree=Cmp|Gender=Fem|Number=Sing	8	xcomp	_	ref=3.12.1
+12	ne	ne	SCONJ	G-	_	17	mark	_	ref=3.12.1
+13	debili	debilis	ADJ	A-	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	ref=3.12.1
+14	uiticulae	viticula	NOUN	Nb	Case=Dat|Gender=Fem|Number=Sing	17	iobj	_	ref=3.12.1
+15	duo	duo	NUM	Ma	Case=Acc|Gender=Neut|Number=Plur	16	nummod	_	ref=3.12.1
+16	duramenta	duramentum	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	17	obj	_	ref=3.12.1
+17	seruemus	servo	VERB	V-	Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	8	advcl	_	ref=3.12.1
+
+# source = Opus agriculturae, XII. De putandis uineis communibus altis uel humilibus
+# text = Auferenda sunt laeta intorta debilia malis locis nata sarmenta
+# sent_id = 160601
+1	Auferenda	aufero	VERB	V-	Case=Nom|Gender=Neut|Number=Plur|VerbForm=Gdv	0	root	_	ref=3.12.2
+2	sunt	sum	AUX	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	ref=3.12.2
+3	laeta	laetus	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	9	amod	_	ref=3.12.2
+4	intorta	intorqueo	VERB	V-	Aspect=Perf|Case=Nom|Gender=Neut|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	3	conj	_	ref=3.12.2
+5	debilia	debilis	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	3	conj	_	ref=3.12.2
+6	malis	malus	ADJ	A-	Case=Abl|Degree=Pos|Gender=Neut|Number=Plur	7	amod	_	ref=3.12.2
+7	locis	locus	NOUN	Nb	Case=Abl|Gender=Neut|Number=Plur	8	obl	_	ref=3.12.2
+8	nata	nascor	VERB	V-	Aspect=Perf|Case=Nom|Gender=Neut|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	3	conj	_	ref=3.12.2
+9	sarmenta	sarmentum	NOUN	Nb	Case=Nom|Gender=Neut|Number=Plur	1	nsubj	_	ref=3.12.2
+
+# source = Opus agriculturae, XII. De putandis uineis communibus altis uel humilibus
+# text = Focaneus etiam qui inter duo brachia medius nascitur debet abradi
+# sent_id = 160602
+1	Focaneus	focaneus	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	nsubj	_	ref=3.12.2
+2	etiam	etiam	ADV	Df	_	9	discourse	_	ref=3.12.2
+3	qui	qui	PRON	Pr	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	8	nsubj	_	ref=3.12.2
+4	inter	inter	ADP	R-	_	6	case	_	ref=3.12.2
+5	duo	duo	NUM	Ma	Case=Acc|Gender=Neut|Number=Plur	6	nummod	_	ref=3.12.2
+6	brachia	brachium	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	8	obl	_	ref=3.12.2
+7	medius	medius	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	advmod	_	ref=3.12.2
+8	nascitur	nascor	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	1	acl	_	ref=3.12.2
+9	debet	debeo	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=3.12.2
+10	abradi	abrado	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Pass	9	xcomp	_	ref=3.12.2
+
+# source = Opus agriculturae, XII. De putandis uineis communibus altis uel humilibus
+# text = qui si pinguedine sua brachium quodcumque proximum debilitarit illo deciso ipse succedat
+# sent_id = 160603
+1	qui	qui	PRON	Pr	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	8	nsubj	_	ref=3.12.2
+2	si	si	SCONJ	G-	_	8	mark	_	ref=3.12.2
+3	pinguedine	pinguedo	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	8	obl	_	ref=3.12.2
+4	sua	suus	ADJ	Pt	Case=Abl|Gender=Fem|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	3	nmod	_	ref=3.12.2
+5	brachium	bracchium	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	8	obj	_	ref=3.12.2
+6	quodcumque	quicumque	PRON	Pr	Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	5	det	_	ref=3.12.2
+7	proximum	proximus	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	ref=3.12.2
+8	debilitarit	debilito	VERB	V-	Aspect=Perf|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	12	advcl	_	ref=3.12.2
+9	illo	ille	ADJ	Pd	Case=Abl|Gender=Masc|Number=Sing	10	nsubj:pass	_	ref=3.12.2
+10	deciso	decido	VERB	V-	Aspect=Perf|Case=Abl|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	advcl	_	ref=3.12.2
+11	ipse	ipse	ADJ	Pd	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	ref=3.12.2
+12	succedat	succedo	VERB	V-	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=3.12.2
+
+# source = Opus agriculturae, XII. De putandis uineis communibus altis uel humilibus
+# text = Erit tamen optimi putatoris inferius sarmentum quod bono loco natum fuerit reparandae uitis causa semper tueri et ad unam uel duas gemmas relinquere
+# sent_id = 160604
+1	Erit	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	4	cop	_	ref=3.12.2
+2	tamen	tamen	ADV	Df	_	4	discourse	_	ref=3.12.2
+3	optimi	bonus	ADJ	A-	Case=Gen|Degree=Sup|Gender=Masc|Number=Sing	4	advmod	_	ref=3.12.2
+4	putatoris	putator	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	0	root	_	ref=3.12.2
+5	inferius	inferus	ADJ	A-	Case=Acc|Degree=Cmp|Gender=Neut|Number=Sing	6	amod	_	ref=3.12.2
+6	sarmentum	sarmentum	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	16	obj	_	ref=3.12.2
+7	quod	qui	PRON	Pr	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	10	nsubj	_	ref=3.12.2
+8	bono	bonus	ADJ	A-	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	ref=3.12.2
+9	loco	locus	NOUN	Nb	Case=Abl|Gender=Masc|Number=Sing	10	obl	_	ref=3.12.2
+10	natum	nascor	VERB	V-	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	acl	_	ref=3.12.2
+11	fuerit	sum	AUX	V-	Aspect=Perf|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	10	aux	_	ref=3.12.2
+12	reparandae	reparo	VERB	V-	Case=Gen|Gender=Fem|Number=Sing|VerbForm=Gdv	14	acl	_	ref=3.12.2
+13	uitis	vitis	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	12	nsubj	_	ref=3.12.2
+14	causa	causa	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	16	obl	_	ref=3.12.2
+15	semper	semper	ADV	Df	_	16	advmod	_	ref=3.12.2
+16	tueri	tueor	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Pass	4	ccomp	_	ref=3.12.2
+17	et	et	CCONJ	C-	_	16	cc	_	ref=3.12.2
+18	ad	ad	ADP	R-	_	22	case	_	ref=3.12.2
+19	unam	unus	NUM	Ma	Case=Acc|Gender=Fem|Number=Sing	22	nummod	_	ref=3.12.2
+20	uel	vel	CCONJ	C-	_	19	cc	_	ref=3.12.2
+21	duas	duo	NUM	Ma	Case=Acc|Gender=Fem|Number=Plur	19	conj	_	ref=3.12.2
+22	gemmas	gemma	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	23	obl	_	ref=3.12.2
+23	relinquere	relinquo	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	16	conj	_	ref=3.12.2
+
+# source = Opus agriculturae, XII. De putandis uineis communibus altis uel humilibus
+# text = In locis clementioribus altius uitem licebit expandere
+# sent_id = 160605
+1	In	in	ADP	R-	_	2	case	_	ref=3.12.3
+2	locis	locus	NOUN	Nb	Case=Abl|Gender=Neut|Number=Plur	7	obl	_	ref=3.12.3
+3	clementioribus	clemens	ADJ	A-	Case=Abl|Degree=Cmp|Gender=Neut|Number=Plur	2	amod	_	ref=3.12.3
+4	altius	alte	ADV	Df	Degree=Cmp	7	advmod	_	ref=3.12.3
+5	uitem	vitis	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	ref=3.12.3
+6	licebit	liceo	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	ref=3.12.3
+7	expandere	expando	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	6	xcomp	_	ref=3.12.3
+
+# source = Opus agriculturae, XII. De putandis uineis communibus altis uel humilibus
+# text = in exilibus aut aestuosis aut decliuis aut procellosis humilior est habenda
+# sent_id = 160606
+1	in	in	ADP	R-	_	2	case	_	ref=3.12.3
+2	exilibus	exilis	ADJ	A-	Case=Abl|Degree=Pos|Gender=Neut|Number=Plur	11	advmod	_	ref=3.12.3
+3	aut	aut	CCONJ	C-	_	2	cc	_	ref=3.12.3
+4	aestuosis	aestuosus	ADJ	A-	Case=Abl|Degree=Pos|Gender=Neut|Number=Plur	2	conj	_	ref=3.12.3
+5	aut	aut	CCONJ	C-	_	2	cc	_	ref=3.12.3
+6	decliuis	declivis	ADJ	A-	Case=Abl|Degree=Pos|Gender=Neut|Number=Plur	2	conj	_	ref=3.12.3
+7	aut	aut	CCONJ	C-	_	2	cc	_	ref=3.12.3
+8	procellosis	procellosus	ADJ	A-	Case=Abl|Degree=Pos|Gender=Neut|Number=Plur	2	conj	_	ref=3.12.3
+9	humilior	humilis	ADJ	A-	Case=Nom|Degree=Cmp|Gender=Fem|Number=Sing	11	xcomp	_	ref=3.12.3
+10	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	ref=3.12.3
+11	habenda	habeo	VERB	V-	Case=Nom|Gender=Fem|Number=Sing|VerbForm=Gdv	0	root	_	ref=3.12.3
+
+# source = Opus agriculturae, XII. De putandis uineis communibus altis uel humilibus
+# text = Locis pinguibus singulis brachiis uitium bina flagella dimitte
+# sent_id = 160607
+1	Locis	locus	NOUN	Nb	Case=Abl|Gender=Neut|Number=Plur	8	obl	_	ref=3.12.3
+2	pinguibus	pinguis	ADJ	A-	Case=Abl|Degree=Pos|Gender=Neut|Number=Plur	1	amod	_	ref=3.12.3
+3	singulis	singulus	ADJ	A-	Case=Dat|Degree=Pos|Gender=Neut|Number=Plur	4	amod	_	ref=3.12.3
+4	brachiis	bracchium	NOUN	Nb	Case=Dat|Gender=Neut|Number=Plur	8	obl	_	ref=3.12.3
+5	uitium	vitis	NOUN	Nb	Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	ref=3.12.3
+6	bina	bini	ADJ	A-	Case=Acc|Degree=Cmp|Gender=Neut|Number=Plur	7	amod	_	ref=3.12.3
+7	flagella	flagellum	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	8	obj	_	ref=3.12.3
+8	dimitte	dimitto	VERB	V-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=3.12.3
+
+# source = Opus agriculturae, XII. De putandis uineis communibus altis uel humilibus
+# text = Sed erit sapientis aestimare uim uitis
+# sent_id = 160608
+1	Sed	sed	CCONJ	C-	_	3	cc	_	ref=3.12.3
+2	erit	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	3	cop	_	ref=3.12.3
+3	sapientis	sapiens	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	0	root	_	ref=3.12.3
+4	aestimare	aestimo	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	3	ccomp	_	ref=3.12.3
+5	uim	vis	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	ref=3.12.3
+6	uitis	vitis	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	ref=3.12.3
+
+# source = Opus agriculturae, XII. De putandis uineis communibus altis uel humilibus
+# text = Nam quae altius colitur et fecunda est plus quam octo palmites habere non debet ita ut consideremus semper in inferiori parte custodem
+# sent_id = 160609
+1	Nam	nam	ADV	Df	_	14	discourse	_	ref=3.12.3
+2	quae	qui	PRON	Pr	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	4	nsubj:pass	_	ref=3.12.3
+3	altius	alte	ADV	Df	Degree=Cmp	4	advmod	_	ref=3.12.3
+4	colitur	colo	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	14	nsubj	_	ref=3.12.3
+5	et	et	CCONJ	C-	_	4	cc	_	ref=3.12.3
+6	fecunda	fecundus	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	conj	_	ref=3.12.3
+7	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	ref=3.12.3
+8	plus	multum	ADV	Df	Degree=Cmp	12	advmod	_	ref=3.12.3
+9	quam	quam#1	ADV	Df	_	8	advmod	_	ref=3.12.3
+10	octo	octo	NUM	Ma	_	11	nummod	_	ref=3.12.3
+11	palmites	palmes	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	9	obj	_	ref=3.12.3
+12	habere	habeo	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	14	xcomp	_	ref=3.12.3
+13	non	non	ADV	Df	Polarity=Neg	14	advmod	_	ref=3.12.3
+14	debet	debeo	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=3.12.3
+15	ita	ita	ADV	Df	_	14	advmod	_	ref=3.12.3
+16	ut	ut	SCONJ	G-	_	17	mark	_	ref=3.12.3
+17	consideremus	considero	VERB	V-	Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	15	advcl	_	ref=3.12.3
+18	semper	semper	ADV	Df	_	17	advmod	_	ref=3.12.3
+19	in	in	ADP	R-	_	21	case	_	ref=3.12.3
+20	inferiori	inferus	ADJ	A-	Case=Abl|Degree=Cmp|Gender=Fem|Number=Sing	21	amod	_	ref=3.12.3
+21	parte	pars	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	17	obl	_	ref=3.12.3
+22	custodem	custos	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	17	obj	_	ref=3.12.3
+
+# source = Opus agriculturae, XII. De putandis uineis communibus altis uel humilibus
+# text = Circa crus quicquid nascitur amputandum est si non desideret uinea reuocari
+# sent_id = 160610
+1	Circa	circa	ADP	R-	_	2	case	_	ref=3.12.4
+2	crus	crus	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	4	obl	_	ref=3.12.4
+3	quicquid	quisquis	PRON	Pr	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	4	nsubj	_	ref=3.12.4
+4	nascitur	nascor	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	5	nsubj	_	ref=3.12.4
+5	amputandum	amputo	VERB	V-	Case=Nom|Gender=Neut|Number=Sing|VerbForm=Gdv	0	root	_	ref=3.12.4
+6	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	ref=3.12.4
+7	si	si	SCONJ	G-	_	9	mark	_	ref=3.12.4
+8	non	non	ADV	Df	Polarity=Neg	9	advmod	_	ref=3.12.4
+9	desideret	desidero	VERB	V-	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	advcl	_	ref=3.12.4
+10	uinea	vinea	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	ref=3.12.4
+11	reuocari	revoco	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Pass	9	xcomp	_	ref=3.12.4
+
+# source = Opus agriculturae, XII. De putandis uineis communibus altis uel humilibus
+# text = Quod si truncus uitis sole aut pluuiis aut noxiis animalibus est cauatus purgamus quicquid est mortuum plagas que eas amurca linimus et terra
+# sent_id = 160611
+1	Quod	quod#1	ADV	Df	_	2	advmod	_	ref=3.12.4
+2	si	si	SCONJ	G-	_	12	mark	_	ref=3.12.4
+3	truncus	truncus	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	12	nsubj:pass	_	ref=3.12.4
+4	uitis	vitis	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	ref=3.12.4
+5	sole	sol	NOUN	Nb	Case=Abl|Gender=Masc|Number=Sing	12	obl	_	ref=3.12.4
+6	aut	aut	CCONJ	C-	_	5	cc	_	ref=3.12.4
+7	pluuiis	pluvia	NOUN	Nb	Case=Abl|Gender=Fem|Number=Plur	5	conj	_	ref=3.12.4
+8	aut	aut	CCONJ	C-	_	5	cc	_	ref=3.12.4
+9	noxiis	noxius	ADJ	A-	Case=Abl|Degree=Pos|Gender=Neut|Number=Plur	10	amod	_	ref=3.12.4
+10	animalibus	animal	NOUN	Nb	Case=Abl|Gender=Neut|Number=Plur	5	conj	_	ref=3.12.4
+11	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux:pass	_	ref=3.12.4
+12	cauatus	cavo	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	13	advcl	_	ref=3.12.4
+13	purgamus	purgo	VERB	V-	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=3.12.4
+14	quicquid	quisquis	PRON	Pr	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	16	nsubj	_	ref=3.12.4
+15	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	aux	_	ref=3.12.4
+16	mortuum	morior	VERB	V-	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	13	obj	_	ref=3.12.4
+17	plagas	plaga	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	21	obj	_	ref=3.12.4
+18	que	que	CCONJ	C-	_	13	cc	_	ref=3.12.4
+19	eas	is	DET	Pd	Case=Acc|Gender=Fem|Number=Plur	17	det	_	ref=3.12.4
+20	amurca	amurca	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	21	obl	_	ref=3.12.4
+21	linimus	lino	VERB	V-	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	13	conj	_	ref=3.12.4
+22	et	et	CCONJ	C-	_	20	cc	_	ref=3.12.4
+23	terra	terra	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	20	conj	_	ref=3.12.4
+
+# source = Opus agriculturae, XII. De putandis uineis communibus altis uel humilibus
+# text = quod proderit aduersum praedicta
+# sent_id = 160612
+1	quod	qui	PRON	Pr	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	2	nsubj	_	ref=3.12.4
+2	proderit	prosum	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	ref=3.12.4
+3	aduersum	adversum	ADP	R-	_	4	case	_	ref=3.12.4
+4	praedicta	praedico#2	VERB	V-	Aspect=Perf|Case=Acc|Gender=Neut|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	2	advcl	_	ref=3.12.4
+
+# source = Opus agriculturae, XII. De putandis uineis communibus altis uel humilibus
+# text = Cortex etiam rescissus et pendens a uite tollatur
+# sent_id = 160613
+1	Cortex	cortex	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	8	nsubj:pass	_	ref=3.12.4
+2	etiam	etiam	ADV	Df	_	8	discourse	_	ref=3.12.4
+3	rescissus	rescindo	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	advcl	_	ref=3.12.4
+4	et	et	CCONJ	C-	_	3	cc	_	ref=3.12.4
+5	pendens	pendo	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	3	conj	_	ref=3.12.4
+6	a	ab	ADP	R-	_	7	case	_	ref=3.12.4
+7	uite	vitis	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	5	obl	_	ref=3.12.4
+8	tollatur	tollo	VERB	V-	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	ref=3.12.4
+
+# source = Opus agriculturae, XII. De putandis uineis communibus altis uel humilibus
+# text = quae res minorem fecem reddit in uino
+# sent_id = 160614
+1	quae	qui	PRON	Pr	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	2	det	_	ref=3.12.4
+2	res	res	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	ref=3.12.4
+3	minorem	parvus	ADJ	A-	Case=Acc|Degree=Cmp|Gender=Fem|Number=Sing	4	amod	_	ref=3.12.4
+4	fecem	faex	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	ref=3.12.4
+5	reddit	reddo	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=3.12.4
+6	in	in	ADP	R-	_	7	case	_	ref=3.12.4
+7	uino	vinum	NOUN	Nb	Case=Abl|Gender=Neut|Number=Sing	5	obl	_	ref=3.12.4
+
+# source = Opus agriculturae, XII. De putandis uineis communibus altis uel humilibus
+# text = Muscus radatur ubicumque repertus
+# sent_id = 160615
+1	Muscus	muscus	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	2	nsubj:pass	_	ref=3.12.4
+2	radatur	rado	VERB	V-	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	ref=3.12.4
+3	ubicumque	ubicumque	ADV	Df	_	4	advmod	_	ref=3.12.4
+4	repertus	reperio	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	advcl	_	ref=3.12.4
+
+# source = Opus agriculturae, XII. De putandis uineis communibus altis uel humilibus
+# text = Sed plagae quas in duro uitis accipiet obliquae et rotundae esse debebunt
+# sent_id = 160616
+1	Sed	sed	CCONJ	C-	_	12	cc	_	ref=3.12.5
+2	plagae	plaga	NOUN	Nb	Case=Nom|Gender=Fem|Number=Plur	12	nsubj	_	ref=3.12.5
+3	quas	qui	PRON	Pr	Case=Acc|Gender=Fem|Number=Plur|PronType=Rel	7	obj	_	ref=3.12.5
+4	in	in	ADP	R-	_	5	case	_	ref=3.12.5
+5	duro	durus	ADJ	A-	Case=Abl|Degree=Pos|Gender=Neut|Number=Sing	7	advmod	_	ref=3.12.5
+6	uitis	vitis	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	ref=3.12.5
+7	accipiet	accipio	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	2	acl	_	ref=3.12.5
+8	obliquae	obliquus	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	12	xcomp	_	ref=3.12.5
+9	et	et	CCONJ	C-	_	8	cc	_	ref=3.12.5
+10	rotundae	rotundus	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	8	conj	_	ref=3.12.5
+11	esse	sum	AUX	V-	Tense=Pres|VerbForm=Inf|Voice=Act	8	cop	_	ref=3.12.5
+12	debebunt	debeo	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	ref=3.12.5
+
+# source = Opus agriculturae, XII. De putandis uineis communibus altis uel humilibus
+# text = Decisis sicut supra dixi male natis omnibus et ueteribus nouellos et fructuarios serua
+# sent_id = 160617
+1	Decisis	decido	VERB	V-	Aspect=Perf|Case=Abl|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	13	advcl	_	ref=3.12.5
+2	sicut	sicut	ADV	Dq	PronType=Rel	4	advmod	_	ref=3.12.5
+3	supra	supra	ADV	Df	Degree=Pos	4	advmod	_	ref=3.12.5
+4	dixi	dico	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	13	advcl	_	ref=3.12.5
+5	male	male	ADV	Df	Degree=Pos	6	advmod	_	ref=3.12.5
+6	natis	nascor	VERB	V-	Aspect=Perf|Case=Abl|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	1	nsubj:pass	_	ref=3.12.5
+7	omnibus	omnis	DET	Px	Case=Abl|Gender=Masc|Number=Plur	6	det	_	ref=3.12.5
+8	et	et	CCONJ	C-	_	6	cc	_	ref=3.12.5
+9	ueteribus	vetus	ADJ	A-	Case=Abl|Degree=Pos|Gender=Masc|Number=Plur	6	conj	_	ref=3.12.5
+10	nouellos	novellus	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	13	obj	_	ref=3.12.5
+11	et	et	CCONJ	C-	_	10	cc	_	ref=3.12.5
+12	fructuarios	fructuarius	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	10	conj	_	ref=3.12.5
+13	serua	servo	VERB	V-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=3.12.5
+
+# source = Opus agriculturae, XII. De putandis uineis communibus altis uel humilibus
+# text = Vngues etiam custodum siccos et annotinos recide et omnia quae uetera uel scabra reperies
+# sent_id = 160618
+1	Vngues	unguis	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	7	obj	_	ref=3.12.5
+2	etiam	etiam	ADV	Df	_	7	discourse	_	ref=3.12.5
+3	custodum	custos	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	ref=3.12.5
+4	siccos	siccus	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	1	amod	_	ref=3.12.5
+5	et	et	CCONJ	C-	_	4	cc	_	ref=3.12.5
+6	annotinos	annotinus	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	4	conj	_	ref=3.12.5
+7	recide	recido#2	VERB	V-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=3.12.5
+8	et	et	CCONJ	C-	_	1	cc	_	ref=3.12.5
+9	omnia	omnis	ADJ	Px	Case=Acc|Gender=Neut|Number=Plur	1	conj	_	ref=3.12.5
+10	quae	qui	PRON	Pr	Case=Acc|Gender=Neut|Number=Plur|PronType=Rel	14	obj	_	ref=3.12.5
+11	uetera	vetus	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	14	advmod	_	ref=3.12.5
+12	uel	vel	CCONJ	C-	_	11	cc	_	ref=3.12.5
+13	scabra	scaber	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	11	conj	_	ref=3.12.5
+14	reperies	reperio	VERB	V-	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	9	acl	_	ref=3.12.5
+
+# source = Opus agriculturae, XII. De putandis uineis communibus altis uel humilibus
+# text = Hae quae altius coluntur ut in iugo uel pergula ubi quattuor pedibus supra terram leuatae steterint quaterna brachia habeant
+# sent_id = 160619
+1	Hae	hic	ADJ	Pd	Case=Nom|Gender=Fem|Number=Plur	19	nsubj	_	ref=3.12.5
+2	quae	qui	PRON	Pr	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	4	nsubj:pass	_	ref=3.12.5
+3	altius	alte	ADV	Df	Degree=Cmp	4	advmod	_	ref=3.12.5
+4	coluntur	colo	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	1	acl	_	ref=3.12.5
+5	ut	ut#3	ADV	Df	_	6	advmod	_	ref=3.12.5
+6	in	in	ADP	R-	_	7	case	_	ref=3.12.5
+7	iugo	iugum	NOUN	Nb	Case=Abl|Gender=Neut|Number=Sing	3	appos	_	ref=3.12.5
+8	uel	vel	CCONJ	C-	_	7	cc	_	ref=3.12.5
+9	pergula	pergula	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	7	conj	_	ref=3.12.5
+10	ubi	ubi	ADV	Dq	PronType=Rel	16	advmod	_	ref=3.12.5
+11	quattuor	quattuor	NUM	Ma	_	12	nummod	_	ref=3.12.5
+12	pedibus	pes	NOUN	Nb	Case=Abl|Gender=Masc|Number=Plur	15	obl	_	ref=3.12.5
+13	supra	supra	ADP	R-	_	14	case	_	ref=3.12.5
+14	terram	terra	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	15	obl	_	ref=3.12.5
+15	leuatae	levo	VERB	V-	Aspect=Perf|Case=Nom|Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	16	advcl	_	ref=3.12.5
+16	steterint	sto	VERB	V-	Aspect=Perf|Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	acl	_	ref=3.12.5
+17	quaterna	quaternus	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	18	amod	_	ref=3.12.5
+18	brachia	bracchium	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	19	obj	_	ref=3.12.5
+19	habeant	habeo	VERB	V-	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=3.12.5
+
+# source = Opus agriculturae, XII. De putandis uineis communibus altis uel humilibus
+# text = Si macra uitis erit in singulis brachiis singula flagella dimittemus
+# sent_id = 160620
+1	Si	si	SCONJ	G-	_	2	mark	_	ref=3.12.6
+2	macra	macer	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	advcl	_	ref=3.12.6
+3	uitis	vitis	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	ref=3.12.6
+4	erit	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	2	cop	_	ref=3.12.6
+5	in	in	ADP	R-	_	7	case	_	ref=3.12.6
+6	singulis	singulus	ADJ	A-	Case=Abl|Degree=Pos|Gender=Neut|Number=Plur	7	amod	_	ref=3.12.6
+7	brachiis	bracchium	NOUN	Nb	Case=Abl|Gender=Neut|Number=Plur	10	obl	_	ref=3.12.6
+8	singula	singulus	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	9	amod	_	ref=3.12.6
+9	flagella	flagellum	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	10	obj	_	ref=3.12.6
+10	dimittemus	dimitto	VERB	V-	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	ref=3.12.6
+
+# source = Opus agriculturae, XII. De putandis uineis communibus altis uel humilibus
+# text = si pinguis bina
+# sent_id = 224774
+1	si	si	SCONJ	G-	_	2	mark	_	ref=3.12.6
+2	pinguis	pinguis	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	ref=3.12.6
+3	bina	bini	ADJ	A-	Case=Acc|Degree=Cmp|Gender=Neut|Number=Plur	1	obj	_	ref=3.12.6
+
+# source = Opus agriculturae, XII. De putandis uineis communibus altis uel humilibus
+# text = Sed prouidendum ne in una parte sint sarmenta quae seruas
+# sent_id = 160621
+1	Sed	sed	CCONJ	C-	_	2	cc	_	ref=3.12.6
+2	prouidendum	provideo	VERB	V-	Case=Nom|Gender=Neut|Number=Sing|VerbForm=Gdv	0	root	_	ref=3.12.6
+3	ne	ne	SCONJ	G-	_	7	mark	_	ref=3.12.6
+4	in	in	ADP	R-	_	6	case	_	ref=3.12.6
+5	una	unus	NUM	Ma	Case=Abl|Gender=Fem|Number=Sing	6	nummod	_	ref=3.12.6
+6	parte	pars	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	7	obl	_	ref=3.12.6
+7	sint	sum	AUX	V-	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	_	ref=3.12.6
+8	sarmenta	sarmentum	NOUN	Nb	Case=Nom|Gender=Neut|Number=Plur	7	nsubj	_	ref=3.12.6
+9	quae	qui	PRON	Pr	Case=Acc|Gender=Neut|Number=Plur|PronType=Rel	10	obj	_	ref=3.12.6
+10	seruas	servo	VERB	V-	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl	_	ref=3.12.6
+
+# source = Opus agriculturae, XII. De putandis uineis communibus altis uel humilibus
+# text = quod cum fit uitis tamquam si fulgure tangatur arescit
+# sent_id = 160622
+1	quod	qui	PRON	Pr	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	3	nsubj	_	ref=3.12.6
+2	cum	cum	SCONJ	G-	_	3	mark	_	ref=3.12.6
+3	fit	fio	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	advcl	_	ref=3.12.6
+4	uitis	vitis	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	ref=3.12.6
+5	tamquam	tamquam	ADV	Df	_	9	advmod	_	ref=3.12.6
+6	si	si	SCONJ	G-	_	8	mark	_	ref=3.12.6
+7	fulgure	fulgur	NOUN	Nb	Case=Abl|Gender=Neut|Number=Sing	8	obl	_	ref=3.12.6
+8	tangatur	tango	VERB	V-	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	5	advcl	_	ref=3.12.6
+9	arescit	aresco	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=3.12.6
+
+# source = Opus agriculturae, XII. De putandis uineis communibus altis uel humilibus
+# text = Relinquenda sunt sarmenta ne que circa durum ne que in summo quia haec uelut pampinaria minus adferunt illa uitem nimietate fetus onerant et longius ducunt
+# sent_id = 160623
+1	Relinquenda	relinquo	VERB	V-	Case=Nom|Gender=Neut|Number=Plur|VerbForm=Gdv	0	root	_	ref=3.12.6
+2	sunt	sum	AUX	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	ref=3.12.6
+3	sarmenta	sarmentum	NOUN	Nb	Case=Nom|Gender=Neut|Number=Plur	1	nsubj	_	ref=3.12.6
+4	ne	ne	ADV	Df	Polarity=Neg	6	advmod	_	ref=3.12.6
+5	que	que	CCONJ	C-	_	7	cc	_	ref=3.12.6
+6	circa	circa	ADP	R-	_	7	case	_	ref=3.12.6
+7	durum	durus	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	1	advmod	_	ref=3.12.6
+8	ne	ne	ADV	Df	Polarity=Neg	10	advmod	_	ref=3.12.6
+9	que	que	CCONJ	C-	_	7	cc	_	ref=3.12.6
+10	in	in	ADP	R-	_	11	case	_	ref=3.12.6
+11	summo	summus	ADJ	A-	Case=Abl|Degree=Pos|Gender=Neut|Number=Sing	7	conj	_	ref=3.12.6
+12	quia	quia	SCONJ	G-	_	17	mark	_	ref=3.12.6
+13	haec	hic	ADJ	Pd	Case=Nom|Gender=Neut|Number=Plur	17	nsubj	_	ref=3.12.6
+14	uelut	velut	ADV	Df	_	17	advcl	_	ref=3.12.6
+15	pampinaria	pampinarium	NOUN	Nb	Case=Nom|Gender=Neut|Number=Plur	14	nsubj	_	ref=3.12.6
+16	minus	parvus	ADJ	A-	Case=Acc|Degree=Cmp|Gender=Neut|Number=Sing	17	obj	_	ref=3.12.6
+17	adferunt	affero	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl	_	ref=3.12.6
+18	illa	ille	ADJ	Pd	Case=Nom|Gender=Neut|Number=Plur	22	nsubj	_	ref=3.12.6
+19	uitem	vitis	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	22	obj	_	ref=3.12.6
+20	nimietate	nimietas	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	22	obl	_	ref=3.12.6
+21	fetus	fetus	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	ref=3.12.6
+22	onerant	onero	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	conj	_	ref=3.12.6
+23	et	et	CCONJ	C-	_	22	cc	_	ref=3.12.6
+24	longius	longe	ADV	Df	Degree=Cmp	25	advmod	_	ref=3.12.6
+25	ducunt	duco	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	22	conj	_	ref=3.12.6
+
+# source = Opus agriculturae, XII. De putandis uineis communibus altis uel humilibus
+# text = Quare in medio loco seruanda sunt quae tuemur
+# sent_id = 160624
+1	Quare	quare	ADV	Dq	PronType=Rel	5	advmod	_	ref=3.12.6
+2	in	in	ADP	R-	_	4	case	_	ref=3.12.6
+3	medio	medius	ADJ	A-	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	ref=3.12.6
+4	loco	locus	NOUN	Nb	Case=Abl|Gender=Masc|Number=Sing	5	obl	_	ref=3.12.6
+5	seruanda	servo	VERB	V-	Case=Nom|Gender=Neut|Number=Plur|VerbForm=Gdv	0	root	_	ref=3.12.6
+6	sunt	sum	AUX	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	ref=3.12.6
+7	quae	qui	PRON	Pr	Case=Acc|Gender=Neut|Number=Plur|PronType=Rel	8	obj	_	ref=3.12.6
+8	tuemur	tueor	VERB	V-	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	5	nsubj	_	ref=3.12.6
+
+# source = Opus agriculturae, XII. De putandis uineis communibus altis uel humilibus
+# text = Plaga non iuxta gemmam sed aliquanto superius fiat et auertatur a gemma propter lacrimam defluentem
+# sent_id = 160625
+1	Plaga	plaga	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	ref=3.12.6
+2	non	non	ADV	Df	Polarity=Neg	3	advmod	_	ref=3.12.6
+3	iuxta	iuxta	ADP	R-	_	4	case	_	ref=3.12.6
+4	gemmam	gemma	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	8	xcomp	_	ref=3.12.6
+5	sed	sed	CCONJ	C-	_	4	cc	_	ref=3.12.6
+6	aliquanto	aliquanto	ADV	Df	_	7	advmod	_	ref=3.12.6
+7	superius	superus	ADV	Df	Degree=Cmp	4	conj	_	ref=3.12.6
+8	fiat	fio	VERB	V-	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=3.12.6
+9	et	et	CCONJ	C-	_	8	cc	_	ref=3.12.6
+10	auertatur	averto	VERB	V-	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	8	conj	_	ref=3.12.6
+11	a	ab	ADP	R-	_	12	case	_	ref=3.12.6
+12	gemma	gemma	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	10	obl	_	ref=3.12.6
+13	propter	propter	ADP	R-	_	14	case	_	ref=3.12.6
+14	lacrimam	lacrima	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	10	obl	_	ref=3.12.6
+15	defluentem	defluo	VERB	V-	Case=Acc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	10	advcl	_	ref=3.12.6
+
 # source = Epistulae ad Atticum, Book 1, letter 10
 # text = cum essem in Tusculano erit hoc tibi pro illo tuo cum essem in Ceramico verum tamen cum ibi essem Roma puer a sorore tua missus epistulam mihi abs te adlatam dedit nuntiavit que eo ipso die post meridiem iturum eum qui ad te proficisceretur
 # sent_id = 75991
@@ -16888,4 +17973,915 @@
 9	innocentium	innocens	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	10	nmod	_	ref=6.16.5
 10	supplicia	supplicium	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	11	obl	_	ref=6.16.5
 11	descendunt	descendo	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=6.16.5
+
+# source = De officiis, Book 1, section 21
+# text = Sunt autem privata nulla natura sed aut vetere occupatione ut qui quondam in vacua venerunt aut victoria ut qui bello potiti sunt aut lege pactione condicione sorte
+# sent_id = 86094
+1	Sunt	sum	AUX	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=1.21
+2	autem	autem	ADV	Df	_	1	discourse	_	ref=1.21
+3	privata	privatus	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	1	nsubj	_	ref=1.21
+4	nulla	nullus	DET	Px	Case=Nom|Gender=Neut|Number=Plur	3	det	_	ref=1.21
+5	natura	natura	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	1	obl	_	ref=1.21
+6	sed	sed	CCONJ	C-	_	1	cc	_	ref=1.21
+7	aut	aut	CCONJ	C-	_	9	cc	_	ref=1.21
+8	vetere	vetus	ADJ	A-	Case=Abl|Degree=Pos|Number=Sing	9	amod	_	ref=1.21
+9	occupatione	occupatio	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	1	conj	_	ref=1.21
+10	ut	ut#3	ADV	Df	_	9	appos	_	ref=1.21
+11	qui	qui	PRON	Pr	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	15	nsubj	_	ref=1.21
+12	quondam	quondam	ADV	Df	_	15	advmod	_	ref=1.21
+13	in	in	ADP	R-	_	14	case	_	ref=1.21
+14	vacua	vacuum	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	15	obl	_	ref=1.21
+15	venerunt	venio	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	10	ccomp	_	ref=1.21
+16	aut	aut	CCONJ	C-	_	9	cc	_	ref=1.21
+17	victoria	victoria	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	9	conj	_	ref=1.21
+18	ut	ut#3	ADV	Df	_	17	appos	_	ref=1.21
+19	qui	qui	PRON	Pr	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	21	nsubj	_	ref=1.21
+20	bello	bellum	NOUN	Nb	Case=Abl|Gender=Neut|Number=Sing	21	obl	_	ref=1.21
+21	potiti	potior	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	18	ccomp	_	ref=1.21
+22	sunt	sum	AUX	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	aux	_	ref=1.21
+23	aut	aut	CCONJ	C-	_	9	cc	_	ref=1.21
+24	lege	lex	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	9	conj	_	ref=1.21
+25	pactione	pactio	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	9	conj	_	ref=1.21
+26	condicione	condicio	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	9	conj	_	ref=1.21
+27	sorte	sors	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	9	conj	_	ref=1.21
+
+# source = De officiis, Book 1, section 21
+# text = ex quo fit ut ager Arpinas Arpinatium dicatur Tusculanus Tusculanorum
+# sent_id = 86095
+1	ex	ex	ADP	R-	_	2	case	_	ref=1.21
+2	quo	qui	PRON	Pr	Case=Abl|Gender=Neut|Number=Sing|PronType=Rel	3	obl	_	ref=1.21
+3	fit	fio	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=1.21
+4	ut	ut	SCONJ	G-	_	8	mark	_	ref=1.21
+5	ager	ager	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	8	nsubj:pass	_	ref=1.21
+6	Arpinas	Arpinas	ADJ	A-	Case=Nom|Degree=Pos|Number=Sing	5	amod	_	ref=1.21
+7	Arpinatium	Arpinas	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	8	xcomp	_	ref=1.21
+8	dicatur	dico	VERB	V-	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	ccomp	_	ref=1.21
+9	Tusculanus	Tusculanus	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	conj	_	ref=1.21
+10	Tusculanorum	Tusculanus	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	9	orphan	_	ref=1.21
+
+# source = De officiis, Book 1, section 21
+# text = similis que est privatarum possessionum discriptio
+# sent_id = 86096
+1	similis	similis	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem,Masc|Number=Sing	0	root	_	ref=1.21
+2	que	que	CCONJ	C-	_	1	cc	_	ref=1.21
+3	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	ref=1.21
+4	privatarum	privo	VERB	V-	Aspect=Perf|Case=Gen|Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	5	acl	_	ref=1.21
+5	possessionum	possessio	NOUN	Nb	Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	ref=1.21
+6	discriptio	discriptio	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	ref=1.21
+
+# source = De officiis, Book 1, section 21
+# text = Ex quo quia suum cuiusque fit eorum quae natura fuerant communia quod cuique obtigit id quisque teneat
+# sent_id = 86097
+1	Ex	ex	ADP	R-	_	2	case	_	ref=1.21
+2	quo	qui	PRON	Pr	Case=Abl|Gender=Neut|Number=Sing|PronType=Rel	17	obl	_	ref=1.21
+3	quia	quia	SCONJ	G-	_	6	mark	_	ref=1.21
+4	suum	suus	ADJ	Pt	Case=Nom|Gender=Neut|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	6	xcomp	_	ref=1.21
+5	cuiusque	quisque	ADJ	Px	Case=Gen|Gender=Neut|Number=Sing	6	nsubj	_	ref=1.21
+6	fit	fio	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	advcl	_	ref=1.21
+7	eorum	is	PRON	Pp	Case=Gen|Gender=Neut|Number=Plur|Person=3|PronType=Prs	5	nmod	_	ref=1.21
+8	quae	qui	PRON	Pr	Case=Nom|Gender=Neut|Number=Plur|PronType=Rel	11	nsubj	_	ref=1.21
+9	natura	natura	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	11	obl	_	ref=1.21
+10	fuerant	sum	AUX	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pqp|VerbForm=Fin|Voice=Act	11	cop	_	ref=1.21
+11	communia	communis	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	7	acl	_	ref=1.21
+12	quod	qui	PRON	Pr	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	14	nsubj	_	ref=1.21
+13	cuique	quisque	ADJ	Px	Case=Dat|Gender=Masc|Number=Sing	14	iobj	_	ref=1.21
+14	obtigit	obtingo	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	15	acl	_	ref=1.21
+15	id	is	PRON	Pp	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	obj	_	ref=1.21
+16	quisque	quisque	ADJ	Px	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	ref=1.21
+17	teneat	teneo	VERB	V-	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=1.21
+
+# source = De officiis, Book 1, section 21
+# text = e quo si quis sibi appetet violabit ius humanae societatis
+# sent_id = 86098
+1	e	ex	ADP	R-	_	2	case	_	ref=1.21
+2	quo	qui	PRON	Pr	Case=Abl|Gender=Neut|Number=Sing|PronType=Rel	6	obl	_	ref=1.21
+3	si	si	SCONJ	G-	_	6	mark	_	ref=1.21
+4	quis	quis	ADJ	Px	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	ref=1.21
+5	sibi	se	PRON	Pk	Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	6	iobj	_	ref=1.21
+6	appetet	appeto	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	7	advcl	_	ref=1.21
+7	violabit	violo	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	ref=1.21
+8	ius	ius	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	7	obj	_	ref=1.21
+9	humanae	humanus	ADJ	A-	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	ref=1.21
+10	societatis	societas	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	ref=1.21
+
+# source = De officiis, Book 1, section 22
+# text = Sed quoniam ut praeclare scriptum est a Platone non nobis solum nati sumus ortus que nostri partem patria vindicat partem amici atque ut placet Stoicis quae in terris gignantur ad usum hominum omnia creari homines autem hominum causa esse generatos ut ipsi inter se aliis alii prodesse possent in hoc naturam debemus ducem sequi communes utilitates in medium afferre mutatione officiorum dando accipiendo tum artibus tum opera tum facultatibus devincire hominum inter homines societatem
+# sent_id = 86099
+1	Sed	sed	CCONJ	C-	_	52	cc	_	ref=1.22
+2	quoniam	quoniam	SCONJ	G-	_	12	mark	_	ref=1.22
+3	ut	ut	ADV	Dq	PronType=Rel	5	advmod	_	ref=1.22
+4	praeclare	praeclare	ADV	Df	Degree=Pos	5	advmod	_	ref=1.22
+5	scriptum	scribo	VERB	V-	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	advcl	_	ref=1.22
+6	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux:pass	_	ref=1.22
+7	a	ab	ADP	R-	_	8	case	_	ref=1.22
+8	Platone	Plato	PROPN	Ne	Case=Abl|Gender=Masc|Number=Sing	5	obl:agent	_	ref=1.22
+9	non	non	ADV	Df	Polarity=Neg	11	advmod	_	ref=1.22
+10	nobis	nos	PRON	Pp	Case=Dat|Gender=Masc|Number=Plur|Person=1|PronType=Prs	12	iobj	_	ref=1.22
+11	solum	solum	ADV	Df	_	10	appos	_	ref=1.22
+12	nati	nascor	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	50	acl	_	ref=1.22
+13	sumus	sum	AUX	V-	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	_	ref=1.22
+14	ortus	ortus	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	ref=1.22
+15	que	que	CCONJ	C-	_	12	cc	_	ref=1.22
+16	nostri	noster	ADJ	Ps	Case=Gen|Gender=Masc,Neut|Number=Sing|Person=1|Poss=Yes	14	nmod	_	ref=1.22
+17	partem	pars	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	19	obj	_	ref=1.22
+18	patria	patria	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	ref=1.22
+19	vindicat	vindico	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	conj	_	ref=1.22
+20	partem	pars	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	21	orphan	_	ref=1.22
+21	amici	amicus	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	19	conj	_	ref=1.22
+22	atque	atque	CCONJ	C-	_	12	cc	_	ref=1.22
+23	ut	ut	ADV	Dq	PronType=Rel	24	advmod	_	ref=1.22
+24	placet	placeo	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	34	orphan	_	ref=1.22
+25	Stoicis	stoicus	ADJ	A-	Case=Dat|Degree=Pos|Gender=Neut|Number=Plur	24	iobj	_	ref=1.22
+26	quae	qui	PRON	Pr	Case=Nom|Gender=Neut|Number=Plur|PronType=Rel	29	nsubj:pass	_	ref=1.22
+27	in	in	ADP	R-	_	28	case	_	ref=1.22
+28	terris	terra	NOUN	Nb	Case=Abl|Gender=Fem|Number=Plur	29	obl	_	ref=1.22
+29	gignantur	gigno	VERB	V-	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	33	acl	_	ref=1.22
+30	ad	ad	ADP	R-	_	31	case	_	ref=1.22
+31	usum	usus	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	34	obl	_	ref=1.22
+32	hominum	homo	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	31	nmod	_	ref=1.22
+33	omnia	omnis	ADJ	Px	Case=Acc|Gender=Neut|Number=Plur	34	nsubj:pass	_	ref=1.22
+34	creari	creo	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Pass	12	conj	_	ref=1.22
+35	homines	homo	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	40	nsubj:pass	_	ref=1.22
+36	autem	autem	ADV	Df	_	40	discourse	_	ref=1.22
+37	hominum	homo	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	38	nmod	_	ref=1.22
+38	causa	causa	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	40	obl	_	ref=1.22
+39	esse	sum	AUX	V-	Tense=Pres|VerbForm=Inf|Voice=Act	40	aux:pass	_	ref=1.22
+40	generatos	genero	VERB	V-	Aspect=Perf|Case=Acc|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	34	conj	_	ref=1.22
+41	ut	ut	SCONJ	G-	_	48	mark	_	ref=1.22
+42	ipsi	ipse	ADJ	Pd	Case=Nom|Gender=Masc|Number=Plur	48	nsubj	_	ref=1.22
+43	inter	inter	ADP	R-	_	44	case	_	ref=1.22
+44	se	se	PRON	Pk	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	47	obl	_	ref=1.22
+45	aliis	alius	ADJ	Px	Case=Dat|Gender=Masc|Number=Plur	47	iobj	_	ref=1.22
+46	alii	alius	ADJ	Px	Case=Nom|Gender=Masc|Number=Plur	47	nsubj	_	ref=1.22
+47	prodesse	prosum	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	48	xcomp	_	ref=1.22
+48	possent	possum	VERB	V-	Aspect=Imp|Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	40	advcl	_	ref=1.22
+49	in	in	ADP	R-	_	50	case	_	ref=1.22
+50	hoc	hic	ADJ	Pd	Case=Abl|Gender=Neut|Number=Sing	52	obl	_	ref=1.22
+51	naturam	natura	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	54	obj	_	ref=1.22
+52	debemus	debeo	VERB	V-	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=1.22
+53	ducem	dux	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	54	advmod	_	ref=1.22
+54	sequi	sequor	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Pass	52	xcomp	_	ref=1.22
+55	communes	communis	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem,Masc|Number=Plur	56	amod	_	ref=1.22
+56	utilitates	utilitas	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	59	obj	_	ref=1.22
+57	in	in	ADP	R-	_	58	case	_	ref=1.22
+58	medium	medium	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	59	obl	_	ref=1.22
+59	afferre	affero	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	54	conj	_	ref=1.22
+60	mutatione	mutatio	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	59	obl	_	ref=1.22
+61	officiorum	officium	NOUN	Nb	Case=Gen|Gender=Neut|Number=Plur	60	nmod	_	ref=1.22
+62	dando	do	VERB	V-	Case=Abl|VerbForm=Ger	60	conj	_	ref=1.22
+63	accipiendo	accipio	VERB	V-	Case=Abl|VerbForm=Ger	60	conj	_	ref=1.22
+64	tum	tum	ADV	Df	_	65	discourse	_	ref=1.22
+65	artibus	ars	NOUN	Nb	Case=Abl|Gender=Fem|Number=Plur	70	obl	_	ref=1.22
+66	tum	tum	ADV	Df	_	67	discourse	_	ref=1.22
+67	opera	opera	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	65	conj	_	ref=1.22
+68	tum	tum	ADV	Df	_	69	discourse	_	ref=1.22
+69	facultatibus	facultas	NOUN	Nb	Case=Abl|Gender=Fem|Number=Plur	65	conj	_	ref=1.22
+70	devincire	devincio	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	54	conj	_	ref=1.22
+71	hominum	homo	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	74	nmod	_	ref=1.22
+72	inter	inter	ADP	R-	_	73	case	_	ref=1.22
+73	homines	homo	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	74	nmod	_	ref=1.22
+74	societatem	societas	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	70	obj	_	ref=1.22
+
+# source = De officiis, Book 1, section 23
+# text = Fundamentum autem est iustitiae fides id est dictorum conventorum que constantia et veritas
+# sent_id = 86100
+1	Fundamentum	fundamentum	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	ref=1.23
+2	autem	autem	ADV	Df	_	5	discourse	_	ref=1.23
+3	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	ref=1.23
+4	iustitiae	iustitia	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	ref=1.23
+5	fides	fides	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	0	root	_	ref=1.23
+6	id	is	PRON	Pp	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	ref=1.23
+7	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	ref=1.23
+8	dictorum	dictum	NOUN	Nb	Case=Gen|Gender=Neut|Number=Plur	11	nmod	_	ref=1.23
+9	conventorum	conventum	NOUN	Nb	Case=Gen|Gender=Neut|Number=Plur	8	conj	_	ref=1.23
+10	que	que	CCONJ	C-	_	8	cc	_	ref=1.23
+11	constantia	constantia	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	5	appos	_	ref=1.23
+12	et	et	CCONJ	C-	_	11	cc	_	ref=1.23
+13	veritas	veritas	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	11	conj	_	ref=1.23
+
+# source = De officiis, Book 1, section 23
+# text = Ex quo quamquam hoc videbitur fortasse cuipiam durius tamen audeamus imitari Stoicos qui studiose exquirunt unde verba sint ducta credamus que quia fiat quod dictum est appellatam fidem
+# sent_id = 86101
+1	Ex	ex	ADP	R-	_	2	case	_	ref=1.23
+2	quo	qui	PRON	Pr	Case=Abl|Gender=Neut|Number=Sing|PronType=Rel	10	obl	_	ref=1.23
+3	quamquam	quamquam	SCONJ	G-	_	5	mark	_	ref=1.23
+4	hoc	hic	ADJ	Pd	Case=Nom|Gender=Neut|Number=Sing	5	nsubj:pass	_	ref=1.23
+5	videbitur	video	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Pass	10	advcl	_	ref=1.23
+6	fortasse	fortasse	ADV	Df	_	5	advmod	_	ref=1.23
+7	cuipiam	quispiam	ADJ	Px	Case=Dat|Gender=Masc|Number=Sing	5	iobj	_	ref=1.23
+8	durius	durus	ADJ	A-	Case=Nom|Degree=Cmp|Gender=Neut|Number=Sing	5	xcomp	_	ref=1.23
+9	tamen	tamen	ADV	Df	_	10	discourse	_	ref=1.23
+10	audeamus	audeo	VERB	V-	Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=1.23
+11	imitari	imitor	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Pass	10	xcomp	_	ref=1.23
+12	Stoicos	stoicus	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	11	obj	_	ref=1.23
+13	qui	qui	PRON	Pr	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	15	nsubj	_	ref=1.23
+14	studiose	studiose	ADV	Df	Degree=Pos	15	advmod	_	ref=1.23
+15	exquirunt	exquiro	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	advcl	_	ref=1.23
+16	unde	unde	ADV	Du	PronType=Int	19	advmod	_	ref=1.23
+17	verba	verbum	NOUN	Nb	Case=Nom|Gender=Neut|Number=Plur	19	nsubj:pass	_	ref=1.23
+18	sint	sum	AUX	V-	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	aux:pass	_	ref=1.23
+19	ducta	duco	VERB	V-	Aspect=Perf|Case=Nom|Gender=Neut|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	15	ccomp	_	ref=1.23
+20	credamus	credo	VERB	V-	Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	_	ref=1.23
+21	que	que	CCONJ	C-	_	10	cc	_	ref=1.23
+22	quia	quia	SCONJ	G-	_	23	mark	_	ref=1.23
+23	fiat	fio	VERB	V-	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	27	advcl	_	ref=1.23
+24	quod	qui	PRON	Pr	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	25	nsubj:pass	_	ref=1.23
+25	dictum	dico	VERB	V-	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	23	nsubj	_	ref=1.23
+26	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	25	aux:pass	_	ref=1.23
+27	appellatam	appello	VERB	V-	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	20	ccomp	_	ref=1.23
+28	fidem	fides	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	27	xcomp	_	ref=1.23
+
+# source = De officiis, Book 1, section 23
+# text = Sed iniustitiae genera duo sunt unum eorum qui inferunt alterum eorum qui ab iis quibus infertur si possunt non propulsant iniuriam
+# sent_id = 86102
+1	Sed	sed	CCONJ	C-	_	5	cc	_	ref=1.23
+2	iniustitiae	iniustitia	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	ref=1.23
+3	genera	genus	NOUN	Nb	Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	ref=1.23
+4	duo	duo	NUM	Ma	Case=Nom|Gender=Neut|Number=Plur	3	nummod	_	ref=1.23
+5	sunt	sum	AUX	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=1.23
+6	unum	unus	NUM	Ma	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	ref=1.23
+7	eorum	is	PRON	Pp	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	appos	_	ref=1.23
+8	qui	qui	PRON	Pr	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	9	nsubj	_	ref=1.23
+9	inferunt	infero	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl	_	ref=1.23
+10	alterum	alter	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	11	nsubj	_	ref=1.23
+11	eorum	is	PRON	Pp	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	7	conj	_	ref=1.23
+12	qui	qui	PRON	Pr	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	20	nsubj	_	ref=1.23
+13	ab	ab	ADP	R-	_	14	case	_	ref=1.23
+14	iis	is	PRON	Pp	Case=Abl|Gender=Masc|Number=Plur|Person=3|PronType=Prs	20	obl	_	ref=1.23
+15	quibus	qui	PRON	Pr	Case=Dat|Gender=Masc|Number=Plur|PronType=Rel	16	iobj	_	ref=1.23
+16	infertur	infero	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	14	acl	_	ref=1.23
+17	si	si	SCONJ	G-	_	18	mark	_	ref=1.23
+18	possunt	possum	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	advcl	_	ref=1.23
+19	non	non	ADV	Df	Polarity=Neg	20	advmod	_	ref=1.23
+20	propulsant	propulso	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	acl	_	ref=1.23
+21	iniuriam	iniuria	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	20	obj	_	ref=1.23
+
+# source = De officiis, Book 1, section 23
+# text = Nam qui iniuste impetum in quempiam facit aut ira aut aliqua perturbatione incitatus is quasi manus afferre videtur socio
+# sent_id = 86103
+1	Nam	nam	ADV	Df	_	18	discourse	_	ref=1.23
+2	qui	qui	PRON	Pr	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	7	nsubj	_	ref=1.23
+3	iniuste	iniuste	ADV	Df	Degree=Pos	7	advmod	_	ref=1.23
+4	impetum	impetus	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	ref=1.23
+5	in	in	ADP	R-	_	6	case	_	ref=1.23
+6	quempiam	quispiam	ADJ	Px	Case=Acc|Gender=Masc|Number=Sing	4	nmod	_	ref=1.23
+7	facit	facio	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	acl	_	ref=1.23
+8	aut	aut	CCONJ	C-	_	9	cc	_	ref=1.23
+9	ira	ira	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	13	obl	_	ref=1.23
+10	aut	aut	CCONJ	C-	_	9	cc	_	ref=1.23
+11	aliqua	aliquis	DET	Px	Case=Abl|Gender=Fem|Number=Sing	12	det	_	ref=1.23
+12	perturbatione	perturbatio	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	9	conj	_	ref=1.23
+13	incitatus	incito	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	advcl	_	ref=1.23
+14	is	is	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj:pass	_	ref=1.23
+15	quasi	quasi	ADV	Df	_	17	advmod	_	ref=1.23
+16	manus	manus	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	17	obj	_	ref=1.23
+17	afferre	affero	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	18	xcomp	_	ref=1.23
+18	videtur	video	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	ref=1.23
+19	socio	socius	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	17	iobj	_	ref=1.23
+
+# source = De officiis, Book 1, section 23
+# text = qui autem non defendit ne c obsistit si potest iniuriae tam est in vitio quam si parentes aut amicos aut patriam deserat
+# sent_id = 86104
+1	qui	qui	PRON	Pr	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	4	nsubj	_	ref=1.23
+2	autem	autem	ADV	Df	_	14	discourse	_	ref=1.23
+3	non	non	ADV	Df	Polarity=Neg	4	advmod	_	ref=1.23
+4	defendit	defendo	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	nsubj	_	ref=1.23
+5	ne	ne	ADV	Df	Polarity=Neg	7	advmod	_	ref=1.23
+6	c	que	CCONJ	C-	_	4	cc	_	ref=1.23
+7	obsistit	obsisto	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	ref=1.23
+8	si	si	SCONJ	G-	_	9	mark	_	ref=1.23
+9	potest	possum	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl	_	ref=1.23
+10	iniuriae	iniuria	NOUN	Nb	Case=Dat|Gender=Fem|Number=Sing	7	iobj	_	ref=1.23
+11	tam	tam	ADV	Df	_	14	advmod	_	ref=1.23
+12	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	cop	_	ref=1.23
+13	in	in	ADP	R-	_	14	case	_	ref=1.23
+14	vitio	vitium	NOUN	Nb	Case=Abl|Gender=Neut|Number=Sing	0	root	_	ref=1.23
+15	quam	quam#4	ADV	Df	_	11	advmod	_	ref=1.23
+16	si	si	SCONJ	G-	_	22	mark	_	ref=1.23
+17	parentes	parens	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	22	obj	_	ref=1.23
+18	aut	aut	CCONJ	C-	_	17	cc	_	ref=1.23
+19	amicos	amicus	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	17	conj	_	ref=1.23
+20	aut	aut	CCONJ	C-	_	17	cc	_	ref=1.23
+21	patriam	patria	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	17	conj	_	ref=1.23
+22	deserat	desero	VERB	V-	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	advcl	_	ref=1.23
+
+# source = De officiis, Book 1, section 24
+# text = Atque illae quidem iniuriae quae nocendi causa de industria inferuntur saepe a metu proficiscuntur cum is qui nocere alteri cogitat timet ne nisi id fecerit ipse aliquo afficiatur incommodo
+# sent_id = 86105
+1	Atque	atque	CCONJ	C-	_	14	cc	_	ref=1.24
+2	illae	ille	DET	Pd	Case=Nom|Gender=Fem|Number=Plur	4	det	_	ref=1.24
+3	quidem	quidem	ADV	Df	_	14	discourse	_	ref=1.24
+4	iniuriae	iniuria	NOUN	Nb	Case=Nom|Gender=Fem|Number=Plur	14	nsubj:pass	_	ref=1.24
+5	quae	qui	PRON	Pr	Case=Nom|Gender=Fem|Number=Plur|PronType=Rel	10	nsubj:pass	_	ref=1.24
+6	nocendi	noceo	VERB	V-	Case=Gen|VerbForm=Ger	7	acl	_	ref=1.24
+7	causa	causa	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	10	obl	_	ref=1.24
+8	de	de	ADP	R-	_	9	case	_	ref=1.24
+9	industria	industria	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	10	obl	_	ref=1.24
+10	inferuntur	infero	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	4	acl	_	ref=1.24
+11	saepe	saepe	ADV	Df	Degree=Pos	14	advmod	_	ref=1.24
+12	a	ab	ADP	R-	_	13	case	_	ref=1.24
+13	metu	metus	NOUN	Nb	Case=Abl|Gender=Masc|Number=Sing	14	obl	_	ref=1.24
+14	proficiscuntur	proficisco	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	ref=1.24
+15	cum	cum	SCONJ	G-	_	21	mark	_	ref=1.24
+16	is	is	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	ref=1.24
+17	qui	qui	PRON	Pr	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	20	nsubj	_	ref=1.24
+18	nocere	noceo	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	20	xcomp	_	ref=1.24
+19	alteri	alter	ADJ	A-	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	18	iobj	_	ref=1.24
+20	cogitat	cogito	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	acl	_	ref=1.24
+21	timet	timeo	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	advcl	_	ref=1.24
+22	ne	ne	SCONJ	G-	_	28	mark	_	ref=1.24
+23	nisi	nisi	SCONJ	G-	_	25	mark	_	ref=1.24
+24	id	is	PRON	Pp	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	25	obj	_	ref=1.24
+25	fecerit	facio	VERB	V-	Aspect=Perf|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	28	advcl	_	ref=1.24
+26	ipse	ipse	ADJ	Pd	Case=Nom|Gender=Masc|Number=Sing	28	nsubj:pass	_	ref=1.24
+27	aliquo	aliquis	DET	Px	Case=Abl|Gender=Masc,Neut|Number=Sing	29	det	_	ref=1.24
+28	afficiatur	afficio	VERB	V-	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	21	ccomp	_	ref=1.24
+29	incommodo	incommodum	NOUN	Nb	Case=Abl|Gender=Neut|Number=Sing	28	obl	_	ref=1.24
+
+# source = De officiis, Book 1, section 24
+# text = Maximam autem partem ad iniuriam faciendam aggrediuntur ut adipiscantur ea quae concupiverunt
+# sent_id = 86106
+1	Maximam	magnus	ADJ	A-	Case=Acc|Degree=Sup|Gender=Fem|Number=Sing	3	amod	_	ref=1.24
+2	autem	autem	ADV	Df	_	7	discourse	_	ref=1.24
+3	partem	pars	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	7	obl	_	ref=1.24
+4	ad	ad	ADP	R-	_	6	case	_	ref=1.24
+5	iniuriam	iniuria	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	6	nsubj	_	ref=1.24
+6	faciendam	facio	VERB	V-	Case=Acc|Gender=Fem|Number=Sing|VerbForm=Gdv	7	obl	_	ref=1.24
+7	aggrediuntur	aggredio	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	ref=1.24
+8	ut	ut	SCONJ	G-	_	9	mark	_	ref=1.24
+9	adipiscantur	adipiscor	VERB	V-	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	7	advcl	_	ref=1.24
+10	ea	is	PRON	Pp	Case=Acc|Gender=Neut|Number=Plur|Person=3|PronType=Prs	9	obj	_	ref=1.24
+11	quae	qui	PRON	Pr	Case=Acc|Gender=Neut|Number=Plur|PronType=Rel	12	obj	_	ref=1.24
+12	concupiverunt	concupio	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	10	acl	_	ref=1.24
+
+# source = De officiis, Book 1, section 24
+# text = in quo vitio latissime patet avaritia
+# sent_id = 86107
+1	in	in	ADP	R-	_	3	case	_	ref=1.24
+2	quo	qui	PRON	Pr	Case=Abl|Gender=Masc,Neut|Number=Sing|PronType=Rel	3	det	_	ref=1.24
+3	vitio	vitium	NOUN	Nb	Case=Abl|Gender=Neut|Number=Sing	5	obl	_	ref=1.24
+4	latissime	late	ADV	Df	Degree=Sup	5	advmod	_	ref=1.24
+5	patet	pateo	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=1.24
+6	avaritia	avaritia	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	ref=1.24
+
+# source = De officiis, Book 1, section 25
+# text = Expetuntur autem divitiae cum ad usus vitae necessarios tum ad perfruendas voluptates
+# sent_id = 86108
+1	Expetuntur	expeto	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	ref=1.25
+2	autem	autem	ADV	Df	_	1	discourse	_	ref=1.25
+3	divitiae	divitiae	NOUN	Nb	Case=Nom|Gender=Fem|Number=Plur	1	nsubj:pass	_	ref=1.25
+4	cum	cum	ADV	Df	_	5	advmod	_	ref=1.25
+5	ad	ad	ADP	R-	_	6	case	_	ref=1.25
+6	usus	usus	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	3	nmod	_	ref=1.25
+7	vitae	vita	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	ref=1.25
+8	necessarios	necessarius	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	ref=1.25
+9	tum	tum	ADV	Df	_	10	discourse	_	ref=1.25
+10	ad	ad	ADP	R-	_	11	case	_	ref=1.25
+11	perfruendas	perfruor	VERB	V-	Case=Acc|Gender=Fem|Number=Plur|VerbForm=Gdv	6	conj	_	ref=1.25
+12	voluptates	voluptas	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	11	nsubj	_	ref=1.25
+
+# source = De officiis, Book 1, section 25
+# text = In quibus autem maior est animus in iis pecuniae cupiditas spectat ad opes et ad gratificandi facultatem ut nuper Marcus Crassus negabat ullam satis magnam pecuniam esse ei qui in re publica princeps vellet esse cuius fructibus exercitum alere non posset
+# sent_id = 86109
+1	In	in	ADP	R-	_	2	case	_	ref=1.25
+2	quibus	qui	PRON	Pr	Case=Abl|Gender=Masc|Number=Plur|PronType=Rel	5	obl	_	ref=1.25
+3	autem	autem	ADV	Df	_	11	discourse	_	ref=1.25
+4	maior	magnus	ADJ	A-	Case=Nom|Degree=Cmp|Gender=Fem,Masc|Number=Sing	6	amod	_	ref=1.25
+5	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl	_	ref=1.25
+6	animus	animus	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	ref=1.25
+7	in	in	ADP	R-	_	8	case	_	ref=1.25
+8	iis	is	PRON	Pp	Case=Abl|Gender=Masc|Number=Plur|Person=3|PronType=Prs	11	obl	_	ref=1.25
+9	pecuniae	pecunia	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	ref=1.25
+10	cupiditas	cupiditas	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	ref=1.25
+11	spectat	specto	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=1.25
+12	ad	ad	ADP	R-	_	13	case	_	ref=1.25
+13	opes	ops	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	11	obl	_	ref=1.25
+14	et	et	CCONJ	C-	_	13	cc	_	ref=1.25
+15	ad	ad	ADP	R-	_	17	case	_	ref=1.25
+16	gratificandi	gratificor	VERB	V-	Case=Gen|VerbForm=Ger	17	acl	_	ref=1.25
+17	facultatem	facultas	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	13	conj	_	ref=1.25
+18	ut	ut	ADV	Dq	PronType=Rel	22	advmod	_	ref=1.25
+19	nuper	nuper	ADV	Df	_	22	advmod	_	ref=1.25
+20	Marcus	Marcus	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	ref=1.25
+21	Crassus	Crassus	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	20	flat:name	_	ref=1.25
+22	negabat	nego	VERB	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	11	advcl	_	ref=1.25
+23	ullam	ullus	DET	Px	Case=Acc|Gender=Fem|Number=Sing	26	det	_	ref=1.25
+24	satis	satis	ADV	Df	Degree=Pos	25	advmod	_	ref=1.25
+25	magnam	magnus	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	22	ccomp	_	ref=1.25
+26	pecuniam	pecunia	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	25	nsubj	_	ref=1.25
+27	esse	sum	AUX	V-	Tense=Pres|VerbForm=Inf|Voice=Act	25	cop	_	ref=1.25
+28	ei	is	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	obl	_	ref=1.25
+29	qui	qui	PRON	Pr	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	34	nsubj	_	ref=1.25
+30	in	in	ADP	R-	_	31	case	_	ref=1.25
+31	re	res	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	33	obl	_	ref=1.25
+32	publica	publicus	ADJ	A-	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	31	amod	_	ref=1.25
+33	princeps	princeps	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	34	xcomp	_	ref=1.25
+34	vellet	volo#1	VERB	V-	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	28	acl	_	ref=1.25
+35	esse	sum	AUX	V-	Tense=Pres|VerbForm=Inf|Voice=Act	33	cop	_	ref=1.25
+36	cuius	qui	PRON	Pr	Case=Gen|Gender=Fem|Number=Sing|PronType=Rel	37	det	_	ref=1.25
+37	fructibus	fructus	NOUN	Nb	Case=Abl|Gender=Masc|Number=Plur	39	obl	_	ref=1.25
+38	exercitum	exercitus	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	39	obj	_	ref=1.25
+39	alere	alo	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	41	xcomp	_	ref=1.25
+40	non	non	ADV	Df	Polarity=Neg	41	advmod	_	ref=1.25
+41	posset	possum	VERB	V-	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	26	acl	_	ref=1.25
+
+# source = De officiis, Book 1, section 25
+# text = Delectant etiam magnifici apparatus vitae que cultus cum elegantia et copia
+# sent_id = 86111
+1	Delectant	delecto	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=1.25
+2	etiam	etiam	ADV	Df	_	1	discourse	_	ref=1.25
+3	magnifici	magnificus	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	ref=1.25
+4	apparatus	apparatus	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	1	nsubj	_	ref=1.25
+5	vitae	vita	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	ref=1.25
+6	que	que	CCONJ	C-	_	4	cc	_	ref=1.25
+7	cultus	cultus	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	4	conj	_	ref=1.25
+8	cum	cum	ADP	R-	_	9	case	_	ref=1.25
+9	elegantia	elegantia	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	7	nmod	_	ref=1.25
+10	et	et	CCONJ	C-	_	9	cc	_	ref=1.25
+11	copia	copia	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	9	conj	_	ref=1.25
+
+# source = De officiis, Book 1, section 25
+# text = quibus rebus effectum est ut infinita pecuniae cupiditas esset
+# sent_id = 86112
+1	quibus	qui	PRON	Pr	Case=Abl|Number=Plur|PronType=Rel	2	det	_	ref=1.25
+2	rebus	res	NOUN	Nb	Case=Abl|Gender=Fem|Number=Plur	3	obl	_	ref=1.25
+3	effectum	efficio	VERB	V-	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	ref=1.25
+4	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux:pass	_	ref=1.25
+5	ut	ut	SCONJ	G-	_	6	mark	_	ref=1.25
+6	infinita	infinitus	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	csubj:pass	_	ref=1.25
+7	pecuniae	pecunia	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	ref=1.25
+8	cupiditas	cupiditas	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	ref=1.25
+9	esset	sum	AUX	V-	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	cop	_	ref=1.25
+
+# source = De officiis, Book 1, section 25
+# text = Ne c vero rei familiaris amplificatio nemini nocens vituperanda est sed fugienda semper iniuria est
+# sent_id = 86113
+1	Ne	ne	ADV	Df	Polarity=Neg	9	advmod	_	ref=1.25
+2	c	que	CCONJ	C-	_	9	cc	_	ref=1.25
+3	vero	vero	ADV	Df	_	9	discourse	_	ref=1.25
+4	rei	res	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	ref=1.25
+5	familiaris	familiaris	ADJ	A-	Case=Gen|Degree=Pos|Number=Sing	4	amod	_	ref=1.25
+6	amplificatio	amplificatio	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	ref=1.25
+7	nemini	nemo	ADJ	Px	Case=Dat|Gender=Masc|Number=Sing	8	iobj	_	ref=1.25
+8	nocens	noceo	VERB	V-	Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	6	acl	_	ref=1.25
+9	vituperanda	vitupero	VERB	V-	Case=Nom|Gender=Fem|Number=Sing|VerbForm=Gdv	0	root	_	ref=1.25
+10	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	_	ref=1.25
+11	sed	sed	CCONJ	C-	_	9	cc	_	ref=1.25
+12	fugienda	fugio	VERB	V-	Case=Nom|Gender=Fem|Number=Sing|VerbForm=Gdv	9	conj	_	ref=1.25
+13	semper	semper	ADV	Df	_	12	advmod	_	ref=1.25
+14	iniuria	iniuria	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	ref=1.25
+15	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	cop	_	ref=1.25
+
+# source = De officiis, Book 1, section 26
+# text = Maxime autem adducuntur plerique ut eos iustitiae capiat oblivio cum in imperiorum honorum gloriae cupiditatem inciderunt
+# sent_id = 86114
+1	Maxime	magis	ADV	Df	Degree=Sup	3	advmod	_	ref=1.26
+2	autem	autem	ADV	Df	_	3	discourse	_	ref=1.26
+3	adducuntur	adduco	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	ref=1.26
+4	plerique	plerusque	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	3	nsubj:pass	_	ref=1.26
+5	ut	ut	SCONJ	G-	_	8	mark	_	ref=1.26
+6	eos	is	PRON	Pp	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	obj	_	ref=1.26
+7	iustitiae	iustitia	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	ref=1.26
+8	capiat	capio	VERB	V-	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	ref=1.26
+9	oblivio	oblivio	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	ref=1.26
+10	cum	cum	SCONJ	G-	_	16	mark	_	ref=1.26
+11	in	in	ADP	R-	_	15	case	_	ref=1.26
+12	imperiorum	imperium	NOUN	Nb	Case=Gen|Gender=Neut|Number=Plur	15	nmod	_	ref=1.26
+13	honorum	honor	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	12	conj	_	ref=1.26
+14	gloriae	gloria	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	12	conj	_	ref=1.26
+15	cupiditatem	cupiditas	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	16	obl	_	ref=1.26
+16	inciderunt	incido#1	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	advcl	_	ref=1.26
+
+# source = De officiis, Book 1, section 26
+# text = Quod enim est apud Ennium Núlla sancta sócietas Né c fides regni ést id latius patet
+# sent_id = 86115
+1	Quod	qui	PRON	Pr	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	5	nsubj	_	ref=1.26
+2	enim	enim	ADV	Df	_	16	discourse	_	ref=1.26
+3	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	ref=1.26
+4	apud	apud	ADP	R-	_	5	case	_	ref=1.26
+5	Ennium	Ennius	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	14	appos	_	ref=1.26
+6	Núlla	nullus	DET	Px	Case=Nom|Gender=Fem|Number=Sing	8	det	_	ref=1.26
+7	sancta	sanctus	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	ref=1.26
+8	sócietas	societas	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	ref=1.26
+9	Né	ne	ADV	Df	Polarity=Neg	11	advmod	_	ref=1.26
+10	c	que	CCONJ	C-	_	8	cc	_	ref=1.26
+11	fides	fides	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	8	conj	_	ref=1.26
+12	regni	regnum	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	16	parataxis	_	ref=1.26
+13	ést	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	cop	_	ref=1.26
+14	id	is	PRON	Pp	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	ref=1.26
+15	latius	late	ADV	Df	Degree=Cmp	16	advmod	_	ref=1.26
+16	patet	pateo	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=1.26
+
+# source = De officiis, Book 1, section 26
+# text = Nam quicquid eius modi est in quo non possint plures excellere in eo fit plerumque tanta contentio ut difficillimum sit servare sanctam societatem
+# sent_id = 86118
+1	Nam	nam	ADV	Df	_	14	discourse	_	ref=1.26
+2	quicquid	quisquis	PRON	Pr	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	4	nsubj	_	ref=1.26
+3	eius	is	DET	Pd	Case=Gen|Number=Sing	4	det	_	ref=1.26
+4	modi	modus	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	13	appos	_	ref=1.26
+5	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	ref=1.26
+6	in	in	ADP	R-	_	7	case	_	ref=1.26
+7	quo	qui	PRON	Pr	Case=Abl|Gender=Neut|Number=Sing|PronType=Rel	11	obl	_	ref=1.26
+8	non	non	ADV	Df	Polarity=Neg	9	advmod	_	ref=1.26
+9	possint	possum	VERB	V-	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl	_	ref=1.26
+10	plures	multus	ADJ	A-	Case=Nom|Degree=Cmp|Gender=Masc|Number=Plur	9	nsubj	_	ref=1.26
+11	excellere	excello	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	9	xcomp	_	ref=1.26
+12	in	in	ADP	R-	_	13	case	_	ref=1.26
+13	eo	is	PRON	Pp	Case=Abl|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	obl	_	ref=1.26
+14	fit	fio	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=1.26
+15	plerumque	plerumque	ADV	Df	_	14	advmod	_	ref=1.26
+16	tanta	tantus	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	ref=1.26
+17	contentio	contentio	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	ref=1.26
+18	ut	ut	SCONJ	G-	_	19	mark	_	ref=1.26
+19	difficillimum	difficilis	ADJ	A-	Case=Nom|Degree=Sup|Gender=Neut|Number=Sing	16	advcl	_	ref=1.26
+20	sit	sum	AUX	V-	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	cop	_	ref=1.26
+21	servare	servo	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	19	ccomp	_	ref=1.26
+22	sanctam	sanctus	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	ref=1.26
+23	societatem	societas	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	21	obj	_	ref=1.26
+
+# source = De officiis, Book 1, section 26
+# text = Declaravit id modo temeritas Gaii Caesaris qui omnia iura divina et humana pervertit propter eum quem sibi ipse opinionis errore finxerat principatum
+# sent_id = 86119
+1	Declaravit	declaro	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=1.26
+2	id	is	ADJ	Pd	Case=Acc|Gender=Neut|Number=Sing	1	obj	_	ref=1.26
+3	modo	modo	ADV	Df	_	1	advmod	_	ref=1.26
+4	temeritas	temeritas	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	ref=1.26
+5	Gaii	Gaius	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	ref=1.26
+6	Caesaris	Caesar	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	5	flat:name	_	ref=1.26
+7	qui	qui	PRON	Pr	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	13	nsubj	_	ref=1.26
+8	omnia	omnis	DET	Px	Case=Acc|Gender=Neut|Number=Plur	9	det	_	ref=1.26
+9	iura	ius	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	13	obj	_	ref=1.26
+10	divina	divinus	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	9	amod	_	ref=1.26
+11	et	et	CCONJ	C-	_	10	cc	_	ref=1.26
+12	humana	humanus	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	10	conj	_	ref=1.26
+13	pervertit	perverto	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	acl	_	ref=1.26
+14	propter	propter	ADP	R-	_	22	case	_	ref=1.26
+15	eum	is	DET	Pd	Case=Acc|Gender=Masc|Number=Sing	22	det	_	ref=1.26
+16	quem	qui	PRON	Pr	Case=Acc|Gender=Masc|Number=Sing|PronType=Rel	21	obj	_	ref=1.26
+17	sibi	se	PRON	Pk	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	21	obl	_	ref=1.26
+18	ipse	ipse	ADJ	Pd	Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	ref=1.26
+19	opinionis	opinio	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	ref=1.26
+20	errore	error	NOUN	Nb	Case=Abl|Gender=Masc|Number=Sing	21	obl	_	ref=1.26
+21	finxerat	fingo	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin|Voice=Act	22	acl	_	ref=1.26
+22	principatum	principatus	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	13	obl	_	ref=1.26
+
+# source = De officiis, Book 1, section 26
+# text = Est autem in hoc genere molestum quod in maximis animis splendidissimis que ingeniis plerumque exsistunt honoris imperii potentiae gloriae cupiditates
+# sent_id = 86121
+1	Est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	ref=1.26
+2	autem	autem	ADV	Df	_	6	discourse	_	ref=1.26
+3	in	in	ADP	R-	_	5	case	_	ref=1.26
+4	hoc	hic	DET	Pd	Case=Abl|Gender=Masc,Neut|Number=Sing	5	det	_	ref=1.26
+5	genere	genus	NOUN	Nb	Case=Abl|Gender=Neut|Number=Sing	6	obl	_	ref=1.26
+6	molestum	molestus	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	ref=1.26
+7	quod	quod	SCONJ	G-	_	15	mark	_	ref=1.26
+8	in	in	ADP	R-	_	10	case	_	ref=1.26
+9	maximis	magnus	ADJ	A-	Case=Abl|Degree=Sup|Number=Plur	10	amod	_	ref=1.26
+10	animis	animus	NOUN	Nb	Case=Abl|Gender=Masc|Number=Plur	15	obl	_	ref=1.26
+11	splendidissimis	splendidus	ADJ	A-	Case=Abl|Degree=Sup|Number=Plur	13	amod	_	ref=1.26
+12	que	que	CCONJ	C-	_	10	cc	_	ref=1.26
+13	ingeniis	ingenium	NOUN	Nb	Case=Abl|Gender=Neut|Number=Plur	10	conj	_	ref=1.26
+14	plerumque	plerumque	ADV	Df	_	15	advmod	_	ref=1.26
+15	exsistunt	exsisto	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	ccomp	_	ref=1.26
+16	honoris	honor	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	ref=1.26
+17	imperii	imperium	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	16	conj	_	ref=1.26
+18	potentiae	potentia	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	16	conj	_	ref=1.26
+19	gloriae	gloria	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	16	conj	_	ref=1.26
+20	cupiditates	cupiditas	NOUN	Nb	Case=Nom|Gender=Fem|Number=Plur	15	nsubj	_	ref=1.26
+
+# source = De officiis, Book 1, section 26
+# text = Quo magis cavendum est ne quid in eo genere peccetur
+# sent_id = 86122
+1	Quo	qui	PRON	Pr	Case=Abl|Gender=Neut|Number=Sing|PronType=Rel	2	obl	_	ref=1.26
+2	magis	magis	ADV	Df	Degree=Cmp	3	advmod	_	ref=1.26
+3	cavendum	caveo	VERB	V-	Case=Nom|Gender=Neut|Number=Sing|VerbForm=Gdv	0	root	_	ref=1.26
+4	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	ref=1.26
+5	ne	ne	SCONJ	G-	_	10	mark	_	ref=1.26
+6	quid	quis	ADJ	Px	Case=Nom|Gender=Neut|Number=Sing	10	nsubj:pass	_	ref=1.26
+7	in	in	ADP	R-	_	9	case	_	ref=1.26
+8	eo	is	DET	Pd	Case=Abl|Gender=Masc,Neut|Number=Sing	9	det	_	ref=1.26
+9	genere	genus	NOUN	Nb	Case=Abl|Gender=Neut|Number=Sing	10	obl	_	ref=1.26
+10	peccetur	pecco	VERB	V-	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	ccomp	_	ref=1.26
+
+# source = De officiis, Book 1, section 27
+# text = Sed in omni iniustitia permultum interest utrum perturbatione aliqua animi quae plerumque brevis est et ad tempus an consulto et cogitata fiat iniuria
+# sent_id = 86123
+1	Sed	sed	CCONJ	C-	_	6	cc	_	ref=1.27
+2	in	in	ADP	R-	_	4	case	_	ref=1.27
+3	omni	omnis	DET	Px	Case=Abl|Number=Sing	4	det	_	ref=1.27
+4	iniustitia	iniustitia	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	6	obl	_	ref=1.27
+5	permultum	permultum	ADV	Df	Degree=Pos	6	advmod	_	ref=1.27
+6	interest	intersum	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=1.27
+7	utrum	utrum	ADV	Df	_	8	advmod	_	ref=1.27
+8	perturbatione	perturbatio	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	22	advmod	_	ref=1.27
+9	aliqua	aliquis	DET	Px	Case=Abl|Gender=Fem|Number=Sing	8	det	_	ref=1.27
+10	animi	animus	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	ref=1.27
+11	quae	qui	PRON	Pr	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	13	nsubj	_	ref=1.27
+12	plerumque	plerumque	ADV	Df	_	13	advmod	_	ref=1.27
+13	brevis	brevis	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem,Masc|Number=Sing	8	appos	_	ref=1.27
+14	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	cop	_	ref=1.27
+15	et	et	CCONJ	C-	_	13	cc	_	ref=1.27
+16	ad	ad	ADP	R-	_	17	case	_	ref=1.27
+17	tempus	tempus	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	13	conj	_	ref=1.27
+18	an	an	CCONJ	C-	_	8	cc	_	ref=1.27
+19	consulto	consultum	NOUN	Nb	Case=Abl|Gender=Neut|Number=Sing	8	conj	_	ref=1.27
+20	et	et	CCONJ	C-	_	19	cc	_	ref=1.27
+21	cogitata	cogito	VERB	V-	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	19	conj	_	ref=1.27
+22	fiat	fio	VERB	V-	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	ccomp	_	ref=1.27
+23	iniuria	iniuria	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	22	nsubj	_	ref=1.27
+
+# source = De officiis, Book 1, section 27
+# text = Leviora enim sunt ea quae repentino aliquo motu accidunt quam ea quae meditata et praeparata inferuntur
+# sent_id = 86124
+1	Leviora	levis	ADJ	A-	Case=Abl|Degree=Cmp|Gender=Neut|Number=Plur	0	root	_	ref=1.27
+2	enim	enim	ADV	Df	_	1	discourse	_	ref=1.27
+3	sunt	sum	AUX	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	ref=1.27
+4	ea	is	PRON	Pp	Case=Nom|Gender=Neut|Number=Plur|Person=3|PronType=Prs	1	nsubj	_	ref=1.27
+5	quae	qui	PRON	Pr	Case=Nom|Gender=Neut|Number=Plur|PronType=Rel	9	nsubj	_	ref=1.27
+6	repentino	repentinus	ADJ	A-	Case=Abl|Degree=Pos|Gender=Masc,Neut|Number=Sing	8	amod	_	ref=1.27
+7	aliquo	aliquis	DET	Px	Case=Abl|Gender=Masc,Neut|Number=Sing	8	det	_	ref=1.27
+8	motu	motus	NOUN	Nb	Case=Abl|Gender=Masc|Number=Sing	9	obl	_	ref=1.27
+9	accidunt	accido	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl	_	ref=1.27
+10	quam	quam#1	ADV	Df	_	1	advmod	_	ref=1.27
+11	ea	is	PRON	Pp	Case=Nom|Gender=Neut|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	ref=1.27
+12	quae	qui	PRON	Pr	Case=Nom|Gender=Neut|Number=Plur|PronType=Rel	16	nsubj:pass	_	ref=1.27
+13	meditata	meditor	VERB	V-	Aspect=Perf|Case=Nom|Gender=Neut|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	16	advcl	_	ref=1.27
+14	et	et	CCONJ	C-	_	13	cc	_	ref=1.27
+15	praeparata	praeparo	VERB	V-	Aspect=Perf|Case=Nom|Gender=Neut|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	13	conj	_	ref=1.27
+16	inferuntur	infero	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	11	acl	_	ref=1.27
+
+# source = De officiis, Book 1, section 27
+# text = Ac de inferenda quidem iniuria satis dictum est
+# sent_id = 86125
+1	Ac	atque	CCONJ	C-	_	7	cc	_	ref=1.27
+2	de	de	ADP	R-	_	3	case	_	ref=1.27
+3	inferenda	infero	VERB	V-	Case=Abl|Gender=Fem|Number=Sing|VerbForm=Gdv	7	obl	_	ref=1.27
+4	quidem	quidem	ADV	Df	_	7	discourse	_	ref=1.27
+5	iniuria	iniuria	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	3	nsubj	_	ref=1.27
+6	satis	satis	ADV	Df	Degree=Pos	7	advmod	_	ref=1.27
+7	dictum	dico	VERB	V-	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	ref=1.27
+8	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux:pass	_	ref=1.27
+
+# source = De officiis, Book 1, section 28
+# text = Praetermittendae autem defensionis deserendi que officii plures solent esse causae
+# sent_id = 86126
+1	Praetermittendae	praetermitto	VERB	V-	Case=Nom|Gender=Fem|Number=Plur|VerbForm=Gdv	10	acl	_	ref=1.28
+2	autem	autem	ADV	Df	_	8	discourse	_	ref=1.28
+3	defensionis	defensio	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	1	nsubj	_	ref=1.28
+4	deserendi	desero	VERB	V-	Case=Gen|Gender=Neut|Number=Sing|VerbForm=Gdv	1	conj	_	ref=1.28
+5	que	que	CCONJ	C-	_	1	cc	_	ref=1.28
+6	officii	officium	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	4	nsubj	_	ref=1.28
+7	plures	multus	ADJ	A-	Case=Nom|Degree=Cmp|Gender=Fem,Masc|Number=Plur	8	xcomp	_	ref=1.28
+8	solent	soleo	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=1.28
+9	esse	sum	AUX	V-	Tense=Pres|VerbForm=Inf|Voice=Act	7	cop	_	ref=1.28
+10	causae	causa	NOUN	Nb	Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	ref=1.28
+
+# source = De officiis, Book 1, section 28
+# text = nam aut inimicitias aut laborem aut sumptus suscipere nolunt aut etiam neglegentia pigritia inertia aut suis studiis quibusdam occupationibus ve sic impediuntur ut eos quos tutari debeant desertos esse patiantur
+# sent_id = 86127
+1	nam	nam	ADV	Df	_	9	discourse	_	ref=1.28
+2	aut	aut	CCONJ	C-	_	3	cc	_	ref=1.28
+3	inimicitias	inimicitia	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	8	obj	_	ref=1.28
+4	aut	aut	CCONJ	C-	_	3	cc	_	ref=1.28
+5	laborem	labor	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	3	conj	_	ref=1.28
+6	aut	aut	CCONJ	C-	_	3	cc	_	ref=1.28
+7	sumptus	sumptus	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	3	conj	_	ref=1.28
+8	suscipere	suscipio	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	9	xcomp	_	ref=1.28
+9	nolunt	nolo	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=1.28
+10	aut	aut	CCONJ	C-	_	9	cc	_	ref=1.28
+11	etiam	etiam	ADV	Df	_	22	discourse	_	ref=1.28
+12	neglegentia	neglegentia	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	22	obl	_	ref=1.28
+13	pigritia	pigritia	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	12	conj	_	ref=1.28
+14	inertia	inertia	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	12	conj	_	ref=1.28
+15	aut	aut	CCONJ	C-	_	12	cc	_	ref=1.28
+16	suis	suus	ADJ	Pt	Case=Abl|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	17	nmod	_	ref=1.28
+17	studiis	studium	NOUN	Nb	Case=Abl|Gender=Neut|Number=Plur	12	conj	_	ref=1.28
+18	quibusdam	quidam	DET	Px	Case=Abl|Number=Plur	19	det	_	ref=1.28
+19	occupationibus	occupatio	NOUN	Nb	Case=Abl|Gender=Fem|Number=Plur	17	conj	_	ref=1.28
+20	ve	ve	CCONJ	C-	_	17	cc	_	ref=1.28
+21	sic	sic	ADV	Df	_	22	advmod	_	ref=1.28
+22	impediuntur	impedio	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	9	conj	_	ref=1.28
+23	ut	ut	SCONJ	G-	_	30	mark	_	ref=1.28
+24	eos	is	PRON	Pp	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	28	nsubj:pass	_	ref=1.28
+25	quos	qui	PRON	Pr	Case=Acc|Gender=Masc|Number=Plur|PronType=Rel	26	obj	_	ref=1.28
+26	tutari	tutor	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Pass	27	xcomp	_	ref=1.28
+27	debeant	debeo	VERB	V-	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	24	acl	_	ref=1.28
+28	desertos	desero	VERB	V-	Aspect=Perf|Case=Acc|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	30	ccomp	_	ref=1.28
+29	esse	sum	AUX	V-	Tense=Pres|VerbForm=Inf|Voice=Act	28	aux:pass	_	ref=1.28
+30	patiantur	patior	VERB	V-	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	21	advcl	_	ref=1.28
+
+# source = De officiis, Book 1, section 28
+# text = Itaque videndum est ne non satis sit id quod apud Platonem est in philosophos dictum quod in veri investigatione versentur quod que ea quae plerique vehementer expetant de quibus inter se digladiari soleant contemnant et pro nihilo putent propterea iustos esse
+# sent_id = 86128
+1	Itaque	itaque	ADV	Df	_	2	discourse	_	ref=1.28
+2	videndum	video	VERB	V-	Case=Nom|Gender=Neut|Number=Sing|VerbForm=Gdv	0	root	_	ref=1.28
+3	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	ref=1.28
+4	ne	ne	SCONJ	G-	_	6	mark	_	ref=1.28
+5	non	non	ADV	Df	Polarity=Neg	6	advmod	_	ref=1.28
+6	satis	satis	ADV	Df	Degree=Pos	2	ccomp	_	ref=1.28
+7	sit	sum	AUX	V-	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	ref=1.28
+8	id	is	PRON	Pp	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	ref=1.28
+9	quod	qui	PRON	Pr	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	15	nsubj:pass	_	ref=1.28
+10	apud	apud	ADP	R-	_	11	case	_	ref=1.28
+11	Platonem	Plato	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	15	obl	_	ref=1.28
+12	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	aux:pass	_	ref=1.28
+13	in	in	ADP	R-	_	14	case	_	ref=1.28
+14	philosophos	philosophus	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	15	obl	_	ref=1.28
+15	dictum	dico	VERB	V-	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	acl	_	ref=1.28
+16	quod	quod	SCONJ	G-	_	20	mark	_	ref=1.28
+17	in	in	ADP	R-	_	19	case	_	ref=1.28
+18	veri	verum	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	ref=1.28
+19	investigatione	investigatio	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	20	obl	_	ref=1.28
+20	versentur	verso	VERB	V-	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	39	advcl	_	ref=1.28
+21	quod	quod	SCONJ	G-	_	34	mark	_	ref=1.28
+22	que	que	CCONJ	C-	_	16	cc	_	ref=1.28
+23	ea	is	PRON	Pp	Case=Acc|Gender=Neut|Number=Plur|Person=3|PronType=Prs	34	obj	_	ref=1.28
+24	quae	qui	PRON	Pr	Case=Acc|Gender=Neut|Number=Plur|PronType=Rel	27	obj	_	ref=1.28
+25	plerique	plerusque	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	27	nsubj	_	ref=1.28
+26	vehementer	vehementer	ADV	Df	Degree=Pos	27	advmod	_	ref=1.28
+27	expetant	expeto	VERB	V-	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	23	acl	_	ref=1.28
+28	de	de	ADP	R-	_	29	case	_	ref=1.28
+29	quibus	qui	PRON	Pr	Case=Abl|Gender=Neut|Number=Plur|PronType=Rel	32	obl	_	ref=1.28
+30	inter	inter	ADP	R-	_	31	case	_	ref=1.28
+31	se	se	PRON	Pk	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	32	obl	_	ref=1.28
+32	digladiari	digladior	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Pass	33	xcomp	_	ref=1.28
+33	soleant	soleo	VERB	V-	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	27	conj	_	ref=1.28
+34	contemnant	contemno	VERB	V-	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	conj	_	ref=1.28
+35	et	et	CCONJ	C-	_	34	cc	_	ref=1.28
+36	pro	pro	ADP	R-	_	37	case	_	ref=1.28
+37	nihilo	nihilum	NOUN	Nb	Case=Abl|Gender=Neut|Number=Sing	38	xcomp	_	ref=1.28
+38	putent	puto	VERB	V-	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	34	conj	_	ref=1.28
+39	propterea	propterea	ADV	Df	_	40	advmod	_	ref=1.28
+40	iustos	iustus	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	9	appos	_	ref=1.28
+41	esse	sum	AUX	V-	Tense=Pres|VerbForm=Inf|Voice=Act	40	cop	_	ref=1.28
+
+# source = De officiis, Book 1, section 28
+# text = Nam alterum assequuntur ut inferenda ne cui noceant iniuria
+# sent_id = 86129
+1	Nam	nam	ADV	Df	_	3	discourse	_	ref=1.28
+2	alterum	alter	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	3	obj	_	ref=1.28
+3	assequuntur	assequor	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	ref=1.28
+4	ut	ut	SCONJ	G-	_	8	mark	_	ref=1.28
+5	inferenda	infero	VERB	V-	Case=Abl|Gender=Fem|Number=Sing|VerbForm=Gdv	8	advcl	_	ref=1.28
+6	ne	ne	ADV	Df	Polarity=Neg	8	advmod	_	ref=1.28
+7	cui	quis	ADJ	Px	Case=Dat|Gender=Masc|Number=Sing	8	iobj	_	ref=1.28
+8	noceant	noceo	VERB	V-	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	ref=1.28
+9	iniuria	iniuria	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	5	nsubj	_	ref=1.28
+
+# source = De officiis, Book 1, section 28
+# text = in alterum incidunt
+# sent_id = 88127
+1	in	in	ADP	R-	_	2	case	_	ref=1.28
+2	alterum	alter	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	3	obl	_	ref=1.28
+3	incidunt	incido#1	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=1.28
+
+# source = De officiis, Book 1, section 28
+# text = discendi enim studio impediti quos tueri debent deserunt
+# sent_id = 86130
+1	discendi	disco	VERB	V-	Case=Gen|VerbForm=Ger	3	acl	_	ref=1.28
+2	enim	enim	ADV	Df	_	8	discourse	_	ref=1.28
+3	studio	studium	NOUN	Nb	Case=Abl|Gender=Neut|Number=Sing	4	obl	_	ref=1.28
+4	impediti	impedio	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	8	advcl	_	ref=1.28
+5	quos	qui	PRON	Pr	Case=Acc|Gender=Masc|Number=Plur|PronType=Rel	6	obj	_	ref=1.28
+6	tueri	tueor	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Pass	7	xcomp	_	ref=1.28
+7	debent	debeo	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	obj	_	ref=1.28
+8	deserunt	desero	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=1.28
+
+# source = De officiis, Book 1, section 28
+# text = Itaque eos ne ad rem publicam quidem accessuros putat nisi coactos
+# sent_id = 86131
+1	Itaque	itaque	ADV	Df	_	9	discourse	_	ref=1.28
+2	eos	is	PRON	Pp	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	ref=1.28
+3	ne	ne	ADV	Df	Polarity=Neg	8	advmod	_	ref=1.28
+4	ad	ad	ADP	R-	_	5	case	_	ref=1.28
+5	rem	res	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	ref=1.28
+6	publicam	publicus	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	ref=1.28
+7	quidem	quidem	ADV	Df	_	4	discourse	_	ref=1.28
+8	accessuros	accedo	VERB	V-	Case=Acc|Gender=Masc|Number=Plur|Tense=Fut|VerbForm=Part|Voice=Act	9	ccomp	_	ref=1.28
+9	putat	puto	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=1.28
+10	nisi	nisi	ADV	Df	_	11	advmod	_	ref=1.28
+11	coactos	cogo	VERB	V-	Aspect=Perf|Case=Acc|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	8	advcl	_	ref=1.28
+
+# source = De officiis, Book 1, section 28
+# text = Aequius autem erat id voluntate fieri
+# sent_id = 86132
+1	Aequius	aequus	ADJ	A-	Case=Nom|Degree=Cmp|Gender=Neut|Number=Sing	0	root	_	ref=1.28
+2	autem	autem	ADV	Df	_	1	discourse	_	ref=1.28
+3	erat	sum	AUX	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	cop	_	ref=1.28
+4	id	is	PRON	Pp	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj:pass	_	ref=1.28
+5	voluntate	voluntas	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	6	obl	_	ref=1.28
+6	fieri	fio	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Pass	1	ccomp	_	ref=1.28
+
+# source = De officiis, Book 1, section 28
+# text = nam hoc ipsum ita iustum est quod recte fit si est voluntarium
+# sent_id = 86133
+1	nam	nam	ADV	Df	_	5	discourse	_	ref=1.28
+2	hoc	hic	ADJ	Pd	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	ref=1.28
+3	ipsum	ipse	DET	Pd	Case=Nom|Gender=Neut|Number=Sing	2	det	_	ref=1.28
+4	ita	ita	ADV	Df	_	5	advmod	_	ref=1.28
+5	iustum	iustus	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	ref=1.28
+6	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	ref=1.28
+7	quod	quod	SCONJ	G-	_	9	mark	_	ref=1.28
+8	recte	recte	ADV	Df	Degree=Pos	9	advmod	_	ref=1.28
+9	fit	fio	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	_	ref=1.28
+10	si	si	SCONJ	G-	_	12	mark	_	ref=1.28
+11	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	cop	_	ref=1.28
+12	voluntarium	voluntarius	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	advcl	_	ref=1.28
+
+# source = De officiis, Book 1, section 29
+# text = Sunt etiam qui aut studio rei familiaris tuendae aut odio quodam hominum suum se negotium agere dicant ne c facere cuiquam videantur iniuriam
+# sent_id = 86134
+1	Sunt	sum	AUX	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=1.29
+2	etiam	etiam	ADV	Df	_	1	discourse	_	ref=1.29
+3	qui	qui	PRON	Pr	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	17	nsubj	_	ref=1.29
+4	aut	aut	CCONJ	C-	_	5	cc	_	ref=1.29
+5	studio	studium	NOUN	Nb	Case=Abl|Gender=Neut|Number=Sing	17	obl	_	ref=1.29
+6	rei	res	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	8	nsubj	_	ref=1.29
+7	familiaris	familiaris	ADJ	A-	Case=Gen|Degree=Pos|Number=Sing	6	amod	_	ref=1.29
+8	tuendae	tueor	VERB	V-	Case=Gen|Gender=Fem|Number=Sing|VerbForm=Gdv	5	acl	_	ref=1.29
+9	aut	aut	CCONJ	C-	_	5	cc	_	ref=1.29
+10	odio	odium	NOUN	Nb	Case=Abl|Gender=Neut|Number=Sing	5	conj	_	ref=1.29
+11	quodam	quidam	DET	Px	Case=Abl|Gender=Masc,Neut|Number=Sing	10	det	_	ref=1.29
+12	hominum	homo	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	ref=1.29
+13	suum	suus	ADJ	Pt	Case=Acc|Gender=Masc,Neut|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	15	nmod	_	ref=1.29
+14	se	se	PRON	Pk	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	16	nsubj	_	ref=1.29
+15	negotium	negotium	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	16	obj	_	ref=1.29
+16	agere	ago	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	17	ccomp	_	ref=1.29
+17	dicant	dico	VERB	V-	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	nsubj	_	ref=1.29
+18	ne	ne	ADV	Df	Polarity=Neg	22	advmod	_	ref=1.29
+19	c	que	CCONJ	C-	_	17	cc	_	ref=1.29
+20	facere	facio	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	22	xcomp	_	ref=1.29
+21	cuiquam	quisquam	ADJ	Px	Case=Dat|Gender=Masc|Number=Sing	20	iobj	_	ref=1.29
+22	videantur	video	VERB	V-	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	17	conj	_	ref=1.29
+23	iniuriam	iniuria	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	20	obj	_	ref=1.29
+
+# source = De officiis, Book 1, section 29
+# text = Qui altero genere iniustitiae vacant
+# sent_id = 86135
+1	Qui	qui	PRON	Pr	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	5	nsubj	_	ref=1.29
+2	altero	alter	ADJ	A-	Case=Abl|Degree=Pos|Gender=Masc,Neut|Number=Sing	3	amod	_	ref=1.29
+3	genere	genus	NOUN	Nb	Case=Abl|Gender=Neut|Number=Sing	5	iobj	_	ref=1.29
+4	iniustitiae	iniustitia	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	ref=1.29
+5	vacant	vaco	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=1.29
+
+# source = De officiis, Book 1, section 29
+# text = in alterum incurrunt
+# sent_id = 88128
+1	in	in	ADP	R-	_	2	case	_	ref=1.29
+2	alterum	alter	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	3	obl	_	ref=1.29
+3	incurrunt	incurro	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=1.29
+
+# source = De officiis, Book 1, section 29
+# text = deserunt enim vitae societatem quia nihil conferunt in eam studii nihil operae nihil facultatum
+# sent_id = 86136
+1	deserunt	desero	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=1.29
+2	enim	enim	ADV	Df	_	1	discourse	_	ref=1.29
+3	vitae	vita	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	ref=1.29
+4	societatem	societas	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	ref=1.29
+5	quia	quia	SCONJ	G-	_	7	mark	_	ref=1.29
+6	nihil	nihil	ADJ	Px	Case=Acc|Gender=Neut|Number=Sing	7	obj	_	ref=1.29
+7	conferunt	confero	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl	_	ref=1.29
+8	in	in	ADP	R-	_	9	case	_	ref=1.29
+9	eam	is	PRON	Pp	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	obl	_	ref=1.29
+10	studii	studium	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	ref=1.29
+11	nihil	nihil	ADJ	Px	Case=Acc|Gender=Neut|Number=Sing	6	conj	_	ref=1.29
+12	operae	opera	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	ref=1.29
+13	nihil	nihil	ADJ	Px	Case=Acc|Gender=Neut|Number=Sing	6	conj	_	ref=1.29
+14	facultatum	facultas	NOUN	Nb	Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	ref=1.29
+
+# source = De officiis, Book 1, section 29
+# text = Quando igitur duobus generibus iniustitiae propositis adiunximus causas utriusque generis eas que res ante constituimus quibus iustitia contineretur facile quod cuiusque temporis officium sit poterimus nisi nos met ipsos valde amabimus iudicare
+# sent_id = 86137
+1	Quando	quando	SCONJ	G-	_	7	mark	_	ref=1.29
+2	igitur	igitur	ADV	Df	_	25	discourse	_	ref=1.29
+3	duobus	duo	NUM	Ma	Case=Abl|Gender=Masc,Neut|Number=Plur	4	nummod	_	ref=1.29
+4	generibus	genus	NOUN	Nb	Case=Abl|Gender=Neut|Number=Plur	6	nsubj:pass	_	ref=1.29
+5	iniustitiae	iniustitia	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	ref=1.29
+6	propositis	propono	VERB	V-	Aspect=Perf|Case=Abl|Gender=Neut|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	7	advcl	_	ref=1.29
+7	adiunximus	adiungo	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	25	advcl	_	ref=1.29
+8	causas	causa	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	7	obj	_	ref=1.29
+9	utriusque	uterque	DET	Px	Case=Gen|Number=Sing	10	det	_	ref=1.29
+10	generis	genus	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	ref=1.29
+11	eas	is	DET	Pd	Case=Acc|Gender=Fem|Number=Plur	13	det	_	ref=1.29
+12	que	que	CCONJ	C-	_	7	cc	_	ref=1.29
+13	res	res	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	15	obj	_	ref=1.29
+14	ante	ante	ADV	Df	_	15	advmod	_	ref=1.29
+15	constituimus	constituo	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	ref=1.29
+16	quibus	qui	PRON	Pr	Case=Abl|Gender=Fem|Number=Plur|PronType=Rel	18	obl	_	ref=1.29
+17	iustitia	iustitia	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	18	nsubj:pass	_	ref=1.29
+18	contineretur	contineo	VERB	V-	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	13	acl	_	ref=1.29
+19	facile	facile	ADV	Df	Degree=Pos	32	advmod	_	ref=1.29
+20	quod	qui	PRON	Pi	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	32	ccomp	_	ref=1.29
+21	cuiusque	quisque	DET	Px	Case=Gen|Number=Sing	22	det	_	ref=1.29
+22	temporis	tempus	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	23	nmod	_	ref=1.29
+23	officium	officium	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	20	nsubj	_	ref=1.29
+24	sit	sum	AUX	V-	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	cop	_	ref=1.29
+25	poterimus	possum	VERB	V-	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	ref=1.29
+26	nisi	nisi	SCONJ	G-	_	31	mark	_	ref=1.29
+27	nos	nos	PRON	Pp	Case=Acc|Gender=Masc|Number=Plur|Person=1|PronType=Prs	31	obj	_	ref=1.29
+28	met	met	ADV	Df	_	27	advmod	_	ref=1.29
+29	ipsos	ipse	DET	Pd	Case=Acc|Gender=Masc|Number=Plur	27	det	_	ref=1.29
+30	valde	valde	ADV	Df	Degree=Pos	31	advmod	_	ref=1.29
+31	amabimus	amo	VERB	V-	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	25	advcl	_	ref=1.29
+32	iudicare	iudico	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	25	xcomp	_	ref=1.29
 
