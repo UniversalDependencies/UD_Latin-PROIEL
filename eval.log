@@ -1,10 +1,10 @@
 Running the following version of tools/evaluate_treebank.pl:
-commit 87d374bbd458d29331d76014d05c52eaac32518d
+commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Wed Apr 11 09:21:53 2018 +0200
+Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Latin-PROIEL:
-commit 5760cc8a8fdb9fe5846ea41b7dd93ebd770d0bc3
-Merge: 39321ed fd0dfff
+commit 42ac3fa77c5705af499ce359d8e708a382dbd4f2
+Merge: f1f0b2c c77db35
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 199958 of 199958 words (nodes).
 Size: min(0, log((N/1000)**2)) = 10.5962146889899.
@@ -21,7 +21,7 @@ Universal relations: 29 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Udapi: found 6948 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 199958 words.
-Genres: found 2 out of 14 known.
+Genres: found 2 out of 17 known.
 validate.py --lang la --max-err=10 UD_Latin-PROIEL/la_proiel-ud-dev.conllu
 *** PASSED ***
 validate.py --lang la --max-err=10 UD_Latin-PROIEL/la_proiel-ud-test.conllu
@@ -30,13 +30,13 @@ validate.py --lang la --max-err=10 UD_Latin-PROIEL/la_proiel-ud-train.conllu
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
-(weight=0.0769230769230769) * (score{genres}=0.142857142857143) = 0.010989010989011
+(weight=0.0769230769230769) * (score{genres}=0.117647058823529) = 0.00904977375565611
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
 (weight=0.256410256410256) * (score{size}=0.766979594748416) = 0.196661434550876
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.658823529411765) = 0.0506787330316742
 (weight=0.307692307692308) * (score{udapi}=0.652527030676442) = 0.200777547900444
 (weight=0.0769230769230769) * (score{udeprels}=0.627027027027027) = 0.0482328482328482
-(TOTAL score=0.681698549063827) * (availability=1) * (validity=1) = 0.681698549063827
+(TOTAL score=0.679759311830472) * (availability=1) * (validity=1) = 0.679759311830472
 STARS = 3.5
-UD_Latin-PROIEL	0.681698549063827	3.5
+UD_Latin-PROIEL	0.679759311830472	3.5
