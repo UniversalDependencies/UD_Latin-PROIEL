@@ -690,7 +690,7 @@
 # text = si autem faenum agri quod hodie est et cras in clibanum mittitur Deus sic vestit quanto magis vos minimae fidei
 # sent_id = 12984
 1	si	si	SCONJ	G-	_	15	mark	_	ref=MATT_6.30
-2	autem	autem	ADV	Df	_	1	discourse	_	ref=MATT_6.30
+2	autem	autem	ADV	Df	_	15	discourse	_	ref=MATT_6.30
 3	faenum	faenum	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	15	obj	_	ref=MATT_6.30
 4	agri	ager	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	ref=MATT_6.30
 5	quod	qui	PRON	Pr	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	7	nsubj	_	ref=MATT_6.30
@@ -5515,7 +5515,7 @@
 # text = si ergo videritis Filium hominis ascendentem ubi erat prius
 # sent_id = 18875
 1	si	si	SCONJ	G-	_	3	mark	_	ref=JOHN_6.63
-2	ergo	ergo	ADV	Df	_	1	discourse	_	ref=JOHN_6.63
+2	ergo	ergo	ADV	Df	_	3	discourse	_	ref=JOHN_6.63
 3	videritis	video	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	ref=JOHN_6.63
 4	Filium	filius	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	ref=JOHN_6.63
 5	hominis	homo	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	ref=JOHN_6.63
@@ -8270,7 +8270,7 @@
 # text = si autem tu Iudaeus cognominaris et requiescis in lege et gloriaris in Deo et nosti voluntatem et probas utiliora instructus per legem confidis te ipsum ducem esse caecorum lumen eorum qui in tenebris sunt eruditorem insipientium magistrum infantium habentem formam scientiae et veritatis in lege
 # sent_id = 26595
 1	si	si	SCONJ	G-	_	5	mark	_	ref=ROM_2.17
-2	autem	autem	ADV	Df	_	1	discourse	_	ref=ROM_2.17
+2	autem	autem	ADV	Df	_	5	discourse	_	ref=ROM_2.17
 3	tu	tu	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=2|PronType=Prs	5	nsubj:pass	_	ref=ROM_2.17
 4	Iudaeus	Iudaeus	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	xcomp	_	ref=ROM_2.17
 5	cognominaris	cognomino	VERB	V-	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	ref=ROM_2.17
@@ -15171,7 +15171,7 @@
 1	sin	sin	SCONJ	G-	_	2	mark	_	ref=5.18.2
 2	abes	absum	VERB	V-	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	11	advcl	_	ref=5.18.2
 3	aut	aut	CCONJ	C-	_	1	cc	_	ref=5.18.2
-4	etiam	etiam	ADV	Df	_	5	discourse	_	ref=5.18.2
+4	etiam	etiam	ADV	Df	_	6	discourse	_	ref=5.18.2
 5	si	si	SCONJ	G-	_	6	mark	_	ref=5.18.2
 6	ades	adsum	VERB	V-	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	ref=5.18.2
 7	haec	hic	DET	Pd	Case=Nom|Gender=Neut|Number=Plur	8	det	_	ref=5.18.2
@@ -18513,7 +18513,7 @@
 28	effeminate	effeminate	ADV	Df	Degree=Pos	27	conj	_	ref=1.14
 29	ve	ve	CCONJ	C-	_	27	cc	_	ref=1.14
 30	faciat	facio	VERB	V-	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	23	ccomp	_	ref=1.14
-31	tum	tum	ADV	Df	_	38	discourse	_	ref=1.14
+31	tum	tum	ADV	Df	_	42	discourse	_	ref=1.14
 32	in	in	ADP	R-	_	35	case	_	ref=1.14
 33	omnibus	omnis	DET	Px	Case=Abl|Number=Plur	35	det	_	ref=1.14
 34	et	et	CCONJ	C-	_	35	cc	_	ref=1.14

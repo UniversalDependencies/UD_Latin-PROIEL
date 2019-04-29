@@ -2570,7 +2570,7 @@
 # text = ut autem sciatis quia Filius hominis potestatem habet in terra dimittere peccata
 # sent_id = 16625
 1	ut	ut	SCONJ	G-	_	3	mark	_	ref=LUKE_5.24
-2	autem	autem	ADV	Df	_	1	discourse	_	ref=LUKE_5.24
+2	autem	autem	ADV	Df	_	3	discourse	_	ref=LUKE_5.24
 3	sciatis	scio	VERB	V-	Mood=Sub|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=LUKE_5.24
 4	quia	quia	SCONJ	G-	_	8	mark	_	ref=LUKE_5.24
 5	Filius	filius	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	ref=LUKE_5.24
@@ -13975,7 +13975,7 @@
 6	quae	qui	PRON	Pi	Case=Acc|Gender=Neut|Number=Plur|PronType=Int	7	obj	_	ref=4.5.2
 7	facerem	facio	VERB	V-	Aspect=Imp|Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	ref=4.5.2
 8	non	non	ADV	Df	Polarity=Neg	10	advmod	_	ref=4.5.2
-9	etiam	etiam	ADV	Df	_	10	discourse	_	ref=4.5.2
+9	etiam	etiam	ADV	Df	_	11	discourse	_	ref=4.5.2
 10	ut	ut	SCONJ	G-	_	11	mark	_	ref=4.5.2
 11	scriberem	scribo	VERB	V-	Aspect=Imp|Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	ref=4.5.2
 
