@@ -7384,7 +7384,7 @@
 1	quae	qui	PRON	Pr	Case=Acc|Gender=Neut|Number=Plur|PronType=Rel	3	obj	_	ref=ACTS_10.15
 2	Deus	deus	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	ref=ACTS_10.15
 3	purificavit	purifico	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	obj	_	ref=ACTS_10.15
-4	ne	ne	SCONJ	G-	_	7	advmod	_	ref=ACTS_10.15
+4	ne	ne	SCONJ	G-	_	7	mark	_	ref=ACTS_10.15
 5	tu	tu	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=2|PronType=Prs	7	nsubj	_	ref=ACTS_10.15
 6	commune	communis	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	7	xcomp	_	ref=ACTS_10.15
 7	dixeris	dico	VERB	V-	Aspect=Perf|Mood=Sub|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=ACTS_10.15

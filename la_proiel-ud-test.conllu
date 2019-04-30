@@ -12910,7 +12910,7 @@
 17	rogatio	rogatio	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	18	nsubj:pass	_	ref=1.14.5
 18	lata	fero	VERB	V-	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	22	advcl	_	ref=1.14.5
 19	esset	sum	AUX	V-	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	18	aux:pass	_	ref=1.14.5
-20	ne	ne	SCONJ	G-	_	22	advmod	_	ref=1.14.5
+20	ne	ne	SCONJ	G-	_	22	mark	_	ref=1.14.5
 21	quid	quis	ADJ	Px	Case=Nom|Gender=Neut|Number=Sing	22	nsubj:pass	_	ref=1.14.5
 22	ageretur	ago	VERB	V-	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	13	ccomp	_	ref=1.14.5
 
