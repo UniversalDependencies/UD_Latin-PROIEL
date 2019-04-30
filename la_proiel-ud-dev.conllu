@@ -9406,7 +9406,7 @@
 11	suo	suus	ADJ	Pt	Case=Abl|Gender=Masc|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	10	nmod	_	ref=REV_2.5
 12	nisi	nisi	ADV	Df	_	6	advmod	_	ref=REV_2.5
 13	paenitentiam	paenitentia	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	ref=REV_2.5
-14	egeris	ago	VERB	V-	Aspect=Perf|Mood=Sub|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	12	aux	_	ref=REV_2.5
+14	egeris	ago	AUX	V-	Aspect=Perf|Mood=Sub|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	12	aux	_	ref=REV_2.5
 
 # source = Jerome's Vulgate, Revelation 2
 # text = sed hoc habes quia odisti facta Nicolaitarum quae et ego odi
@@ -14883,7 +14883,7 @@
 19	hominis	homo	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	ref=5.16.2
 20	sed	sed	CCONJ	C-	_	19	cc	_	ref=5.16.2
 21	ferae	fera	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	19	conj	_	ref=5.16.2
-22	nescio	nescio	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	23	aux	_	ref=5.16.2
+22	nescio	nescio	AUX	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	23	aux	_	ref=5.16.2
 23	cuius	qui	PRON	Pr	Case=Gen|Number=Sing|PronType=Rel	21	det	_	ref=5.16.2
 24	immanis	immanis	ADJ	A-	Case=Gen|Degree=Pos|Number=Sing	21	amod	_	ref=5.16.2
 
@@ -15323,7 +15323,7 @@
 6	nostra	noster	ADJ	Ps	Case=Abl|Gender=Fem|Number=Sing|Person=1|Poss=Yes	7	nmod	_	ref=5.17.5
 7	provincia	provincia	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	5	nsubj	_	ref=5.17.5
 8	dixisse	dico	VERB	V-	Aspect=Perf|Tense=Past|VerbForm=Inf|Voice=Act	2	ccomp	_	ref=5.17.5
-9	nescio	nescio	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux	_	ref=5.17.5
+9	nescio	nescio	AUX	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux	_	ref=5.17.5
 10	quid	quis	ADJ	Px	Case=Acc|Gender=Neut|Number=Sing	8	obj	_	ref=5.17.5
 
 # source = Epistulae ad Atticum, Book 5, letter 17
@@ -16441,7 +16441,7 @@
 9	eos	is	PRON	Pp	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	12	obl	_	ref=2.1.2
 10	exercitus	exercitus	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	12	nsubj:pass	_	ref=2.1.2
 11	noster	noster	ADJ	Ps	Case=Nom|Gender=Masc|Number=Sing|Person=1|Poss=Yes	10	nmod	_	ref=2.1.2
-12	adduceretur	adduco	VERB	V-	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	4	aux	_	ref=2.1.2
+12	adduceretur	adduco	AUX	V-	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	4	aux	_	ref=2.1.2
 
 # source = Commentarii belli Gallici, Caes., Gall. 2.1
 # text = deinde quod ab non nullis Gallis sollicitarentur partim qui ut Germanos diutius in Gallia versari noluerant ita populi Romani exercitum hiemare atque inveterascere in Gallia moleste ferebant partim qui mobilitate et levitate animi novis imperiis studebant
