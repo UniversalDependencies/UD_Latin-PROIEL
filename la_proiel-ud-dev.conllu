@@ -12268,7 +12268,7 @@
 4	que	que	CCONJ	C-	_	1	cc	_	ref=2.18.1
 5	iam	iam	ADV	Df	_	9	advmod	_	ref=2.18.1
 6	quo	quominus	SCONJ	G-	_	8	mark	_	ref=2.18.1
-7	minus	minus	SCONJ	G-	_	8	flat	_	ref=2.18.1
+7	minus	minus	SCONJ	G-	_	6	flat	_	ref=2.18.1
 8	serviamus	servio	VERB	V-	Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	9	ccomp	_	ref=2.18.1
 9	recusamus	recuso	VERB	V-	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	ref=2.18.1
 10	sed	sed	CCONJ	C-	_	9	cc	_	ref=2.18.1
@@ -12583,7 +12583,7 @@
 6	non	non	ADV	Df	Polarity=Neg	7	advmod	_	ref=2.18.3
 7	impedit	impedio	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	ref=2.18.3
 8	quo	quominus	SCONJ	G-	_	10	mark	_	ref=2.18.3
-9	minus	minus	SCONJ	G-	_	10	flat	_	ref=2.18.3
+9	minus	minus	SCONJ	G-	_	8	flat	_	ref=2.18.3
 10	adsim	adsum	VERB	V-	Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	7	ccomp	_	ref=2.18.3
 11	quom	cum	SCONJ	G-	_	12	mark	_	ref=2.18.3
 12	velim	volo	VERB	V-	Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	10	advcl	_	ref=2.18.3|LId=1
@@ -15624,7 +15624,7 @@
 # text = postea quam agros et cultum et copias Gallorum homines feri ac barbari adamassent traductos plures
 # sent_id = 52764
 1	postea	posteaquam	SCONJ	G-	_	13	mark	_	ref=1.31.5
-2	quam	quam	SCONJ	G-	_	13	flat	_	ref=1.31.5
+2	quam	quam	SCONJ	G-	_	1	flat	_	ref=1.31.5
 3	agros	ager	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	13	obj	_	ref=1.31.5
 4	et	et	CCONJ	C-	_	3	cc	_	ref=1.31.5
 5	cultum	cultus	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	3	conj	_	ref=1.31.5
@@ -15734,7 +15734,7 @@
 46	que	que	CCONJ	C-	_	37	cc	_	ref=1.31.7
 47	recusaturos	recuso	VERB	V-	Case=Acc|Gender=Masc|Number=Plur|Tense=Fut|VerbForm=Part|Voice=Act	37	conj	_	ref=1.31.7
 48	quo	quominus	SCONJ	G-	_	53	mark	_	ref=1.31.7
-49	minus	minus	SCONJ	G-	_	53	flat	_	ref=1.31.7
+49	minus	minus	SCONJ	G-	_	48	flat	_	ref=1.31.7
 50	perpetuo	perpetuus	ADJ	A-	Case=Abl|Degree=Pos|Gender=Masc,Neut|Number=Sing	53	advmod	_	ref=1.31.7
 51	sub	sub	ADP	R-	_	53	case	_	ref=1.31.7
 52	illorum	ille	DET	Pd	Case=Gen|Gender=Masc|Number=Plur	53	det	_	ref=1.31.7
