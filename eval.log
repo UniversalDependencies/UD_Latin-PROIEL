@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Latin-PROIEL:
-commit ed53d5b7a8ccce76a1fe0bfecbdd54d234322763
-Merge: 13d8d4b bea9171
+commit 439988dc406992035d580914dfaf898f189ce0a7
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Fri May 10 21:29:12 2019 +0200
 Size: counted 200163 of 200163 words (nodes).
 Size: min(0, log((N/1000)**2)) = 10.5982640692317.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -23,12 +23,48 @@ Udapi: found 6408 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 200163 words.
 Genres: found 2 out of 17 known.
 validate.py --lang la --max-err=10 UD_Latin-PROIEL/la_proiel-ud-dev.conllu
-*** PASSED ***
+[Line 734 Sent 12906 Node 13]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'appos'.
+[Line 738 Sent 12906 Node 17]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'appos'.
+[Line 740 Sent 12906 Node 19]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'appos'.
+[Line 742 Sent 12906 Node 21]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'orphan'.
+[Line 749 Sent 12906 Node 28]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'appos'.
+[Line 751 Sent 12906 Node 30]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'orphan'.
+[Line 760 Sent 12906 Node 39]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'appos'.
+[Line 8676 Sent 26572 Node 17]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'appos'.
+[Line 9408 Sent 33507 Node 14]: [L3 Syntax leaf-aux-cop] 'aux' not expected to have children (14:egeris:aux --> 13:paenitentiam:obj)
+...suppressing further errors regarding Syntax
+Syntax errors: 16
+*** FAILED *** with 16 errors
+Exit code: 1
 validate.py --lang la --max-err=10 UD_Latin-PROIEL/la_proiel-ud-test.conllu
-*** PASSED ***
+[Line 4433 Sent 18790 Node 20]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'appos'.
+[Line 8454 Sent 26606 Node 5]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'nsubj'.
+[Line 8461 Sent 26606 Node 12]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'nsubj'.
+[Line 8463 Sent 26606 Node 14]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'nsubj'.
+[Line 8472 Sent 26608 Node 4]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'nsubj'.
+[Line 12311 Sent 76092 Node 3]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'X'
+[Line 12312 Sent 76092 Node 4]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'X'
+[Line 12367 Sent 76094 Node 11]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'X'
+[Line 12430 Sent 76095 Node 42]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'nmod'.
+...suppressing further errors regarding Syntax
+Syntax errors: 23
+*** FAILED *** with 23 errors
+Exit code: 1
 validate.py --lang la --max-err=10 UD_Latin-PROIEL/la_proiel-ud-train.conllu
-*** PASSED ***
-Validity: 1
+[Line 7424 Sent 13416 Node 11]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'appos'.
+[Line 7425 Sent 13416 Node 12]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'appos'.
+[Line 7426 Sent 13416 Node 13]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'orphan'.
+[Line 7427 Sent 13416 Node 14]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'appos'.
+[Line 7428 Sent 13416 Node 15]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'orphan'.
+[Line 7775 Sent 13443 Node 22]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'appos'.
+[Line 7776 Sent 13443 Node 23]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'appos'.
+[Line 7778 Sent 13443 Node 25]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'orphan'.
+[Line 7780 Sent 13443 Node 27]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'appos'.
+...suppressing further errors regarding Syntax
+Syntax errors: 376
+*** FAILED *** with 376 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
 (weight=0.0769230769230769) * (score{genres}=0.117647058823529) = 0.00904977375565611
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
@@ -37,6 +73,6 @@ Validity: 1
 (weight=0.0769230769230769) * (score{tags}=0.658823529411765) = 0.0506787330316742
 (weight=0.307692307692308) * (score{udapi}=0.679860913355615) = 0.209187973340189
 (weight=0.0769230769230769) * (score{udeprels}=0.648648648648649) = 0.0498960498960499
-(TOTAL score=0.68987097459711) * (availability=1) * (validity=1) = 0.68987097459711
-STARS = 3.5
-UD_Latin-PROIEL	0.68987097459711	3.5
+(TOTAL score=0.68987097459711) * (availability=1) * (validity=0.01) = 0.0068987097459711
+STARS = 0
+UD_Latin-PROIEL	0.0068987097459711	0
