@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Latin-PROIEL:
-commit 439988dc406992035d580914dfaf898f189ce0a7
+commit 5e01b13e1fa012e9f902ce7fbe99e3cb19a670e5
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri May 10 21:29:12 2019 +0200
+Date:   Tue Nov 12 17:27:37 2019 +0100
 Size: counted 200163 of 200163 words (nodes).
 Size: min(0, log((N/1000)**2)) = 10.5982640692317.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -32,9 +32,14 @@ validate.py --lang la --max-err=10 UD_Latin-PROIEL/la_proiel-ud-dev.conllu
 [Line 760 Sent 12906 Node 39]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'appos'.
 [Line 8676 Sent 26572 Node 17]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'appos'.
 [Line 9408 Sent 33507 Node 14]: [L3 Syntax leaf-aux-cop] 'aux' not expected to have children (14:egeris:aux --> 13:paenitentiam:obj)
+[Line 9409 Sent 33507 Node 14]: [L5 Morpho aux-lemma] 'ago' is not an auxiliary verb in language [la]
 ...suppressing further errors regarding Syntax
+[Line 14886 Sent 78243 Node 22]: [L5 Morpho aux-lemma] 'nescio' is not an auxiliary verb in language [la]
+[Line 15326 Sent 78269 Node 9]: [L5 Morpho aux-lemma] 'nescio' is not an auxiliary verb in language [la]
+[Line 16444 Sent 63606 Node 12]: [L5 Morpho aux-lemma] 'adduco' is not an auxiliary verb in language [la]
+Morpho errors: 4
 Syntax errors: 16
-*** FAILED *** with 16 errors
+*** FAILED *** with 20 errors
 Exit code: 1
 validate.py --lang la --max-err=10 UD_Latin-PROIEL/la_proiel-ud-test.conllu
 [Line 4433 Sent 18790 Node 20]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'appos'.
@@ -61,8 +66,12 @@ validate.py --lang la --max-err=10 UD_Latin-PROIEL/la_proiel-ud-train.conllu
 [Line 7778 Sent 13443 Node 25]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'orphan'.
 [Line 7780 Sent 13443 Node 27]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'appos'.
 ...suppressing further errors regarding Syntax
+[Line 96964 Sent 26946 Node 4]: [L5 Morpho aux-lemma] 'relinquo' is not an auxiliary verb in language [la]
+[Line 195474 Sent 78698 Node 7]: [L5 Morpho aux-lemma] 'nescio' is not an auxiliary verb in language [la]
+[Line 196285 Sent 225189 Node 8]: [L5 Morpho aux-lemma] 'eo' is not an auxiliary verb in language [la]
+Morpho errors: 3
 Syntax errors: 376
-*** FAILED *** with 376 errors
+*** FAILED *** with 379 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
