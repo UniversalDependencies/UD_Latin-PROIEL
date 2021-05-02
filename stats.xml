@@ -15,12 +15,12 @@
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="14">
-    <tag name="ADJ">20372</tag><!-- ille, hic, suus, meus, tuus, omnis, noster, magnus, multus, nihil -->
+    <tag name="ADJ">16829</tag><!-- ille, hic, omnis, magnus, multus, nihil, bonus, alius, quis, sanctus -->
     <tag name="ADP">15613</tag><!-- in, ad, ab, de, ex, cum, per, propter, super, pro -->
     <tag name="ADV">21191</tag><!-- non, autem, enim, ne, et, quam, ergo, etiam, ut, sicut -->
     <tag name="AUX">7847</tag><!-- sum, nescio, adduco, ago, eo, relinquo -->
     <tag name="CCONJ">14732</tag><!-- et, que, sed, atque, aut, vel, sive, an, ve, neu -->
-    <tag name="DET">4331</tag><!-- omnis, hic, is, ille, ipse, alius, idem, quidam, iste, nullus -->
+    <tag name="DET">7874</tag><!-- omnis, suus, meus, hic, tuus, noster, is, ille, ipse, vester -->
     <tag name="INTJ">536</tag><!-- ecce, amen, vae, o, mehercule, hercule, hercle, ave, osanna, alleluia -->
     <tag name="NOUN">40437</tag><!-- deus, homo, res, dominus, dies, filius, locus, pater, frater, spiritus -->
     <tag name="NUM">1679</tag><!-- unus, duo, mille, tres, septem, duodecim, quattuor, quinque, decem, sex -->
@@ -54,16 +54,16 @@
     <feat name="Mood" value="Sub" upos="AUX,VERB">6988</feat><!-- sit, esset, sint, velim, essent, possit, fiat, posset, possent, sis -->
     <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">42771</feat><!-- sunt, qui, quae, vobis, vos, nos, omnes, eos, illis, haec -->
     <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">91510</feat><!-- est, qui, me, eum, eius, quod, te, quid, ego, mihi -->
-    <feat name="Person" value="1" upos="ADJ,AUX,PRON,VERB">10229</feat><!-- me, ego, mihi, nos, nobis, sum, dico, mea, nostri, meum -->
-    <feat name="Person" value="2" upos="ADJ,AUX,PRON,VERB">8693</feat><!-- te, vobis, vos, tibi, tu, tua, estis, es, tuum, nolite -->
-    <feat name="Person" value="3" upos="ADJ,AUX,PRON,VERB">30514</feat><!-- est, sunt, eum, eius, se, dixit, erat, ei, eos, eis -->
+    <feat name="Person" value="1" upos="AUX,DET,PRON,VERB">10229</feat><!-- me, ego, mihi, nos, nobis, sum, dico, mea, nostri, meum -->
+    <feat name="Person" value="2" upos="AUX,DET,PRON,VERB">8693</feat><!-- te, vobis, vos, tibi, tu, tua, estis, es, tuum, nolite -->
+    <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">30514</feat><!-- est, sunt, eum, eius, se, dixit, erat, ei, eos, eis -->
     <feat name="Polarity" value="Neg" upos="ADV">3536</feat><!-- non, ne, Né -->
-    <feat name="Poss" value="Yes" upos="ADJ">3543</feat><!-- suis, suam, sua, mea, tua, meum, nostri, suum, tuum, meo -->
+    <feat name="Poss" value="Yes" upos="DET">3543</feat><!-- suis, suam, sua, mea, tua, meum, nostri, suum, tuum, meo -->
     <feat name="PronType" value="Int" upos="ADV,PRON">1744</feat><!-- quid, quis, quomodo, quae, numquid, quo, quam, nonne, ubi, unde -->
     <feat name="PronType" value="Prs" upos="PRON">11718</feat><!-- me, eum, eius, te, se, vobis, vos, ego, mihi, ei -->
     <feat name="PronType" value="Rcp" upos="PRON">6</feat><!-- alterutrum -->
     <feat name="PronType" value="Rel" upos="ADV,PRON">6722</feat><!-- qui, quae, quod, quo, ut, quem, quibus, quam, qua, sicut -->
-    <feat name="Reflex" value="Yes" upos="ADJ,PRON">2031</feat><!-- se, suis, sibi, suam, sua, suum, suo, suos, sese, sui -->
+    <feat name="Reflex" value="Yes" upos="DET,PRON">2031</feat><!-- se, suis, sibi, suam, sua, suum, suo, suos, sese, sui -->
     <feat name="Tense" value="Fut" upos="AUX,VERB">3477</feat><!-- erit, erunt, fuerit, venerit, dabo, faciam, faciet, estote, venturus, dabit -->
     <feat name="Tense" value="Past" upos="AUX,VERB">17572</feat><!-- dixit, erat, esset, erant, fuit, venit, factum, dixerunt, misit, facta -->
     <feat name="Tense" value="Pqp" upos="AUX,VERB">1368</feat><!-- fuerat, venisset, vidisset, fuisset, dixisset, fecisset, venissent, venerant, venerat, audissent -->
