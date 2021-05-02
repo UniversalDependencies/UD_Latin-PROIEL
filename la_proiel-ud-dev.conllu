@@ -16433,7 +16433,7 @@
 1	primum	primum	ADV	Df	_	3	advmod	_	ref=2.1.2
 2	quod	quod	SCONJ	G-	_	3	mark	_	ref=2.1.2
 3	vererentur	vereor	VERB	V-	Aspect=Imp|Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	ref=2.1.2
-4	ne	ne	ADV	Df	Polarity=Neg	3	ccomp	_	ref=2.1.2
+4	ne	ne	ADV	Df	Polarity=Neg	6	advmod	_	ref=2.1.2
 5	omni	omnis	DET	Px	Case=Abl|Number=Sing	7	det	_	ref=2.1.2
 6	pacata	paco	VERB	V-	Aspect=Perf|Case=Abl|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	advcl	_	ref=2.1.2
 7	Gallia	Gallia	PROPN	Ne	Case=Abl|Gender=Fem|Number=Sing	6	nsubj:pass	_	ref=2.1.2
@@ -16441,7 +16441,7 @@
 9	eos	is	PRON	Pp	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	12	obl	_	ref=2.1.2
 10	exercitus	exercitus	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	12	nsubj:pass	_	ref=2.1.2
 11	noster	noster	DET	Ps	Case=Nom|Gender=Masc|Number=Sing|Person=1|Poss=Yes	10	det	_	ref=2.1.2
-12	adduceretur	adduco	AUX	V-	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	4	aux	_	ref=2.1.2
+12	adduceretur	adduco	VERB	V-	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	3	ccomp	_	ref=2.1.2
 
 # source = Commentarii belli Gallici, Caes., Gall. 2.1
 # text = deinde quod ab non nullis Gallis sollicitarentur partim qui ut Germanos diutius in Gallia versari noluerant ita populi Romani exercitum hiemare atque inveterascere in Gallia moleste ferebant partim qui mobilitate et levitate animi novis imperiis studebant
