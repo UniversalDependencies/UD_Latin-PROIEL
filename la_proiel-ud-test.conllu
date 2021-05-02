@@ -4,7 +4,7 @@
 1	adtendite	attendo	VERB	V-	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=MATT_6.1
 2	ne	ne	SCONJ	G-	_	5	mark	_	ref=MATT_6.1
 3	iustitiam	iustitia	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	ref=MATT_6.1
-4	vestram	vester	DET	Ps	Case=Acc|Gender=Fem|Number=Sing|Person=2|Poss=Yes	3	nmod	_	ref=MATT_6.1
+4	vestram	vester	DET	Ps	Case=Acc|Gender=Fem|Number=Sing|Person=2|Poss=Yes	3	det	_	ref=MATT_6.1
 5	faciatis	facio	VERB	V-	Mood=Sub|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	_	ref=MATT_6.1
 6	coram	coram	ADP	R-	_	7	case	_	ref=MATT_6.1
 7	hominibus	homo	NOUN	Nb	Case=Abl|Gender=Masc|Number=Plur	5	obl	_	ref=MATT_6.1
@@ -22,7 +22,7 @@
 4	habebitis	habeo	VERB	V-	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	ref=MATT_6.1
 5	apud	apud	ADP	R-	_	6	case	_	ref=MATT_6.1
 6	Patrem	pater	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	4	obl	_	ref=MATT_6.1
-7	vestrum	vester	DET	Ps	Case=Acc|Gender=Masc|Number=Sing|Person=2|Poss=Yes	6	nmod	_	ref=MATT_6.1
+7	vestrum	vester	DET	Ps	Case=Acc|Gender=Masc|Number=Sing|Person=2|Poss=Yes	6	det	_	ref=MATT_6.1
 8	qui	qui	PRON	Pr	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	10	nsubj	_	ref=MATT_6.1
 9	in	in	ADP	R-	_	10	case	_	ref=MATT_6.1
 10	caelis	caelum	NOUN	Nb	Case=Abl|Gender=Neut|Number=Plur	6	appos	_	ref=MATT_6.1
@@ -65,7 +65,7 @@
 # sent_id = 62928
 1	receperunt	recipio	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=MATT_6.2
 2	mercedem	merces	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	ref=MATT_6.2
-3	suam	suus	DET	Pt	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	2	nmod	_	ref=MATT_6.2
+3	suam	suus	DET	Pt	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	2	det	_	ref=MATT_6.2
 
 # source = Jerome's Vulgate, Matthew 6
 # text = te autem faciente elemosynam nesciat sinistra tua quid faciat dextera tua ut sit elemosyna tua in abscondito et Pater tuus qui videt in abscondito reddet tibi
@@ -76,20 +76,20 @@
 4	elemosynam	elemosyna	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	ref=MATT_6.3
 5	nesciat	nescio	VERB	V-	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=MATT_6.3
 6	sinistra	sinistra	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	ref=MATT_6.3
-7	tua	tuus	DET	Ps	Case=Nom|Gender=Fem|Number=Sing|Person=2|Poss=Yes	6	nmod	_	ref=MATT_6.3
+7	tua	tuus	DET	Ps	Case=Nom|Gender=Fem|Number=Sing|Person=2|Poss=Yes	6	det	_	ref=MATT_6.3
 8	quid	quis	PRON	Pi	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	9	obj	_	ref=MATT_6.3
 9	faciat	facio	VERB	V-	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	ccomp	_	ref=MATT_6.3
 10	dextera	dext(e)ra	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	ref=MATT_6.3
-11	tua	tuus	DET	Ps	Case=Nom|Gender=Fem|Number=Sing|Person=2|Poss=Yes	10	nmod	_	ref=MATT_6.3
+11	tua	tuus	DET	Ps	Case=Nom|Gender=Fem|Number=Sing|Person=2|Poss=Yes	10	det	_	ref=MATT_6.3
 12	ut	ut	SCONJ	G-	_	17	mark	_	ref=MATT_6.4
 13	sit	sum	AUX	V-	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	cop	_	ref=MATT_6.4
 14	elemosyna	elemosyna	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	ref=MATT_6.4
-15	tua	tuus	DET	Ps	Case=Nom|Gender=Fem|Number=Sing|Person=2|Poss=Yes	14	nmod	_	ref=MATT_6.4
+15	tua	tuus	DET	Ps	Case=Nom|Gender=Fem|Number=Sing|Person=2|Poss=Yes	14	det	_	ref=MATT_6.4
 16	in	in	ADP	R-	_	17	case	_	ref=MATT_6.4
 17	abscondito	absconditus	ADJ	A-	Case=Abl|Degree=Pos|Gender=Neut|Number=Sing	5	advcl	_	ref=MATT_6.4
 18	et	et	CCONJ	C-	_	5	cc	_	ref=MATT_6.4
 19	Pater	pater	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	ref=MATT_6.4
-20	tuus	tuus	DET	Ps	Case=Nom|Gender=Masc|Number=Sing|Person=2|Poss=Yes	19	nmod	_	ref=MATT_6.4
+20	tuus	tuus	DET	Ps	Case=Nom|Gender=Masc|Number=Sing|Person=2|Poss=Yes	19	det	_	ref=MATT_6.4
 21	qui	qui	PRON	Pr	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	22	nsubj	_	ref=MATT_6.4
 22	videt	video	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	acl	_	ref=MATT_6.4
 23	in	in	ADP	R-	_	24	case	_	ref=MATT_6.4
@@ -134,7 +134,7 @@
 # sent_id = 62929
 1	receperunt	recipio	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=MATT_6.5
 2	mercedem	merces	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	ref=MATT_6.5
-3	suam	suus	DET	Pt	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	2	nmod	_	ref=MATT_6.5
+3	suam	suus	DET	Pt	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	2	det	_	ref=MATT_6.5
 
 # source = Jerome's Vulgate, Matthew 6
 # text = tu autem cum orabis intra in cubiculum tuum et cluso ostio tuo ora Patrem tuum in abscondito
@@ -146,14 +146,14 @@
 5	intra	intra	ADP	R-	_	7	case	_	ref=MATT_6.6
 6	in	in	ADP	R-	_	7	case	_	ref=MATT_6.6
 7	cubiculum	cubiculum	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	0	root	_	ref=MATT_6.6
-8	tuum	tuus	DET	Ps	Case=Acc|Gender=Neut|Number=Sing|Person=2|Poss=Yes	7	nmod	_	ref=MATT_6.6
+8	tuum	tuus	DET	Ps	Case=Acc|Gender=Neut|Number=Sing|Person=2|Poss=Yes	7	det	_	ref=MATT_6.6
 9	et	et	CCONJ	C-	_	7	cc	_	ref=MATT_6.6
 10	cluso	claudo	VERB	V-	Aspect=Perf|Case=Abl|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	13	advcl	_	ref=MATT_6.6
 11	ostio	ostium	NOUN	Nb	Case=Abl|Gender=Neut|Number=Sing	10	nsubj:pass	_	ref=MATT_6.6
-12	tuo	tuus	DET	Ps	Case=Abl|Gender=Neut|Number=Sing|Person=2|Poss=Yes	11	nmod	_	ref=MATT_6.6
+12	tuo	tuus	DET	Ps	Case=Abl|Gender=Neut|Number=Sing|Person=2|Poss=Yes	11	det	_	ref=MATT_6.6
 13	ora	oro	VERB	V-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	ref=MATT_6.6
 14	Patrem	pater	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	13	obj	_	ref=MATT_6.6
-15	tuum	tuus	DET	Ps	Case=Acc|Gender=Masc|Number=Sing|Person=2|Poss=Yes	14	nmod	_	ref=MATT_6.6
+15	tuum	tuus	DET	Ps	Case=Acc|Gender=Masc|Number=Sing|Person=2|Poss=Yes	14	det	_	ref=MATT_6.6
 16	in	in	ADP	R-	_	17	case	_	ref=MATT_6.6
 17	abscondito	absconditus	ADJ	A-	Case=Abl|Degree=Pos|Gender=Neut|Number=Sing	13	advmod	_	ref=MATT_6.6
 
@@ -162,7 +162,7 @@
 # sent_id = 12942
 1	et	et	CCONJ	C-	_	8	cc	_	ref=MATT_6.6
 2	Pater	pater	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	ref=MATT_6.6
-3	tuus	tuus	DET	Ps	Case=Nom|Gender=Masc|Number=Sing|Person=2|Poss=Yes	2	nmod	_	ref=MATT_6.6
+3	tuus	tuus	DET	Ps	Case=Nom|Gender=Masc|Number=Sing|Person=2|Poss=Yes	2	det	_	ref=MATT_6.6
 4	qui	qui	PRON	Pr	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	5	nsubj	_	ref=MATT_6.6
 5	videt	video	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl	_	ref=MATT_6.6
 6	in	in	ADP	R-	_	7	case	_	ref=MATT_6.6
@@ -189,7 +189,7 @@
 3	quia	quia	SCONJ	G-	_	7	mark	_	ref=MATT_6.7
 4	in	in	ADP	R-	_	5	case	_	ref=MATT_6.7
 5	multiloquio	multiloquium	NOUN	Nb	Case=Abl|Gender=Neut|Number=Sing	7	obl	_	ref=MATT_6.7
-6	suo	suus	DET	Pt	Case=Abl|Gender=Masc,Neut|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	5	nmod	_	ref=MATT_6.7
+6	suo	suus	DET	Pt	Case=Abl|Gender=Masc,Neut|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	5	det	_	ref=MATT_6.7
 7	exaudiantur	exaudio	VERB	V-	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	1	ccomp	_	ref=MATT_6.7
 
 # source = Jerome's Vulgate, Matthew 6
@@ -206,7 +206,7 @@
 1	scit	scio	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=MATT_6.8
 2	enim	enim	ADV	Df	_	1	discourse	_	ref=MATT_6.8
 3	Pater	pater	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	ref=MATT_6.8
-4	vester	vester	DET	Ps	Case=Nom|Gender=Masc|Number=Sing|Person=2|Poss=Yes	3	nmod	_	ref=MATT_6.8
+4	vester	vester	DET	Ps	Case=Nom|Gender=Masc|Number=Sing|Person=2|Poss=Yes	3	det	_	ref=MATT_6.8
 5	quibus	qui	PRON	Pr	Case=Abl|Gender=Neut|Number=Plur|PronType=Rel	6	nmod	_	ref=MATT_6.8
 6	opus	opus	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	ref=MATT_6.8
 7	sit	sum	AUX	V-	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	_	ref=MATT_6.8
@@ -227,28 +227,28 @@
 # text = Pater noster qui in caelis es sanctificetur nomen tuum
 # sent_id = 12947
 1	Pater	pater	NOUN	Nb	Case=Voc|Gender=Masc|Number=Sing	7	vocative	_	ref=MATT_6.9
-2	noster	noster	DET	Ps	Case=Nom|Gender=Masc|Number=Sing|Person=1|Poss=Yes	1	nmod	_	ref=MATT_6.9
+2	noster	noster	DET	Ps	Case=Nom|Gender=Masc|Number=Sing|Person=1|Poss=Yes	1	det	_	ref=MATT_6.9
 3	qui	qui	PRON	Pr	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	5	nsubj	_	ref=MATT_6.9
 4	in	in	ADP	R-	_	5	case	_	ref=MATT_6.9
 5	caelis	caelum	NOUN	Nb	Case=Abl|Gender=Neut|Number=Plur	1	appos	_	ref=MATT_6.9
 6	es	sum	AUX	V-	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	ref=MATT_6.9
 7	sanctificetur	sanctifico	VERB	V-	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	ref=MATT_6.9
 8	nomen	nomen	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	7	nsubj:pass	_	ref=MATT_6.9
-9	tuum	tuus	DET	Ps	Case=Nom|Gender=Neut|Number=Sing|Person=2|Poss=Yes	8	nmod	_	ref=MATT_6.9
+9	tuum	tuus	DET	Ps	Case=Nom|Gender=Neut|Number=Sing|Person=2|Poss=Yes	8	det	_	ref=MATT_6.9
 
 # source = Jerome's Vulgate, Matthew 6
 # text = veniat regnum tuum
 # sent_id = 47496
 1	veniat	venio	VERB	V-	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=MATT_6.10
 2	regnum	regnum	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	1	nsubj	_	ref=MATT_6.10
-3	tuum	tuus	DET	Ps	Case=Nom|Gender=Neut|Number=Sing|Person=2|Poss=Yes	2	nmod	_	ref=MATT_6.10
+3	tuum	tuus	DET	Ps	Case=Nom|Gender=Neut|Number=Sing|Person=2|Poss=Yes	2	det	_	ref=MATT_6.10
 
 # source = Jerome's Vulgate, Matthew 6
 # text = fiat voluntas tua sicut in caelo et in terra
 # sent_id = 47497
 1	fiat	fio	VERB	V-	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=MATT_6.10
 2	voluntas	voluntas	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	ref=MATT_6.10
-3	tua	tuus	DET	Ps	Case=Nom|Gender=Fem|Number=Sing|Person=2|Poss=Yes	2	nmod	_	ref=MATT_6.10
+3	tua	tuus	DET	Ps	Case=Nom|Gender=Fem|Number=Sing|Person=2|Poss=Yes	2	det	_	ref=MATT_6.10
 4	sicut	sicut	ADV	Df	_	1	advmod	_	ref=MATT_6.10
 5	in	in	ADP	R-	_	6	case	_	ref=MATT_6.10
 6	caelo	caelum	NOUN	Nb	Case=Abl|Gender=Neut|Number=Sing	4	obl	_	ref=MATT_6.10
@@ -260,7 +260,7 @@
 # text = panem nostrum supersubstantialem da nobis hodie et dimitte nobis debita nostra sicut et nos dimisimus debitoribus nostris
 # sent_id = 12949
 1	panem	panis	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	ref=MATT_6.11
-2	nostrum	noster	DET	Ps	Case=Acc|Gender=Masc|Number=Sing|Person=1|Poss=Yes	1	nmod	_	ref=MATT_6.11
+2	nostrum	noster	DET	Ps	Case=Acc|Gender=Masc|Number=Sing|Person=1|Poss=Yes	1	det	_	ref=MATT_6.11
 3	supersubstantialem	supersubstantialis	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem,Masc|Number=Sing	1	amod	_	ref=MATT_6.11
 4	da	do	VERB	V-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=MATT_6.11
 5	nobis	nos	PRON	Pp	Case=Dat|Gender=Masc|Number=Plur|Person=1|PronType=Prs	4	iobj	_	ref=MATT_6.11
@@ -269,13 +269,13 @@
 8	dimitte	dimitto	VERB	V-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	ref=MATT_6.12
 9	nobis	nos	PRON	Pp	Case=Dat|Gender=Masc|Number=Plur|Person=1|PronType=Prs	8	iobj	_	ref=MATT_6.12
 10	debita	debitum	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	8	obj	_	ref=MATT_6.12
-11	nostra	noster	DET	Ps	Case=Acc|Gender=Neut|Number=Plur|Person=1|Poss=Yes	10	nmod	_	ref=MATT_6.12
+11	nostra	noster	DET	Ps	Case=Acc|Gender=Neut|Number=Plur|Person=1|Poss=Yes	10	det	_	ref=MATT_6.12
 12	sicut	sicut	ADV	Dq	PronType=Rel	15	advmod	_	ref=MATT_6.12
 13	et	et	ADV	Df	_	14	discourse	_	ref=MATT_6.12
 14	nos	nos	PRON	Pp	Case=Nom|Gender=Masc|Number=Plur|Person=1|PronType=Prs	15	nsubj	_	ref=MATT_6.12
 15	dimisimus	dimitto	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	8	advcl	_	ref=MATT_6.12
 16	debitoribus	debitor	NOUN	Nb	Case=Dat|Gender=Masc|Number=Plur	15	iobj	_	ref=MATT_6.12
-17	nostris	noster	DET	Ps	Case=Dat|Gender=Masc|Number=Plur|Person=1|Poss=Yes	16	nmod	_	ref=MATT_6.12
+17	nostris	noster	DET	Ps	Case=Dat|Gender=Masc|Number=Plur|Person=1|Poss=Yes	16	det	_	ref=MATT_6.12
 
 # source = Jerome's Vulgate, Matthew 6
 # text = et ne inducas nos in temptationem sed libera nos a malo
@@ -305,10 +305,10 @@
 8	et	et	ADV	Df	_	10	discourse	_	ref=MATT_6.14
 9	vobis	vos	PRON	Pp	Case=Dat|Gender=Masc|Number=Plur|Person=2|PronType=Prs	7	iobj	_	ref=MATT_6.14
 10	Pater	pater	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	ref=MATT_6.14
-11	vester	vester	DET	Ps	Case=Nom|Gender=Masc|Number=Sing|Person=2|Poss=Yes	10	nmod	_	ref=MATT_6.14
+11	vester	vester	DET	Ps	Case=Nom|Gender=Masc|Number=Sing|Person=2|Poss=Yes	10	det	_	ref=MATT_6.14
 12	caelestis	caelestis	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	ref=MATT_6.14
 13	delicta	delictum	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	7	obj	_	ref=MATT_6.14
-14	vestra	vester	DET	Ps	Case=Acc|Gender=Neut|Number=Plur|Person=2|Poss=Yes	13	nmod	_	ref=MATT_6.14
+14	vestra	vester	DET	Ps	Case=Acc|Gender=Neut|Number=Plur|Person=2|Poss=Yes	13	det	_	ref=MATT_6.14
 
 # source = Jerome's Vulgate, Matthew 6
 # text = si autem non dimiseritis hominibus nec Pater vester dimittet peccata vestra
@@ -320,10 +320,10 @@
 5	hominibus	homo	NOUN	Nb	Case=Dat|Gender=Masc|Number=Plur	4	iobj	_	ref=MATT_6.15
 6	nec	neque	ADV	Df	_	7	advmod	_	ref=MATT_6.15
 7	Pater	pater	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	ref=MATT_6.15
-8	vester	vester	DET	Ps	Case=Nom|Gender=Masc|Number=Sing|Person=2|Poss=Yes	7	nmod	_	ref=MATT_6.15
+8	vester	vester	DET	Ps	Case=Nom|Gender=Masc|Number=Sing|Person=2|Poss=Yes	7	det	_	ref=MATT_6.15
 9	dimittet	dimitto	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	ref=MATT_6.15
 10	peccata	peccatum	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	9	obj	_	ref=MATT_6.15
-11	vestra	vester	DET	Ps	Case=Acc|Gender=Neut|Number=Plur|Person=2|Poss=Yes	10	nmod	_	ref=MATT_6.15
+11	vestra	vester	DET	Ps	Case=Acc|Gender=Neut|Number=Plur|Person=2|Poss=Yes	10	det	_	ref=MATT_6.15
 
 # source = Jerome's Vulgate, Matthew 6
 # text = cum autem ieiunatis nolite fieri sicut hypocritae tristes
@@ -343,7 +343,7 @@
 1	demoliuntur	demolior	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	ref=MATT_6.16
 2	enim	enim	ADV	Df	_	1	discourse	_	ref=MATT_6.16
 3	facies	facies	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	1	obj	_	ref=MATT_6.16
-4	suas	suus	DET	Pt	Case=Acc|Gender=Fem|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	3	nmod	_	ref=MATT_6.16
+4	suas	suus	DET	Pt	Case=Acc|Gender=Fem|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	3	det	_	ref=MATT_6.16
 5	ut	ut	SCONJ	G-	_	6	mark	_	ref=MATT_6.16
 6	pareant	pareo	VERB	V-	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl	_	ref=MATT_6.16
 7	hominibus	homo	NOUN	Nb	Case=Dat|Gender=Masc|Number=Plur	6	iobj	_	ref=MATT_6.16
@@ -358,7 +358,7 @@
 4	quia	quia	SCONJ	G-	_	5	mark	_	ref=MATT_6.16
 5	receperunt	recipio	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	_	ref=MATT_6.16
 6	mercedem	merces	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	ref=MATT_6.16
-7	suam	suus	DET	Pt	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	6	nmod	_	ref=MATT_6.16
+7	suam	suus	DET	Pt	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	6	det	_	ref=MATT_6.16
 
 # source = Jerome's Vulgate, Matthew 6
 # text = tu autem cum ieiunas ungue caput tuum et faciem tuam lava ne videaris hominibus ieiunans sed Patri tuo qui est in abscondito
@@ -369,10 +369,10 @@
 4	ieiunas	ieiuno	VERB	V-	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	5	advcl	_	ref=MATT_6.17
 5	ungue	ung(u)o	VERB	V-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=MATT_6.17
 6	caput	caput	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	5	obj	_	ref=MATT_6.17
-7	tuum	tuus	DET	Ps	Case=Acc|Gender=Masc|Number=Sing|Person=2|Poss=Yes	6	nmod	_	ref=MATT_6.17
+7	tuum	tuus	DET	Ps	Case=Acc|Gender=Masc|Number=Sing|Person=2|Poss=Yes	6	det	_	ref=MATT_6.17
 8	et	et	CCONJ	C-	_	5	cc	_	ref=MATT_6.17
 9	faciem	facies	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	ref=MATT_6.17
-10	tuam	tuus	DET	Ps	Case=Acc|Gender=Fem|Number=Sing|Person=2|Poss=Yes	9	nmod	_	ref=MATT_6.17
+10	tuam	tuus	DET	Ps	Case=Acc|Gender=Fem|Number=Sing|Person=2|Poss=Yes	9	det	_	ref=MATT_6.17
 11	lava	lavo	VERB	V-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	ref=MATT_6.17
 12	ne	ne	SCONJ	G-	_	13	mark	_	ref=MATT_6.18
 13	videaris	video	VERB	V-	Mood=Sub|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Pass	11	advcl	_	ref=MATT_6.18
@@ -380,7 +380,7 @@
 15	ieiunans	ieiuno	VERB	V-	Case=Nom|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	13	xcomp	_	ref=MATT_6.18
 16	sed	sed	CCONJ	C-	_	13	cc	_	ref=MATT_6.18
 17	Patri	pater	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	13	conj	_	ref=MATT_6.18
-18	tuo	tuus	DET	Ps	Case=Dat|Gender=Neut|Number=Sing|Person=2|Poss=Yes	17	nmod	_	ref=MATT_6.18
+18	tuo	tuus	DET	Ps	Case=Dat|Gender=Neut|Number=Sing|Person=2|Poss=Yes	17	det	_	ref=MATT_6.18
 19	qui	qui	PRON	Pr	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	22	nsubj	_	ref=MATT_6.18
 20	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	22	cop	_	ref=MATT_6.18
 21	in	in	ADP	R-	_	22	case	_	ref=MATT_6.18
@@ -391,7 +391,7 @@
 # sent_id = 12959
 1	et	et	CCONJ	C-	_	8	cc	_	ref=MATT_6.18
 2	Pater	pater	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	ref=MATT_6.18
-3	tuus	tuus	DET	Ps	Case=Nom|Gender=Masc|Number=Sing|Person=2|Poss=Yes	2	nmod	_	ref=MATT_6.18
+3	tuus	tuus	DET	Ps	Case=Nom|Gender=Masc|Number=Sing|Person=2|Poss=Yes	2	det	_	ref=MATT_6.18
 4	qui	qui	PRON	Pr	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	5	nsubj	_	ref=MATT_6.18
 5	videt	video	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl	_	ref=MATT_6.18
 6	in	in	ADP	R-	_	7	case	_	ref=MATT_6.18
@@ -452,12 +452,12 @@
 2	enim	enim	ADV	Df	_	6	discourse	_	ref=MATT_6.21
 3	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	ref=MATT_6.21
 4	thesaurus	thesaurus	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	ref=MATT_6.21
-5	tuus	tuus	DET	Ps	Case=Nom|Gender=Masc|Number=Sing|Person=2|Poss=Yes	4	nmod	_	ref=MATT_6.21
+5	tuus	tuus	DET	Ps	Case=Nom|Gender=Masc|Number=Sing|Person=2|Poss=Yes	4	det	_	ref=MATT_6.21
 6	ibi	ibi	ADV	Df	_	0	root	_	ref=MATT_6.21
 7	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	ref=MATT_6.21
 8	et	et	ADV	Df	_	9	discourse	_	ref=MATT_6.21
 9	cor	cor	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	ref=MATT_6.21
-10	tuum	tuus	DET	Ps	Case=Nom|Gender=Masc|Number=Sing|Person=2|Poss=Yes	9	nmod	_	ref=MATT_6.21
+10	tuum	tuus	DET	Ps	Case=Nom|Gender=Masc|Number=Sing|Person=2|Poss=Yes	9	det	_	ref=MATT_6.21
 
 # source = Jerome's Vulgate, Matthew 6
 # text = lucerna corporis est oculus
@@ -473,11 +473,11 @@
 1	si	si	SCONJ	G-	_	5	mark	_	ref=MATT_6.22
 2	fuerit	sum	AUX	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	5	cop	_	ref=MATT_6.22
 3	oculus	oculus	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	ref=MATT_6.22
-4	tuus	tuus	DET	Ps	Case=Nom|Gender=Masc|Number=Sing|Person=2|Poss=Yes	3	nmod	_	ref=MATT_6.22
+4	tuus	tuus	DET	Ps	Case=Nom|Gender=Masc|Number=Sing|Person=2|Poss=Yes	3	det	_	ref=MATT_6.22
 5	simplex	simplex	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	advcl	_	ref=MATT_6.22
 6	totum	totus	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	ref=MATT_6.22
 7	corpus	corpus	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	ref=MATT_6.22
-8	tuum	tuus	DET	Ps	Case=Nom|Gender=Neut|Number=Sing|Person=2|Poss=Yes	7	nmod	_	ref=MATT_6.22
+8	tuum	tuus	DET	Ps	Case=Nom|Gender=Neut|Number=Sing|Person=2|Poss=Yes	7	det	_	ref=MATT_6.22
 9	lucidum	lucidus	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	ref=MATT_6.22
 10	erit	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	9	cop	_	ref=MATT_6.22
 
@@ -487,12 +487,12 @@
 1	si	si	SCONJ	G-	_	5	mark	_	ref=MATT_6.23
 2	autem	autem	ADV	Df	_	10	discourse	_	ref=MATT_6.23
 3	oculus	oculus	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	ref=MATT_6.23
-4	tuus	tuus	DET	Ps	Case=Nom|Gender=Masc|Number=Sing|Person=2|Poss=Yes	3	nmod	_	ref=MATT_6.23
+4	tuus	tuus	DET	Ps	Case=Nom|Gender=Masc|Number=Sing|Person=2|Poss=Yes	3	det	_	ref=MATT_6.23
 5	nequam	nequam	ADJ	A-	_	10	advcl	_	ref=MATT_6.23
 6	fuerit	sum	AUX	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	5	cop	_	ref=MATT_6.23
 7	totum	totus	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	ref=MATT_6.23
 8	corpus	corpus	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	ref=MATT_6.23
-9	tuum	tuus	DET	Ps	Case=Nom|Gender=Neut|Number=Sing|Person=2|Poss=Yes	8	nmod	_	ref=MATT_6.23
+9	tuum	tuus	DET	Ps	Case=Nom|Gender=Neut|Number=Sing|Person=2|Poss=Yes	8	det	_	ref=MATT_6.23
 10	tenebrosum	tenebrosus	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	ref=MATT_6.23
 11	erit	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	10	cop	_	ref=MATT_6.23
 
@@ -559,13 +559,13 @@
 5	solliciti	sollicitus	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	2	ccomp	_	ref=MATT_6.25
 6	sitis	sum	AUX	V-	Mood=Sub|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	ref=MATT_6.25
 7	animae	anima	NOUN	Nb	Case=Dat|Gender=Fem|Number=Sing	5	obl	_	ref=MATT_6.25
-8	vestrae	vester	DET	Ps	Case=Dat|Gender=Fem|Number=Sing|Person=2|Poss=Yes	7	nmod	_	ref=MATT_6.25
+8	vestrae	vester	DET	Ps	Case=Dat|Gender=Fem|Number=Sing|Person=2|Poss=Yes	7	det	_	ref=MATT_6.25
 9	quid	quis	PRON	Pi	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	10	obj	_	ref=MATT_6.25
 10	manducetis	manduco	VERB	V-	Mood=Sub|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	5	ccomp	_	ref=MATT_6.25
 11	ne	ne	ADV	Df	Polarity=Neg	13	advmod	_	ref=MATT_6.25
 12	que	que	CCONJ	C-	_	5	cc	_	ref=MATT_6.25
 13	corpori	corpus	NOUN	Nb	Case=Dat|Gender=Neut|Number=Sing	5	conj	_	ref=MATT_6.25
-14	vestro	vester	DET	Ps	Case=Dat|Gender=Neut|Number=Sing|Person=2|Poss=Yes	13	nmod	_	ref=MATT_6.25
+14	vestro	vester	DET	Ps	Case=Dat|Gender=Neut|Number=Sing|Person=2|Poss=Yes	13	det	_	ref=MATT_6.25
 15	quid	quis	PRON	Pi	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	16	obj	_	ref=MATT_6.25
 16	induamini	induo	VERB	V-	Mood=Sub|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Pass	13	orphan	_	ref=MATT_6.25
 
@@ -608,7 +608,7 @@
 # sent_id = 12977
 1	et	et	CCONJ	C-	_	5	cc	_	ref=MATT_6.26
 2	Pater	pater	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	ref=MATT_6.26
-3	vester	vester	DET	Ps	Case=Nom|Gender=Masc|Number=Sing|Person=2|Poss=Yes	2	nmod	_	ref=MATT_6.26
+3	vester	vester	DET	Ps	Case=Nom|Gender=Masc|Number=Sing|Person=2|Poss=Yes	2	det	_	ref=MATT_6.26
 4	caelestis	caelestis	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem,Masc|Number=Sing	2	amod	_	ref=MATT_6.26
 5	pascit	pasco	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=MATT_6.26
 6	illa	ille	ADJ	Pd	Case=Acc|Gender=Neut|Number=Plur	5	obj	_	ref=MATT_6.26
@@ -634,7 +634,7 @@
 6	adicere	adicio	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	5	xcomp	_	ref=MATT_6.27
 7	ad	ad	ADP	R-	_	8	case	_	ref=MATT_6.27
 8	staturam	statura	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	ref=MATT_6.27
-9	suam	suus	DET	Pt	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	8	nmod	_	ref=MATT_6.27
+9	suam	suus	DET	Pt	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	8	det	_	ref=MATT_6.27
 10	cubitum	cubitum	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	ref=MATT_6.27
 11	unum	unus	NUM	Ma	Case=Acc|Gender=Neut|Number=Sing	10	nummod	_	ref=MATT_6.27
 
@@ -678,7 +678,7 @@
 7	in	in	ADP	R-	_	9	case	_	ref=MATT_6.29
 8	omni	omnis	DET	Px	Case=Abl|Gender=Fem|Number=Sing	9	det	_	ref=MATT_6.29
 9	gloria	gloria	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	11	obl	_	ref=MATT_6.29
-10	sua	suus	DET	Pt	Case=Abl|Gender=Fem|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	9	nmod	_	ref=MATT_6.29
+10	sua	suus	DET	Pt	Case=Abl|Gender=Fem|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	9	det	_	ref=MATT_6.29
 11	coopertus	cooperio	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	1	ccomp	_	ref=MATT_6.29
 12	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux:pass	_	ref=MATT_6.29
 13	sicut	sicut	ADV	Df	_	11	advcl	_	ref=MATT_6.29
@@ -746,7 +746,7 @@
 1	scit	scio	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=MATT_6.32
 2	enim	enim	ADV	Df	_	1	discourse	_	ref=MATT_6.32
 3	Pater	pater	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	ref=MATT_6.32
-4	vester	vester	DET	Ps	Case=Nom|Gender=Masc|Number=Sing|Person=2|Poss=Yes	3	nmod	_	ref=MATT_6.32
+4	vester	vester	DET	Ps	Case=Nom|Gender=Masc|Number=Sing|Person=2|Poss=Yes	3	det	_	ref=MATT_6.32
 5	quia	quia	SCONJ	G-	_	8	mark	_	ref=MATT_6.32
 6	his	hic	ADJ	Pd	Case=Abl|Gender=Neut|Number=Plur	8	iobj	_	ref=MATT_6.32
 7	omnibus	omnis	DET	Px	Case=Abl|Gender=Masc,Neut|Number=Plur	6	det	_	ref=MATT_6.32
@@ -799,7 +799,7 @@
 1	sufficit	sufficio	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=MATT_6.34
 2	diei	dies	NOUN	Nb	Case=Dat|Gender=Fem|Number=Sing	1	iobj	_	ref=MATT_6.34
 3	malitia	malitia	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	ref=MATT_6.34
-4	sua	suus	DET	Pt	Case=Nom|Gender=Fem|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	3	nmod	_	ref=MATT_6.34
+4	sua	suus	DET	Pt	Case=Nom|Gender=Fem|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	3	det	_	ref=MATT_6.34
 
 # source = Jerome's Vulgate, Mark 6
 # text = et egressus inde abiit in patriam suam
@@ -810,7 +810,7 @@
 4	abiit	abeo	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=MARK_6.1
 5	in	in	ADP	R-	_	6	case	_	ref=MARK_6.1
 6	patriam	patria	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	ref=MARK_6.1
-7	suam	suus	DET	Pt	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	6	nmod	_	ref=MARK_6.1
+7	suam	suus	DET	Pt	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	6	det	_	ref=MARK_6.1
 
 # source = Jerome's Vulgate, Mark 6
 # text = et sequebantur illum discipuli sui
@@ -819,7 +819,7 @@
 2	sequebantur	sequor	VERB	V-	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	ref=MARK_6.1
 3	illum	ille	ADJ	Pd	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	ref=MARK_6.1
 4	discipuli	discipulus	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	ref=MARK_6.1
-5	sui	suus	DET	Pt	Case=Nom|Gender=Masc|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	4	nmod	_	ref=MARK_6.1
+5	sui	suus	DET	Pt	Case=Nom|Gender=Masc|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	4	det	_	ref=MARK_6.1
 
 # source = Jerome's Vulgate, Mark 6
 # text = et facto sabbato coepit in synagoga docere
@@ -930,15 +930,15 @@
 6	nisi	nisi	ADV	Df	_	5	advmod	_	ref=MARK_6.4
 7	in	in	ADP	R-	_	8	case	_	ref=MARK_6.4
 8	patria	patria	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	6	obl	_	ref=MARK_6.4
-9	sua	suus	DET	Pt	Case=Abl|Gender=Fem|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	8	nmod	_	ref=MARK_6.4
+9	sua	suus	DET	Pt	Case=Abl|Gender=Fem|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	8	det	_	ref=MARK_6.4
 10	et	et	CCONJ	C-	_	8	cc	_	ref=MARK_6.4
 11	in	in	ADP	R-	_	12	case	_	ref=MARK_6.4
 12	cognatione	cognatio	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	8	conj	_	ref=MARK_6.4
-13	sua	suus	DET	Pt	Case=Abl|Gender=Fem|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	12	nmod	_	ref=MARK_6.4
+13	sua	suus	DET	Pt	Case=Abl|Gender=Fem|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	12	det	_	ref=MARK_6.4
 14	et	et	CCONJ	C-	_	8	cc	_	ref=MARK_6.4
 15	in	in	ADP	R-	_	16	case	_	ref=MARK_6.4
 16	domo	domus	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	8	conj	_	ref=MARK_6.4
-17	sua	suus	DET	Pt	Case=Abl|Gender=Fem|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	16	nmod	_	ref=MARK_6.4
+17	sua	suus	DET	Pt	Case=Abl|Gender=Fem|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	16	det	_	ref=MARK_6.4
 
 # source = Jerome's Vulgate, Mark 6
 # text = et non poterat ibi virtutem ullam facere nisi paucos infirmos inpositis manibus curavit
@@ -1064,7 +1064,7 @@
 13	pulverem	pulvis	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	12	obj	_	ref=MARK_6.11
 14	de	de	ADP	R-	_	15	case	_	ref=MARK_6.11
 15	pedibus	pes	NOUN	Nb	Case=Abl|Gender=Masc|Number=Plur	12	obl	_	ref=MARK_6.11
-16	vestris	vester	DET	Ps	Case=Abl|Gender=Masc|Number=Plur|Person=2|Poss=Yes	15	nmod	_	ref=MARK_6.11
+16	vestris	vester	DET	Ps	Case=Abl|Gender=Masc|Number=Plur|Person=2|Poss=Yes	15	det	_	ref=MARK_6.11
 17	in	in	ADP	R-	_	18	case	_	ref=MARK_6.11
 18	testimonium	testimonium	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	12	obl	_	ref=MARK_6.11
 19	illis	ille	ADJ	Pd	Case=Dat|Gender=Masc|Number=Plur	18	nmod	_	ref=MARK_6.11
@@ -1223,7 +1223,7 @@
 4	habere	habeo	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	2	xcomp	_	ref=MARK_6.18
 5	uxorem	uxor	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	ref=MARK_6.18
 6	fratris	frater	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	ref=MARK_6.18
-7	tui	tuus	DET	Ps	Case=Gen|Gender=Masc|Number=Sing|Person=2|Poss=Yes	6	nmod	_	ref=MARK_6.18
+7	tui	tuus	DET	Ps	Case=Gen|Gender=Masc|Number=Sing|Person=2|Poss=Yes	6	det	_	ref=MARK_6.18
 
 # source = Jerome's Vulgate, Mark 6
 # text = Herodias autem insidiabatur illi
@@ -1284,7 +1284,7 @@
 5	accidisset	accido	VERB	V-	Mood=Sub|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin|Voice=Act	10	advcl	_	ref=MARK_6.21
 6	Herodes	Herodes	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	ref=MARK_6.21
 7	natalis	natalis	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	ref=MARK_6.21
-8	sui	suus	DET	Pt	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	7	nmod	_	ref=MARK_6.21
+8	sui	suus	DET	Pt	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	7	det	_	ref=MARK_6.21
 9	cenam	cena	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	ref=MARK_6.21
 10	fecit	facio	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=MARK_6.21
 11	principibus	princeps	NOUN	Nb	Case=Dat|Gender=Masc|Number=Plur	10	iobj	_	ref=MARK_6.21
@@ -1355,7 +1355,7 @@
 3	exisset	exeo	VERB	V-	Mood=Sub|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin|Voice=Act	4	advcl	_	ref=MARK_6.24
 4	dixit	dico	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=MARK_6.24
 5	matri	mater	NOUN	Nb	Case=Dat|Gender=Fem|Number=Sing	4	iobj	_	ref=MARK_6.24
-6	suae	suus	DET	Pt	Case=Dat|Gender=Fem|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	5	nmod	_	ref=MARK_6.24
+6	suae	suus	DET	Pt	Case=Dat|Gender=Fem|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	5	det	_	ref=MARK_6.24
 
 # source = Jerome's Vulgate, Mark 6
 # text = quid petam
@@ -1461,7 +1461,7 @@
 6	puella	puella	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	ref=MARK_6.28
 7	dedit	do	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	ref=MARK_6.28
 8	matri	mater	NOUN	Nb	Case=Dat|Gender=Fem|Number=Sing	7	iobj	_	ref=MARK_6.28
-9	suae	suus	DET	Pt	Case=Dat|Gender=Fem|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	8	nmod	_	ref=MARK_6.28
+9	suae	suus	DET	Pt	Case=Dat|Gender=Fem|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	8	det	_	ref=MARK_6.28
 
 # source = Jerome's Vulgate, Mark 6
 # text = quo audito discipuli eius venerunt et tulerunt corpus eius
@@ -1775,7 +1775,7 @@
 15	et	et	CCONJ	C-	_	11	cc	_	ref=MARK_6.41
 16	dedit	do	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	11	conj	_	ref=MARK_6.41
 17	discipulis	discipulus	NOUN	Nb	Case=Dat|Gender=Masc|Number=Plur	16	iobj	_	ref=MARK_6.41
-18	suis	suus	DET	Pt	Case=Dat|Gender=Masc|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	17	nmod	_	ref=MARK_6.41
+18	suis	suus	DET	Pt	Case=Dat|Gender=Masc|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	17	det	_	ref=MARK_6.41
 19	ut	ut	SCONJ	G-	_	20	mark	_	ref=MARK_6.41
 20	ponerent	pono	VERB	V-	Aspect=Imp|Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	16	advcl	_	ref=MARK_6.41
 21	ante	ante	ADP	R-	_	22	case	_	ref=MARK_6.41
@@ -1832,7 +1832,7 @@
 2	statim	statim	ADV	Df	_	3	advmod	_	ref=MARK_6.45
 3	coegit	cogo	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=MARK_6.45
 4	discipulos	discipulus	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	3	obj	_	ref=MARK_6.45
-5	suos	suus	DET	Pt	Case=Acc|Gender=Masc|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	4	nmod	_	ref=MARK_6.45
+5	suos	suus	DET	Pt	Case=Acc|Gender=Masc|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	4	det	_	ref=MARK_6.45
 6	ascendere	ascendo	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	3	xcomp	_	ref=MARK_6.45
 7	navem	navis	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	ref=MARK_6.45
 8	ut	ut	SCONJ	G-	_	9	mark	_	ref=MARK_6.45
@@ -2333,7 +2333,7 @@
 # sent_id = 16677
 1	extende	extendo	VERB	V-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=LUKE_6.10
 2	manum	manus	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	ref=LUKE_6.10
-3	tuam	tuus	DET	Ps	Case=Acc|Gender=Fem|Number=Sing|Person=2|Poss=Yes	2	nmod	_	ref=LUKE_6.10
+3	tuam	tuus	DET	Ps	Case=Acc|Gender=Fem|Number=Sing|Person=2|Poss=Yes	2	det	_	ref=LUKE_6.10
 
 # source = Jerome's Vulgate, Luke 6
 # text = et extendit
@@ -2396,7 +2396,7 @@
 5	esset	sum	AUX	V-	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	aux:pass	_	ref=LUKE_6.13
 6	vocavit	voco	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=LUKE_6.13
 7	discipulos	discipulus	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	6	obj	_	ref=LUKE_6.13
-8	suos	suus	DET	Pt	Case=Acc|Gender=Masc|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	7	nmod	_	ref=LUKE_6.13
+8	suos	suus	DET	Pt	Case=Acc|Gender=Masc|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	7	det	_	ref=LUKE_6.13
 
 # source = Jerome's Vulgate, Luke 6
 # text = et elegit duodecim ex ipsis quos et apostolos nominavit Simonem quem cognominavit Petrum et Andream fratrem eius Iacobum et Iohannem Philippum et Bartholomeum Mattheum et Thomam Iacobum Alphei et Simonem qui vocatur Zelotes Iudam Iacobi et Iudam Scarioth qui fuit proditor
@@ -2485,7 +2485,7 @@
 25	sanarentur	sano	VERB	V-	Aspect=Imp|Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	22	conj	_	ref=LUKE_6.18
 26	a	ab	ADP	R-	_	27	case	_	ref=LUKE_6.18
 27	languoribus	languor	NOUN	Nb	Case=Abl|Gender=Masc|Number=Plur	25	obl	_	ref=LUKE_6.18
-28	suis	suus	DET	Pt	Case=Abl|Gender=Masc|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	27	nmod	_	ref=LUKE_6.18
+28	suis	suus	DET	Pt	Case=Abl|Gender=Masc|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	27	det	_	ref=LUKE_6.18
 
 # source = Jerome's Vulgate, Luke 6
 # text = et qui vexabantur ab spiritibus inmundis curabantur
@@ -2525,7 +2525,7 @@
 4	oculis	oculus	NOUN	Nb	Case=Abl|Gender=Masc|Number=Plur	3	nsubj:pass	_	ref=LUKE_6.20
 5	in	in	ADP	R-	_	6	case	_	ref=LUKE_6.20
 6	discipulos	discipulus	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	3	obl	_	ref=LUKE_6.20
-7	suos	suus	DET	Pt	Case=Acc|Gender=Masc|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	6	nmod	_	ref=LUKE_6.20
+7	suos	suus	DET	Pt	Case=Acc|Gender=Masc|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	6	det	_	ref=LUKE_6.20
 8	dicebat	dico	VERB	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=LUKE_6.20
 
 # source = Jerome's Vulgate, Luke 6
@@ -2577,7 +2577,7 @@
 13	et	et	CCONJ	C-	_	9	cc	_	ref=LUKE_6.22
 14	eiecerint	eicio	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	9	conj	_	ref=LUKE_6.22
 15	nomen	nomen	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	14	obj	_	ref=LUKE_6.22
-16	vestrum	vester	DET	Ps	Case=Acc|Gender=Neut|Number=Sing|Person=2|Poss=Yes	15	nmod	_	ref=LUKE_6.22
+16	vestrum	vester	DET	Ps	Case=Acc|Gender=Neut|Number=Sing|Person=2|Poss=Yes	15	det	_	ref=LUKE_6.22
 17	tamquam	tamquam	ADV	Df	_	14	advmod	_	ref=LUKE_6.22
 18	malum	malus	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	17	obj	_	ref=LUKE_6.22
 19	propter	propter	ADP	R-	_	20	case	_	ref=LUKE_6.22
@@ -2600,7 +2600,7 @@
 1	ecce	ecce	INTJ	I-	_	5	vocative	_	ref=LUKE_6.23
 2	enim	enim	ADV	Df	_	5	discourse	_	ref=LUKE_6.23
 3	merces	merces	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	ref=LUKE_6.23
-4	vestra	vester	DET	Ps	Case=Nom|Gender=Fem|Number=Sing|Person=2|Poss=Yes	3	nmod	_	ref=LUKE_6.23
+4	vestra	vester	DET	Ps	Case=Nom|Gender=Fem|Number=Sing|Person=2|Poss=Yes	3	det	_	ref=LUKE_6.23
 5	multa	multus	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	ref=LUKE_6.23
 6	in	in	ADP	R-	_	7	case	_	ref=LUKE_6.23
 7	caelo	caelum	NOUN	Nb	Case=Abl|Gender=Neut|Number=Sing	5	obl	_	ref=LUKE_6.23
@@ -2626,7 +2626,7 @@
 5	quia	quia	SCONJ	G-	_	6	mark	_	ref=LUKE_6.24
 6	habetis	habeo	VERB	V-	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	ref=LUKE_6.24
 7	consolationem	consolatio	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	ref=LUKE_6.24
-8	vestram	vester	DET	Ps	Case=Acc|Gender=Fem|Number=Sing|Person=2|Poss=Yes	7	nmod	_	ref=LUKE_6.24
+8	vestram	vester	DET	Ps	Case=Acc|Gender=Fem|Number=Sing|Person=2|Poss=Yes	7	det	_	ref=LUKE_6.24
 
 # source = Jerome's Vulgate, Luke 6
 # text = vae vobis qui saturati estis quia esurietis
@@ -2687,7 +2687,7 @@
 # sent_id = 48098
 1	diligite	diligo	VERB	V-	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=LUKE_6.27
 2	inimicos	inimicus	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	1	obj	_	ref=LUKE_6.27
-3	vestros	vester	DET	Ps	Case=Acc|Gender=Masc|Number=Plur|Person=2|Poss=Yes	2	nmod	_	ref=LUKE_6.27
+3	vestros	vester	DET	Ps	Case=Acc|Gender=Masc|Number=Plur|Person=2|Poss=Yes	2	det	_	ref=LUKE_6.27
 
 # source = Jerome's Vulgate, Luke 6
 # text = benefacite his qui vos oderunt
@@ -2854,7 +2854,7 @@
 1	verumtamen	verumtamen	ADV	Df	_	2	advmod	_	ref=LUKE_6.35
 2	diligite	diligo	VERB	V-	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=LUKE_6.35
 3	inimicos	inimicus	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	ref=LUKE_6.35
-4	vestros	vester	DET	Ps	Case=Acc|Gender=Masc|Number=Plur|Person=2|Poss=Yes	3	nmod	_	ref=LUKE_6.35
+4	vestros	vester	DET	Ps	Case=Acc|Gender=Masc|Number=Plur|Person=2|Poss=Yes	3	det	_	ref=LUKE_6.35
 5	et	et	CCONJ	C-	_	2	cc	_	ref=LUKE_6.35
 6	benefacite	benefacio	VERB	V-	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	ref=LUKE_6.35
 7	et	et	CCONJ	C-	_	2	cc	_	ref=LUKE_6.35
@@ -2869,7 +2869,7 @@
 1	et	et	CCONJ	C-	_	5	cc	_	ref=LUKE_6.35
 2	erit	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	5	cop	_	ref=LUKE_6.35
 3	merces	merces	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	ref=LUKE_6.35
-4	vestra	vester	DET	Ps	Case=Nom|Gender=Fem|Number=Sing|Person=2|Poss=Yes	3	nmod	_	ref=LUKE_6.35
+4	vestra	vester	DET	Ps	Case=Nom|Gender=Fem|Number=Sing|Person=2|Poss=Yes	3	det	_	ref=LUKE_6.35
 5	multa	multus	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	ref=LUKE_6.35
 6	et	et	CCONJ	C-	_	5	cc	_	ref=LUKE_6.35
 7	eritis	sum	AUX	V-	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	8	cop	_	ref=LUKE_6.35
@@ -2893,7 +2893,7 @@
 4	sicut	sicut	ADV	Dq	PronType=Rel	8	advmod	_	ref=LUKE_6.36
 5	et	et	ADV	Df	_	6	discourse	_	ref=LUKE_6.36
 6	Pater	pater	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	ref=LUKE_6.36
-7	vester	vester	DET	Ps	Case=Nom|Gender=Masc|Number=Sing|Person=2|Poss=Yes	6	nmod	_	ref=LUKE_6.36
+7	vester	vester	DET	Ps	Case=Nom|Gender=Masc|Number=Sing|Person=2|Poss=Yes	6	det	_	ref=LUKE_6.36
 8	misericors	misericors	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	advcl	_	ref=LUKE_6.36
 9	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	_	ref=LUKE_6.36
 
@@ -2943,7 +2943,7 @@
 8	dabunt	do	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	ref=LUKE_6.38
 9	in	in	ADP	R-	_	10	case	_	ref=LUKE_6.38
 10	sinum	sinus	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	8	obl	_	ref=LUKE_6.38
-11	vestrum	vester	DET	Ps	Case=Acc|Gender=Masc|Number=Sing|Person=2|Poss=Yes	10	nmod	_	ref=LUKE_6.38
+11	vestrum	vester	DET	Ps	Case=Acc|Gender=Masc|Number=Sing|Person=2|Poss=Yes	10	det	_	ref=LUKE_6.38
 
 # source = Jerome's Vulgate, Luke 6
 # text = eadem quippe mensura qua mensi fueritis remetietur vobis
@@ -3014,7 +3014,7 @@
 5	in	in	ADP	R-	_	6	case	_	ref=LUKE_6.41
 6	oculo	oculus	NOUN	Nb	Case=Abl|Gender=Masc|Number=Sing	4	nmod	_	ref=LUKE_6.41
 7	fratris	frater	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	ref=LUKE_6.41
-8	tui	tuus	DET	Ps	Case=Gen|Gender=Masc|Number=Sing|Person=2|Poss=Yes	7	nmod	_	ref=LUKE_6.41
+8	tui	tuus	DET	Ps	Case=Gen|Gender=Masc|Number=Sing|Person=2|Poss=Yes	7	det	_	ref=LUKE_6.41
 
 # source = Jerome's Vulgate, Luke 6
 # text = trabem autem quae in oculo tuo est non consideras
@@ -3024,7 +3024,7 @@
 3	quae	qui	PRON	Pr	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	5	nsubj	_	ref=LUKE_6.41
 4	in	in	ADP	R-	_	5	case	_	ref=LUKE_6.41
 5	oculo	oculus	NOUN	Nb	Case=Abl|Gender=Masc|Number=Sing	1	nmod	_	ref=LUKE_6.41
-6	tuo	tuus	DET	Ps	Case=Abl|Gender=Masc,Neut|Number=Sing|Person=2|Poss=Yes	5	nmod	_	ref=LUKE_6.41
+6	tuo	tuus	DET	Ps	Case=Abl|Gender=Masc,Neut|Number=Sing|Person=2|Poss=Yes	5	det	_	ref=LUKE_6.41
 7	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	ref=LUKE_6.41
 8	non	non	ADV	Df	Polarity=Neg	9	advmod	_	ref=LUKE_6.41
 9	consideras	considero	VERB	V-	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=LUKE_6.41
@@ -3037,18 +3037,18 @@
 3	potes	possum	VERB	V-	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=LUKE_6.42
 4	dicere	dico	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	3	xcomp	_	ref=LUKE_6.42
 5	fratri	frater	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	4	iobj	_	ref=LUKE_6.42
-6	tuo	tuus	DET	Ps	Case=Dat|Gender=Masc|Number=Sing|Person=2|Poss=Yes	5	nmod	_	ref=LUKE_6.42
+6	tuo	tuus	DET	Ps	Case=Dat|Gender=Masc|Number=Sing|Person=2|Poss=Yes	5	det	_	ref=LUKE_6.42
 7	frater	frater	NOUN	Nb	Case=Voc|Gender=Masc|Number=Sing	3	vocative	_	ref=LUKE_6.42
 8	sine	sino	VERB	V-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	_	ref=LUKE_6.42
 9	eiciam	eicio	VERB	V-	Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	_	ref=LUKE_6.42
 10	festucam	festuca	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	ref=LUKE_6.42
 11	de	de	ADP	R-	_	12	case	_	ref=LUKE_6.42
 12	oculo	oculus	NOUN	Nb	Case=Abl|Gender=Masc|Number=Sing	9	obl	_	ref=LUKE_6.42
-13	tuo	tuus	DET	Ps	Case=Abl|Gender=Masc|Number=Sing|Person=2|Poss=Yes	12	nmod	_	ref=LUKE_6.42
+13	tuo	tuus	DET	Ps	Case=Abl|Gender=Masc|Number=Sing|Person=2|Poss=Yes	12	det	_	ref=LUKE_6.42
 14	ipse	ipse	ADJ	Pd	Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	ref=LUKE_6.42
 15	in	in	ADP	R-	_	16	case	_	ref=LUKE_6.42
 16	oculo	oculus	NOUN	Nb	Case=Abl|Gender=Masc|Number=Sing	18	nmod	_	ref=LUKE_6.42
-17	tuo	tuus	DET	Ps	Case=Abl|Gender=Masc|Number=Sing|Person=2|Poss=Yes	16	nmod	_	ref=LUKE_6.42
+17	tuo	tuus	DET	Ps	Case=Abl|Gender=Masc|Number=Sing|Person=2|Poss=Yes	16	det	_	ref=LUKE_6.42
 18	trabem	trabs	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	20	obj	_	ref=LUKE_6.42
 19	non	non	ADV	Df	Polarity=Neg	20	advmod	_	ref=LUKE_6.42
 20	videns	video	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	3	advcl	_	ref=LUKE_6.42
@@ -3062,7 +3062,7 @@
 4	trabem	trabs	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	ref=LUKE_6.42
 5	de	de	ADP	R-	_	6	case	_	ref=LUKE_6.42
 6	oculo	oculus	NOUN	Nb	Case=Abl|Gender=Masc|Number=Sing	2	obl	_	ref=LUKE_6.42
-7	tuo	tuus	DET	Ps	Case=Abl|Gender=Neut|Number=Sing|Person=2|Poss=Yes	6	nmod	_	ref=LUKE_6.42
+7	tuo	tuus	DET	Ps	Case=Abl|Gender=Neut|Number=Sing|Person=2|Poss=Yes	6	det	_	ref=LUKE_6.42
 8	et	et	CCONJ	C-	_	2	cc	_	ref=LUKE_6.42
 9	tunc	tunc	ADV	Df	_	10	advmod	_	ref=LUKE_6.42
 10	perspicies	perspicio	VERB	V-	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	2	conj	_	ref=LUKE_6.42
@@ -3072,7 +3072,7 @@
 14	de	de	ADP	R-	_	15	case	_	ref=LUKE_6.42
 15	oculo	oculus	NOUN	Nb	Case=Abl|Gender=Masc|Number=Sing	12	obl	_	ref=LUKE_6.42
 16	fratris	frater	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	ref=LUKE_6.42
-17	tui	tuus	DET	Ps	Case=Gen|Gender=Masc|Number=Sing|Person=2|Poss=Yes	16	nmod	_	ref=LUKE_6.42
+17	tui	tuus	DET	Ps	Case=Gen|Gender=Masc|Number=Sing|Person=2|Poss=Yes	16	det	_	ref=LUKE_6.42
 
 # source = Jerome's Vulgate, Luke 6
 # text = non est enim arbor bona quae facit fructus malos ne que arbor mala faciens fructum bonum
@@ -3102,7 +3102,7 @@
 3	arbor	arbor	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	7	nsubj:pass	_	ref=LUKE_6.44
 4	de	de	ADP	R-	_	5	case	_	ref=LUKE_6.44
 5	fructu	fructus	NOUN	Nb	Case=Abl|Gender=Masc|Number=Sing	7	obl	_	ref=LUKE_6.44
-6	suo	suus	DET	Pt	Case=Abl|Gender=Masc|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	5	nmod	_	ref=LUKE_6.44
+6	suo	suus	DET	Pt	Case=Abl|Gender=Masc|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	5	det	_	ref=LUKE_6.44
 7	cognoscitur	cognosco	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	ref=LUKE_6.44
 
 # source = Jerome's Vulgate, Luke 6
@@ -3135,7 +3135,7 @@
 4	bono	bonus	ADJ	A-	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	ref=LUKE_6.45
 5	thesauro	thesaurus	NOUN	Nb	Case=Abl|Gender=Masc|Number=Sing	8	obl	_	ref=LUKE_6.45
 6	cordis	cor	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	ref=LUKE_6.45
-7	sui	suus	DET	Pt	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	6	nmod	_	ref=LUKE_6.45
+7	sui	suus	DET	Pt	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	6	det	_	ref=LUKE_6.45
 8	profert	profero	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=LUKE_6.45
 9	bonum	bonus	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	8	obj	_	ref=LUKE_6.45
 
@@ -3186,7 +3186,7 @@
 6	et	et	CCONJ	C-	_	3	cc	_	ref=LUKE_6.47
 7	audit	audio	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	ref=LUKE_6.47
 8	sermones	sermo	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	7	obj	_	ref=LUKE_6.47
-9	meos	meus	DET	Ps	Case=Acc|Gender=Masc|Number=Plur|Person=1|Poss=Yes	8	nmod	_	ref=LUKE_6.47
+9	meos	meus	DET	Ps	Case=Acc|Gender=Masc|Number=Plur|Person=1|Poss=Yes	8	det	_	ref=LUKE_6.47
 10	et	et	CCONJ	C-	_	3	cc	_	ref=LUKE_6.47
 11	facit	facio	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	ref=LUKE_6.47
 12	eos	is	PRON	Pp	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	11	obj	_	ref=LUKE_6.47
@@ -3254,7 +3254,7 @@
 9	homini	homo	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	7	iobj	_	ref=LUKE_6.49
 10	aedificanti	aedifico	VERB	V-	Case=Dat|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	9	acl	_	ref=LUKE_6.49
 11	domum	domus	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	ref=LUKE_6.49
-12	suam	suus	DET	Pt	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	11	nmod	_	ref=LUKE_6.49
+12	suam	suus	DET	Pt	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	11	det	_	ref=LUKE_6.49
 13	supra	supra	ADP	R-	_	14	case	_	ref=LUKE_6.49
 14	terram	terra	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	10	obl	_	ref=LUKE_6.49
 15	sine	sine	ADP	R-	_	16	case	_	ref=LUKE_6.49
@@ -3291,7 +3291,7 @@
 3	et	et	CCONJ	C-	_	1	cc	_	ref=LUKE_16.1
 4	ad	ad	ADP	R-	_	5	case	_	ref=LUKE_16.1
 5	discipulos	discipulus	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	1	obl	_	ref=LUKE_16.1
-6	suos	suus	DET	Pt	Case=Acc|Gender=Masc|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	5	nmod	_	ref=LUKE_16.1
+6	suos	suus	DET	Pt	Case=Acc|Gender=Masc|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	5	det	_	ref=LUKE_16.1
 
 # source = Jerome's Vulgate, Luke 16
 # text = homo quidam erat dives qui habebat vilicum
@@ -3343,7 +3343,7 @@
 1	redde	reddo	VERB	V-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=LUKE_16.2
 2	rationem	ratio	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	ref=LUKE_16.2
 3	vilicationis	vilicatio	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	ref=LUKE_16.2
-4	tuae	tuus	DET	Ps	Case=Gen|Gender=Fem|Number=Sing|Person=2|Poss=Yes	3	nmod	_	ref=LUKE_16.2
+4	tuae	tuus	DET	Ps	Case=Gen|Gender=Fem|Number=Sing|Person=2|Poss=Yes	3	det	_	ref=LUKE_16.2
 
 # source = Jerome's Vulgate, Luke 16
 # text = iam enim non poteris vilicare
@@ -3370,7 +3370,7 @@
 2	faciam	facio	VERB	V-	Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=LUKE_16.3
 3	quia	quia	SCONJ	G-	_	6	mark	_	ref=LUKE_16.3
 4	dominus	dominus	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	ref=LUKE_16.3
-5	meus	meus	DET	Ps	Case=Nom|Gender=Masc|Number=Sing|Person=1|Poss=Yes	4	nmod	_	ref=LUKE_16.3
+5	meus	meus	DET	Ps	Case=Nom|Gender=Masc|Number=Sing|Person=1|Poss=Yes	4	det	_	ref=LUKE_16.3
 6	aufert	aufero	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	ref=LUKE_16.3
 7	a	ab	ADP	R-	_	8	case	_	ref=LUKE_16.3
 8	me	ego	PRON	Pp	Case=Abl|Gender=Masc|Number=Sing|Person=1|PronType=Prs	6	obl	_	ref=LUKE_16.3
@@ -3405,7 +3405,7 @@
 11	me	ego	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=1|PronType=Prs	10	obj	_	ref=LUKE_16.4
 12	in	in	ADP	R-	_	13	case	_	ref=LUKE_16.4
 13	domos	domus	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	10	obl	_	ref=LUKE_16.4
-14	suas	suus	DET	Pt	Case=Acc|Gender=Fem|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	13	nmod	_	ref=LUKE_16.4
+14	suas	suus	DET	Pt	Case=Acc|Gender=Fem|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	13	det	_	ref=LUKE_16.4
 
 # source = Jerome's Vulgate, Luke 16
 # text = convocatis itaque singulis debitoribus domini sui dicebat primo
@@ -3415,7 +3415,7 @@
 3	singulis	singulus	ADJ	A-	Case=Abl|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	ref=LUKE_16.5
 4	debitoribus	debitor	NOUN	Nb	Case=Abl|Gender=Masc|Number=Plur	1	nsubj:pass	_	ref=LUKE_16.5
 5	domini	dominus	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	ref=LUKE_16.5
-6	sui	suus	DET	Pt	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	5	nmod	_	ref=LUKE_16.5
+6	sui	suus	DET	Pt	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	5	det	_	ref=LUKE_16.5
 7	dicebat	dico	VERB	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=LUKE_16.5
 8	primo	primus	ADJ	Mo	Case=Dat|Gender=Masc|Number=Sing	7	iobj	_	ref=LUKE_16.5
 
@@ -3425,7 +3425,7 @@
 1	quantum	quantum	ADV	Du	PronType=Int	2	obj	_	ref=LUKE_16.5
 2	debes	debeo	VERB	V-	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=LUKE_16.5
 3	domino	dominus	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	2	iobj	_	ref=LUKE_16.5
-4	meo	meus	DET	Ps	Case=Dat|Gender=Masc|Number=Sing|Person=1|Poss=Yes	3	nmod	_	ref=LUKE_16.5
+4	meo	meus	DET	Ps	Case=Dat|Gender=Masc|Number=Sing|Person=1|Poss=Yes	3	det	_	ref=LUKE_16.5
 
 # source = Jerome's Vulgate, Luke 16
 # text = at ille dixit
@@ -3453,7 +3453,7 @@
 # sent_id = 17616
 1	accipe	accipio	VERB	V-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=LUKE_16.6
 2	cautionem	cautio	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	ref=LUKE_16.6
-3	tuam	tuus	DET	Ps	Case=Acc|Gender=Fem|Number=Sing|Person=2|Poss=Yes	2	nmod	_	ref=LUKE_16.6
+3	tuam	tuus	DET	Ps	Case=Acc|Gender=Fem|Number=Sing|Person=2|Poss=Yes	2	det	_	ref=LUKE_16.6
 
 # source = Jerome's Vulgate, Luke 16
 # text = et sede cito
@@ -3507,7 +3507,7 @@
 # sent_id = 17623
 1	accipe	accipio	VERB	V-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=LUKE_16.7
 2	litteras	littera	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	1	obj	_	ref=LUKE_16.7
-3	tuas	tuus	DET	Ps	Case=Acc|Gender=Fem|Number=Plur|Person=2|Poss=Yes	2	nmod	_	ref=LUKE_16.7
+3	tuas	tuus	DET	Ps	Case=Acc|Gender=Fem|Number=Plur|Person=2|Poss=Yes	2	det	_	ref=LUKE_16.7
 4	et	et	CCONJ	C-	_	1	cc	_	ref=LUKE_16.7
 5	scribe	scribo	VERB	V-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	ref=LUKE_16.7
 6	octoginta	octoginta	NUM	Ma	_	5	obj	_	ref=LUKE_16.7
@@ -3536,7 +3536,7 @@
 7	lucis	lux	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	ref=LUKE_16.8
 8	in	in	ADP	R-	_	9	case	_	ref=LUKE_16.8
 9	generatione	generatio	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	5	obl	_	ref=LUKE_16.8
-10	sua	suus	DET	Pt	Case=Abl|Gender=Fem|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	9	nmod	_	ref=LUKE_16.8
+10	sua	suus	DET	Pt	Case=Abl|Gender=Fem|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	9	det	_	ref=LUKE_16.8
 11	sunt	sum	AUX	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	ref=LUKE_16.8
 
 # source = Jerome's Vulgate, Luke 16
@@ -3710,7 +3710,7 @@
 2	autem	autem	ADV	Df	_	3	discourse	_	ref=LUKE_16.15
 3	novit	nosco	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=LUKE_16.15
 4	corda	cor	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	3	obj	_	ref=LUKE_16.15
-5	vestra	vester	DET	Ps	Case=Acc|Gender=Neut|Number=Plur|Person=2|Poss=Yes	4	nmod	_	ref=LUKE_16.15
+5	vestra	vester	DET	Ps	Case=Acc|Gender=Neut|Number=Plur|Person=2|Poss=Yes	4	det	_	ref=LUKE_16.15
 
 # source = Jerome's Vulgate, Luke 16
 # text = quia quod hominibus altum est abominatio est ante Deum
@@ -3774,7 +3774,7 @@
 2	qui	qui	PRON	Pr	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	3	nsubj	_	ref=LUKE_16.18
 3	dimittit	dimitto	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	acl	_	ref=LUKE_16.18
 4	uxorem	uxor	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	ref=LUKE_16.18
-5	suam	suus	DET	Pt	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	4	nmod	_	ref=LUKE_16.18
+5	suam	suus	DET	Pt	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	4	det	_	ref=LUKE_16.18
 6	et	et	CCONJ	C-	_	3	cc	_	ref=LUKE_16.18
 7	ducit	duco	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	ref=LUKE_16.18
 8	alteram	alter	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	obj	_	ref=LUKE_16.18
@@ -3882,7 +3882,7 @@
 # sent_id = 17653
 1	elevans	elevo	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	8	advcl	_	ref=LUKE_16.23
 2	oculos	oculus	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	1	obj	_	ref=LUKE_16.23
-3	suos	suus	DET	Pt	Case=Acc|Gender=Masc|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	2	nmod	_	ref=LUKE_16.23
+3	suos	suus	DET	Pt	Case=Acc|Gender=Masc|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	2	det	_	ref=LUKE_16.23
 4	cum	cum	SCONJ	G-	_	7	mark	_	ref=LUKE_16.23
 5	esset	sum	AUX	V-	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	cop	_	ref=LUKE_16.23
 6	in	in	ADP	R-	_	7	case	_	ref=LUKE_16.23
@@ -3919,13 +3919,13 @@
 9	intinguat	intinguo	VERB	V-	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	_	ref=LUKE_16.24
 10	extremum	extremum	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	9	obj	_	ref=LUKE_16.24
 11	digiti	digitus	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	ref=LUKE_16.24
-12	sui	suus	DET	Pt	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	11	nmod	_	ref=LUKE_16.24
+12	sui	suus	DET	Pt	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	11	det	_	ref=LUKE_16.24
 13	in	in	ADP	R-	_	14	case	_	ref=LUKE_16.24
 14	aqua	aqua	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	9	obl	_	ref=LUKE_16.24
 15	ut	ut	SCONJ	G-	_	16	mark	_	ref=LUKE_16.24
 16	refrigeret	refrigero	VERB	V-	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	advcl	_	ref=LUKE_16.24
 17	linguam	lingua	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	16	obj	_	ref=LUKE_16.24
-18	meam	meus	DET	Ps	Case=Acc|Gender=Fem|Number=Sing|Person=1|Poss=Yes	17	nmod	_	ref=LUKE_16.24
+18	meam	meus	DET	Ps	Case=Acc|Gender=Fem|Number=Sing|Person=1|Poss=Yes	17	det	_	ref=LUKE_16.24
 19	quia	quia	SCONJ	G-	_	20	mark	_	ref=LUKE_16.24
 20	crucior	crucio	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	6	advcl	_	ref=LUKE_16.24
 21	in	in	ADP	R-	_	23	case	_	ref=LUKE_16.24
@@ -3950,7 +3950,7 @@
 5	bona	bonus	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	4	obj	_	ref=LUKE_16.25
 6	in	in	ADP	R-	_	7	case	_	ref=LUKE_16.25
 7	vita	vita	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	4	obl	_	ref=LUKE_16.25
-8	tua	tuus	DET	Ps	Case=Abl|Gender=Fem|Number=Sing|Person=2|Poss=Yes	7	nmod	_	ref=LUKE_16.25
+8	tua	tuus	DET	Ps	Case=Abl|Gender=Fem|Number=Sing|Person=2|Poss=Yes	7	det	_	ref=LUKE_16.25
 9	et	et	CCONJ	C-	_	4	cc	_	ref=LUKE_16.25
 10	Lazarus	Lazarus	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	4	conj	_	ref=LUKE_16.25
 11	similiter	similiter	ADV	Df	Degree=Pos	10	orphan	_	ref=LUKE_16.25
@@ -4021,7 +4021,7 @@
 8	in	in	ADP	R-	_	9	case	_	ref=LUKE_16.27
 9	domum	domus	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	ref=LUKE_16.27
 10	patris	pater	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	ref=LUKE_16.27
-11	mei	meus	DET	Ps	Case=Gen|Gender=Masc|Number=Sing|Person=1|Poss=Yes	10	nmod	_	ref=LUKE_16.27
+11	mei	meus	DET	Ps	Case=Gen|Gender=Masc|Number=Sing|Person=1|Poss=Yes	10	det	_	ref=LUKE_16.27
 12	habeo	habeo	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	parataxis	_	ref=LUKE_16.28
 13	enim	enim	ADV	Df	_	12	discourse	_	ref=LUKE_16.28
 14	quinque	quinque	NUM	Ma	_	15	nummod	_	ref=LUKE_16.28
@@ -4157,7 +4157,7 @@
 8	sedebat	sedeo	VERB	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	ref=JOHN_6.3
 9	cum	cum	ADP	R-	_	10	case	_	ref=JOHN_6.3
 10	discipulis	discipulus	NOUN	Nb	Case=Abl|Gender=Masc|Number=Plur	8	obl	_	ref=JOHN_6.3
-11	suis	suus	DET	Pt	Case=Abl|Gender=Masc|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	10	nmod	_	ref=JOHN_6.3
+11	suis	suus	DET	Pt	Case=Abl|Gender=Masc|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	10	det	_	ref=JOHN_6.3
 
 # source = Jerome's Vulgate, John 6
 # text = erat autem proximum pascha dies festus Iudaeorum
@@ -4349,7 +4349,7 @@
 4	sunt	sum	AUX	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux:pass	_	ref=JOHN_6.12
 5	dixit	dico	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=JOHN_6.12
 6	discipulis	discipulus	NOUN	Nb	Case=Dat|Gender=Masc|Number=Plur	5	iobj	_	ref=JOHN_6.12
-7	suis	suus	DET	Pt	Case=Dat|Gender=Masc|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	6	nmod	_	ref=JOHN_6.12
+7	suis	suus	DET	Pt	Case=Dat|Gender=Masc|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	6	det	_	ref=JOHN_6.12
 
 # source = Jerome's Vulgate, John 6
 # text = colligite quae superaverunt fragmenta ne pereant
@@ -4571,7 +4571,7 @@
 20	introisset	introeo	VERB	V-	Mood=Sub|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin|Voice=Act	14	conj	_	ref=JOHN_6.22
 21	cum	cum	ADP	R-	_	22	case	_	ref=JOHN_6.22
 22	discipulis	discipulus	NOUN	Nb	Case=Abl|Gender=Masc|Number=Plur	20	obl	_	ref=JOHN_6.22
-23	suis	suus	DET	Pt	Case=Abl|Gender=Masc|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	22	nmod	_	ref=JOHN_6.22
+23	suis	suus	DET	Pt	Case=Abl|Gender=Masc|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	22	det	_	ref=JOHN_6.22
 24	Iesus	Iesus	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	ref=JOHN_6.22
 25	in	in	ADP	R-	_	26	case	_	ref=JOHN_6.22
 26	navem	navis	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	20	obl	_	ref=JOHN_6.22
@@ -4780,7 +4780,7 @@
 # text = patres nostri manna manducaverunt in deserto sicut scriptum est
 # sent_id = 18816
 1	patres	pater	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	ref=JOHN_6.31
-2	nostri	noster	DET	Ps	Case=Nom|Gender=Masc|Number=Plur|Person=1|Poss=Yes	1	nmod	_	ref=JOHN_6.31
+2	nostri	noster	DET	Ps	Case=Nom|Gender=Masc|Number=Plur|Person=1|Poss=Yes	1	det	_	ref=JOHN_6.31
 3	manna	manna	NOUN	Nb	_	4	obj	_	ref=JOHN_6.31
 4	manducaverunt	manduco	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=JOHN_6.31
 5	in	in	ADP	R-	_	6	case	_	ref=JOHN_6.31
@@ -4827,7 +4827,7 @@
 7	caelo	caelum	NOUN	Nb	Case=Abl|Gender=Neut|Number=Sing	5	nmod	_	ref=JOHN_6.32
 8	sed	sed	CCONJ	C-	_	3	cc	_	ref=JOHN_6.32
 9	Pater	pater	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	ref=JOHN_6.32
-10	meus	meus	DET	Ps	Case=Nom|Gender=Masc|Number=Sing|Person=1|Poss=Yes	9	nmod	_	ref=JOHN_6.32
+10	meus	meus	DET	Ps	Case=Nom|Gender=Masc|Number=Sing|Person=1|Poss=Yes	9	det	_	ref=JOHN_6.32
 11	dat	do	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	ref=JOHN_6.32
 12	vobis	vos	PRON	Pp	Case=Dat|Gender=Masc|Number=Plur|Person=2|PronType=Prs	11	iobj	_	ref=JOHN_6.32
 13	panem	panis	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	11	obj	_	ref=JOHN_6.32
@@ -4953,7 +4953,7 @@
 6	ut	ut	SCONJ	G-	_	7	mark	_	ref=JOHN_6.38
 7	faciam	facio	VERB	V-	Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	ref=JOHN_6.38
 8	voluntatem	voluntas	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	ref=JOHN_6.38
-9	meam	meus	DET	Ps	Case=Acc|Gender=Fem|Number=Sing|Person=1|Poss=Yes	8	nmod	_	ref=JOHN_6.38
+9	meam	meus	DET	Ps	Case=Acc|Gender=Fem|Number=Sing|Person=1|Poss=Yes	8	det	_	ref=JOHN_6.38
 10	sed	sed	CCONJ	C-	_	8	cc	_	ref=JOHN_6.38
 11	voluntatem	voluntas	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	8	conj	_	ref=JOHN_6.38
 12	eius	is	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	det	_	ref=JOHN_6.38
@@ -4996,7 +4996,7 @@
 3	enim	enim	ADV	Df	_	4	discourse	_	ref=JOHN_6.40
 4	voluntas	voluntas	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	0	root	_	ref=JOHN_6.40
 5	Patris	pater	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	ref=JOHN_6.40
-6	mei	meus	DET	Ps	Case=Gen|Gender=Masc|Number=Sing|Person=1|Poss=Yes	5	nmod	_	ref=JOHN_6.40
+6	mei	meus	DET	Ps	Case=Gen|Gender=Masc|Number=Sing|Person=1|Poss=Yes	5	det	_	ref=JOHN_6.40
 7	qui	qui	PRON	Pr	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	8	nsubj	_	ref=JOHN_6.40
 8	misit	mitto	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	acl	_	ref=JOHN_6.40
 9	me	ego	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=1|PronType=Prs	8	obj	_	ref=JOHN_6.40
@@ -5204,7 +5204,7 @@
 # text = patres vestri manducaverunt in deserto manna et mortui sunt
 # sent_id = 18850
 1	patres	pater	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	ref=JOHN_6.49
-2	vestri	vester	DET	Ps	Case=Nom|Gender=Masc|Number=Plur|Person=2|Poss=Yes	1	nmod	_	ref=JOHN_6.49
+2	vestri	vester	DET	Ps	Case=Nom|Gender=Masc|Number=Plur|Person=2|Poss=Yes	1	det	_	ref=JOHN_6.49
 3	manducaverunt	manduco	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=JOHN_6.49
 4	in	in	ADP	R-	_	5	case	_	ref=JOHN_6.49
 5	deserto	desertum	NOUN	Nb	Case=Abl|Gender=Neut|Number=Sing	3	obl	_	ref=JOHN_6.49
@@ -5265,7 +5265,7 @@
 4	ego	ego	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	ref=JOHN_6.52
 5	dabo	do	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	2	acl	_	ref=JOHN_6.52
 6	caro	caro	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	0	root	_	ref=JOHN_6.52
-7	mea	meus	DET	Ps	Case=Nom|Gender=Fem|Number=Sing|Person=1|Poss=Yes	6	nmod	_	ref=JOHN_6.52
+7	mea	meus	DET	Ps	Case=Nom|Gender=Fem|Number=Sing|Person=1|Poss=Yes	6	det	_	ref=JOHN_6.52
 8	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	ref=JOHN_6.52
 9	pro	pro	ADP	R-	_	11	case	_	ref=JOHN_6.52
 10	mundi	mundus	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	ref=JOHN_6.52
@@ -5289,7 +5289,7 @@
 3	hic	hic	ADJ	Pd	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	ref=JOHN_6.53
 4	nobis	nos	PRON	Pp	Case=Dat|Gender=Masc|Number=Plur|Person=1|PronType=Prs	7	iobj	_	ref=JOHN_6.53
 5	carnem	caro	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	ref=JOHN_6.53
-6	suam	suus	DET	Pt	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	5	nmod	_	ref=JOHN_6.53
+6	suam	suus	DET	Pt	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	5	det	_	ref=JOHN_6.53
 7	dare	do	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	2	xcomp	_	ref=JOHN_6.53
 8	ad	ad	ADP	R-	_	9	case	_	ref=JOHN_6.53
 9	manducandum	manduco	VERB	V-	Case=Acc|Gender=Masc|Number=Sing|VerbForm=Gdv	7	advcl	_	ref=JOHN_6.53
@@ -5333,11 +5333,11 @@
 # sent_id = 18861
 1	qui	qui	PRON	Pr	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	2	nsubj	_	ref=JOHN_6.55
 2	manducat	manduco	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	nsubj	_	ref=JOHN_6.55
-3	meam	meus	DET	Ps	Case=Acc|Gender=Fem|Number=Sing|Person=1|Poss=Yes	4	nmod	_	ref=JOHN_6.55
+3	meam	meus	DET	Ps	Case=Acc|Gender=Fem|Number=Sing|Person=1|Poss=Yes	4	det	_	ref=JOHN_6.55
 4	carnem	caro	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	ref=JOHN_6.55
 5	et	et	CCONJ	C-	_	2	cc	_	ref=JOHN_6.55
 6	bibit	bibo	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	ref=JOHN_6.55
-7	meum	meus	DET	Ps	Case=Acc|Gender=Masc|Number=Sing|Person=1|Poss=Yes	8	nmod	_	ref=JOHN_6.55
+7	meum	meus	DET	Ps	Case=Acc|Gender=Masc|Number=Sing|Person=1|Poss=Yes	8	det	_	ref=JOHN_6.55
 8	sanguinem	sanguis	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	ref=JOHN_6.55
 9	habet	habeo	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=JOHN_6.55
 10	vitam	vita	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	ref=JOHN_6.55
@@ -5359,7 +5359,7 @@
 # sent_id = 18863
 1	caro	caro	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	ref=JOHN_6.56
 2	enim	enim	ADV	Df	_	6	discourse	_	ref=JOHN_6.56
-3	mea	meus	DET	Ps	Case=Nom|Gender=Fem|Number=Sing|Person=1|Poss=Yes	1	nmod	_	ref=JOHN_6.56
+3	mea	meus	DET	Ps	Case=Nom|Gender=Fem|Number=Sing|Person=1|Poss=Yes	1	det	_	ref=JOHN_6.56
 4	vere	vere	ADV	Df	Degree=Pos	6	advmod	_	ref=JOHN_6.56
 5	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	ref=JOHN_6.56
 6	cibus	cibus	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	0	root	_	ref=JOHN_6.56
@@ -5369,7 +5369,7 @@
 # sent_id = 18864
 1	et	et	CCONJ	C-	_	6	cc	_	ref=JOHN_6.56
 2	sanguis	sanguis	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	ref=JOHN_6.56
-3	meus	meus	DET	Ps	Case=Nom|Gender=Masc|Number=Sing|Person=1|Poss=Yes	2	nmod	_	ref=JOHN_6.56
+3	meus	meus	DET	Ps	Case=Nom|Gender=Masc|Number=Sing|Person=1|Poss=Yes	2	det	_	ref=JOHN_6.56
 4	vere	vere	ADV	Df	Degree=Pos	6	advmod	_	ref=JOHN_6.56
 5	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	ref=JOHN_6.56
 6	potus	potus	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	0	root	_	ref=JOHN_6.56
@@ -5379,11 +5379,11 @@
 # sent_id = 63044
 1	qui	qui	PRON	Pr	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	2	nsubj	_	ref=JOHN_6.57
 2	manducat	manduco	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	nsubj	_	ref=JOHN_6.57
-3	meam	meus	DET	Ps	Case=Acc|Gender=Fem|Number=Sing|Person=1|Poss=Yes	4	nmod	_	ref=JOHN_6.57
+3	meam	meus	DET	Ps	Case=Acc|Gender=Fem|Number=Sing|Person=1|Poss=Yes	4	det	_	ref=JOHN_6.57
 4	carnem	caro	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	ref=JOHN_6.57
 5	et	et	CCONJ	C-	_	2	cc	_	ref=JOHN_6.57
 6	bibit	bibo	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	ref=JOHN_6.57
-7	meum	meus	DET	Ps	Case=Acc|Gender=Masc|Number=Sing|Person=1|Poss=Yes	8	nmod	_	ref=JOHN_6.57
+7	meum	meus	DET	Ps	Case=Acc|Gender=Masc|Number=Sing|Person=1|Poss=Yes	8	det	_	ref=JOHN_6.57
 8	sanguinem	sanguis	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	ref=JOHN_6.57
 9	in	in	ADP	R-	_	10	case	_	ref=JOHN_6.57
 10	me	ego	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=1|PronType=Prs	11	obl	_	ref=JOHN_6.57
@@ -5430,7 +5430,7 @@
 9	sicut	sicut	ADV	Dq	PronType=Rel	10	advmod	_	ref=JOHN_6.59
 10	manducaverunt	manduco	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	advcl	_	ref=JOHN_6.59
 11	patres	pater	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	ref=JOHN_6.59
-12	vestri	vester	DET	Ps	Case=Nom|Gender=Masc|Number=Plur|Person=2|Poss=Yes	11	nmod	_	ref=JOHN_6.59
+12	vestri	vester	DET	Ps	Case=Nom|Gender=Masc|Number=Plur|Person=2|Poss=Yes	11	det	_	ref=JOHN_6.59
 13	manna	manna	NOUN	Nb	_	10	obj	_	ref=JOHN_6.59
 14	et	et	CCONJ	C-	_	10	cc	_	ref=JOHN_6.59
 15	mortui	mortuus	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	10	conj	_	ref=JOHN_6.59
@@ -5607,7 +5607,7 @@
 13	datum	do	VERB	V-	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	advcl	_	ref=JOHN_6.66
 14	a	ab	ADP	R-	_	15	case	_	ref=JOHN_6.66
 15	Patre	pater	NOUN	Nb	Case=Abl|Gender=Masc|Number=Sing	13	obl:agent	_	ref=JOHN_6.66
-16	meo	meus	DET	Ps	Case=Abl|Gender=Masc|Number=Sing|Person=1|Poss=Yes	15	nmod	_	ref=JOHN_6.66
+16	meo	meus	DET	Ps	Case=Abl|Gender=Masc|Number=Sing|Person=1|Poss=Yes	15	det	_	ref=JOHN_6.66
 
 # source = Jerome's Vulgate, John 6
 # text = ex hoc multi discipulorum eius abierunt retro
@@ -5772,7 +5772,7 @@
 2	gloriae	gloria	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	ref=ACTS_7.2
 3	apparuit	appareo	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=ACTS_7.2
 4	patri	pater	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	3	iobj	_	ref=ACTS_7.2
-5	nostro	noster	DET	Ps	Case=Dat|Gender=Masc,Neut|Number=Sing|Person=1|Poss=Yes	4	nmod	_	ref=ACTS_7.2
+5	nostro	noster	DET	Ps	Case=Dat|Gender=Masc,Neut|Number=Sing|Person=1|Poss=Yes	4	det	_	ref=ACTS_7.2
 6	Abraham	Abraham	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	4	appos	_	ref=ACTS_7.2
 7	cum	cum	SCONJ	G-	_	10	mark	_	ref=ACTS_7.2
 8	esset	sum	AUX	V-	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	10	cop	_	ref=ACTS_7.2
@@ -5793,11 +5793,11 @@
 1	exi	exeo	VERB	V-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=ACTS_7.3
 2	de	de	ADP	R-	_	3	case	_	ref=ACTS_7.3
 3	terra	terra	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	1	obl	_	ref=ACTS_7.3
-4	tua	tuus	DET	Ps	Case=Abl|Gender=Fem|Number=Sing|Person=2|Poss=Yes	3	nmod	_	ref=ACTS_7.3
+4	tua	tuus	DET	Ps	Case=Abl|Gender=Fem|Number=Sing|Person=2|Poss=Yes	3	det	_	ref=ACTS_7.3
 5	et	et	CCONJ	C-	_	3	cc	_	ref=ACTS_7.3
 6	de	de	ADP	R-	_	7	case	_	ref=ACTS_7.3
 7	cognatione	cognatio	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	3	conj	_	ref=ACTS_7.3
-8	tua	tuus	DET	Ps	Case=Abl|Gender=Fem|Number=Sing|Person=2|Poss=Yes	7	nmod	_	ref=ACTS_7.3
+8	tua	tuus	DET	Ps	Case=Abl|Gender=Fem|Number=Sing|Person=2|Poss=Yes	7	det	_	ref=ACTS_7.3
 9	et	et	CCONJ	C-	_	1	cc	_	ref=ACTS_7.3
 10	veni	venio	VERB	V-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	ref=ACTS_7.3
 11	in	in	ADP	R-	_	12	case	_	ref=ACTS_7.3
@@ -6014,7 +6014,7 @@
 8	super	super	ADP	R-	_	10	case	_	ref=ACTS_7.10
 9	omnem	omnis	DET	Px	Case=Acc|Gender=Fem,Masc|Number=Sing	10	det	_	ref=ACTS_7.10
 10	domum	domus	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	6	conj	_	ref=ACTS_7.10
-11	suam	suus	DET	Pt	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	10	nmod	_	ref=ACTS_7.10
+11	suam	suus	DET	Pt	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	10	det	_	ref=ACTS_7.10
 
 # source = Jerome's Vulgate, Acts 7
 # text = et non inveniebant cibos patres nostri
@@ -6024,7 +6024,7 @@
 3	inveniebant	invenio	VERB	V-	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=ACTS_7.11
 4	cibos	cibus	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	3	obj	_	ref=ACTS_7.11
 5	patres	pater	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	ref=ACTS_7.11
-6	nostri	noster	DET	Ps	Case=Nom|Gender=Masc|Number=Plur|Person=1|Poss=Yes	5	nmod	_	ref=ACTS_7.11
+6	nostri	noster	DET	Ps	Case=Nom|Gender=Masc|Number=Plur|Person=1|Poss=Yes	5	det	_	ref=ACTS_7.11
 
 # source = Jerome's Vulgate, Acts 7
 # text = cum audisset autem Iacob esse frumentum in Aegypto misit patres nostros primum
@@ -6039,7 +6039,7 @@
 8	Aegypto	Aegyptus	PROPN	Ne	Case=Abl|Gender=Fem|Number=Sing	2	ccomp	_	ref=ACTS_7.12
 9	misit	mitto	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=ACTS_7.12
 10	patres	pater	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	9	obj	_	ref=ACTS_7.12
-11	nostros	noster	DET	Ps	Case=Acc|Gender=Masc|Number=Plur|Person=1|Poss=Yes	10	nmod	_	ref=ACTS_7.12
+11	nostros	noster	DET	Ps	Case=Acc|Gender=Masc|Number=Plur|Person=1|Poss=Yes	10	det	_	ref=ACTS_7.12
 12	primum	primum	ADV	Df	_	9	advmod	_	ref=ACTS_7.12
 
 # source = Jerome's Vulgate, Acts 7
@@ -6053,7 +6053,7 @@
 6	Ioseph	Ioseph	PROPN	Ne	_	4	nsubj:pass	_	ref=ACTS_7.13
 7	a	ab	ADP	R-	_	8	case	_	ref=ACTS_7.13
 8	fratribus	frater	NOUN	Nb	Case=Abl|Gender=Masc|Number=Plur	4	obl:agent	_	ref=ACTS_7.13
-9	suis	suus	DET	Pt	Case=Abl|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	8	nmod	_	ref=ACTS_7.13
+9	suis	suus	DET	Pt	Case=Abl|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	8	det	_	ref=ACTS_7.13
 10	et	et	CCONJ	C-	_	4	cc	_	ref=ACTS_7.13
 11	manifestatum	manifesto	VERB	V-	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	conj	_	ref=ACTS_7.13
 12	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux:pass	_	ref=ACTS_7.13
@@ -6070,7 +6070,7 @@
 4	accersivit	arcesso	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=ACTS_7.14
 5	Iacob	Iacob	PROPN	Ne	_	4	obj	_	ref=ACTS_7.14
 6	patrem	pater	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	5	appos	_	ref=ACTS_7.14
-7	suum	suus	DET	Pt	Case=Acc|Gender=Masc,Neut|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	6	nmod	_	ref=ACTS_7.14
+7	suum	suus	DET	Pt	Case=Acc|Gender=Masc,Neut|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	6	det	_	ref=ACTS_7.14
 8	et	et	CCONJ	C-	_	5	cc	_	ref=ACTS_7.14
 9	omnem	omnis	DET	Px	Case=Acc|Gender=Masc,Neut|Number=Sing	10	det	_	ref=ACTS_7.14
 10	cognationem	cognatio	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	5	conj	_	ref=ACTS_7.14
@@ -6097,7 +6097,7 @@
 4	ipse	ipse	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	ref=ACTS_7.15
 5	et	et	CCONJ	C-	_	4	cc	_	ref=ACTS_7.15
 6	patres	pater	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	4	conj	_	ref=ACTS_7.15
-7	nostri	noster	DET	Ps	Case=Nom|Gender=Masc|Number=Plur|Person=1|Poss=Yes	6	nmod	_	ref=ACTS_7.15
+7	nostri	noster	DET	Ps	Case=Nom|Gender=Masc|Number=Plur|Person=1|Poss=Yes	6	det	_	ref=ACTS_7.15
 
 # source = Jerome's Vulgate, Acts 7
 # text = et translati sunt in Sychem et positi sunt in sepulchro quod emit Abraham pretio argenti a filiis Emmor filii Sychem
@@ -6160,13 +6160,13 @@
 1	hic	hic	ADJ	Pd	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	ref=ACTS_7.19
 2	circumveniens	circumvenio	VERB	V-	Case=Nom|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	5	advcl	_	ref=ACTS_7.19
 3	genus	genus	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	2	nsubj	_	ref=ACTS_7.19
-4	nostrum	noster	DET	Ps	Case=Acc|Gender=Masc,Neut|Number=Sing|Person=1|Poss=Yes	3	nmod	_	ref=ACTS_7.19
+4	nostrum	noster	DET	Ps	Case=Acc|Gender=Masc,Neut|Number=Sing|Person=1|Poss=Yes	3	det	_	ref=ACTS_7.19
 5	adflixit	affligo	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=ACTS_7.19
 6	patres	pater	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	5	obj	_	ref=ACTS_7.19
 7	ut	ut	SCONJ	G-	_	8	mark	_	ref=ACTS_7.19
 8	exponerent	expono	VERB	V-	Aspect=Imp|Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	advcl	_	ref=ACTS_7.19
 9	infantes	infans	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	8	obj	_	ref=ACTS_7.19
-10	suos	suus	DET	Pt	Case=Acc|Gender=Masc|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	9	nmod	_	ref=ACTS_7.19
+10	suos	suus	DET	Pt	Case=Acc|Gender=Masc|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	9	det	_	ref=ACTS_7.19
 11	ne	ne	SCONJ	G-	_	12	mark	_	ref=ACTS_7.19
 12	vivificarentur	vivifico	VERB	V-	Aspect=Imp|Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	8	advcl	_	ref=ACTS_7.19
 
@@ -6194,7 +6194,7 @@
 6	in	in	ADP	R-	_	7	case	_	ref=ACTS_7.20
 7	domo	domus	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	2	obl	_	ref=ACTS_7.20
 8	patris	pater	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	ref=ACTS_7.20
-9	sui	suus	DET	Pt	Case=Gen|Gender=Masc,Neut|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	8	nmod	_	ref=ACTS_7.20
+9	sui	suus	DET	Pt	Case=Gen|Gender=Masc,Neut|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	8	det	_	ref=ACTS_7.20
 
 # source = Jerome's Vulgate, Acts 7
 # text = exposito autem illo sustulit eum filia Pharaonis et enutrivit eum sibi in filium
@@ -6231,7 +6231,7 @@
 13	et	et	CCONJ	C-	_	12	cc	_	ref=ACTS_7.22
 14	in	in	ADP	R-	_	15	case	_	ref=ACTS_7.22
 15	operibus	opus	NOUN	Nb	Case=Abl|Gender=Neut|Number=Plur	12	conj	_	ref=ACTS_7.22
-16	suis	suus	DET	Pt	Case=Abl|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	15	nmod	_	ref=ACTS_7.22
+16	suis	suus	DET	Pt	Case=Abl|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	15	det	_	ref=ACTS_7.22
 
 # source = Jerome's Vulgate, Acts 7
 # text = cum autem impleretur ei quadraginta annorum tempus ascendit in cor eius ut visitaret fratres suos filios Israhel
@@ -6250,7 +6250,7 @@
 12	ut	ut	SCONJ	G-	_	13	mark	_	ref=ACTS_7.23
 13	visitaret	visito	VERB	V-	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	ccomp	_	ref=ACTS_7.23
 14	fratres	frater	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	13	obj	_	ref=ACTS_7.23
-15	suos	suus	DET	Pt	Case=Acc|Gender=Masc|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	14	nmod	_	ref=ACTS_7.23
+15	suos	suus	DET	Pt	Case=Acc|Gender=Masc|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	14	det	_	ref=ACTS_7.23
 16	filios	filius	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	14	appos	_	ref=ACTS_7.23
 17	Israhel	Israel	PROPN	Ne	_	16	nmod	_	ref=ACTS_7.23
 
@@ -6444,7 +6444,7 @@
 1	ego	ego	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	ref=ACTS_7.32
 2	Deus	deus	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	0	root	_	ref=ACTS_7.32
 3	patrum	pater	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	ref=ACTS_7.32
-4	tuorum	tuus	DET	Ps	Case=Gen|Gender=Masc,Neut|Number=Plur|Person=2|Poss=Yes	3	nmod	_	ref=ACTS_7.32
+4	tuorum	tuus	DET	Ps	Case=Gen|Gender=Masc,Neut|Number=Plur|Person=2|Poss=Yes	3	det	_	ref=ACTS_7.32
 5	Deus	deus	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	ref=ACTS_7.32
 6	Abraham	Abraham	PROPN	Ne	_	5	nmod	_	ref=ACTS_7.32
 7	et	et	CCONJ	C-	_	5	cc	_	ref=ACTS_7.32
@@ -6478,7 +6478,7 @@
 1	solve	solvo	VERB	V-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=ACTS_7.33
 2	calciamentum	calceamentum	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	1	obj	_	ref=ACTS_7.33
 3	pedum	pes	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	ref=ACTS_7.33
-4	tuorum	tuus	DET	Ps	Case=Gen|Gender=Masc,Neut|Number=Plur|Person=2|Poss=Yes	3	nmod	_	ref=ACTS_7.33
+4	tuorum	tuus	DET	Ps	Case=Gen|Gender=Masc,Neut|Number=Plur|Person=2|Poss=Yes	3	det	_	ref=ACTS_7.33
 
 # source = Jerome's Vulgate, Acts 7
 # text = locus enim in quo stas terra sancta est
@@ -6499,7 +6499,7 @@
 2	vidi	video	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=ACTS_7.34
 3	adflictionem	afflictio	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	ref=ACTS_7.34
 4	populi	populus	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	ref=ACTS_7.34
-5	mei	meus	DET	Ps	Case=Gen|Gender=Masc,Neut|Number=Sing|Person=1|Poss=Yes	4	nmod	_	ref=ACTS_7.34
+5	mei	meus	DET	Ps	Case=Gen|Gender=Masc,Neut|Number=Sing|Person=1|Poss=Yes	4	det	_	ref=ACTS_7.34
 6	qui	qui	PRON	Pr	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	9	nsubj	_	ref=ACTS_7.34
 7	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	_	ref=ACTS_7.34
 8	in	in	ADP	R-	_	9	case	_	ref=ACTS_7.34
@@ -6597,7 +6597,7 @@
 4	Deus	deus	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	ref=ACTS_7.37
 5	de	de	ADP	R-	_	6	case	_	ref=ACTS_7.37
 6	fratribus	frater	NOUN	Nb	Case=Abl|Gender=Masc|Number=Plur	3	obl	_	ref=ACTS_7.37
-7	vestris	vester	DET	Ps	Case=Abl|Number=Plur|Person=2|Poss=Yes	6	nmod	_	ref=ACTS_7.37
+7	vestris	vester	DET	Ps	Case=Abl|Number=Plur|Person=2|Poss=Yes	6	det	_	ref=ACTS_7.37
 8	tamquam	tamquam	ADV	Df	_	3	advmod	_	ref=ACTS_7.37
 9	me	ego	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=1|PronType=Prs	8	obj	_	ref=ACTS_7.37
 
@@ -6623,7 +6623,7 @@
 17	et	et	CCONJ	C-	_	10	cc	_	ref=ACTS_7.38
 18	cum	cum	ADP	R-	_	19	case	_	ref=ACTS_7.38
 19	patribus	pater	NOUN	Nb	Case=Abl|Gender=Masc|Number=Plur	10	conj	_	ref=ACTS_7.38
-20	nostris	noster	DET	Ps	Case=Abl|Number=Plur|Person=1|Poss=Yes	19	nmod	_	ref=ACTS_7.38
+20	nostris	noster	DET	Ps	Case=Abl|Number=Plur|Person=1|Poss=Yes	19	det	_	ref=ACTS_7.38
 
 # source = Jerome's Vulgate, Acts 7
 # text = qui accepit verba vitae dare nobis
@@ -6642,14 +6642,14 @@
 2	noluerunt	nolo	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=ACTS_7.39
 3	oboedire	oboedio	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	2	xcomp	_	ref=ACTS_7.39
 4	patres	pater	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	ref=ACTS_7.39
-5	nostri	noster	DET	Ps	Case=Nom|Gender=Masc|Number=Plur|Person=1|Poss=Yes	4	nmod	_	ref=ACTS_7.39
+5	nostri	noster	DET	Ps	Case=Nom|Gender=Masc|Number=Plur|Person=1|Poss=Yes	4	det	_	ref=ACTS_7.39
 6	sed	sed	CCONJ	C-	_	2	cc	_	ref=ACTS_7.39
 7	reppulerunt	repello	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	ref=ACTS_7.39
 8	et	et	CCONJ	C-	_	7	cc	_	ref=ACTS_7.39
 9	aversi	averto	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	7	conj	_	ref=ACTS_7.39
 10	sunt	sum	AUX	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux:pass	_	ref=ACTS_7.39
 11	cordibus	cor	NOUN	Nb	Case=Abl|Gender=Neut|Number=Plur	9	obl	_	ref=ACTS_7.39
-12	suis	suus	DET	Pt	Case=Abl|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	11	nmod	_	ref=ACTS_7.39
+12	suis	suus	DET	Pt	Case=Abl|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	11	det	_	ref=ACTS_7.39
 13	in	in	ADP	R-	_	14	case	_	ref=ACTS_7.39
 14	Aegyptum	Aegyptus	PROPN	Ne	Case=Acc|Gender=Fem|Number=Sing	9	obl	_	ref=ACTS_7.39
 15	dicentes	dico	VERB	V-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	9	advcl	_	ref=ACTS_7.40
@@ -6702,7 +6702,7 @@
 13	in	in	ADP	R-	_	14	case	_	ref=ACTS_7.41
 14	operibus	opus	NOUN	Nb	Case=Abl|Gender=Neut|Number=Plur	12	obl	_	ref=ACTS_7.41
 15	manuum	manus	NOUN	Nb	Case=Gen|Gender=Fem|Number=Plur	14	nmod	_	ref=ACTS_7.41
-16	suarum	suus	DET	Pt	Case=Gen|Gender=Fem|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	15	nmod	_	ref=ACTS_7.41
+16	suarum	suus	DET	Pt	Case=Gen|Gender=Fem|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	15	det	_	ref=ACTS_7.41
 
 # source = Jerome's Vulgate, Acts 7
 # text = convertit autem Deus et tradidit eos servire militiae caeli
@@ -6753,7 +6753,7 @@
 5	et	et	CCONJ	C-	_	3	cc	_	ref=ACTS_7.43
 6	sidus	sidus	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	3	conj	_	ref=ACTS_7.43
 7	dei	deus	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	ref=ACTS_7.43
-8	vestri	vester	DET	Ps	Case=Gen|Gender=Masc,Neut|Number=Sing|Person=2|Poss=Yes	7	nmod	_	ref=ACTS_7.43
+8	vestri	vester	DET	Ps	Case=Gen|Gender=Masc,Neut|Number=Sing|Person=2|Poss=Yes	7	det	_	ref=ACTS_7.43
 9	Rempham	Rempham	PROPN	Ne	_	7	appos	_	ref=ACTS_7.43
 10	figuras	figura	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	3	appos	_	ref=ACTS_7.43
 11	quas	qui	PRON	Pr	Case=Acc|Gender=Fem|Number=Plur|PronType=Rel	12	obj	_	ref=ACTS_7.43
@@ -6777,7 +6777,7 @@
 2	testimonii	testimonium	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	ref=ACTS_7.44
 3	fuit	sum	AUX	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=ACTS_7.44
 4	patribus	pater	NOUN	Nb	Case=Dat|Gender=Masc|Number=Plur	3	iobj	_	ref=ACTS_7.44
-5	nostris	noster	DET	Ps	Case=Dat|Number=Plur|Person=1|Poss=Yes	4	nmod	_	ref=ACTS_7.44
+5	nostris	noster	DET	Ps	Case=Dat|Number=Plur|Person=1|Poss=Yes	4	det	_	ref=ACTS_7.44
 6	in	in	ADP	R-	_	7	case	_	ref=ACTS_7.44
 7	deserto	desertum	NOUN	Nb	Case=Abl|Gender=Neut|Number=Sing	3	obl	_	ref=ACTS_7.44
 8	sicut	sicut	ADV	Dq	PronType=Rel	9	advmod	_	ref=ACTS_7.44
@@ -6801,7 +6801,7 @@
 3	induxerunt	induco	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=ACTS_7.45
 4	suscipientes	suscipio	VERB	V-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	3	advcl	_	ref=ACTS_7.45
 5	patres	pater	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	ref=ACTS_7.45
-6	nostri	noster	DET	Ps	Case=Nom|Gender=Masc|Number=Plur|Person=1|Poss=Yes	5	nmod	_	ref=ACTS_7.45
+6	nostri	noster	DET	Ps	Case=Nom|Gender=Masc|Number=Plur|Person=1|Poss=Yes	5	det	_	ref=ACTS_7.45
 7	cum	cum	ADP	R-	_	8	case	_	ref=ACTS_7.45
 8	Iesu	Iesus	PROPN	Ne	Case=Abl|Gender=Masc|Number=Sing	3	obl	_	ref=ACTS_7.45
 9	in	in	ADP	R-	_	10	case	_	ref=ACTS_7.45
@@ -6813,7 +6813,7 @@
 15	a	ab	ADP	R-	_	16	case	_	ref=ACTS_7.45
 16	facie	facies	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	13	obl	_	ref=ACTS_7.45
 17	patrum	pater	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	ref=ACTS_7.45
-18	nostrorum	noster	DET	Ps	Case=Gen|Gender=Masc,Neut|Number=Plur|Person=1|Poss=Yes	17	nmod	_	ref=ACTS_7.45
+18	nostrorum	noster	DET	Ps	Case=Gen|Gender=Masc,Neut|Number=Plur|Person=1|Poss=Yes	17	det	_	ref=ACTS_7.45
 19	usque	usque	ADV	Df	_	21	advmod	_	ref=ACTS_7.45
 20	in	in	ADP	R-	_	21	case	_	ref=ACTS_7.45
 21	diebus	dies	NOUN	Nb	Case=Abl|Gender=Fem,Masc|Number=Plur	13	obl	_	ref=ACTS_7.45
@@ -6872,7 +6872,7 @@
 2	autem	autem	ADV	Df	_	3	discourse	_	ref=ACTS_7.49
 3	scabillum	scabillum	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	ref=ACTS_7.49
 4	pedum	pes	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	ref=ACTS_7.49
-5	meorum	meus	DET	Ps	Case=Gen|Gender=Masc,Neut|Number=Plur|Person=1|Poss=Yes	4	nmod	_	ref=ACTS_7.49
+5	meorum	meus	DET	Ps	Case=Gen|Gender=Masc,Neut|Number=Plur|Person=1|Poss=Yes	4	det	_	ref=ACTS_7.49
 
 # source = Jerome's Vulgate, Acts 7
 # text = quam domum aedificabitis mihi dicit Dominus aut quis locus requietionis meae est
@@ -6887,7 +6887,7 @@
 8	quis	quis	PRON	Pi	Case=Nom|Gender=Masc|Number=Sing|PronType=Int	9	nsubj	_	ref=ACTS_7.49
 9	locus	locus	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	ref=ACTS_7.49
 10	requietionis	requietio	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	ref=ACTS_7.49
-11	meae	meus	DET	Ps	Case=Gen|Gender=Fem|Number=Sing|Person=1|Poss=Yes	10	nmod	_	ref=ACTS_7.49
+11	meae	meus	DET	Ps	Case=Gen|Gender=Fem|Number=Sing|Person=1|Poss=Yes	10	det	_	ref=ACTS_7.49
 12	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	_	ref=ACTS_7.49
 
 # source = Jerome's Vulgate, Acts 7
@@ -6895,7 +6895,7 @@
 # sent_id = 23794
 1	nonne	nonne	ADV	Du	PronType=Int	4	discourse	_	ref=ACTS_7.50
 2	manus	manus	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	ref=ACTS_7.50
-3	mea	meus	DET	Ps	Case=Nom|Gender=Fem|Number=Sing|Person=1|Poss=Yes	2	nmod	_	ref=ACTS_7.50
+3	mea	meus	DET	Ps	Case=Nom|Gender=Fem|Number=Sing|Person=1|Poss=Yes	2	det	_	ref=ACTS_7.50
 4	fecit	facio	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=ACTS_7.50
 5	haec	hic	ADJ	Pd	Case=Acc|Gender=Neut|Number=Plur	4	obj	_	ref=ACTS_7.50
 6	omnia	omnis	DET	Px	Case=Acc|Gender=Neut|Number=Plur	5	det	_	ref=ACTS_7.50
@@ -6921,7 +6921,7 @@
 # sent_id = 23796
 1	sicut	sicut	ADV	Df	_	0	root	_	ref=ACTS_7.51
 2	patres	pater	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	1	nsubj	_	ref=ACTS_7.51
-3	vestri	vester	DET	Ps	Case=Nom|Gender=Masc|Number=Plur|Person=2|Poss=Yes	2	nmod	_	ref=ACTS_7.51
+3	vestri	vester	DET	Ps	Case=Nom|Gender=Masc|Number=Plur|Person=2|Poss=Yes	2	det	_	ref=ACTS_7.51
 4	et	et	ADV	Df	_	5	discourse	_	ref=ACTS_7.51
 5	vos	vos	PRON	Pp	Case=Nom|Gender=Masc|Number=Plur|Person=2|PronType=Prs	1	nsubj	_	ref=ACTS_7.51
 
@@ -6934,7 +6934,7 @@
 4	sunt	sum	AUX	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	ref=ACTS_7.52
 5	persecuti	persequor	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	ref=ACTS_7.52
 6	patres	pater	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	ref=ACTS_7.52
-7	vestri	vester	DET	Ps	Case=Nom|Gender=Masc|Number=Plur|Person=2|Poss=Yes	6	nmod	_	ref=ACTS_7.52
+7	vestri	vester	DET	Ps	Case=Nom|Gender=Masc|Number=Plur|Person=2|Poss=Yes	6	det	_	ref=ACTS_7.52
 
 # source = Jerome's Vulgate, Acts 7
 # text = et occiderunt eos qui praenuntiabant de adventu Iusti cuius vos nunc proditores et homicidae fuistis
@@ -6976,7 +6976,7 @@
 3	haec	hic	ADJ	Pd	Case=Acc|Gender=Neut|Number=Plur	1	obj	_	ref=ACTS_7.54
 4	dissecabantur	disseco	VERB	V-	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	ref=ACTS_7.54
 5	cordibus	cor	NOUN	Nb	Case=Abl|Gender=Neut|Number=Plur	4	obl	_	ref=ACTS_7.54
-6	suis	suus	DET	Pt	Case=Abl|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	5	nmod	_	ref=ACTS_7.54
+6	suis	suus	DET	Pt	Case=Abl|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	5	det	_	ref=ACTS_7.54
 7	et	et	CCONJ	C-	_	4	cc	_	ref=ACTS_7.54
 8	stridebant	strideo	VERB	V-	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	ref=ACTS_7.54
 9	dentibus	dens	NOUN	Nb	Case=Abl|Gender=Masc|Number=Plur	8	obl	_	ref=ACTS_7.54
@@ -7035,7 +7035,7 @@
 4	magna	magnus	ADJ	A-	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	ref=ACTS_7.56
 5	continuerunt	contineo	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=ACTS_7.56
 6	aures	auris	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	5	obj	_	ref=ACTS_7.56
-7	suas	suus	DET	Pt	Case=Acc|Gender=Fem|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	6	nmod	_	ref=ACTS_7.56
+7	suas	suus	DET	Pt	Case=Acc|Gender=Fem|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	6	det	_	ref=ACTS_7.56
 8	et	et	CCONJ	C-	_	5	cc	_	ref=ACTS_7.56
 9	impetum	impetus	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	10	obj	_	ref=ACTS_7.56
 10	fecerunt	facio	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	ref=ACTS_7.56
@@ -7060,7 +7060,7 @@
 2	testes	testis	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	ref=ACTS_7.57
 3	deposuerunt	depono	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=ACTS_7.57
 4	vestimenta	vestimentum	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	3	obj	_	ref=ACTS_7.57
-5	sua	suus	DET	Pt	Case=Acc|Gender=Neut|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	4	nmod	_	ref=ACTS_7.57
+5	sua	suus	DET	Pt	Case=Acc|Gender=Neut|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	4	det	_	ref=ACTS_7.57
 6	secus	secus	ADP	R-	_	7	case	_	ref=ACTS_7.57
 7	pedes	pes	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	3	obl	_	ref=ACTS_7.57
 8	adulescentis	adulescens	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	ref=ACTS_7.57
@@ -7085,7 +7085,7 @@
 2	Iesu	Iesus	PROPN	Ne	Case=Voc|Gender=Masc|Number=Sing	1	appos	_	ref=ACTS_7.58
 3	suscipe	suscipio	VERB	V-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=ACTS_7.58
 4	spiritum	spiritus	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	ref=ACTS_7.58
-5	meum	meus	DET	Ps	Case=Acc|Gender=Masc,Neut|Number=Sing|Person=1|Poss=Yes	4	nmod	_	ref=ACTS_7.58
+5	meum	meus	DET	Ps	Case=Acc|Gender=Masc,Neut|Number=Sing|Person=1|Poss=Yes	4	det	_	ref=ACTS_7.58
 
 # source = Jerome's Vulgate, Acts 7
 # text = positis autem genibus clamavit voce magna
@@ -7327,7 +7327,7 @@
 6	multo	multus	ADJ	A-	Case=Abl|Degree=Pos|Gender=Masc,Neut|Number=Sing	7	amod	_	ref=ACTS_8.11
 7	tempore	tempus	NOUN	Nb	Case=Abl|Gender=Neut|Number=Sing	10	obl	_	ref=ACTS_8.11
 8	magicis	magice	NOUN	Nb	Case=Abl|Gender=Fem|Number=Plur	10	obl	_	ref=ACTS_8.11
-9	suis	suus	DET	Pt	Case=Abl|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	8	nmod	_	ref=ACTS_8.11
+9	suis	suus	DET	Pt	Case=Abl|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	8	det	_	ref=ACTS_8.11
 10	dementasset	demento	VERB	V-	Mood=Sub|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin|Voice=Act	4	ccomp	_	ref=ACTS_8.11
 11	eos	is	PRON	Pp	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	10	obj	_	ref=ACTS_8.11
 
@@ -7499,7 +7499,7 @@
 # text = pecunia tua te cum sit in perditionem quoniam donum Dei existimasti pecunia possideri
 # sent_id = 23838
 1	pecunia	pecunia	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	ref=ACTS_8.20
-2	tua	tuus	DET	Ps	Case=Nom|Gender=Fem|Number=Sing|Person=2|Poss=Yes	1	nmod	_	ref=ACTS_8.20
+2	tua	tuus	DET	Ps	Case=Nom|Gender=Fem|Number=Sing|Person=2|Poss=Yes	1	det	_	ref=ACTS_8.20
 3	te	tu	PRON	Pp	Case=Abl|Gender=Masc|Number=Sing|Person=2|PronType=Prs	7	obl	_	ref=ACTS_8.20
 4	cum	cum	ADP	R-	_	3	case	_	ref=ACTS_8.20
 5	sit	sum	AUX	V-	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	ref=ACTS_8.20
@@ -7531,7 +7531,7 @@
 # sent_id = 23841
 1	cor	cor	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	ref=ACTS_8.21
 2	enim	enim	ADV	Df	_	6	discourse	_	ref=ACTS_8.21
-3	tuum	tuus	DET	Ps	Case=Nom|Gender=Neut|Number=Sing|Person=2|Poss=Yes	1	nmod	_	ref=ACTS_8.21
+3	tuum	tuus	DET	Ps	Case=Nom|Gender=Neut|Number=Sing|Person=2|Poss=Yes	1	det	_	ref=ACTS_8.21
 4	non	non	ADV	Df	Polarity=Neg	6	advmod	_	ref=ACTS_8.21
 5	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	ref=ACTS_8.21
 6	rectum	rectus	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	ref=ACTS_8.21
@@ -7547,7 +7547,7 @@
 4	ab	ab	ADP	R-	_	6	case	_	ref=ACTS_8.22
 5	hac	hic	DET	Pd	Case=Abl|Gender=Fem|Number=Sing	6	det	_	ref=ACTS_8.22
 6	nequitia	nequitia	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	3	obl	_	ref=ACTS_8.22
-7	tua	tuus	DET	Ps	Case=Abl|Gender=Fem|Number=Sing|Person=2|Poss=Yes	6	nmod	_	ref=ACTS_8.22
+7	tua	tuus	DET	Ps	Case=Abl|Gender=Fem|Number=Sing|Person=2|Poss=Yes	6	det	_	ref=ACTS_8.22
 
 # source = Jerome's Vulgate, Acts 8
 # text = et roga Deum si forte remittatur tibi haec cogitatio cordis tui
@@ -7562,7 +7562,7 @@
 8	haec	hic	DET	Pd	Case=Nom|Gender=Fem|Number=Sing	9	det	_	ref=ACTS_8.22
 9	cogitatio	cogitatio	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	6	nsubj:pass	_	ref=ACTS_8.22
 10	cordis	cor	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	ref=ACTS_8.22
-11	tui	tuus	DET	Ps	Case=Gen|Gender=Masc,Neut|Number=Sing|Person=2|Poss=Yes	10	nmod	_	ref=ACTS_8.22
+11	tui	tuus	DET	Ps	Case=Gen|Gender=Masc,Neut|Number=Sing|Person=2|Poss=Yes	10	det	_	ref=ACTS_8.22
 
 # source = Jerome's Vulgate, Acts 8
 # text = in felle enim amaritudinis et obligatione iniquitatis video te esse
@@ -7697,7 +7697,7 @@
 3	sedens	sedeo	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	2	advcl	_	ref=ACTS_8.28
 4	super	super	ADP	R-	_	5	case	_	ref=ACTS_8.28
 5	currum	currus	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	3	obl	_	ref=ACTS_8.28
-6	suum	suus	DET	Pt	Case=Acc|Gender=Masc,Neut|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	5	nmod	_	ref=ACTS_8.28
+6	suum	suus	DET	Pt	Case=Acc|Gender=Masc,Neut|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	5	det	_	ref=ACTS_8.28
 7	legens	lego	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	3	conj	_	ref=ACTS_8.28
 8	que	que	CCONJ	C-	_	3	cc	_	ref=ACTS_8.28
 9	prophetam	propheta	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	ref=ACTS_8.28
@@ -7812,7 +7812,7 @@
 10	non	non	ADV	Df	Polarity=Neg	11	advmod	_	ref=ACTS_8.32
 11	aperuit	aperio	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=ACTS_8.32
 12	os	os	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	11	obj	_	ref=ACTS_8.32|LId=1
-13	suum	suus	DET	Pt	Case=Acc|Gender=Masc,Neut|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	12	nmod	_	ref=ACTS_8.32
+13	suum	suus	DET	Pt	Case=Acc|Gender=Masc,Neut|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	12	det	_	ref=ACTS_8.32
 
 # source = Jerome's Vulgate, Acts 8
 # text = in humilitate iudicium eius sublatum est
@@ -7879,7 +7879,7 @@
 2	autem	autem	ADV	Df	_	11	discourse	_	ref=ACTS_8.35
 3	Philippus	Philippus	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	ref=ACTS_8.35
 4	os	os	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	1	obj	_	ref=ACTS_8.35|LId=1
-5	suum	suus	DET	Pt	Case=Acc|Gender=Neut|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	4	nmod	_	ref=ACTS_8.35
+5	suum	suus	DET	Pt	Case=Acc|Gender=Neut|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	4	det	_	ref=ACTS_8.35
 6	et	et	CCONJ	C-	_	1	cc	_	ref=ACTS_8.35
 7	incipiens	incipio	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	1	conj	_	ref=ACTS_8.35
 8	ab	ab	ADP	R-	_	9	case	_	ref=ACTS_8.35
@@ -7972,7 +7972,7 @@
 2	enim	enim	ADV	Df	_	1	discourse	_	ref=ACTS_8.39
 3	per	per	ADP	R-	_	4	case	_	ref=ACTS_8.39
 4	viam	via	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	1	obl	_	ref=ACTS_8.39
-5	suam	suus	DET	Pt	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	4	nmod	_	ref=ACTS_8.39
+5	suam	suus	DET	Pt	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	4	det	_	ref=ACTS_8.39
 6	gaudens	gaudeo	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	1	advcl	_	ref=ACTS_8.39
 
 # source = Jerome's Vulgate, Acts 8
@@ -8094,7 +8094,7 @@
 1	secundum	secundum	ADP	R-	_	2	case	_	ref=ROM_2.5
 2	duritiam	duritia	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	ref=ROM_2.5
 3	autem	autem	ADV	Df	_	8	discourse	_	ref=ROM_2.5
-4	tuam	tuus	DET	Ps	Case=Acc|Gender=Fem|Number=Sing|Person=2|Poss=Yes	2	nmod	_	ref=ROM_2.5
+4	tuam	tuus	DET	Ps	Case=Acc|Gender=Fem|Number=Sing|Person=2|Poss=Yes	2	det	_	ref=ROM_2.5
 5	et	et	CCONJ	C-	_	2	cc	_	ref=ROM_2.5
 6	inpaenitens	impaenitens	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	ref=ROM_2.5
 7	cor	cor	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	2	conj	_	ref=ROM_2.5
@@ -8401,7 +8401,7 @@
 4	legis	lex	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	ref=ROM_2.25
 5	sis	sum	AUX	V-	Mood=Sub|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	ref=ROM_2.25
 6	circumcisio	circumcisio	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	9	nsubj:pass	_	ref=ROM_2.25
-7	tua	tuus	DET	Ps	Case=Nom|Gender=Fem|Number=Sing|Person=2|Poss=Yes	6	nmod	_	ref=ROM_2.25
+7	tua	tuus	DET	Ps	Case=Nom|Gender=Fem|Number=Sing|Person=2|Poss=Yes	6	det	_	ref=ROM_2.25
 8	praeputium	praeputium	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	9	xcomp	_	ref=ROM_2.25
 9	facta	facio	VERB	V-	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	ref=ROM_2.25
 10	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux:pass	_	ref=ROM_2.25
@@ -8524,7 +8524,7 @@
 # sent_id = 33553
 1	scio	scio	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=REV_3.1
 2	opera	opus	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	1	obj	_	ref=REV_3.1
-3	tua	tuus	DET	Ps	Case=Acc|Gender=Neut|Number=Plur|Person=2|Poss=Yes	2	nmod	_	ref=REV_3.1
+3	tua	tuus	DET	Ps	Case=Acc|Gender=Neut|Number=Plur|Person=2|Poss=Yes	2	det	_	ref=REV_3.1
 4	quia	quia	SCONJ	G-	_	6	mark	_	ref=REV_3.1
 5	nomen	nomen	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	ref=REV_3.1
 6	habes	habeo	VERB	V-	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	_	ref=REV_3.1
@@ -8553,11 +8553,11 @@
 2	enim	enim	ADV	Df	_	3	discourse	_	ref=REV_3.2
 3	invenio	invenio	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=REV_3.2
 4	opera	opus	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	3	obj	_	ref=REV_3.2
-5	tua	tuus	DET	Ps	Case=Acc|Gender=Neut|Number=Plur|Person=2|Poss=Yes	4	nmod	_	ref=REV_3.2
+5	tua	tuus	DET	Ps	Case=Acc|Gender=Neut|Number=Plur|Person=2|Poss=Yes	4	det	_	ref=REV_3.2
 6	plena	plenus	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	3	xcomp	_	ref=REV_3.2
 7	coram	coram	ADP	R-	_	8	case	_	ref=REV_3.2
 8	Deo	deus	NOUN	Nb	Case=Abl|Gender=Masc|Number=Sing	6	obl	_	ref=REV_3.2
-9	meo	meus	DET	Ps	Case=Abl|Gender=Masc|Number=Sing|Person=1|Poss=Yes	8	nmod	_	ref=REV_3.2
+9	meo	meus	DET	Ps	Case=Abl|Gender=Masc|Number=Sing|Person=1|Poss=Yes	8	det	_	ref=REV_3.2
 
 # source = Jerome's Vulgate, Revelation 3
 # text = in mente ergo habe qualiter acceperis et audieris et serva et paenitentiam age
@@ -8607,7 +8607,7 @@
 8	non	non	ADV	Df	Polarity=Neg	9	advmod	_	ref=REV_3.4
 9	inquinaverunt	inquino	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	acl	_	ref=REV_3.4
 10	vestimenta	vestimentum	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	9	obj	_	ref=REV_3.4
-11	sua	suus	DET	Pt	Case=Acc|Gender=Neut|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	10	nmod	_	ref=REV_3.4
+11	sua	suus	DET	Pt	Case=Acc|Gender=Neut|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	10	det	_	ref=REV_3.4
 
 # source = Jerome's Vulgate, Revelation 3
 # text = et ambulabunt me cum in albis quia digni sunt
@@ -8645,7 +8645,7 @@
 18	eius	is	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	det	_	ref=REV_3.5
 19	coram	coram	ADP	R-	_	20	case	_	ref=REV_3.5
 20	Patre	pater	NOUN	Nb	Case=Abl|Gender=Masc|Number=Sing	16	obl	_	ref=REV_3.5
-21	meo	meus	DET	Ps	Case=Abl|Gender=Masc|Number=Sing|Person=1|Poss=Yes	20	nmod	_	ref=REV_3.5
+21	meo	meus	DET	Ps	Case=Abl|Gender=Masc|Number=Sing|Person=1|Poss=Yes	20	det	_	ref=REV_3.5
 22	et	et	CCONJ	C-	_	20	cc	_	ref=REV_3.5
 23	coram	coram	ADP	R-	_	24	case	_	ref=REV_3.5
 24	angelis	angelus	NOUN	Nb	Case=Abl|Gender=Masc|Number=Plur	20	conj	_	ref=REV_3.5
@@ -8708,7 +8708,7 @@
 # sent_id = 33566
 1	scio	scio	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=REV_3.8
 2	opera	opus	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	1	obj	_	ref=REV_3.8
-3	tua	tuus	DET	Ps	Case=Acc|Gender=Neut|Number=Plur|Person=2|Poss=Yes	2	nmod	_	ref=REV_3.8
+3	tua	tuus	DET	Ps	Case=Acc|Gender=Neut|Number=Plur|Person=2|Poss=Yes	2	det	_	ref=REV_3.8
 
 # source = Jerome's Vulgate, Revelation 3
 # text = ecce dedi coram te ostium apertum quod nemo potest cludere quia modicam habes virtutem et servasti verbum meum et non negasti nomen meum
@@ -8730,12 +8730,12 @@
 15	et	et	CCONJ	C-	_	13	cc	_	ref=REV_3.8
 16	servasti	servo	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	13	conj	_	ref=REV_3.8
 17	verbum	verbum	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	16	obj	_	ref=REV_3.8
-18	meum	meus	DET	Ps	Case=Acc|Gender=Masc|Number=Sing|Person=1|Poss=Yes	17	nmod	_	ref=REV_3.8
+18	meum	meus	DET	Ps	Case=Acc|Gender=Masc|Number=Sing|Person=1|Poss=Yes	17	det	_	ref=REV_3.8
 19	et	et	CCONJ	C-	_	13	cc	_	ref=REV_3.8
 20	non	non	ADV	Df	Polarity=Neg	21	advmod	_	ref=REV_3.8
 21	negasti	nego	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	13	conj	_	ref=REV_3.8
 22	nomen	nomen	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	21	obj	_	ref=REV_3.8
-23	meum	meus	DET	Ps	Case=Acc|Gender=Masc|Number=Sing|Person=1|Poss=Yes	22	nmod	_	ref=REV_3.8
+23	meum	meus	DET	Ps	Case=Acc|Gender=Masc|Number=Sing|Person=1|Poss=Yes	22	det	_	ref=REV_3.8
 
 # source = Jerome's Vulgate, Revelation 3
 # text = ecce dabo de synagoga Satanae qui dicunt se Iudaeos esse et non sunt sed mentiuntur
@@ -8768,7 +8768,7 @@
 7	adorent	adoro	VERB	V-	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	ref=REV_3.9
 8	ante	ante	ADP	R-	_	9	case	_	ref=REV_3.9
 9	pedes	pes	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	7	obl	_	ref=REV_3.9
-10	tuos	tuus	DET	Ps	Case=Acc|Gender=Masc|Number=Plur|Person=2|Poss=Yes	9	nmod	_	ref=REV_3.9
+10	tuos	tuus	DET	Ps	Case=Acc|Gender=Masc|Number=Plur|Person=2|Poss=Yes	9	det	_	ref=REV_3.9
 
 # source = Jerome's Vulgate, Revelation 3
 # text = et scient quia ego dilexi te quoniam servasti verbum patientiae meae et ego te servabo ab hora temptationis quae ventura est in orbem universum temptare habitantes in terra
@@ -8783,7 +8783,7 @@
 8	servasti	servo	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	15	advcl	_	ref=REV_3.10
 9	verbum	verbum	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	8	obj	_	ref=REV_3.10
 10	patientiae	patientia	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	ref=REV_3.10
-11	meae	meus	DET	Ps	Case=Gen|Gender=Fem|Number=Sing|Person=1|Poss=Yes	10	nmod	_	ref=REV_3.10
+11	meae	meus	DET	Ps	Case=Gen|Gender=Fem|Number=Sing|Person=1|Poss=Yes	10	det	_	ref=REV_3.10
 12	et	et	CCONJ	C-	_	2	cc	_	ref=REV_3.10
 13	ego	ego	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	ref=REV_3.10
 14	te	tu	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=2|PronType=Prs	15	obj	_	ref=REV_3.10
@@ -8818,7 +8818,7 @@
 5	nemo	nemo	ADJ	Px	Case=Nom|Gender=Fem,Masc|Number=Sing	6	nsubj	_	ref=REV_3.11
 6	accipiat	accipio	VERB	V-	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl	_	ref=REV_3.11
 7	coronam	corona	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	ref=REV_3.11
-8	tuam	tuus	DET	Ps	Case=Acc|Gender=Fem|Number=Sing|Person=2|Poss=Yes	7	nmod	_	ref=REV_3.11
+8	tuam	tuus	DET	Ps	Case=Acc|Gender=Fem|Number=Sing|Person=2|Poss=Yes	7	det	_	ref=REV_3.11
 
 # source = Jerome's Vulgate, Revelation 3
 # text = qui vicerit faciam illum columnam in templo Dei mei et foras non egredietur amplius
@@ -8861,10 +8861,10 @@
 18	caelo	caelum	NOUN	Nb	Case=Abl|Gender=Neut|Number=Sing	16	obl	_	ref=REV_3.12
 19	a	ab	ADP	R-	_	20	case	_	ref=REV_3.12
 20	Deo	deus	NOUN	Nb	Case=Abl|Gender=Masc|Number=Sing	16	obl	_	ref=REV_3.12
-21	meo	meus	DET	Ps	Case=Abl|Gender=Masc|Number=Sing|Person=1|Poss=Yes	20	nmod	_	ref=REV_3.12
+21	meo	meus	DET	Ps	Case=Abl|Gender=Masc|Number=Sing|Person=1|Poss=Yes	20	det	_	ref=REV_3.12
 22	et	et	CCONJ	C-	_	5	cc	_	ref=REV_3.12
 23	nomen	nomen	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	5	conj	_	ref=REV_3.12
-24	meum	meus	DET	Ps	Case=Acc|Gender=Neut|Number=Sing|Person=1|Poss=Yes	23	nmod	_	ref=REV_3.12
+24	meum	meus	DET	Ps	Case=Acc|Gender=Neut|Number=Sing|Person=1|Poss=Yes	23	det	_	ref=REV_3.12
 25	novum	novus	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	23	amod	_	ref=REV_3.12
 
 # source = Jerome's Vulgate, Revelation 3
@@ -8909,7 +8909,7 @@
 # sent_id = 33580
 1	scio	scio	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=REV_3.15
 2	opera	opus	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	1	obj	_	ref=REV_3.15
-3	tua	tuus	DET	Ps	Case=Acc|Gender=Neut|Number=Plur|Person=2|Poss=Yes	2	nmod	_	ref=REV_3.15
+3	tua	tuus	DET	Ps	Case=Acc|Gender=Neut|Number=Plur|Person=2|Poss=Yes	2	det	_	ref=REV_3.15
 4	quia	quia	SCONJ	G-	_	1	ccomp	_	ref=REV_3.15
 
 # source = Jerome's Vulgate, Revelation 3
@@ -8951,7 +8951,7 @@
 14	evomere	evomo	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	12	xcomp	_	ref=REV_3.16
 15	ex	ex	ADP	R-	_	16	case	_	ref=REV_3.16
 16	ore	os	NOUN	Nb	Case=Abl|Gender=Neut|Number=Sing	14	obl	_	ref=REV_3.16|LId=1
-17	meo	meus	DET	Ps	Case=Abl|Gender=Neut|Number=Sing|Person=1|Poss=Yes	16	nmod	_	ref=REV_3.16
+17	meo	meus	DET	Ps	Case=Abl|Gender=Neut|Number=Sing|Person=1|Poss=Yes	16	det	_	ref=REV_3.16
 
 # source = Jerome's Vulgate, Revelation 3
 # text = quia dicis quod dives sum et locupletatus et nullius egeo
@@ -9008,12 +9008,12 @@
 18	appareat	appareo	VERB	V-	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	conj	_	ref=REV_3.18
 19	confusio	confusio	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	ref=REV_3.18
 20	nuditatis	nuditas	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	ref=REV_3.18
-21	tuae	tuus	DET	Ps	Case=Gen|Gender=Fem|Number=Sing|Person=2|Poss=Yes	20	nmod	_	ref=REV_3.18
+21	tuae	tuus	DET	Ps	Case=Gen|Gender=Fem|Number=Sing|Person=2|Poss=Yes	20	det	_	ref=REV_3.18
 22	et	et	CCONJ	C-	_	11	cc	_	ref=REV_3.18
 23	collyrio	collyrium	NOUN	Nb	Case=Abl|Gender=Neut|Number=Sing	24	obl	_	ref=REV_3.18
 24	inungue	inunguo	VERB	V-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	11	conj	_	ref=REV_3.18
 25	oculos	oculus	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	24	obj	_	ref=REV_3.18
-26	tuos	tuus	DET	Ps	Case=Acc|Gender=Masc|Number=Plur|Person=2|Poss=Yes	25	nmod	_	ref=REV_3.18
+26	tuos	tuus	DET	Ps	Case=Acc|Gender=Masc|Number=Plur|Person=2|Poss=Yes	25	det	_	ref=REV_3.18
 27	ut	ut	SCONJ	G-	_	28	mark	_	ref=REV_3.18
 28	videas	video	VERB	V-	Mood=Sub|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	24	advcl	_	ref=REV_3.18
 
@@ -9053,7 +9053,7 @@
 2	quis	quis	ADJ	Px	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	ref=REV_3.20
 3	audierit	audio	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	9	advcl	_	ref=REV_3.20
 4	vocem	vox	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	ref=REV_3.20
-5	meam	meus	DET	Ps	Case=Acc|Gender=Fem|Number=Sing|Person=1|Poss=Yes	4	nmod	_	ref=REV_3.20
+5	meam	meus	DET	Ps	Case=Acc|Gender=Fem|Number=Sing|Person=1|Poss=Yes	4	det	_	ref=REV_3.20
 6	et	et	CCONJ	C-	_	3	cc	_	ref=REV_3.20
 7	aperuerit	aperio	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	3	conj	_	ref=REV_3.20
 8	ianuam	ianua	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	ref=REV_3.20
@@ -9081,7 +9081,7 @@
 7	cum	cum	ADP	R-	_	6	case	_	ref=REV_3.21
 8	in	in	ADP	R-	_	9	case	_	ref=REV_3.21
 9	throno	thronus	NOUN	Nb	Case=Abl|Gender=Masc|Number=Sing	5	obl	_	ref=REV_3.21
-10	meo	meus	DET	Ps	Case=Abl|Gender=Masc|Number=Sing|Person=1|Poss=Yes	9	nmod	_	ref=REV_3.21
+10	meo	meus	DET	Ps	Case=Abl|Gender=Masc|Number=Sing|Person=1|Poss=Yes	9	det	_	ref=REV_3.21
 
 # source = Jerome's Vulgate, Revelation 3
 # text = sicut et ego vici et sedi cum Patre meo in throno eius
@@ -9094,7 +9094,7 @@
 6	sedi	sedeo	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	ref=REV_3.21
 7	cum	cum	ADP	R-	_	8	case	_	ref=REV_3.21
 8	Patre	pater	NOUN	Nb	Case=Abl|Gender=Masc|Number=Sing	6	obl	_	ref=REV_3.21
-9	meo	meus	DET	Ps	Case=Abl|Gender=Masc|Number=Sing|Person=1|Poss=Yes	8	nmod	_	ref=REV_3.21
+9	meo	meus	DET	Ps	Case=Abl|Gender=Masc|Number=Sing|Person=1|Poss=Yes	8	det	_	ref=REV_3.21
 10	in	in	ADP	R-	_	11	case	_	ref=REV_3.21
 11	throno	thronus	NOUN	Nb	Case=Abl|Gender=Masc|Number=Sing	6	obl	_	ref=REV_3.21
 12	eius	is	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	det	_	ref=REV_3.21
@@ -9417,7 +9417,7 @@
 32	et	et	CCONJ	C-	_	18	cc	_	ref=REV_4.10
 33	mittent	mitto	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	18	conj	_	ref=REV_4.10
 34	coronas	corona	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	33	obj	_	ref=REV_4.10
-35	suas	suus	DET	Pt	Case=Acc|Gender=Fem|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	34	nmod	_	ref=REV_4.10
+35	suas	suus	DET	Pt	Case=Acc|Gender=Fem|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	34	det	_	ref=REV_4.10
 36	ante	ante	ADP	R-	_	37	case	_	ref=REV_4.10
 37	thronum	thronus	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	33	obl	_	ref=REV_4.10
 38	dicentes	dico	VERB	V-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	33	advcl	_	ref=REV_4.10
@@ -9430,7 +9430,7 @@
 3	Domine	dominus	NOUN	Nb	Case=Voc|Gender=Masc|Number=Sing	1	vocative	_	ref=REV_4.11
 4	et	et	CCONJ	C-	_	3	cc	_	ref=REV_4.11
 5	Deus	deus	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	ref=REV_4.11
-6	noster	noster	DET	Ps	Case=Nom|Gender=Masc|Number=Sing|Person=1|Poss=Yes	5	nmod	_	ref=REV_4.11
+6	noster	noster	DET	Ps	Case=Nom|Gender=Masc|Number=Sing|Person=1|Poss=Yes	5	det	_	ref=REV_4.11
 7	accipere	accipio	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	1	advcl	_	ref=REV_4.11
 8	gloriam	gloria	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	ref=REV_4.11
 9	et	et	CCONJ	C-	_	8	cc	_	ref=REV_4.11
@@ -9448,7 +9448,7 @@
 1	et	et	CCONJ	C-	_	5	cc	_	ref=REV_4.11
 2	propter	propter	ADP	R-	_	3	case	_	ref=REV_4.11
 3	voluntatem	voluntas	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	ref=REV_4.11
-4	tuam	tuus	DET	Ps	Case=Acc|Gender=Fem|Number=Sing|Person=2|Poss=Yes	3	nmod	_	ref=REV_4.11
+4	tuam	tuus	DET	Ps	Case=Acc|Gender=Fem|Number=Sing|Person=2|Poss=Yes	3	det	_	ref=REV_4.11
 5	erant	sum	AUX	V-	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=REV_4.11
 6	et	et	CCONJ	C-	_	5	cc	_	ref=REV_4.11
 7	creata	creo	VERB	V-	Aspect=Perf|Case=Nom|Gender=Neut|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	5	conj	_	ref=REV_4.11
@@ -9692,7 +9692,7 @@
 15	Deo	deus	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	13	iobj	_	ref=REV_5.9
 16	in	in	ADP	R-	_	17	case	_	ref=REV_5.9
 17	sanguine	sanguis	NOUN	Nb	Case=Abl|Gender=Masc|Number=Sing	13	obl	_	ref=REV_5.9
-18	tuo	tuus	DET	Ps	Case=Abl|Gender=Neut|Number=Sing|Person=2|Poss=Yes	17	nmod	_	ref=REV_5.9
+18	tuo	tuus	DET	Ps	Case=Abl|Gender=Neut|Number=Sing|Person=2|Poss=Yes	17	det	_	ref=REV_5.9
 19	ex	ex	ADP	R-	_	21	case	_	ref=REV_5.9
 20	omni	omnis	DET	Px	Case=Abl|Gender=Fem|Number=Sing	21	det	_	ref=REV_5.9
 21	tribu	tribus	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	13	obl	_	ref=REV_5.9
@@ -9710,7 +9710,7 @@
 2	fecisti	facio	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=REV_5.10
 3	eos	is	PRON	Pp	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	obj	_	ref=REV_5.10
 4	Deo	deus	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	2	iobj	_	ref=REV_5.10
-5	nostro	noster	DET	Ps	Case=Dat|Gender=Masc|Number=Sing|Person=1|Poss=Yes	4	nmod	_	ref=REV_5.10
+5	nostro	noster	DET	Ps	Case=Dat|Gender=Masc|Number=Sing|Person=1|Poss=Yes	4	det	_	ref=REV_5.10
 6	regnum	regnum	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	2	xcomp	_	ref=REV_5.10
 7	et	et	CCONJ	C-	_	6	cc	_	ref=REV_5.10
 8	sacerdotes	sacerdos	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	6	conj	_	ref=REV_5.10
@@ -11237,7 +11237,7 @@
 # text = accepi tuas tris iam epistulas
 # sent_id = 76043
 1	accepi	accipio	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=1.13.1
-2	tuas	tuus	DET	Ps	Case=Acc|Gender=Fem|Number=Plur|Person=2|Poss=Yes	5	nmod	_	ref=1.13.1
+2	tuas	tuus	DET	Ps	Case=Acc|Gender=Fem|Number=Plur|Person=2|Poss=Yes	5	det	_	ref=1.13.1
 3	tris	tres	NUM	Ma	Case=Acc|Gender=Fem|Number=Plur	5	nummod	_	ref=1.13.1
 4	iam	iam	ADV	Df	_	1	advmod	_	ref=1.13.1
 5	epistulas	epistula	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	1	obj	_	ref=1.13.1
@@ -11264,7 +11264,7 @@
 2	quam	qui	PRON	Pr	Case=Acc|Gender=Fem|Number=Sing|PronType=Rel	7	obj	_	ref=1.13.1
 3	mihi	ego	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=1|PronType=Prs	7	iobj	_	ref=1.13.1
 4	Canusinus	Canusinus	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	ref=1.13.1
-5	tuus	tuus	DET	Ps	Case=Nom|Gender=Masc|Number=Sing|Person=2|Poss=Yes	6	nmod	_	ref=1.13.1
+5	tuus	tuus	DET	Ps	Case=Nom|Gender=Masc|Number=Sing|Person=2|Poss=Yes	6	det	_	ref=1.13.1
 6	hospes	hospes	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	ref=1.13.1
 7	reddidit	reddo	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	acl	_	ref=1.13.1
 
@@ -11364,7 +11364,7 @@
 5	caesis	caedo	VERB	V-	Aspect=Perf|Case=Abl|Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	15	advcl	_	ref=1.13.1
 6	apud	apud	ADP	R-	_	7	case	_	ref=1.13.1
 7	Amaltheam	Amalthea	PROPN	Ne	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	ref=1.13.1
-8	tuam	tuus	DET	Ps	Case=Acc|Gender=Fem|Number=Sing|Person=2|Poss=Yes	7	nmod	_	ref=1.13.1
+8	tuam	tuus	DET	Ps	Case=Acc|Gender=Fem|Number=Sing|Person=2|Poss=Yes	7	det	_	ref=1.13.1
 9	victimis	victima	NOUN	Nb	Case=Abl|Gender=Fem|Number=Plur	5	nsubj	_	ref=1.13.1
 10	statim	statim	ADV	Df	_	15	advmod	_	ref=1.13.1
 11	esse	sum	AUX	V-	Tense=Pres|VerbForm=Inf|Voice=Act	15	aux	_	ref=1.13.1
@@ -11416,11 +11416,11 @@
 4	discessum	discessus	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	1	obl	_	ref=1.13.2
 5	a	ab	ADP	R-	_	6	case	_	ref=1.13.2
 6	me	ego	PRON	Pp	Case=Abl|Gender=Masc|Number=Sing|Person=1|PronType=Prs	4	nmod	_	ref=1.13.2
-7	tuum	tuus	DET	Ps	Case=Acc|Gender=Masc,Neut|Number=Sing|Person=2|Poss=Yes	4	nmod	_	ref=1.13.2
+7	tuum	tuus	DET	Ps	Case=Acc|Gender=Masc,Neut|Number=Sing|Person=2|Poss=Yes	4	det	_	ref=1.13.2
 8	res	res	NOUN	Nb	Case=Nom|Gender=Fem|Number=Plur	1	nsubj	_	ref=1.13.2
 9	dignae	dignus	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	ref=1.13.2
 10	litteris	littera	NOUN	Nb	Case=Abl|Gender=Fem|Number=Plur	9	iobj	_	ref=1.13.2
-11	nostris	noster	DET	Ps	Case=Abl|Number=Plur|Person=1|Poss=Yes	10	nmod	_	ref=1.13.2
+11	nostris	noster	DET	Ps	Case=Abl|Number=Plur|Person=1|Poss=Yes	10	det	_	ref=1.13.2
 12	sed	sed	CCONJ	C-	_	9	cc	_	ref=1.13.2
 13	non	non	ADV	Df	Polarity=Neg	14	advmod	_	ref=1.13.2
 14	committendae	committo	VERB	V-	Case=Nom|Gender=Fem|Number=Plur|VerbForm=Gdv	9	conj	_	ref=1.13.2
@@ -11670,7 +11670,7 @@
 5	tu	tu	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=2|PronType=Prs	9	nsubj	_	ref=1.13.3
 6	forte	forte	ADV	Df	_	9	advmod	_	ref=1.13.3
 7	aliquem	aliquis	ADJ	Px	Case=Acc|Gender=Masc|Number=Sing	9	obj	_	ref=1.13.3
-8	nostrum	noster	DET	Ps	Case=Acc|Gender=Masc|Number=Sing|Person=1|Poss=Yes	7	nmod	_	ref=1.13.3
+8	nostrum	noster	DET	Ps	Case=Acc|Gender=Masc|Number=Sing|Person=1|Poss=Yes	7	det	_	ref=1.13.3
 9	putes	puto	VERB	V-	Mood=Sub|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	ref=1.13.3
 
 # source = Epistulae ad Atticum, Book 1, letter 13
@@ -11819,7 +11819,7 @@
 # source = Epistulae ad Atticum, Book 1, letter 13
 # text = tuus autem ille amicus sci n quem dicam de quo tu ad me scripsisti postea quam non auderet reprehendere laudare coepisse nos ut ostendit admodum diligit
 # sent_id = 76063
-1	tuus	tuus	DET	Ps	Case=Nom|Gender=Masc|Number=Sing|Person=2|Poss=Yes	4	nmod	_	ref=1.13.4
+1	tuus	tuus	DET	Ps	Case=Nom|Gender=Masc|Number=Sing|Person=2|Poss=Yes	4	det	_	ref=1.13.4
 2	autem	autem	ADV	Df	_	26	discourse	_	ref=1.13.4
 3	ille	ille	DET	Pd	Case=Nom|Gender=Masc|Number=Sing	4	det	_	ref=1.13.4
 4	amicus	amicus	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	26	nsubj	_	ref=1.13.4
@@ -11978,7 +11978,7 @@
 6	Puteolorum	Puteoli	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	4	conj	_	ref=1.13.5
 7	includam	includo	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	ref=1.13.5
 8	orationi	oratio	NOUN	Nb	Case=Dat|Gender=Fem|Number=Sing	7	iobj	_	ref=1.13.5
-9	meae	meus	DET	Ps	Case=Dat|Gender=Fem|Number=Sing|Person=1|Poss=Yes	8	nmod	_	ref=1.13.5
+9	meae	meus	DET	Ps	Case=Dat|Gender=Fem|Number=Sing|Person=1|Poss=Yes	8	det	_	ref=1.13.5
 
 # source = Epistulae ad Atticum, Book 1, letter 13
 # text = A. d. iii Non. Decembr. mendose fuisse animadverteram
@@ -12401,13 +12401,13 @@
 13	homines	homo	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	ref=1.14.3
 14	ei	is	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	iobj	_	ref=1.14.3
 15	consulatum	consulatus	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	17	nsubj	_	ref=1.14.3
-16	meum	meus	DET	Ps	Case=Acc|Gender=Masc|Number=Sing|Person=1|Poss=Yes	15	nmod	_	ref=1.14.3
+16	meum	meus	DET	Ps	Case=Acc|Gender=Masc|Number=Sing|Person=1|Poss=Yes	15	det	_	ref=1.14.3
 17	placere	placeo	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	12	ccomp	_	ref=1.14.3
 18	surrexit	surgo	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=1.14.3
 19	ornatissime	ornate	ADV	Df	Degree=Sup	24	advmod	_	ref=1.14.3
 20	que	que	CCONJ	C-	_	18	cc	_	ref=1.14.3
 21	de	de	ADP	R-	_	23	case	_	ref=1.14.3
-22	meo	meus	DET	Ps	Case=Abl|Gender=Masc|Number=Sing|Person=1|Poss=Yes	23	nmod	_	ref=1.14.3
+22	meo	meus	DET	Ps	Case=Abl|Gender=Masc|Number=Sing|Person=1|Poss=Yes	23	det	_	ref=1.14.3
 23	consulatu	consulatus	NOUN	Nb	Case=Abl|Gender=Masc|Number=Sing	24	obl	_	ref=1.14.3
 24	locutus	loquor	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	18	conj	_	ref=1.14.3
 25	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	24	aux	_	ref=1.14.3
@@ -12437,7 +12437,7 @@
 49	totiens	totie(n)s	ADV	Df	_	53	advmod	_	ref=1.14.3
 50	se	se	PRON	Pk	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	53	nsubj	_	ref=1.14.3
 51	beneficium	beneficium	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	53	obj	_	ref=1.14.3
-52	meum	meus	DET	Ps	Case=Acc|Gender=Masc,Neut|Number=Sing|Person=1|Poss=Yes	51	nmod	_	ref=1.14.3
+52	meum	meus	DET	Ps	Case=Acc|Gender=Masc,Neut|Number=Sing|Person=1|Poss=Yes	51	det	_	ref=1.14.3
 53	videre	video	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	41	conj	_	ref=1.14.3
 
 # source = Epistulae ad Atticum, Book 1, letter 14
@@ -12455,7 +12455,7 @@
 4	quem	qui	PRON	Pr	Case=Acc|Gender=Masc|Number=Sing|PronType=Rel	14	obj	_	ref=1.14.3
 5	ego	ego	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	ref=1.14.3
 6	varie	varie	ADV	Df	Degree=Pos	14	advmod	_	ref=1.14.3
-7	meis	meus	DET	Ps	Case=Abl|Number=Plur|Person=1|Poss=Yes	8	nmod	_	ref=1.14.3
+7	meis	meus	DET	Ps	Case=Abl|Number=Plur|Person=1|Poss=Yes	8	det	_	ref=1.14.3
 8	orationibus	oratio	NOUN	Nb	Case=Abl|Gender=Fem|Number=Plur	14	obl	_	ref=1.14.3
 9	quarum	qui	PRON	Pr	Case=Gen|Gender=Fem|Number=Plur|PronType=Rel	11	det	_	ref=1.14.3
 10	tu	tu	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=2|PronType=Prs	11	nsubj	_	ref=1.14.3
@@ -12499,7 +12499,7 @@
 13	esse	sum	AUX	V-	Tense=Pres|VerbForm=Inf|Voice=Act	14	cop	_	ref=1.14.3
 14	tantas	tantus	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	6	conj	_	ref=1.14.3
 15	res	res	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	14	nsubj	_	ref=1.14.3
-16	nostras	noster	DET	Ps	Case=Acc|Gender=Fem|Number=Plur|Person=1|Poss=Yes	15	nmod	_	ref=1.14.3
+16	nostras	noster	DET	Ps	Case=Acc|Gender=Fem|Number=Plur|Person=1|Poss=Yes	15	det	_	ref=1.14.3
 17	quae	qui	PRON	Pr	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	21	nsubj:pass	_	ref=1.14.3
 18	tam	tam	ADV	Df	_	19	advmod	_	ref=1.14.3
 19	libenti	libens	ADJ	A-	Case=Abl|Degree=Pos|Number=Sing	20	amod	_	ref=1.14.3
@@ -12516,7 +12516,7 @@
 30	minus	parum	ADV	Df	Degree=Cmp	31	advmod	_	ref=1.14.3
 31	deberet	debeo	VERB	V-	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	23	acl	_	ref=1.14.3
 32	quod	quod	SCONJ	G-	_	39	mark	_	ref=1.14.3
-33	meis	meus	DET	Ps	Case=Abl|Number=Plur|Person=1|Poss=Yes	35	nmod	_	ref=1.14.3
+33	meis	meus	DET	Ps	Case=Abl|Number=Plur|Person=1|Poss=Yes	35	det	_	ref=1.14.3
 34	omnibus	omnis	DET	Px	Case=Abl|Number=Plur	35	det	_	ref=1.14.3
 35	litteris	littera	NOUN	Nb	Case=Abl|Gender=Fem|Number=Plur	39	obl	_	ref=1.14.3
 36	in	in	ADP	R-	_	38	case	_	ref=1.14.3
@@ -12622,7 +12622,7 @@
 4	hac	hic	DET	Pd	Case=Abl|Gender=Fem|Number=Sing	5	det	_	ref=1.14.4
 5	materia	materia	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	6	nmod	_	ref=1.14.4
 6	sonitus	sonitus	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	1	obj	_	ref=1.14.4
-7	nostros	noster	DET	Ps	Case=Acc|Gender=Masc|Number=Plur|Person=1|Poss=Yes	6	nmod	_	ref=1.14.4
+7	nostros	noster	DET	Ps	Case=Acc|Gender=Masc|Number=Plur|Person=1|Poss=Yes	6	det	_	ref=1.14.4
 
 # source = Epistulae ad Atticum, Book 1, letter 14
 # text = tanti fuerunt ut ego eo brevior sim quod eos usque istinc exauditos putem
@@ -12773,7 +12773,7 @@
 1	accedit	accedo	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=1.14.5
 2	eodem	eodem	ADV	Df	_	1	advmod	_	ref=1.14.5
 3	etiam	etiam	ADV	Df	_	1	discourse	_	ref=1.14.5
-4	noster	noster	DET	Ps	Case=Nom|Gender=Masc|Number=Sing|Person=1|Poss=Yes	5	nmod	_	ref=1.14.5
+4	noster	noster	DET	Ps	Case=Nom|Gender=Masc|Number=Sing|Person=1|Poss=Yes	5	det	_	ref=1.14.5
 5	Hortensius	Hortensius	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	ref=1.14.5
 6	multi	multus	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	ref=1.14.5
 7	praeterea	praeterea	ADV	Df	_	8	advmod	_	ref=1.14.5
@@ -13234,14 +13234,14 @@
 5	facias	facio	VERB	V-	Mood=Sub|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	_	ref=1.15.2
 6	quid	quis	PRON	Pi	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	10	obj	_	ref=1.15.2
 7	de	de	ADP	R-	_	9	case	_	ref=1.15.2
-8	meis	meus	DET	Ps	Case=Abl|Number=Plur|Person=1|Poss=Yes	9	nmod	_	ref=1.15.2
+8	meis	meus	DET	Ps	Case=Abl|Number=Plur|Person=1|Poss=Yes	9	det	_	ref=1.15.2
 9	mandatis	mandatum	NOUN	Nb	Case=Abl|Gender=Neut|Number=Plur	10	obl	_	ref=1.15.2
 10	egeris	ago	VERB	V-	Aspect=Perf|Mood=Sub|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	4	ccomp	_	ref=1.15.2
 11	atque	atque	CCONJ	C-	_	10	cc	_	ref=1.15.2
 12	etiam	etiam	ADV	Df	_	13	discourse	_	ref=1.15.2
 13	quid	quis	PRON	Pi	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	10	conj	_	ref=1.15.2
 14	de	de	ADP	R-	_	16	case	_	ref=1.15.2
-15	tuo	tuus	DET	Ps	Case=Abl|Gender=Masc,Neut|Number=Sing|Person=2|Poss=Yes	16	nmod	_	ref=1.15.2
+15	tuo	tuus	DET	Ps	Case=Abl|Gender=Masc,Neut|Number=Sing|Person=2|Poss=Yes	16	det	_	ref=1.15.2
 16	negotio	negotium	NOUN	Nb	Case=Abl|Gender=Neut|Number=Sing	13	orphan	_	ref=1.15.2
 
 # source = Epistulae ad Atticum, Book 1, letter 15
@@ -13293,7 +13293,7 @@
 1	Numestium	Numestius	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	10	obj	_	ref=2.20.1
 2	ex	ex	ADP	R-	_	3	case	_	ref=2.20.1
 3	litteris	littera	NOUN	Nb	Case=Abl|Gender=Fem|Number=Plur	10	obl	_	ref=2.20.1
-4	tuis	tuus	DET	Ps	Case=Abl|Gender=Fem|Number=Plur|Person=2|Poss=Yes	3	nmod	_	ref=2.20.1
+4	tuis	tuus	DET	Ps	Case=Abl|Gender=Fem|Number=Plur|Person=2|Poss=Yes	3	det	_	ref=2.20.1
 5	studiose	studiose	ADV	Df	Degree=Pos	6	advmod	_	ref=2.20.1
 6	scriptis	scribo	VERB	V-	Aspect=Perf|Case=Abl|Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	3	acl	_	ref=2.20.1
 7	libenter	libenter	ADV	Df	Degree=Pos	10	advmod	_	ref=2.20.1
@@ -13668,7 +13668,7 @@
 5	nihil	nihil	ADJ	Px	Case=Acc|Gender=Neut|Number=Sing	6	obl	_	ref=2.20.5
 6	necesse	necesse	ADV	Df	_	0	root	_	ref=2.20.5
 7	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	ref=2.20.5
-8	tuum	tuus	DET	Ps	Case=Acc|Gender=Neut|Number=Sing|Person=2|Poss=Yes	9	nmod	_	ref=2.20.5
+8	tuum	tuus	DET	Ps	Case=Acc|Gender=Neut|Number=Sing|Person=2|Poss=Yes	9	det	_	ref=2.20.5
 9	nomen	nomen	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	10	obj	_	ref=2.20.5
 10	mutare	muto	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	6	ccomp	_	ref=2.20.5
 
@@ -13684,7 +13684,7 @@
 7	ne	ne	ADV	Df	Polarity=Neg	11	advmod	_	ref=2.20.5
 8	que	que	CCONJ	C-	_	11	cc	_	ref=2.20.5
 9	utar	utor	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Pass	2	conj	_	ref=2.20.5
-10	meo	meus	DET	Ps	Case=Abl|Gender=Masc,Neut|Number=Sing|Person=1|Poss=Yes	11	nmod	_	ref=2.20.5
+10	meo	meus	DET	Ps	Case=Abl|Gender=Masc,Neut|Number=Sing|Person=1|Poss=Yes	11	det	_	ref=2.20.5
 11	chirographo	chirographus	NOUN	Nb	Case=Abl|Gender=Masc|Number=Sing	9	iobj	_	ref=2.20.5
 12	ne	ne	ADV	Df	Polarity=Neg	14	advmod	_	ref=2.20.5
 13	que	que	CCONJ	C-	_	11	cc	_	ref=2.20.5
@@ -13934,7 +13934,7 @@
 # sent_id = 76910
 1	itaque	itaque	ADV	Df	_	20	discourse	_	ref=2.21.3
 2	ille	ille	DET	Pd	Case=Nom|Gender=Masc|Number=Sing	4	det	_	ref=2.21.3
-3	noster	noster	DET	Ps	Case=Nom|Gender=Masc|Number=Sing|Person=1|Poss=Yes	4	nmod	_	ref=2.21.3
+3	noster	noster	DET	Ps	Case=Nom|Gender=Masc|Number=Sing|Person=1|Poss=Yes	4	det	_	ref=2.21.3
 4	amicus	amicus	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	ref=2.21.3
 5	insolens	insolens	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	appos	_	ref=2.21.3
 6	infamiae	imfamia	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	5	iobj	_	ref=2.21.3
@@ -14079,7 +14079,7 @@
 18	si	si	SCONJ	G-	_	24	mark	_	ref=2.21.4
 19	Ialysum	Ialysus	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	24	obj	_	ref=2.21.4
 20	illum	ille	DET	Pd	Case=Acc|Gender=Masc|Number=Sing	19	det	_	ref=2.21.4
-21	suum	suus	DET	Pt	Case=Acc|Gender=Masc|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	19	nmod	_	ref=2.21.4
+21	suum	suus	DET	Pt	Case=Acc|Gender=Masc|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	19	det	_	ref=2.21.4
 22	caeno	caenum	NOUN	Nb	Case=Abl|Gender=Neut|Number=Sing	23	obl	_	ref=2.21.4
 23	oblitum	obliviscor	VERB	V-	Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	24	xcomp	_	ref=2.21.4
 24	videret	video	VERB	V-	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	13	conj	_	ref=2.21.4
@@ -14246,7 +14246,7 @@
 15	putarat	puto	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin|Voice=Act	0	root	_	ref=2.21.5
 16	Caesar	Caesar	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	ref=2.21.5
 17	oratione	oratio	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	20	obl	_	ref=2.21.5
-18	sua	suus	DET	Pt	Case=Abl|Gender=Fem|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	17	nmod	_	ref=2.21.5
+18	sua	suus	DET	Pt	Case=Abl|Gender=Fem|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	17	det	_	ref=2.21.5
 19	posse	possum	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	15	ccomp	_	ref=2.21.5
 20	impelli	impello	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Pass	19	xcomp	_	ref=2.21.5
 21	contionem	contio	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	19	nsubj	_	ref=2.21.5
@@ -14509,7 +14509,7 @@
 4	salutem	salus	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	9	obl	_	ref=3.19.1
 5	libentissime	libenter	ADV	Df	Degree=Sup	9	advmod	_	ref=3.19.1
 6	ex	ex	ADP	R-	_	8	case	_	ref=3.19.1
-7	tuo	tuus	DET	Ps	Case=Abl|Gender=Masc,Neut|Number=Sing|Person=2|Poss=Yes	8	nmod	_	ref=3.19.1
+7	tuo	tuus	DET	Ps	Case=Abl|Gender=Masc,Neut|Number=Sing|Person=2|Poss=Yes	8	det	_	ref=3.19.1
 8	portu	portus	NOUN	Nb	Case=Abl|Gender=Masc|Number=Sing	9	obl	_	ref=3.19.1
 9	proficiscar	proficiscor	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Pass	0	root	_	ref=3.19.1
 10	et	et	CCONJ	C-	_	9	cc	_	ref=3.19.1
@@ -14548,7 +14548,7 @@
 # text = me tuae litterae numquam in tantam spem adduxerunt quantam aliorum
 # sent_id = 77271
 1	me	ego	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=1|PronType=Prs	8	obj	_	ref=3.19.2
-2	tuae	tuus	DET	Ps	Case=Nom|Gender=Fem|Number=Plur|Person=2|Poss=Yes	3	nmod	_	ref=3.19.2
+2	tuae	tuus	DET	Ps	Case=Nom|Gender=Fem|Number=Plur|Person=2|Poss=Yes	3	det	_	ref=3.19.2
 3	litterae	littera	NOUN	Nb	Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	ref=3.19.2
 4	numquam	numquam	ADV	Df	_	8	advmod	_	ref=3.19.2
 5	in	in	ADP	R-	_	7	case	_	ref=3.19.2
@@ -14563,14 +14563,14 @@
 # sent_id = 83578
 1	ac	atque	CCONJ	C-	_	6	cc	_	ref=3.19.2
 2	tamen	tamen	ADV	Df	_	6	discourse	_	ref=3.19.2
-3	mea	meus	DET	Ps	Case=Nom|Gender=Fem|Number=Sing|Person=1|Poss=Yes	4	nmod	_	ref=3.19.2
+3	mea	meus	DET	Ps	Case=Nom|Gender=Fem|Number=Sing|Person=1|Poss=Yes	4	det	_	ref=3.19.2
 4	spes	spes	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	ref=3.19.2
 5	etiam	etiam	ADV	Df	_	6	discourse	_	ref=3.19.2
 6	tenuior	tenuis	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem,Masc|Number=Sing	0	root	_	ref=3.19.2
 7	semper	semper	ADV	Df	_	6	advmod	_	ref=3.19.2
 8	fuit	sum	AUX	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	cop	_	ref=3.19.2
 9	quam	quam	ADV	Df	_	6	advmod	_	ref=3.19.2|LId=1
-10	tuae	tuus	DET	Ps	Case=Nom|Gender=Fem|Number=Plur|Person=2|Poss=Yes	11	nmod	_	ref=3.19.2
+10	tuae	tuus	DET	Ps	Case=Nom|Gender=Fem|Number=Plur|Person=2|Poss=Yes	11	det	_	ref=3.19.2
 11	litterae	littera	NOUN	Nb	Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	ref=3.19.2
 
 # source = Epistulae ad Atticum, Book 3, letter 19
@@ -14623,7 +14623,7 @@
 45	et	et	CCONJ	C-	_	44	cc	_	ref=3.19.2
 46	fidelis	fidelis	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	47	amod	_	ref=3.19.2
 47	litteras	littera	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	44	conj	_	ref=3.19.2
-48	tuas	tuus	DET	Ps	Case=Acc|Gender=Fem|Number=Plur|Person=2|Poss=Yes	47	nmod	_	ref=3.19.2
+48	tuas	tuus	DET	Ps	Case=Acc|Gender=Fem|Number=Plur|Person=2|Poss=Yes	47	det	_	ref=3.19.2
 
 # source = Epistulae ad Atticum, Book 3, letter 19
 # text = mihi Epirus aut iter ad salutem dabit aut quod scripsi supra
@@ -14663,7 +14663,7 @@
 18	si	si	SCONJ	G-	_	26	mark	_	ref=3.19.3
 19	me	ego	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=1|PronType=Prs	23	nsubj:pass	_	ref=3.19.3
 20	a	ab	ADP	R-	_	22	case	_	ref=3.19.3
-21	meis	meus	DET	Ps	Case=Abl|Number=Plur|Person=1|Poss=Yes	22	nmod	_	ref=3.19.3
+21	meis	meus	DET	Ps	Case=Abl|Number=Plur|Person=1|Poss=Yes	22	det	_	ref=3.19.3
 22	consiliariis	consiliarius	NOUN	Nb	Case=Abl|Gender=Masc|Number=Plur	23	obl:agent	_	ref=3.19.3
 23	proditum	prodo	VERB	V-	Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	26	ccomp	_	ref=3.19.3
 24	et	et	CCONJ	C-	_	23	cc	_	ref=3.19.3
@@ -14681,7 +14681,7 @@
 36	perderem	perdo	VERB	V-	Aspect=Imp|Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	30	csubj:pass	_	ref=3.19.3
 37	ut	ut	SCONJ	G-	_	41	mark	_	ref=3.19.3
 38	me	ego	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=1|PronType=Prs	41	obj	_	ref=3.19.3
-39	tua	tuus	DET	Ps	Case=Abl|Gender=Fem|Number=Sing|Person=2|Poss=Yes	40	nmod	_	ref=3.19.3
+39	tua	tuus	DET	Ps	Case=Abl|Gender=Fem|Number=Sing|Person=2|Poss=Yes	40	det	_	ref=3.19.3
 40	misericordia	misericordia	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	41	obl	_	ref=3.19.3
 41	iuves	iuvo	VERB	V-	Mood=Sub|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	4	ccomp	_	ref=3.19.3
 42	et	et	CCONJ	C-	_	41	cc	_	ref=3.19.3
@@ -14695,7 +14695,7 @@
 50	Terentiam	Terentia	PROPN	Ne	Case=Acc|Gender=Fem|Number=Sing	54	obj	_	ref=3.19.3
 51	liberos	liberi	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	50	conj	_	ref=3.19.3
 52	que	que	CCONJ	C-	_	50	cc	_	ref=3.19.3
-53	meos	meus	DET	Ps	Case=Acc|Gender=Masc|Number=Plur|Person=1|Poss=Yes	51	nmod	_	ref=3.19.3
+53	meos	meus	DET	Ps	Case=Acc|Gender=Masc|Number=Plur|Person=1|Poss=Yes	51	det	_	ref=3.19.3
 54	tueare	tueor	VERB	V-	Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	41	conj	_	ref=3.19.3
 55	me	ego	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=1|PronType=Prs	61	obj	_	ref=3.19.3
 56	si	si	SCONJ	G-	_	57	mark	_	ref=3.19.3
@@ -14713,11 +14713,11 @@
 68	que	que	CCONJ	C-	_	41	cc	_	ref=3.19.3
 69	ex	ex	ADP	R-	_	70	case	_	ref=3.19.3
 70	agro	ager	NOUN	Nb	Case=Abl|Gender=Masc|Number=Sing	72	nmod	_	ref=3.19.3
-71	tuo	tuus	DET	Ps	Case=Abl|Gender=Masc,Neut|Number=Sing|Person=2|Poss=Yes	70	nmod	_	ref=3.19.3
+71	tuo	tuus	DET	Ps	Case=Abl|Gender=Masc,Neut|Number=Sing|Person=2|Poss=Yes	70	det	_	ref=3.19.3
 72	tantum	tantum	ADV	Df	_	73	obj	_	ref=3.19.3
 73	adsignes	assigno	VERB	V-	Mood=Sub|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	41	conj	_	ref=3.19.3
 74	quantum	quantum	ADV	Dq	PronType=Rel	78	nsubj	_	ref=3.19.3
-75	meo	meus	DET	Ps	Case=Abl|Gender=Masc,Neut|Number=Sing|Person=1|Poss=Yes	76	nmod	_	ref=3.19.3
+75	meo	meus	DET	Ps	Case=Abl|Gender=Masc,Neut|Number=Sing|Person=1|Poss=Yes	76	det	_	ref=3.19.3
 76	corpore	corpus	NOUN	Nb	Case=Abl|Gender=Neut|Number=Sing	77	obl	_	ref=3.19.3
 77	occupari	occupo	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Pass	78	xcomp	_	ref=3.19.3
 78	potest	possum	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	72	acl	_	ref=3.19.3
@@ -14748,13 +14748,13 @@
 1	nihil	nihil	ADJ	Px	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	ref=4.7.1
 2	εὐκαιρότερον	greek.expression	X	F-	_	0	root	_	ref=4.7.1
 3	epistula	epistula	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	2	iobj	_	ref=4.7.1
-4	tua	tuus	DET	Ps	Case=Abl|Gender=Fem|Number=Sing|Person=2|Poss=Yes	3	nmod	_	ref=4.7.1
+4	tua	tuus	DET	Ps	Case=Abl|Gender=Fem|Number=Sing|Person=2|Poss=Yes	3	det	_	ref=4.7.1
 5	quae	qui	PRON	Pr	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	14	nsubj	_	ref=4.7.1
 6	me	ego	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=1|PronType=Prs	14	obj	_	ref=4.7.1
 7	sollicitum	sollicitus	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	14	advmod	_	ref=4.7.1
 8	de	de	ADP	R-	_	9	case	_	ref=4.7.1
 9	Quinto	Quintus	PROPN	Ne	Case=Abl|Gender=Masc|Number=Sing	7	obl	_	ref=4.7.1
-10	nostro	noster	DET	Ps	Case=Abl|Gender=Masc,Neut|Number=Sing|Person=1|Poss=Yes	9	nmod	_	ref=4.7.1
+10	nostro	noster	DET	Ps	Case=Abl|Gender=Masc,Neut|Number=Sing|Person=1|Poss=Yes	9	det	_	ref=4.7.1
 11	puero	puer	NOUN	Nb	Case=Abl|Gender=Masc|Number=Sing	9	appos	_	ref=4.7.1
 12	optimo	bonus	ADJ	A-	Case=Abl|Degree=Sup|Gender=Masc,Neut|Number=Sing	11	amod	_	ref=4.7.1
 13	valde	valde	ADV	Df	Degree=Pos	14	advmod	_	ref=4.7.1
@@ -14805,7 +14805,7 @@
 # sent_id = 77570
 1	nam	nam	ADV	Df	_	0	root	_	ref=4.7.1
 2	Terentius	Terentius	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	ref=4.7.1
-3	suo	suus	DET	Pt	Case=Abl|Gender=Masc,Neut|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	4	nmod	_	ref=4.7.1
+3	suo	suus	DET	Pt	Case=Abl|Gender=Masc,Neut|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	4	det	_	ref=4.7.1
 4	iure	ius	NOUN	Nb	Case=Abl|Gender=Neut|Number=Sing	1	obl	_	ref=4.7.1
 
 # source = Epistulae ad Atticum, Book 4, letter 7
@@ -14832,7 +14832,7 @@
 # sent_id = 84865
 1	tibi	tu	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=2|PronType=Prs	4	obl	_	ref=4.7.2
 2	nummi	nummus	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	ref=4.7.2
-3	meo	meus	DET	Ps	Case=Abl|Gender=Masc,Neut|Number=Sing|Person=1|Poss=Yes	4	nmod	_	ref=4.7.2
+3	meo	meus	DET	Ps	Case=Abl|Gender=Masc,Neut|Number=Sing|Person=1|Poss=Yes	4	det	_	ref=4.7.2
 4	periculo	periculum	NOUN	Nb	Case=Abl|Gender=Neut|Number=Sing	0	root	_	ref=4.7.2
 5	sint	sum	AUX	V-	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	ref=4.7.2
 
@@ -14883,7 +14883,7 @@
 # source = Epistulae ad Atticum, Book 4, letter 7
 # text = mea mandata de domo curabis
 # sent_id = 77575
-1	mea	meus	DET	Ps	Case=Acc|Gender=Neut|Number=Plur|Person=1|Poss=Yes	2	nmod	_	ref=4.7.3
+1	mea	meus	DET	Ps	Case=Acc|Gender=Neut|Number=Plur|Person=1|Poss=Yes	2	det	_	ref=4.7.3
 2	mandata	mandatum	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	5	obj	_	ref=4.7.3
 3	de	de	ADP	R-	_	4	case	_	ref=4.7.3
 4	domo	domus	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	2	nmod	_	ref=4.7.3
@@ -14968,7 +14968,7 @@
 5	nisi	nisi	ADV	Df	_	1	amod	_	ref=5.18.1
 6	accepisse	accipio	VERB	V-	Aspect=Perf|Tense=Past|VerbForm=Inf|Voice=Act	5	ccomp	_	ref=5.18.1
 7	nos	nos	PRON	Pp	Case=Acc|Gender=Masc|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	ref=5.18.1
-8	tuas	tuus	DET	Ps	Case=Acc|Gender=Fem|Number=Plur|Person=2|Poss=Yes	9	nmod	_	ref=5.18.1
+8	tuas	tuus	DET	Ps	Case=Acc|Gender=Fem|Number=Plur|Person=2|Poss=Yes	9	det	_	ref=5.18.1
 9	litteras	littera	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	ref=5.18.1
 10	a.d.x	calendar	ADV	Df	_	14	advmod	_	ref=5.18.1
 11	iiii	expression	ADV	Df	_	10	fixed	_	ref=5.18.1
@@ -15051,7 +15051,7 @@
 24	proxima	proximus	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	23	advmod	_	ref=5.18.1
 25	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	23	cop	_	ref=5.18.1
 26	provinciae	provincia	NOUN	Nb	Case=Dat|Gender=Fem|Number=Sing	23	nmod	_	ref=5.18.1
-27	meae	meus	DET	Ps	Case=Dat|Gender=Fem|Number=Sing|Person=1|Poss=Yes	26	nmod	_	ref=5.18.1
+27	meae	meus	DET	Ps	Case=Dat|Gender=Fem|Number=Sing|Person=1|Poss=Yes	26	det	_	ref=5.18.1
 
 # source = Epistulae ad Atticum, Book 5, letter 18
 # text = his de rebus scripsi ad senatum
@@ -15123,7 +15123,7 @@
 6	illi	ille	ADJ	Pd	Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	ref=5.18.1
 7	ante	ante	ADV	Df	_	11	advmod	_	ref=5.18.1
 8	in	in	ADP	R-	_	10	case	_	ref=5.18.1
-9	meam	meus	DET	Ps	Case=Acc|Gender=Fem|Number=Sing|Person=1|Poss=Yes	10	nmod	_	ref=5.18.1
+9	meam	meus	DET	Ps	Case=Acc|Gender=Fem|Number=Sing|Person=1|Poss=Yes	10	det	_	ref=5.18.1
 10	provinciam	provincia	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	ref=5.18.1
 11	transierint	transeo	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	3	conj	_	ref=5.18.1
 12	unum	unus	NUM	Ma	Case=Acc|Gender=Neut|Number=Sing	13	obj	_	ref=5.18.1
@@ -15230,7 +15230,7 @@
 3	Deiotari	Deiotarus	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	ref=5.18.2
 4	adventu	adventus	NOUN	Nb	Case=Abl|Gender=Masc|Number=Sing	9	obl	_	ref=5.18.2
 5	cum	cum	ADP	R-	_	8	case	_	ref=5.18.2
-6	suis	suus	DET	Pt	Case=Abl|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	8	nmod	_	ref=5.18.2
+6	suis	suus	DET	Pt	Case=Abl|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	8	det	_	ref=5.18.2
 7	omnibus	omnis	DET	Px	Case=Abl|Number=Plur	8	det	_	ref=5.18.2
 8	copiis	copia	NOUN	Nb	Case=Abl|Gender=Fem|Number=Plur	3	nmod	_	ref=5.18.2
 9	duplicaturi	duplico	VERB	V-	Case=Nom|Gender=Masc|Number=Plur|Tense=Fut|VerbForm=Part|Voice=Act	0	root	_	ref=5.18.2
@@ -15250,7 +15250,7 @@
 9	quibus	qui	PRON	Pr	Case=Dat|Gender=Masc|Number=Plur|PronType=Rel	11	iobj	_	ref=5.18.2
 10	incredibilis	incredibilis	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem,Masc|Number=Sing	11	xcomp	_	ref=5.18.2
 11	videtur	video	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	1	acl	_	ref=5.18.2
-12	nostra	noster	DET	Ps	Case=Nom|Gender=Fem|Number=Sing|Person=1|Poss=Yes	14	nmod	_	ref=5.18.2
+12	nostra	noster	DET	Ps	Case=Nom|Gender=Fem|Number=Sing|Person=1|Poss=Yes	14	det	_	ref=5.18.2
 13	et	et	CCONJ	C-	_	14	cc	_	ref=5.18.2
 14	mansuetudo	mansuetudo	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	11	nsubj:pass	_	ref=5.18.2
 15	et	et	CCONJ	C-	_	14	cc	_	ref=5.18.2
@@ -15298,7 +15298,7 @@
 9	cerno	cerno	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	ref=5.18.3
 10	συμπάθειαν	greek.expression	X	F-	_	9	obj	_	ref=5.18.3
 11	amoris	amor	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	ref=5.18.3
-12	tui	tuus	DET	Ps	Case=Gen|Gender=Masc,Neut|Number=Sing|Person=2|Poss=Yes	11	nmod	_	ref=5.18.3
+12	tui	tuus	DET	Ps	Case=Gen|Gender=Masc,Neut|Number=Sing|Person=2|Poss=Yes	11	det	_	ref=5.18.3
 
 # source = Epistulae ad Atticum, Book 5, letter 18
 # text = sed te rogo si ullo pacto fieri poterit si integra in senatu nostra causa ad Kal.Ianuarias manserit ut Romae sis mense Ianuario
@@ -15315,7 +15315,7 @@
 10	integra	integer	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	17	xcomp	_	ref=5.18.3
 11	in	in	ADP	R-	_	12	case	_	ref=5.18.3
 12	senatu	senatus	NOUN	Nb	Case=Abl|Gender=Masc|Number=Sing	17	obl	_	ref=5.18.3
-13	nostra	noster	DET	Ps	Case=Nom|Gender=Fem|Number=Sing|Person=1|Poss=Yes	14	nmod	_	ref=5.18.3
+13	nostra	noster	DET	Ps	Case=Nom|Gender=Fem|Number=Sing|Person=1|Poss=Yes	14	det	_	ref=5.18.3
 14	causa	causa	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	ref=5.18.3
 15	ad	ad	ADP	R-	_	17	obl	_	ref=5.18.3
 16	Kal.Ianuarias	calendar.expression	ADV	Df	_	15	advmod	_	ref=5.18.3
@@ -15343,7 +15343,7 @@
 1	amicos	amicus	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	2	amod	_	ref=5.18.3
 2	consules	consul	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	3	obj	_	ref=5.18.3
 3	habemus	habeo	VERB	V-	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=5.18.3
-4	nostrum	noster	DET	Ps	Case=Acc|Gender=Masc,Neut|Number=Sing|Person=1|Poss=Yes	5	nmod	_	ref=5.18.3
+4	nostrum	noster	DET	Ps	Case=Acc|Gender=Masc,Neut|Number=Sing|Person=1|Poss=Yes	5	det	_	ref=5.18.3
 5	tribunum	tribunus	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	2	conj	_	ref=5.18.3
 6	plebis	plebs	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	ref=5.18.3
 7	Furnium	Furnius	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	5	appos	_	ref=5.18.3
@@ -15352,7 +15352,7 @@
 # text = verum tua est opus adsiduitate prudentia gratia
 # sent_id = 78303
 1	verum	verum	ADV	Df	_	3	advmod	_	ref=5.18.3
-2	tua	tuus	DET	Ps	Case=Abl|Gender=Fem|Number=Sing|Person=2|Poss=Yes	5	nmod	_	ref=5.18.3
+2	tua	tuus	DET	Ps	Case=Abl|Gender=Fem|Number=Sing|Person=2|Poss=Yes	5	det	_	ref=5.18.3
 3	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=5.18.3
 4	opus	opus	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	ref=5.18.3
 5	adsiduitate	assiduitas	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	4	nmod	_	ref=5.18.3
@@ -15383,7 +15383,7 @@
 # text = Cicerones nostri sunt apud Deiotarum sed si opus erit deducentur Rhodum
 # sent_id = 78306
 1	Cicerones	Cicero	PROPN	Ne	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	ref=5.18.4
-2	nostri	noster	DET	Ps	Case=Nom|Gender=Masc|Number=Plur|Person=1|Poss=Yes	1	nmod	_	ref=5.18.4
+2	nostri	noster	DET	Ps	Case=Nom|Gender=Masc|Number=Plur|Person=1|Poss=Yes	1	det	_	ref=5.18.4
 3	sunt	sum	AUX	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	ref=5.18.4
 4	apud	apud	ADP	R-	_	5	case	_	ref=5.18.4
 5	Deiotarum	Deiotarus	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	0	root	_	ref=5.18.4
@@ -15416,7 +15416,7 @@
 6	ad	ad	ADP	R-	_	7	case	_	ref=5.18.4
 7	nos	nos	PRON	Pp	Case=Acc|Gender=Masc|Number=Plur|Person=1|PronType=Prs	4	obl	_	ref=5.18.4
 8	de	de	ADP	R-	_	9	case	_	ref=5.18.4
-9	tuis	tuus	DET	Ps	Case=Abl|Gender=Masc|Number=Plur|Person=2|Poss=Yes	11	nmod	_	ref=5.18.4
+9	tuis	tuus	DET	Ps	Case=Abl|Gender=Masc|Number=Plur|Person=2|Poss=Yes	11	det	_	ref=5.18.4
 10	aliquem	aliquis	DET	Px	Case=Acc|Gender=Masc|Number=Sing	11	det	_	ref=5.18.4
 11	tabellarium	tabellarius	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	ref=5.18.4
 12	ut	ut	SCONJ	G-	_	14	mark	_	ref=5.18.4
@@ -15441,7 +15441,7 @@
 # text = ego tui Bruti rem sic ago ut suam ipse non ageret
 # sent_id = 78308
 1	ego	ego	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	ref=5.18.4
-2	tui	tuus	DET	Ps	Case=Gen|Gender=Masc,Neut|Number=Sing|Person=2|Poss=Yes	3	nmod	_	ref=5.18.4
+2	tui	tuus	DET	Ps	Case=Gen|Gender=Masc,Neut|Number=Sing|Person=2|Poss=Yes	3	det	_	ref=5.18.4
 3	Bruti	Brutus	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	ref=5.18.4
 4	rem	res	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	ref=5.18.4
 5	sic	sic	ADV	Df	_	6	advmod	_	ref=5.18.4
@@ -15711,7 +15711,7 @@
 23	spem	spes	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	24	obl	_	ref=1.42.3
 24	veniebat	venio	VERB	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	ref=1.42.3
 25	pro	pro	ADP	R-	_	33	case	_	ref=1.42.3
-26	suis	suus	DET	Pt	Case=Abl|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	33	nmod	_	ref=1.42.3
+26	suis	suus	DET	Pt	Case=Abl|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	33	det	_	ref=1.42.3
 27	tantis	tantus	DET	Pd	Case=Abl|Number=Plur	33	det	_	ref=1.42.3
 28	populi	populus	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	26	conj	_	ref=1.42.3
 29	que	que	CCONJ	C-	_	26	cc	_	ref=1.42.3
@@ -15720,7 +15720,7 @@
 32	eum	is	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	33	nmod	_	ref=1.42.3
 33	beneficiis	beneficium	NOUN	Nb	Case=Abl|Gender=Neut|Number=Plur	37	obl	_	ref=1.42.3
 34	cognitis	cognosco	VERB	V-	Aspect=Perf|Case=Abl|Gender=Neut|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	37	advcl	_	ref=1.42.3
-35	suis	suus	DET	Pt	Case=Abl|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	36	nmod	_	ref=1.42.3
+35	suis	suus	DET	Pt	Case=Abl|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	36	det	_	ref=1.42.3
 36	postulatis	postulatum	NOUN	Nb	Case=Abl|Gender=Neut|Number=Plur	34	nsubj:pass	_	ref=1.42.3
 37	fore	sum	AUX	V-	Tense=Pres|VerbForm=Inf|Voice=Act	23	ccomp	_	ref=1.42.3
 38	uti	ut	SCONJ	G-	_	40	mark	_	ref=1.42.3
@@ -15807,7 +15807,7 @@
 10	ne	ne	ADV	Df	Polarity=Neg	17	advmod	_	ref=1.42.6
 11	que	que	CCONJ	C-	_	9	cc	_	ref=1.42.6
 12	salutem	salus	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	16	obj	_	ref=1.42.6
-13	suam	suus	DET	Pt	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	12	nmod	_	ref=1.42.6
+13	suam	suus	DET	Pt	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	12	det	_	ref=1.42.6
 14	Gallorum	Galli	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	ref=1.42.6
 15	equitatui	equitatus	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	16	iobj	_	ref=1.42.6
 16	committere	committo	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	17	xcomp	_	ref=1.42.6
@@ -15930,7 +15930,7 @@
 25	esse	sum	AUX	V-	Tense=Pres|VerbForm=Inf|Voice=Act	23	cop	_	ref=2.4.1
 26	qui	qui	PRON	Pr	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	40	nsubj	_	ref=2.4.1
 27	patrum	pater	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	29	nmod	_	ref=2.4.1
-28	nostrorum	noster	DET	Ps	Case=Gen|Gender=Masc,Neut|Number=Plur|Person=1|Poss=Yes	27	nmod	_	ref=2.4.1
+28	nostrorum	noster	DET	Ps	Case=Gen|Gender=Masc,Neut|Number=Plur|Person=1|Poss=Yes	27	det	_	ref=2.4.1
 29	memoria	memoria	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	40	obl	_	ref=2.4.1
 30	omni	omnis	DET	Px	Case=Abl|Number=Sing	31	det	_	ref=2.4.1
 31	Gallia	Gallia	PROPN	Ne	Case=Abl|Gender=Fem|Number=Sing	32	nsubj:pass	_	ref=2.4.1
@@ -15939,7 +15939,7 @@
 34	Cimbros	Cimbri	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	33	conj	_	ref=2.4.1
 35	que	que	CCONJ	C-	_	33	cc	_	ref=2.4.1
 36	intra	intra	ADP	R-	_	38	case	_	ref=2.4.1
-37	suos	suus	DET	Pt	Case=Acc|Gender=Masc|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	38	nmod	_	ref=2.4.1
+37	suos	suus	DET	Pt	Case=Acc|Gender=Masc|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	38	det	_	ref=2.4.1
 38	fines	finis	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	39	obl	_	ref=2.4.1
 39	ingredi	ingredior	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Pass	40	xcomp	_	ref=2.4.1
 40	prohibuerint	prohibeo	VERB	V-	Aspect=Perf|Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	23	acl	_	ref=2.4.1
@@ -16041,7 +16041,7 @@
 # text = Suessiones suos esse finitimos
 # sent_id = 52977
 1	Suessiones	Suessiones	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	4	nsubj	_	ref=2.4.6
-2	suos	suus	DET	Pt	Case=Acc|Gender=Masc|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	4	nmod	_	ref=2.4.6
+2	suos	suus	DET	Pt	Case=Acc|Gender=Masc|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	4	det	_	ref=2.4.6
 3	esse	sum	AUX	V-	Tense=Pres|VerbForm=Inf|Voice=Act	4	cop	_	ref=2.4.6
 4	finitimos	finitimus	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	0	root	_	ref=2.4.6
 
@@ -16062,7 +16062,7 @@
 2	eos	is	PRON	Pp	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	obl	_	ref=2.4.7
 3	fuisse	sum	AUX	V-	Aspect=Perf|Tense=Past|VerbForm=Inf|Voice=Act	4	cop	_	ref=2.4.7
 4	regem	rex	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	0	root	_	ref=2.4.7
-5	nostra	noster	DET	Ps	Case=Abl|Gender=Fem|Number=Sing|Person=1|Poss=Yes	7	nmod	_	ref=2.4.7
+5	nostra	noster	DET	Ps	Case=Abl|Gender=Fem|Number=Sing|Person=1|Poss=Yes	7	det	_	ref=2.4.7
 6	etiam	etiam	ADV	Df	_	7	discourse	_	ref=2.4.7
 7	memoria	memoria	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	4	obl	_	ref=2.4.7
 8	Diviciacum	Diviciacus	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	4	nsubj	_	ref=2.4.7
@@ -16245,7 +16245,7 @@
 2	fieri	fio	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Pass	3	xcomp	_	ref=2.5.3
 3	posse	possum	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	0	root	_	ref=2.5.3
 4	si	si	SCONJ	G-	_	11	mark	_	ref=2.5.3
-5	suas	suus	DET	Pt	Case=Acc|Gender=Fem|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	6	nmod	_	ref=2.5.3
+5	suas	suus	DET	Pt	Case=Acc|Gender=Fem|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	6	det	_	ref=2.5.3
 6	copias	copia	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	11	obj	_	ref=2.5.3
 7	Haedui	Aedui	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	ref=2.5.3
 8	in	in	ADP	R-	_	9	case	_	ref=2.5.3
@@ -16757,7 +16757,7 @@
 5	in	in	ADP	R-	_	6	case	_	ref=3.14.8
 6	virtute	virtus	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	4	obl	_	ref=3.14.8
 7	qua	qui	PRON	Pr	Case=Abl|Gender=Fem|Number=Sing|PronType=Rel	11	obl	_	ref=3.14.8
-8	nostri	noster	DET	Ps	Case=Nom|Gender=Masc|Number=Plur|Person=1|Poss=Yes	9	nmod	_	ref=3.14.8
+8	nostri	noster	DET	Ps	Case=Nom|Gender=Masc|Number=Plur|Person=1|Poss=Yes	9	det	_	ref=3.14.8
 9	milites	miles	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	ref=3.14.8
 10	facile	facile	ADV	Df	Degree=Pos	11	advmod	_	ref=3.14.8
 11	superabant	supero	VERB	V-	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	acl	_	ref=3.14.8
@@ -17078,7 +17078,7 @@
 7	Lexovii	Lexovii	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	5	conj	_	ref=3.15.7
 8	que	que	CCONJ	C-	_	5	cc	_	ref=3.15.7
 9	senatu	senatus	NOUN	Nb	Case=Abl|Gender=Masc|Number=Sing	11	nsubj:pass	_	ref=3.15.7
-10	suo	suus	DET	Pt	Case=Abl|Gender=Masc,Neut|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	9	nmod	_	ref=3.15.7
+10	suo	suus	DET	Pt	Case=Abl|Gender=Masc,Neut|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	9	det	_	ref=3.15.7
 11	interfecto	interficio	VERB	V-	Aspect=Perf|Case=Abl|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	18	advcl	_	ref=3.15.7
 12	quod	quod	SCONJ	G-	_	16	mark	_	ref=3.15.7
 13	auctores	auctor	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	16	xcomp	_	ref=3.15.7
@@ -17159,7 +17159,7 @@
 32	veniret	venio	VERB	V-	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	23	advcl	_	ref=3.15.9
 33	sed	sed	CCONJ	C-	_	32	cc	_	ref=3.15.9
 34	etiam	etiam	ADV	Df	_	40	discourse	_	ref=3.15.9
-35	nostrorum	noster	DET	Ps	Case=Gen|Gender=Masc,Neut|Number=Plur|Person=1|Poss=Yes	36	nmod	_	ref=3.15.9
+35	nostrorum	noster	DET	Ps	Case=Gen|Gender=Masc,Neut|Number=Plur|Person=1|Poss=Yes	36	det	_	ref=3.15.9
 36	militum	miles	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	37	nmod	_	ref=3.15.9
 37	vocibus	vox	NOUN	Nb	Case=Abl|Gender=Fem|Number=Plur	40	obl	_	ref=3.15.9
 38	non	non	ADV	Df	Polarity=Neg	39	advmod	_	ref=3.15.9
@@ -17448,10 +17448,10 @@
 6	et	et	CCONJ	C-	_	7	cc	_	ref=4.14.2
 7	celeritate	celeritas	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	3	appos	_	ref=4.14.2
 8	adventus	adventus	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	ref=4.14.2
-9	nostri	noster	DET	Ps	Case=Gen|Number=Sing|Person=1|Poss=Yes	8	nmod	_	ref=4.14.2
+9	nostri	noster	DET	Ps	Case=Gen|Number=Sing|Person=1|Poss=Yes	8	det	_	ref=4.14.2
 10	et	et	CCONJ	C-	_	7	cc	_	ref=4.14.2
 11	discessu	discessus	NOUN	Nb	Case=Abl|Gender=Masc|Number=Sing	7	conj	_	ref=4.14.2
-12	suorum	suus	DET	Pt	Case=Gen|Gender=Masc|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	11	nmod	_	ref=4.14.2
+12	suorum	suus	DET	Pt	Case=Gen|Gender=Masc|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	11	det	_	ref=4.14.2
 13	ne	ne	ADV	Df	Polarity=Neg	16	advmod	_	ref=4.14.2
 14	que	que	CCONJ	C-	_	16	cc	_	ref=4.14.2
 15	consilii	consilium	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	16	nsubj	_	ref=4.14.2
@@ -17488,7 +17488,7 @@
 6	concursu	concursus	NOUN	Nb	Case=Abl|Gender=Masc|Number=Sing	4	conj	_	ref=4.14.3
 7	significaretur	significo	VERB	V-	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	16	advcl	_	ref=4.14.3
 8	milites	miles	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	ref=4.14.3
-9	nostri	noster	DET	Ps	Case=Nom|Gender=Masc|Number=Plur|Person=1|Poss=Yes	8	nmod	_	ref=4.14.3
+9	nostri	noster	DET	Ps	Case=Nom|Gender=Masc|Number=Plur|Person=1|Poss=Yes	8	det	_	ref=4.14.3
 10	pristini	pristinus	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc,Neut|Number=Sing	11	amod	_	ref=4.14.3
 11	diei	dies	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	ref=4.14.3
 12	perfidia	perfidia	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	13	obl	_	ref=4.14.3
@@ -17701,7 +17701,7 @@
 13	in	in	ADP	R-	_	14	case	_	ref=4.16.1
 14	Galliam	Gallia	PROPN	Ne	Case=Acc|Gender=Fem|Number=Sing	15	obl	_	ref=4.16.1
 15	venirent	venio	VERB	V-	Aspect=Imp|Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	11	csubj:pass	_	ref=4.16.1
-16	suis	suus	DET	Pt	Case=Abl|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	18	nmod	_	ref=4.16.1
+16	suis	suus	DET	Pt	Case=Abl|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	18	det	_	ref=4.16.1
 17	quoque	quoque	ADV	Df	_	16	discourse	_	ref=4.16.1
 18	rebus	res	NOUN	Nb	Case=Abl|Gender=Fem|Number=Plur	20	iobj	_	ref=4.16.1
 19	eos	is	PRON	Pp	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	20	nsubj	_	ref=4.16.1
@@ -17746,7 +17746,7 @@
 22	interfuisse	intersum	VERB	V-	Aspect=Perf|Tense=Past|VerbForm=Inf|Voice=Act	18	conj	_	ref=4.16.2
 23	post	post	ADP	R-	_	24	case	_	ref=4.16.2
 24	fugam	fuga	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	22	obl	_	ref=4.16.2
-25	suorum	suus	DET	Pt	Case=Gen|Gender=Masc|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	24	nmod	_	ref=4.16.2
+25	suorum	suus	DET	Pt	Case=Gen|Gender=Masc|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	24	det	_	ref=4.16.2
 26	se	se	PRON	Pk	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	32	obj	_	ref=4.16.2
 27	trans	trans	ADP	R-	_	28	case	_	ref=4.16.2
 28	Rhenum	Rhenus	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	32	obl	_	ref=4.16.2
@@ -17801,7 +17801,7 @@
 9	aequum	aequum	NOUN	Nb	Case=Acc|Gender=Masc,Neut|Number=Sing	10	ccomp	_	ref=4.16.4
 10	existimaret	existimo	VERB	V-	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	20	advcl	_	ref=4.16.4
 11	cur	cur	ADV	Du	PronType=Int	20	advmod	_	ref=4.16.4
-12	sui	suus	DET	Pt	Case=Gen|Gender=Masc,Neut|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	15	nmod	_	ref=4.16.4
+12	sui	suus	DET	Pt	Case=Gen|Gender=Masc,Neut|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	15	det	_	ref=4.16.4
 13	quicquam	quisquam	ADJ	Px	Case=Acc|Gender=Neut|Number=Sing	15	nsubj	_	ref=4.16.4
 14	esse	sum	AUX	V-	Tense=Pres|VerbForm=Inf|Voice=Act	15	cop	_	ref=4.16.4
 15	imperii	imperium	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	20	ccomp	_	ref=4.16.4
@@ -19084,7 +19084,7 @@
 12	etiam	etiam	ADV	Df	_	14	discourse	_	ref=1.19
 13	sine	sine	ADP	R-	_	14	case	_	ref=1.19
 14	opera	opera	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	16	obl	_	ref=1.19
-15	nostra	noster	DET	Ps	Case=Abl|Gender=Fem|Number=Sing|Person=1|Poss=Yes	14	nmod	_	ref=1.19
+15	nostra	noster	DET	Ps	Case=Abl|Gender=Fem|Number=Sing|Person=1|Poss=Yes	14	det	_	ref=1.19
 16	continere	contineo	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	7	xcomp	_	ref=1.19
 
 # source = De officiis, Book 1, section 19
