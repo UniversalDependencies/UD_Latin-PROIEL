@@ -18,7 +18,7 @@
     <tag name="ADJ">16829</tag><!-- ille, hic, omnis, magnus, multus, nihil, bonus, alius, quis, sanctus -->
     <tag name="ADP">15613</tag><!-- in, ad, ab, de, ex, cum, per, propter, super, pro -->
     <tag name="ADV">21191</tag><!-- non, autem, enim, ne, et, quam, ergo, etiam, ut, sicut -->
-    <tag name="AUX">7847</tag><!-- sum, nescio, adduco, ago, eo, relinquo -->
+    <tag name="AUX">7845</tag><!-- sum, nescio, ago, relinquo -->
     <tag name="CCONJ">14732</tag><!-- et, que, sed, atque, aut, vel, sive, an, ve, neu -->
     <tag name="DET">7874</tag><!-- omnis, suus, meus, hic, tuus, noster, is, ille, ipse, vester -->
     <tag name="INTJ">536</tag><!-- ecce, amen, vae, o, mehercule, hercule, hercle, ave, osanna, alleluia -->
@@ -27,7 +27,7 @@
     <tag name="PRON">18506</tag><!-- qui, is, ego, tu, vos, se, quis, nos, ipse, quicumque -->
     <tag name="PROPN">7052</tag><!-- Iesus, Christus, Caesar, Petrus, Paulus, Hierosolyma, Iohannes, Gallia, Pompeius, Roma -->
     <tag name="SCONJ">6712</tag><!-- ut, si, cum, quia, quod, ne, quoniam, nisi, dum, donec -->
-    <tag name="VERB">40690</tag><!-- dico, facio, video, habeo, venio, possum, do, mitto, scribo, audio -->
+    <tag name="VERB">40692</tag><!-- dico, facio, video, habeo, venio, possum, do, mitto, scribo, audio -->
     <tag name="X">465</tag><!-- greek.expression, Heli, Heloi, calendar.expression, sabacthani, corban, cumi, eppheta, lama, lema -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -75,16 +75,16 @@
     <feat name="VerbForm" value="Part" upos="AUX,VERB">8368</feat><!-- dicens, factum, dicentes, facta, respondens, scriptum, factus, locutus, habens, data -->
     <feat name="VerbForm" value="Sup" upos="VERB">16</feat><!-- factu, frumentatum, salutatum, gratulatum, nuptum, oratum, postulatum, potum, questum, redditum -->
     <feat name="Voice" value="Act" upos="AUX,VERB">37945</feat><!-- est, sunt, esse, dixit, erat, sit, ait, sum, esset, dicit -->
-    <feat name="Voice" value="Pass" upos="AUX,VERB">9529</feat><!-- factum, facta, fieri, scriptum, factus, locutus, data, videtur, loqui, dictum -->
+    <feat name="Voice" value="Pass" upos="VERB">9529</feat><!-- factum, facta, fieri, scriptum, factus, locutus, data, videtur, loqui, dictum -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="34">
     <dep name="acl">4305</dep>
     <dep name="advcl">9463</dep>
-    <dep name="advmod">14021</dep>
+    <dep name="advmod">14022</dep>
     <dep name="amod">5041</dep>
     <dep name="appos">1803</dep>
-    <dep name="aux">757</dep>
+    <dep name="aux">755</dep>
     <dep name="aux:pass">1778</dep>
     <dep name="case">15541</dep>
     <dep name="cc">14575</dep>
@@ -112,6 +112,6 @@
     <dep name="parataxis">279</dep>
     <dep name="root">18411</dep>
     <dep name="vocative">974</dep>
-    <dep name="xcomp">3383</dep>
+    <dep name="xcomp">3384</dep>
   </deps>
 </treebank>
