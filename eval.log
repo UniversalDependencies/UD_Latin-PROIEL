@@ -1,11 +1,11 @@
-Running the following version of tools/evaluate_treebank.pl:
-commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
+Running the following version of UD tools:
+commit ca3b862e9e2871c76cd91bf78ffb089c0c60184d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Apr 21 19:02:58 2018 +0200
+Date:   Thu May 6 20:16:19 2021 +0200
 Evaluating the following revision of UD_Latin-PROIEL:
-commit 3f33eeeb090a4fa1694d758bbbb42cb305e5b654
+commit ebd4add7473d142cd7ce6b5129ce203dbc89fb36
+Merge: 8d5b110 427fd07
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 10 18:25:13 2020 +0200
 Size: counted 200163 of 200163 words (nodes).
 Size: min(0, log((N/1000)**2)) = 10.5982640692317.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -19,7 +19,9 @@ Features: 146897 out of 200163 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 30 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
-Udapi: found 6408 bugs.
+Udapi:
+               TOTAL       9948
+Udapi: found 9948 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 200163 words.
 Genres: found 2 out of 17 known.
 validate.py --lang la --max-err=10 UD_Latin-PROIEL/la_proiel-ud-dev.conllu
@@ -36,10 +38,9 @@ validate.py --lang la --max-err=10 UD_Latin-PROIEL/la_proiel-ud-dev.conllu
 ...suppressing further errors regarding Syntax
 [Line 14886 Sent 78243 Node 22]: [L5 Morpho aux-lemma] 'nescio' is not an auxiliary verb in language [la]
 [Line 15326 Sent 78269 Node 9]: [L5 Morpho aux-lemma] 'nescio' is not an auxiliary verb in language [la]
-[Line 16444 Sent 63606 Node 12]: [L5 Morpho aux-lemma] 'adduco' is not an auxiliary verb in language [la]
-Morpho errors: 4
-Syntax errors: 16
-*** FAILED *** with 20 errors
+Morpho errors: 3
+Syntax errors: 13
+*** FAILED *** with 16 errors
 Exit code: 1
 validate.py --lang la --max-err=10 UD_Latin-PROIEL/la_proiel-ud-test.conllu
 [Line 4433 Sent 18790 Node 20]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'appos'.
@@ -68,10 +69,9 @@ validate.py --lang la --max-err=10 UD_Latin-PROIEL/la_proiel-ud-train.conllu
 ...suppressing further errors regarding Syntax
 [Line 96964 Sent 26946 Node 4]: [L5 Morpho aux-lemma] 'relinquo' is not an auxiliary verb in language [la]
 [Line 195474 Sent 78698 Node 7]: [L5 Morpho aux-lemma] 'nescio' is not an auxiliary verb in language [la]
-[Line 196285 Sent 225189 Node 8]: [L5 Morpho aux-lemma] 'eo' is not an auxiliary verb in language [la]
-Morpho errors: 3
+Morpho errors: 2
 Syntax errors: 376
-*** FAILED *** with 379 errors
+*** FAILED *** with 378 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
@@ -80,8 +80,8 @@ Validity: 0.01
 (weight=0.256410256410256) * (score{size}=0.767127933836809) = 0.196699470214566
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.658823529411765) = 0.0506787330316742
-(weight=0.307692307692308) * (score{udapi}=0.679860913355615) = 0.209187973340189
+(weight=0.307692307692308) * (score{udapi}=0.50300505088353) = 0.15477078488724
 (weight=0.0769230769230769) * (score{udeprels}=0.648648648648649) = 0.0498960498960499
-(TOTAL score=0.68987097459711) * (availability=1) * (validity=0.01) = 0.0068987097459711
+(TOTAL score=0.635453786144161) * (availability=1) * (validity=0.01) = 0.00635453786144161
 STARS = 0
-UD_Latin-PROIEL	0.0068987097459711	0
+UD_Latin-PROIEL	0.00635453786144161	0
