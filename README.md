@@ -20,6 +20,7 @@ Dag T. T. Haug and Marius L. Jøhndal. 2008. 'Creating a Parallel Treebank of th
 
 ## Changelog
 
+V2.8 Possessive ADJ changed to DET as in other Latin treebanks.
 V2.0 The treebank was converted to UDv2 and the data splits were changed.
 
 === Machine-readable metadata (DO NOT REMOVE!) ================================
