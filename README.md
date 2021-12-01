@@ -20,6 +20,9 @@ Dag T. T. Haug and Marius L. Jøhndal. 2008. 'Creating a Parallel Treebank of th
 
 ## Changelog
 
+* 2022-05-15 UD 2.10
+  * MISC ref= changed to Ref= to match other UD treebanks.
+
 V2.8 Possessive ADJ changed to DET as in other Latin treebanks.
 V2.0 The treebank was converted to UDv2 and the data splits were changed.
 
