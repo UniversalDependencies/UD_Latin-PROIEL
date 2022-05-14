@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 3478a99bb195eb8749c367af4f7b3fd357a12a4c
-Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 2 22:17:19 2021 +0100
+commit ba6fbf413cb14afa25145b931c79fb60ef9456e2
+Author: www-data (nschneid) <nschneid@github.com>
+Date:   Wed May 11 05:10:30 2022 +0200
 Evaluating the following revision of UD_Latin-PROIEL:
-commit 651dfeae6cd89e31ab111730f87b3cd19f72ac8c
+commit 50c942e51a298683210559e266050d9aca2fab12
+Merge: 97b1730 041911f
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Thu May 13 09:38:03 2021 +0200
 Size: counted 200163 of 200163 words (nodes).
 Size: min(0, log((N/1000)**2)) = 10.5982640692317.
 Size: maximum value 13.815511 is for 1000000 words or more.
