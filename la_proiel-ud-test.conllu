@@ -707,7 +707,7 @@
 16	quanto	quanto	ADV	Du	PronType=Int	17	advmod	_	Ref=MATT_6.30
 17	magis	magis	ADV	Df	Degree=Cmp	15	advmod	_	Ref=MATT_6.30
 18	vos	vos	PRON	Pp	Case=Acc|Gender=Masc|Number=Plur|Person=2|PronType=Prs	15	obj	_	Ref=MATT_6.30
-19	minimae	parvus	ADJ	A-	Case=Gen|Degree=Sup|Gender=Fem|Number=Sing	20	amod	_	Ref=MATT_6.30
+19	minimae	parvus	ADJ	A-	Case=Gen|Degree=Abs|Gender=Fem|Number=Sing	20	amod	_	Ref=MATT_6.30
 20	fidei	fides	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	18	appos	_	Ref=MATT_6.30
 
 # source = Jerome's Vulgate, Matthew 6
@@ -2874,7 +2874,7 @@
 6	et	et	CCONJ	C-	_	5	cc	_	Ref=LUKE_6.35
 7	eritis	sum	AUX	V-	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	8	cop	_	Ref=LUKE_6.35
 8	filii	filius	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	5	conj	_	Ref=LUKE_6.35
-9	Altissimi	altus	ADJ	A-	Case=Gen|Degree=Sup|Gender=Masc|Number=Sing	8	advmod	_	Ref=LUKE_6.35
+9	Altissimi	altus	ADJ	A-	Case=Gen|Degree=Abs|Gender=Masc|Number=Sing	8	advmod	_	Ref=LUKE_6.35
 10	quia	quia	SCONJ	G-	_	12	mark	_	Ref=LUKE_6.35
 11	ipse	ipse	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	Ref=LUKE_6.35
 12	benignus	benignus	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	advcl	_	Ref=LUKE_6.35
@@ -3572,7 +3572,7 @@
 2	fidelis	fidelis	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	nsubj	_	Ref=LUKE_16.10
 3	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	Ref=LUKE_16.10
 4	in	in	ADP	R-	_	5	case	_	Ref=LUKE_16.10
-5	minimo	parvus	ADJ	A-	Case=Abl|Degree=Sup|Gender=Neut|Number=Sing	2	advmod	_	Ref=LUKE_16.10
+5	minimo	parvus	ADJ	A-	Case=Abl|Degree=Abs|Gender=Neut|Number=Sing	2	advmod	_	Ref=LUKE_16.10
 6	et	et	ADV	Df	_	8	discourse	_	Ref=LUKE_16.10
 7	in	in	ADP	R-	_	8	case	_	Ref=LUKE_16.10
 8	maiori	magnus	ADJ	A-	Case=Abl|Degree=Cmp|Gender=Masc|Number=Sing	9	advmod	_	Ref=LUKE_16.10
@@ -4182,7 +4182,7 @@
 7	vidisset	video	VERB	V-	Mood=Sub|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin|Voice=Act	2	conj	_	Ref=JOHN_6.5
 8	quia	quia	SCONJ	G-	_	11	mark	_	Ref=JOHN_6.5
 9	multitudo	multitudo	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	Ref=JOHN_6.5
-10	maxima	magnus	ADJ	A-	Case=Nom|Degree=Sup|Gender=Fem|Number=Sing	9	amod	_	Ref=JOHN_6.5
+10	maxima	magnus	ADJ	A-	Case=Nom|Degree=Abs|Gender=Fem|Number=Sing	9	amod	_	Ref=JOHN_6.5
 11	venit	venio	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	ccomp	_	Ref=JOHN_6.5
 12	ad	ad	ADP	R-	_	13	case	_	Ref=JOHN_6.5
 13	eum	is	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obl	_	Ref=JOHN_6.5
@@ -7299,10 +7299,10 @@
 2	auscultabant	ausculto	VERB	V-	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Ref=ACTS_8.10
 3	omnes	omnis	ADJ	Px	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	Ref=ACTS_8.10
 4	a	ab	ADP	R-	_	5	case	_	Ref=ACTS_8.10
-5	minimo	parvus	ADJ	A-	Case=Abl|Degree=Sup|Gender=Masc|Number=Sing	3	appos	_	Ref=ACTS_8.10
+5	minimo	parvus	ADJ	A-	Case=Abl|Degree=Abs|Gender=Masc|Number=Sing	3	appos	_	Ref=ACTS_8.10
 6	usque	usque	ADV	Df	_	8	advmod	_	Ref=ACTS_8.10
 7	ad	ad	ADP	R-	_	8	case	_	Ref=ACTS_8.10
-8	maximum	magnus	ADJ	A-	Case=Acc|Degree=Sup|Gender=Masc|Number=Sing	3	appos	_	Ref=ACTS_8.10
+8	maximum	magnus	ADJ	A-	Case=Acc|Degree=Abs|Gender=Masc|Number=Sing	3	appos	_	Ref=ACTS_8.10
 9	dicentes	dico	VERB	V-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	2	advcl	_	Ref=ACTS_8.10
 
 # source = Jerome's Vulgate, Acts 8
@@ -7378,7 +7378,7 @@
 3	signa	signum	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	7	nsubj:pass	_	Ref=ACTS_8.13
 4	et	et	CCONJ	C-	_	3	cc	_	Ref=ACTS_8.13
 5	virtutes	virtus	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	3	conj	_	Ref=ACTS_8.13
-6	maximas	magnus	ADJ	A-	Case=Acc|Degree=Sup|Gender=Fem|Number=Plur	5	amod	_	Ref=ACTS_8.13
+6	maximas	magnus	ADJ	A-	Case=Acc|Degree=Abs|Gender=Fem|Number=Plur	5	amod	_	Ref=ACTS_8.13
 7	fieri	fio	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Pass	1	ccomp	_	Ref=ACTS_8.13
 8	stupens	stupeo	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	9	advcl	_	Ref=ACTS_8.13
 9	admirabatur	admiror	VERB	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	Ref=ACTS_8.13
@@ -10169,7 +10169,7 @@
 3	sint	sum	AUX	V-	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	Ref=1.5.6
 4	genera	genus	NOUN	Nb	Case=Nom|Gender=Neut|Number=Plur	6	nsubj	_	Ref=1.5.6
 5	terrarum	terra	NOUN	Nb	Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	Ref=1.5.6
-6	plurima	multus	ADJ	A-	Case=Nom|Degree=Sup|Gender=Neut|Number=Plur	32	advcl	_	Ref=1.5.6
+6	plurima	multus	ADJ	A-	Case=Nom|Degree=Abs|Gender=Neut|Number=Plur	32	advcl	_	Ref=1.5.6
 7	ut	ut	ADV	Df	_	6	appos	_	LId=3|Ref=1.5.6
 8	pinguis	pinguis	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	appos	_	Ref=1.5.6
 9	aut	aut	CCONJ	C-	_	8	cc	_	Ref=1.5.6
@@ -10191,7 +10191,7 @@
 25	differentiam	differentia	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	27	obl	_	Ref=1.5.6
 26	saepe	saepe	ADV	Df	Degree=Pos	27	advmod	_	Ref=1.5.6
 27	necessaria	necessarius	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	6	conj	_	Ref=1.5.6
-28	maxime	magis	ADV	Df	Degree=Sup	32	advmod	_	Ref=1.5.6
+28	maxime	magis	ADV	Df	Degree=Abs	32	advmod	_	Ref=1.5.6
 29	sicut	sicut	ADV	Dq	PronType=Rel	31	advmod	_	Ref=1.5.6
 30	supra	supra	ADV	Df	Degree=Pos	31	advmod	_	Ref=1.5.6
 31	dixi	dico	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	32	advcl	_	Ref=1.5.6
@@ -10206,7 +10206,7 @@
 40	laborem	labor	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	41	obj	_	Ref=1.5.6
 41	petit	peto	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	37	acl	_	Ref=1.5.6
 42	fructum	fructus	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	44	obj	_	Ref=1.5.6
-43	maximum	magnus	ADJ	A-	Case=Acc|Degree=Sup|Gender=Masc|Number=Sing	42	amod	_	Ref=1.5.6
+43	maximum	magnus	ADJ	A-	Case=Acc|Degree=Abs|Gender=Masc|Number=Sing	42	amod	_	Ref=1.5.6
 44	reddit	reddo	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	41	conj	_	Ref=1.5.6
 
 # source = Opus agriculturae, V. De qualitate terrarum
@@ -10219,7 +10219,7 @@
 5	qui	qui	PRON	Pr	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	12	nsubj	_	Ref=1.5.6
 6	labore	labor	NOUN	Nb	Case=Abl|Gender=Masc|Number=Sing	12	obl	_	Ref=1.5.6
 7	quidem	quidem	ADV	Df	_	12	discourse	_	Ref=1.5.6
-8	maximo	magnus	ADJ	A-	Case=Abl|Degree=Sup|Gender=Masc|Number=Sing	6	amod	_	Ref=1.5.6
+8	maximo	magnus	ADJ	A-	Case=Abl|Degree=Abs|Gender=Masc|Number=Sing	6	amod	_	Ref=1.5.6
 9	tamen	tamen	ADV	Df	_	12	discourse	_	Ref=1.5.6
 10	ad	ad	ADP	R-	_	11	case	_	Ref=1.5.6
 11	uota	votum	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	12	obl	_	Ref=1.5.6
@@ -10230,7 +10230,7 @@
 # sent_id = 159727
 1	Illud	ille	ADJ	Pd	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	Ref=1.5.6
 2	uero	vero	ADV	Df	_	4	discourse	_	Ref=1.5.6
-3	deterrimum	deterior	ADJ	A-	Case=Nom|Degree=Sup|Gender=Neut|Number=Sing	4	advmod	_	Ref=1.5.6
+3	deterrimum	deterior	ADJ	A-	Case=Nom|Degree=Abs|Gender=Neut|Number=Sing	4	advmod	_	Ref=1.5.6
 4	genus	genus	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	Ref=1.5.6
 5	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	Ref=1.5.6
 6	quod	qui	PRON	Pr	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	9	nsubj	_	Ref=1.5.6
@@ -10434,7 +10434,7 @@
 16	possint	possum	VERB	V-	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl	_	Ref=1.25.1
 17	quos	qui	PRON	Pr	Case=Acc|Gender=Masc|Number=Plur|PronType=Rel	18	obj	_	Ref=1.25.1
 18	nutrire	nutrio	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	19	ccomp	_	Ref=1.25.1
-19	facillimum	facilis	ADJ	A-	Case=Nom|Degree=Sup|Gender=Neut|Number=Sing	14	appos	_	Ref=1.25.1
+19	facillimum	facilis	ADJ	A-	Case=Nom|Degree=Abs|Gender=Neut|Number=Sing	14	appos	_	Ref=1.25.1
 20	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	cop	_	Ref=1.25.1
 
 # source = Opus agriculturae, XXV. De turturibus
@@ -10448,7 +10448,7 @@
 6	aestate	aestas	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	17	obl	_	Ref=1.25.1
 7	qua	qui	PRON	Pr	Case=Abl|Gender=Fem|Number=Sing|PronType=Rel	10	obl	_	Ref=1.25.1
 8	sola	solus	ADJ	A-	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	Ref=1.25.1
-9	maxime	magis	ADV	Df	Degree=Sup	10	advmod	_	Ref=1.25.1
+9	maxime	magis	ADV	Df	Degree=Abs	10	advmod	_	Ref=1.25.1
 10	pinguescunt	pinguesco	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl	_	Ref=1.25.1
 11	triticum	triticum	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	17	obj	_	Ref=1.25.1
 12	uel	vel	CCONJ	C-	_	11	cc	_	Ref=1.25.1
@@ -10782,7 +10782,7 @@
 5	potius	potius	ADV	Df	_	3	advmod	_	Ref=2.13.2
 6	eligamus	eligo	VERB	V-	Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Ref=2.13.2
 7	uel	vel	CCONJ	C-	_	3	cc	_	Ref=2.13.2
-8	maxime	magis	ADV	Df	Degree=Sup	9	advmod	_	Ref=2.13.2
+8	maxime	magis	ADV	Df	Degree=Abs	9	advmod	_	Ref=2.13.2
 9	siluestres	silvester	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	3	conj	_	Ref=2.13.2
 
 # source = Opus agriculturae, XIII. De solo et caelo et loco pangendis uineis congruenti et ea, quae illuc pertinet, disciplina
@@ -10840,7 +10840,7 @@
 7	relaxantur	relaxo	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	12	advcl	_	Ref=2.13.3
 8	et	et	CCONJ	C-	_	6	cc	_	Ref=2.13.3
 9	solibus	sol	NOUN	Nb	Case=Abl|Gender=Masc|Number=Plur	6	conj	_	Ref=2.13.3
-10	pulcherrimas	pulcher	ADJ	A-	Case=Acc|Degree=Sup|Gender=Fem|Number=Plur	11	amod	_	Ref=2.13.3
+10	pulcherrimas	pulcher	ADJ	A-	Case=Acc|Degree=Abs|Gender=Fem|Number=Plur	11	amod	_	Ref=2.13.3
 11	uineas	vinea	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	12	obj	_	Ref=2.13.3
 12	ferunt	fero	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Ref=2.13.3
 13	refrigeratis	refrigero	VERB	V-	Aspect=Perf|Case=Abl|Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	12	advcl	_	Ref=2.13.3
@@ -11016,7 +11016,7 @@
 # text = At maxime utile solum est quod inter omnes nimietates temperamentum tenebit et raro proximum quam denso fuerit
 # sent_id = 160346
 1	At	at	ADV	Df	_	3	discourse	_	Ref=2.13.5
-2	maxime	magis	ADV	Df	Degree=Sup	3	advmod	_	Ref=2.13.5
+2	maxime	magis	ADV	Df	Degree=Abs	3	advmod	_	Ref=2.13.5
 3	utile	utilis	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	Ref=2.13.5
 4	solum	solum	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	Ref=2.13.5
 5	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	Ref=2.13.5
@@ -11028,7 +11028,7 @@
 11	tenebit	teneo	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	4	acl	_	Ref=2.13.5
 12	et	et	CCONJ	C-	_	11	cc	_	Ref=2.13.5
 13	raro	rarus	ADJ	A-	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	14	advmod	_	Ref=2.13.5
-14	proximum	proximus	ADJ	A-	Case=Nom|Degree=Sup|Gender=Neut|Number=Sing	11	conj	_	Ref=2.13.5
+14	proximum	proximus	ADJ	A-	Case=Nom|Degree=Abs|Gender=Neut|Number=Sing	11	conj	_	Ref=2.13.5
 15	quam	quam	ADV	Df	_	14	advmod	_	LId=1|Ref=2.13.5
 16	denso	densus	ADJ	A-	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	15	iobj	_	Ref=2.13.5
 17	fuerit	sum	AUX	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	14	cop	_	Ref=2.13.5
@@ -11162,7 +11162,7 @@
 6	et	et	CCONJ	C-	_	5	cc	_	Ref=2.13.8
 7	scrobibus	scrobis	NOUN	Nb	Case=Abl|Gender=Fem,Masc|Number=Plur	5	conj	_	Ref=2.13.8
 8	adprobaui	approbo	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	Ref=2.13.8
-9	maxime	magis	ADV	Df	Degree=Sup	11	advmod	_	Ref=2.13.8
+9	maxime	magis	ADV	Df	Degree=Abs	11	advmod	_	Ref=2.13.8
 10	ubi	ubi	ADV	Dq	PronType=Rel	11	advmod	_	Ref=2.13.8
 11	mediocris	mediocris	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	advcl	_	Ref=2.13.8
 12	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	Ref=2.13.8
@@ -12243,7 +12243,7 @@
 2	Pisonis	Piso	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	Ref=1.14.1
 3	consulis	consul	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	2	appos	_	Ref=1.14.1
 4	impulsu	impulsus	NOUN	Nb	Case=Abl|Gender=Masc|Number=Sing	11	obl	_	Ref=1.14.1
-5	levissimus	levis	ADJ	A-	Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	6	amod	_	Ref=1.14.1
+5	levissimus	levis	ADJ	A-	Case=Nom|Degree=Abs|Gender=Masc|Number=Sing	6	amod	_	Ref=1.14.1
 6	tribunus	tribunus	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	11	dislocated	_	Ref=1.14.1
 7	plebis	plebs	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	Ref=1.14.1
 8	Fufius	Fufius	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	Ref=1.14.1
@@ -12319,7 +12319,7 @@
 11	omnibus	omnis	DET	Px	Case=Abl|Number=Plur	13	det	_	Ref=1.14.2
 12	in	in	ADP	R-	_	13	case	_	Ref=1.14.2
 13	rebus	res	NOUN	Nb	Case=Abl|Gender=Fem|Number=Plur	15	obl	_	Ref=1.14.2
-14	maximam	magnus	ADJ	A-	Case=Acc|Degree=Sup|Gender=Fem|Number=Sing	15	xcomp	_	Ref=1.14.2
+14	maximam	magnus	ADJ	A-	Case=Acc|Degree=Abs|Gender=Fem|Number=Sing	15	xcomp	_	Ref=1.14.2
 15	videri	video	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Pass	20	ccomp	_	Ref=1.14.2
 16	semper	semper	ADV	Df	_	18	advmod	_	Ref=1.14.2
 17	que	que	CCONJ	C-	_	15	cc	_	Ref=1.14.2
@@ -12404,7 +12404,7 @@
 16	meum	meus	DET	Ps	Case=Acc|Gender=Masc|Number=Sing|Person=1|Poss=Yes	15	det	_	Ref=1.14.3
 17	placere	placeo	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	12	ccomp	_	Ref=1.14.3
 18	surrexit	surgo	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Ref=1.14.3
-19	ornatissime	ornate	ADV	Df	Degree=Sup	24	advmod	_	Ref=1.14.3
+19	ornatissime	ornate	ADV	Df	Degree=Abs	24	advmod	_	Ref=1.14.3
 20	que	que	CCONJ	C-	_	18	cc	_	Ref=1.14.3
 21	de	de	ADP	R-	_	23	case	_	Ref=1.14.3
 22	meo	meus	DET	Ps	Case=Abl|Gender=Masc|Number=Sing|Person=1|Poss=Yes	23	det	_	Ref=1.14.3
@@ -13128,7 +13128,7 @@
 11	fac	facio	VERB	V-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Ref=1.14.7
 12	me	ego	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=1|PronType=Prs	11	obj	_	Ref=1.14.7
 13	quam	quam	ADV	Df	_	14	advmod	_	LId=3|Ref=1.14.7
-14	diligentissime	diligenter	ADV	Df	Degree=Sup	11	advmod	_	Ref=1.14.7
+14	diligentissime	diligenter	ADV	Df	Degree=Abs	11	advmod	_	Ref=1.14.7
 15	certiorem	certus	ADJ	A-	Case=Acc|Degree=Cmp|Gender=Fem,Masc|Number=Sing	11	xcomp	_	Ref=1.14.7
 
 # source = Epistulae ad Atticum, Book 1, letter 14
@@ -13142,7 +13142,7 @@
 # sent_id = 82358
 1	Asiam	Asia	PROPN	Ne	Case=Acc|Gender=Fem|Number=Sing	5	nsubj	_	Ref=1.15.1
 2	Quinto	Quintus	PROPN	Ne	Case=Dat|Gender=Masc|Number=Sing	5	iobj	_	Ref=1.15.1
-3	suavissimo	suavis	ADJ	A-	Case=Dat|Degree=Sup|Gender=Masc,Neut|Number=Sing	4	amod	_	Ref=1.15.1
+3	suavissimo	suavis	ADJ	A-	Case=Dat|Degree=Abs|Gender=Masc,Neut|Number=Sing	4	amod	_	Ref=1.15.1
 4	fratri	frater	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	2	appos	_	Ref=1.15.1
 5	obtigisse	obtingo	VERB	V-	Aspect=Perf|Tense=Past|VerbForm=Inf|Voice=Act	6	ccomp	_	Ref=1.15.1
 6	audisti	audio	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Ref=1.15.1
@@ -13171,7 +13171,7 @@
 2	quoniam	quoniam	SCONJ	G-	_	5	mark	_	Ref=1.15.1
 3	et	et	CCONJ	C-	_	5	cc	_	Ref=1.15.1
 4	laudis	laus	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	5	iobj	_	Ref=1.15.1
-5	avidissimi	avidus	ADJ	A-	Case=Nom|Degree=Sup|Gender=Masc|Number=Plur	27	advcl	_	Ref=1.15.1
+5	avidissimi	avidus	ADJ	A-	Case=Nom|Degree=Abs|Gender=Masc|Number=Plur	27	advcl	_	Ref=1.15.1
 6	semper	semper	ADV	Df	_	5	advmod	_	Ref=1.15.1
 7	fuimus	sum	AUX	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	_	Ref=1.15.1
 8	et	et	CCONJ	C-	_	5	cc	_	Ref=1.15.1
@@ -14008,7 +14008,7 @@
 4	esset	sum	AUX	V-	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	aux:pass	_	Ref=2.21.3
 5	iactare	iacto	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	3	xcomp	_	Ref=2.21.3
 6	se	se	PRON	Pk	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	5	obj	_	Ref=2.21.3
-7	magnificentissime	magnifice	ADV	Df	Degree=Sup	5	advmod	_	Ref=2.21.3
+7	magnificentissime	magnifice	ADV	Df	Degree=Abs	5	advmod	_	Ref=2.21.3
 8	illo	ille	DET	Pd	Case=Abl|Gender=Masc|Number=Sing	10	det	_	Ref=2.21.3
 9	in	in	ADP	R-	_	10	case	_	Ref=2.21.3
 10	loco	locus	NOUN	Nb	Case=Abl|Gender=Masc|Number=Sing	5	obl	_	Ref=2.21.3
@@ -14260,7 +14260,7 @@
 # sent_id = 81826
 1	multa	multus	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	4	obj	_	Ref=2.21.5
 2	cum	cum	SCONJ	G-	_	4	mark	_	Ref=2.21.5
-3	seditiosissime	seditiose	ADV	Df	Degree=Sup	4	advmod	_	Ref=2.21.5
+3	seditiosissime	seditiose	ADV	Df	Degree=Abs	4	advmod	_	Ref=2.21.5
 4	diceret	dico	VERB	V-	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	advcl	_	Ref=2.21.5
 5	vocem	vox	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	Ref=2.21.5
 6	exprimere	exprimo	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	8	xcomp	_	Ref=2.21.5
@@ -14507,7 +14507,7 @@
 2	et	et	CCONJ	C-	_	9	cc	_	Ref=3.19.1
 3	ad	ad	ADP	R-	_	4	case	_	Ref=3.19.1
 4	salutem	salus	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	9	obl	_	Ref=3.19.1
-5	libentissime	libenter	ADV	Df	Degree=Sup	9	advmod	_	Ref=3.19.1
+5	libentissime	libenter	ADV	Df	Degree=Abs	9	advmod	_	Ref=3.19.1
 6	ex	ex	ADP	R-	_	8	case	_	Ref=3.19.1
 7	tuo	tuus	DET	Ps	Case=Abl|Gender=Masc,Neut|Number=Sing|Person=2|Poss=Yes	8	det	_	Ref=3.19.1
 8	portu	portus	NOUN	Nb	Case=Abl|Gender=Masc|Number=Sing	9	obl	_	Ref=3.19.1
@@ -14520,7 +14520,7 @@
 15	nusquam	nusquam	ADV	Df	_	21	advmod	_	Ref=3.19.1
 16	facilius	facile	ADV	Df	Degree=Cmp	21	advmod	_	Ref=3.19.1
 17	hanc	hic	DET	Pd	Case=Acc|Gender=Fem|Number=Sing	19	det	_	Ref=3.19.1
-18	miserrimam	miser	ADJ	A-	Case=Acc|Degree=Sup|Gender=Fem|Number=Sing	19	amod	_	Ref=3.19.1
+18	miserrimam	miser	ADJ	A-	Case=Acc|Degree=Abs|Gender=Fem|Number=Sing	19	amod	_	Ref=3.19.1
 19	vitam	vita	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	21	obj	_	Ref=3.19.1
 20	vel	vel	CCONJ	C-	_	21	cc	_	Ref=3.19.1
 21	sustentabo	sustento	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	9	conj	_	Ref=3.19.1
@@ -14594,7 +14594,7 @@
 16	deseram	desero	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	Ref=3.19.2
 17	ne	ne	ADV	Df	Polarity=Neg	26	advmod	_	Ref=3.19.2
 18	que	que	CCONJ	C-	_	26	cc	_	Ref=3.19.2
-19	optimi	bonus	ADJ	A-	Case=Gen|Degree=Sup|Gender=Masc,Neut|Number=Sing	22	amod	_	Ref=3.19.2
+19	optimi	bonus	ADJ	A-	Case=Gen|Degree=Abs|Gender=Masc,Neut|Number=Sing	22	amod	_	Ref=3.19.2
 20	atque	atque	CCONJ	C-	_	19	cc	_	Ref=3.19.2
 21	unici	unicus	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc,Neut|Number=Sing	19	conj	_	Ref=3.19.2
 22	fratris	frater	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	Ref=3.19.2
@@ -14611,12 +14611,12 @@
 33	ne	ne	ADV	Df	Polarity=Neg	35	advmod	_	Ref=3.19.2
 34	c	que	CCONJ	C-	_	26	cc	_	Ref=3.19.2
 35	spem	spes	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	26	conj	_	Ref=3.19.2
-36	aerumnosissimae	aerumnosus	ADJ	A-	Case=Gen|Degree=Sup|Gender=Fem|Number=Sing	37	amod	_	Ref=3.19.2
+36	aerumnosissimae	aerumnosus	ADJ	A-	Case=Gen|Degree=Abs|Gender=Fem|Number=Sing	37	amod	_	Ref=3.19.2
 37	mulieris	mulier	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	35	nmod	_	Ref=3.19.2
 38	Terentiae	Terentia	NOUN	Nb	Case=Gen|Gender=Fem|Number=Plur	37	appos	_	Ref=3.19.2
 39	ne	ne	ADV	Df	Polarity=Neg	44	advmod	_	Ref=3.19.2
 40	c	que	CCONJ	C-	_	26	cc	_	Ref=3.19.2
-41	miserrimae	miser	ADJ	A-	Case=Gen|Degree=Sup|Gender=Fem|Number=Sing	42	amod	_	Ref=3.19.2
+41	miserrimae	miser	ADJ	A-	Case=Gen|Degree=Abs|Gender=Fem|Number=Sing	42	amod	_	Ref=3.19.2
 42	mulieris	mulier	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	44	nmod	_	Ref=3.19.2
 43	Tulliolae	Tulliola	PROPN	Ne	Case=Gen|Gender=Fem|Number=Sing	42	appos	_	Ref=3.19.2
 44	obsecrationem	obsecratio	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	26	conj	_	Ref=3.19.2
@@ -14652,9 +14652,9 @@
 7	si	si	SCONJ	G-	_	17	mark	_	Ref=3.19.3
 8	me	ego	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=1|PronType=Prs	17	nsubj:pass	_	Ref=3.19.3
 9	omnibus	omnis	DET	Px	Case=Abl|Number=Plur	14	det	_	Ref=3.19.3
-10	amplissimis	amplus	ADJ	A-	Case=Abl|Degree=Sup|Number=Plur	14	amod	_	Ref=3.19.3
-11	carissimis	carus	ADJ	A-	Case=Abl|Degree=Sup|Number=Plur	10	conj	_	Ref=3.19.3
-12	iucundissimis	iucundus	ADJ	A-	Case=Abl|Degree=Sup|Number=Plur	10	conj	_	Ref=3.19.3
+10	amplissimis	amplus	ADJ	A-	Case=Abl|Degree=Abs|Number=Plur	14	amod	_	Ref=3.19.3
+11	carissimis	carus	ADJ	A-	Case=Abl|Degree=Abs|Number=Plur	10	conj	_	Ref=3.19.3
+12	iucundissimis	iucundus	ADJ	A-	Case=Abl|Degree=Abs|Number=Plur	10	conj	_	Ref=3.19.3
 13	que	que	CCONJ	C-	_	10	cc	_	Ref=3.19.3
 14	rebus	res	NOUN	Nb	Case=Abl|Gender=Fem|Number=Plur	17	iobj	_	Ref=3.19.3
 15	perfidia	perfidia	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	17	obl	_	Ref=3.19.3
@@ -14731,7 +14731,7 @@
 86	primum	primum	ADV	Df	_	90	advmod	_	Ref=3.19.3
 87	et	et	CCONJ	C-	_	86	cc	_	Ref=3.19.3
 88	quam	quam	ADV	Dq	PronType=Rel	89	advmod	_	Ref=3.19.3
-89	saepissime	saepe	ADV	Df	Degree=Sup	86	conj	_	Ref=3.19.3
+89	saepissime	saepe	ADV	Df	Degree=Abs	86	conj	_	Ref=3.19.3
 90	mittas	mitto	VERB	V-	Mood=Sub|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	41	conj	_	Ref=3.19.3
 
 # source = Epistulae ad Atticum, Book 3, letter 19
@@ -14756,7 +14756,7 @@
 9	Quinto	Quintus	PROPN	Ne	Case=Abl|Gender=Masc|Number=Sing	7	obl	_	Ref=4.7.1
 10	nostro	noster	DET	Ps	Case=Abl|Gender=Masc,Neut|Number=Sing|Person=1|Poss=Yes	9	det	_	Ref=4.7.1
 11	puero	puer	NOUN	Nb	Case=Abl|Gender=Masc|Number=Sing	9	appos	_	Ref=4.7.1
-12	optimo	bonus	ADJ	A-	Case=Abl|Degree=Sup|Gender=Masc,Neut|Number=Sing	11	amod	_	Ref=4.7.1
+12	optimo	bonus	ADJ	A-	Case=Abl|Degree=Abs|Gender=Masc,Neut|Number=Sing	11	amod	_	Ref=4.7.1
 13	valde	valde	ADV	Df	Degree=Pos	14	advmod	_	Ref=4.7.1
 14	levavit	levo	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	acl	_	Ref=4.7.1
 
@@ -15107,7 +15107,7 @@
 7	sociorum	socius	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	Ref=5.18.1
 8	praesertim	praesertim	ADV	Df	_	9	advmod	_	Ref=5.18.1
 9	fidelium	fidelis	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	Ref=5.18.1
-10	certissimum	certus	ADJ	A-	Case=Nom|Degree=Sup|Gender=Neut|Number=Sing	11	advmod	_	Ref=5.18.1
+10	certissimum	certus	ADJ	A-	Case=Nom|Degree=Abs|Gender=Neut|Number=Sing	11	advmod	_	Ref=5.18.1
 11	subsidium	subsidium	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	Ref=5.18.1
 12	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	Ref=5.18.1
 13	hiems	hiem(p)s	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	Ref=5.18.1
@@ -15403,7 +15403,7 @@
 4	Romae	Roma	PROPN	Ne	Case=Gen|Gender=Fem|Number=Sing	0	root	_	Ref=5.18.4
 5	ut	ut	ADV	Dq	PronType=Rel	6	advmod	_	Ref=5.18.4
 6	soles	soleo	VERB	V-	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	_	Ref=5.18.4
-7	diligentissime	diligenter	ADV	Df	Degree=Sup	4	advmod	_	Ref=5.18.4
+7	diligentissime	diligenter	ADV	Df	Degree=Abs	4	advmod	_	Ref=5.18.4
 
 # source = Epistulae ad Atticum, Book 5, letter 18
 # text = si in Epiro mitte tamen ad nos de tuis aliquem tabellarium ut et tu quid nos agamus et nos quid tu agas quid que acturus sis scire possimus
@@ -15532,7 +15532,7 @@
 30	quod	quod	SCONJ	G-	_	35	mark	_	Ref=1.41.2
 31	de	de	ADP	R-	_	32	case	_	Ref=1.41.2
 32	se	se	PRON	Pk	Case=Abl|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	35	obl	_	Ref=1.41.2
-33	optimum	bonus	ADJ	A-	Case=Acc|Degree=Sup|Gender=Masc,Neut|Number=Sing	34	amod	_	Ref=1.41.2
+33	optimum	bonus	ADJ	A-	Case=Acc|Degree=Abs|Gender=Masc,Neut|Number=Sing	34	amod	_	Ref=1.41.2
 34	iudicium	iudicium	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	35	obj	_	Ref=1.41.2
 35	fecisset	facio	VERB	V-	Mood=Sub|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin|Voice=Act	29	advcl	_	Ref=1.41.2
 36	se	se	PRON	Pk	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	42	nsubj	_	Ref=1.41.2
@@ -15541,7 +15541,7 @@
 39	ad	ad	ADP	R-	_	41	case	_	Ref=1.41.2
 40	bellum	bellum	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	41	nsubj	_	Ref=1.41.2
 41	gerendum	gero	VERB	V-	Case=Acc|Gender=Neut|Number=Sing|VerbForm=Gdv	42	obl	_	Ref=1.41.2
-42	paratissimam	paratus	ADJ	A-	Case=Acc|Degree=Sup|Gender=Fem|Number=Sing	43	ccomp	_	Ref=1.41.2
+42	paratissimam	paratus	ADJ	A-	Case=Acc|Degree=Abs|Gender=Fem|Number=Sing	43	ccomp	_	Ref=1.41.2
 43	confirmavit	confirmo	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	Ref=1.41.2
 
 # source = Commentarii belli Gallici, Caes., Gall. 1.41
@@ -15601,7 +15601,7 @@
 10	ex	ex	ADP	R-	_	11	case	_	Ref=1.41.4
 11	Gallis	Galli	NOUN	Nb	Case=Abl|Gender=Masc|Number=Plur	12	nmod	_	Ref=1.41.4
 12	ei	is	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	iobj	_	Ref=1.41.4
-13	maximam	magnus	ADJ	A-	Case=Acc|Degree=Sup|Gender=Fem|Number=Sing	14	amod	_	Ref=1.41.4
+13	maximam	magnus	ADJ	A-	Case=Acc|Degree=Abs|Gender=Fem|Number=Sing	14	amod	_	Ref=1.41.4
 14	fidem	fides	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	Ref=1.41.4
 15	habebat	habeo	VERB	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	advcl	_	Ref=1.41.4
 16	ut	ut	SCONJ	G-	_	24	mark	_	Ref=1.41.4
@@ -15812,7 +15812,7 @@
 15	equitatui	equitatus	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	16	iobj	_	Ref=1.42.6
 16	committere	committo	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	17	xcomp	_	Ref=1.42.6
 17	audebat	audeo	VERB	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	9	conj	_	Ref=1.42.6
-18	commodissimum	commodus	ADJ	A-	Case=Acc|Degree=Sup|Gender=Masc,Neut|Number=Sing	20	ccomp	_	Ref=1.42.6
+18	commodissimum	commodus	ADJ	A-	Case=Acc|Degree=Abs|Gender=Masc,Neut|Number=Sing	20	ccomp	_	Ref=1.42.6
 19	esse	sum	AUX	V-	Tense=Pres|VerbForm=Inf|Voice=Act	18	cop	_	Ref=1.42.6
 20	statuit	statuo	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Ref=1.42.6
 21	omnibus	omnis	DET	Px	Case=Abl|Number=Plur	22	det	_	Ref=1.42.6
@@ -15827,13 +15827,13 @@
 30	decimae	decimus	ADJ	Mo	Case=Gen|Gender=Fem|Number=Sing	29	nmod	_	Ref=1.42.6
 31	cui	qui	PRON	Pr	Case=Dat|Gender=Fem|Number=Sing|PronType=Rel	34	iobj	_	Ref=1.42.6
 32	quam	quam	ADV	Df	_	33	advmod	_	LId=3|Ref=1.42.6
-33	maxime	magis	ADV	Df	Degree=Sup	34	advmod	_	Ref=1.42.6
+33	maxime	magis	ADV	Df	Degree=Abs	34	advmod	_	Ref=1.42.6
 34	confidebat	confido	VERB	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	29	acl	_	Ref=1.42.6
 35	imponere	impono	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	18	ccomp	_	Ref=1.42.6
 36	ut	ut	SCONJ	G-	_	45	mark	_	Ref=1.42.6
 37	praesidium	praesidium	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	45	obj	_	Ref=1.42.6
 38	quam	quam	ADV	Df	_	39	advmod	_	LId=3|Ref=1.42.6
-39	amicissimum	amicus	ADJ	A-	Case=Acc|Degree=Sup|Gender=Masc,Neut|Number=Sing	37	amod	_	Ref=1.42.6
+39	amicissimum	amicus	ADJ	A-	Case=Acc|Degree=Abs|Gender=Masc,Neut|Number=Sing	37	amod	_	Ref=1.42.6
 40	si	si	SCONJ	G-	_	44	mark	_	Ref=1.42.6
 41	quid	quis	DET	Px	Case=Nom|Gender=Neut|Number=Sing	42	det	_	Ref=1.42.6
 42	opus	opus	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	44	nsubj	_	Ref=1.42.6
@@ -16001,7 +16001,7 @@
 # source = Commentarii belli Gallici, Caes., Gall. 2.4
 # text = Plurimum inter eos Bellovacos et virtute et auctoritate et hominum numero valere
 # sent_id = 52976
-1	Plurimum	multus	ADJ	A-	Case=Acc|Degree=Sup|Gender=Neut|Number=Sing	12	iobj	_	Ref=2.4.5
+1	Plurimum	multus	ADJ	A-	Case=Acc|Degree=Abs|Gender=Neut|Number=Sing	12	iobj	_	Ref=2.4.5
 2	inter	inter	ADP	R-	_	3	case	_	Ref=2.4.5
 3	eos	is	PRON	Pp	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	12	obl	_	Ref=2.4.5
 4	Bellovacos	Bellovaci	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	12	nsubj	_	Ref=2.4.5
@@ -16049,8 +16049,8 @@
 # text = fines latissimos feracissimos que agros possidere
 # sent_id = 52978
 1	fines	finis	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	6	obj	_	Ref=2.4.6
-2	latissimos	latus	ADJ	A-	Case=Acc|Degree=Sup|Gender=Masc|Number=Plur	1	amod	_	Ref=2.4.6
-3	feracissimos	ferax	ADJ	A-	Case=Acc|Degree=Sup|Gender=Masc|Number=Plur	5	amod	_	Ref=2.4.6
+2	latissimos	latus	ADJ	A-	Case=Acc|Degree=Abs|Gender=Masc|Number=Plur	1	amod	_	Ref=2.4.6
+3	feracissimos	ferax	ADJ	A-	Case=Acc|Degree=Abs|Gender=Masc|Number=Plur	5	amod	_	Ref=2.4.6
 4	que	que	CCONJ	C-	_	1	cc	_	Ref=2.4.6
 5	agros	ager	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	1	conj	_	Ref=2.4.6
 6	possidere	possideo	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	0	root	_	Ref=2.4.6
@@ -16068,7 +16068,7 @@
 8	Diviciacum	Diviciacus	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	4	nsubj	_	Ref=2.4.7
 9	totius	totus	ADJ	A-	Case=Gen|Degree=Pos|Number=Sing	10	amod	_	Ref=2.4.7
 10	Galliae	Gallia	PROPN	Ne	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	Ref=2.4.7
-11	potentissimum	potens	ADJ	A-	Case=Acc|Degree=Sup|Gender=Masc,Neut|Number=Sing	8	appos	_	Ref=2.4.7
+11	potentissimum	potens	ADJ	A-	Case=Acc|Degree=Abs|Gender=Masc,Neut|Number=Sing	8	appos	_	Ref=2.4.7
 12	qui	qui	PRON	Pr	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	22	nsubj	_	Ref=2.4.7
 13	cum	cum	ADV	Df	_	15	advmod	_	Ref=2.4.7
 14	magnae	magnus	ADJ	A-	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	Ref=2.4.7
@@ -16119,12 +16119,12 @@
 1	totidem	totidem	ADV	Df	_	0	root	_	Ref=2.4.7
 2	Nervios	Nervii	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	1	nsubj	_	Ref=2.4.7
 3	qui	qui	PRON	Pr	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	8	nsubj:pass	_	Ref=2.4.7
-4	maxime	magis	ADV	Df	Degree=Sup	5	advmod	_	Ref=2.4.7
+4	maxime	magis	ADV	Df	Degree=Abs	5	advmod	_	Ref=2.4.7
 5	feri	ferus	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	8	xcomp	_	Ref=2.4.7
 6	inter	inter	ADP	R-	_	7	case	_	Ref=2.4.7
 7	ipsos	ipse	PRON	Pp	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	obl	_	Ref=2.4.7
 8	habeantur	habeo	VERB	V-	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	2	acl	_	Ref=2.4.7
-9	longissime	longe	ADV	Df	Degree=Sup	11	advmod	_	Ref=2.4.7
+9	longissime	longe	ADV	Df	Degree=Abs	11	advmod	_	Ref=2.4.7
 10	que	que	CCONJ	C-	_	8	cc	_	Ref=2.4.7
 11	absint	absum	VERB	V-	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	Ref=2.4.7
 
@@ -16592,12 +16592,12 @@
 12	viginti	viginti	NUM	Ma	Case=Nom|Gender=Fem|Number=Plur	11	fixed	_	Ref=3.14.2
 13	naves	navis	NOUN	Nb	Case=Nom|Gender=Fem|Number=Plur	26	nsubj	_	Ref=3.14.2
 14	eorum	is	PRON	Pp	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	13	det	_	Ref=3.14.2
-15	paratissimae	paratus	ADJ	A-	Case=Nom|Degree=Sup|Gender=Fem|Number=Plur	13	amod	_	Ref=3.14.2
+15	paratissimae	paratus	ADJ	A-	Case=Nom|Degree=Abs|Gender=Fem|Number=Plur	13	amod	_	Ref=3.14.2
 16	atque	atque	CCONJ	C-	_	15	cc	_	Ref=3.14.2
 17	omni	omnis	DET	Px	Case=Abl|Number=Sing	18	det	_	Ref=3.14.2
 18	genere	genus	NOUN	Nb	Case=Abl|Gender=Neut|Number=Sing	20	obl	_	Ref=3.14.2
 19	armorum	arma	NOUN	Nb	Case=Gen|Gender=Neut|Number=Plur	18	nmod	_	Ref=3.14.2
-20	ornatissimae	ornatus	ADJ	A-	Case=Nom|Degree=Sup|Gender=Fem|Number=Plur	15	conj	_	Ref=3.14.2
+20	ornatissimae	ornatus	ADJ	A-	Case=Nom|Degree=Abs|Gender=Fem|Number=Plur	15	conj	_	Ref=3.14.2
 21	profectae	proficiscor	VERB	V-	Aspect=Perf|Case=Nom|Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	26	advcl	_	Ref=3.14.2
 22	ex	ex	ADP	R-	_	23	case	_	Ref=3.14.2
 23	portu	portus	NOUN	Nb	Case=Abl|Gender=Masc|Number=Sing	21	obl	_	Ref=3.14.2
@@ -16881,7 +16881,7 @@
 4	ad	ad	ADP	R-	_	6	case	_	Ref=3.14.13
 5	negotium	negotium	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	6	nsubj	_	Ref=3.14.13
 6	conficiendum	conficio	VERB	V-	Case=Acc|Gender=Neut|Number=Sing|VerbForm=Gdv	9	acl	_	Ref=3.14.13
-7	maximae	magnus	ADJ	A-	Case=Dat|Degree=Sup|Gender=Fem|Number=Sing	9	advmod	_	Ref=3.14.13
+7	maximae	magnus	ADJ	A-	Case=Dat|Degree=Abs|Gender=Fem|Number=Sing	9	advmod	_	Ref=3.14.13
 8	fuit	sum	AUX	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	9	cop	_	Ref=3.14.13
 9	oportunitati	opportunitas	NOUN	Nb	Case=Dat|Gender=Fem|Number=Sing	0	root	_	Ref=3.14.13
 
@@ -17689,7 +17689,7 @@
 1	quarum	qui	PRON	Pr	Case=Gen|Gender=Fem|Number=Plur|PronType=Rel	2	nmod	_	Ref=4.16.1
 2	illa	ille	ADJ	Pd	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	Ref=4.16.1
 3	fuit	sum	AUX	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	cop	_	Ref=4.16.1
-4	iustissima	iustus	ADJ	A-	Case=Nom|Degree=Sup|Gender=Fem|Number=Sing	0	root	_	Ref=4.16.1
+4	iustissima	iustus	ADJ	A-	Case=Nom|Degree=Abs|Gender=Fem|Number=Sing	0	root	_	Ref=4.16.1
 5	quod	quod	SCONJ	G-	_	21	mark	_	Ref=4.16.1
 6	cum	cum	SCONJ	G-	_	7	mark	_	Ref=4.16.1
 7	videret	video	VERB	V-	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	21	advcl	_	Ref=4.16.1
@@ -17884,12 +17884,12 @@
 9	pulso	pello	VERB	V-	Aspect=Perf|Case=Abl|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	1	advcl	_	Ref=4.16.7
 10	et	et	CCONJ	C-	_	9	cc	_	Ref=4.16.7
 11	hoc	hic	DET	Pd	Case=Abl|Gender=Masc,Neut|Number=Sing	13	det	_	Ref=4.16.7
-12	novissimo	novus	ADJ	A-	Case=Abl|Degree=Sup|Gender=Masc,Neut|Number=Sing	13	amod	_	Ref=4.16.7
+12	novissimo	novus	ADJ	A-	Case=Abl|Degree=Abs|Gender=Masc,Neut|Number=Sing	13	amod	_	Ref=4.16.7
 13	proelio	proelium	NOUN	Nb	Case=Abl|Gender=Neut|Number=Sing	14	nsubj:pass	_	Ref=4.16.7
 14	facto	facio	VERB	V-	Aspect=Perf|Case=Abl|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	9	conj	_	Ref=4.16.7
 15	etiam	etiam	ADV	Df	_	19	discourse	_	Ref=4.16.7
 16	ad	ad	ADP	R-	_	19	case	_	Ref=4.16.7
-17	ultimas	ultimus	ADJ	A-	Case=Acc|Degree=Sup|Gender=Fem|Number=Plur	19	amod	_	Ref=4.16.7
+17	ultimas	ultimus	ADJ	A-	Case=Acc|Degree=Abs|Gender=Fem|Number=Plur	19	amod	_	Ref=4.16.7
 18	Germanorum	Germani	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	Ref=4.16.7
 19	nationes	natio	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	1	obl	_	Ref=4.16.7
 20	uti	ut	SCONJ	G-	_	28	mark	_	Ref=4.16.7
@@ -17917,7 +17917,7 @@
 # text = Deum maxime Mercurium colunt
 # sent_id = 54011
 1	Deum	deus	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	Ref=6.17.1
-2	maxime	magis	ADV	Df	Degree=Sup	4	advmod	_	Ref=6.17.1
+2	maxime	magis	ADV	Df	Degree=Abs	4	advmod	_	Ref=6.17.1
 3	Mercurium	Mercurius	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	1	appos	_	Ref=6.17.1
 4	colunt	colo	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Ref=6.17.1
 
@@ -17926,7 +17926,7 @@
 # sent_id = 54012
 1	Huius	hic	DET	Pd	Case=Gen|Gender=Masc|Number=Sing	4	det	_	Ref=6.17.1
 2	sunt	sum	AUX	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Ref=6.17.1
-3	plurima	multus	ADJ	A-	Case=Nom|Degree=Sup|Gender=Neut|Number=Plur	4	amod	_	Ref=6.17.1
+3	plurima	multus	ADJ	A-	Case=Nom|Degree=Abs|Gender=Neut|Number=Plur	4	amod	_	Ref=6.17.1
 4	simulacra	simulacrum	NOUN	Nb	Case=Nom|Gender=Neut|Number=Plur	2	nsubj	_	Ref=6.17.1
 
 # source = Commentarii belli Gallici, Caes., Gall. 6.17
@@ -17958,7 +17958,7 @@
 6	que	que	CCONJ	C-	_	3	cc	_	Ref=6.17.1
 7	habere	habeo	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	10	ccomp	_	Ref=6.17.1
 8	vim	vis	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	Ref=6.17.1
-9	maximam	magnus	ADJ	A-	Case=Acc|Degree=Sup|Gender=Fem|Number=Sing	8	amod	_	Ref=6.17.1
+9	maximam	magnus	ADJ	A-	Case=Acc|Degree=Abs|Gender=Fem|Number=Sing	8	amod	_	Ref=6.17.1
 10	arbitrantur	arbitror	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	Ref=6.17.1
 
 # source = Commentarii belli Gallici, Caes., Gall. 6.17
@@ -18073,7 +18073,7 @@
 15	posita	pono	VERB	V-	Aspect=Perf|Case=Acc|Gender=Neut|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	16	obj	_	Ref=6.17.5
 16	tollere	tollo	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	13	conj	_	Ref=6.17.5
 17	auderet	audeo	VERB	V-	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	ccomp	_	Ref=6.17.5
-18	gravissimum	gravis	ADJ	A-	Case=Nom|Degree=Sup|Gender=Neut|Number=Sing	22	amod	_	Ref=6.17.5
+18	gravissimum	gravis	ADJ	A-	Case=Nom|Degree=Abs|Gender=Neut|Number=Sing	22	amod	_	Ref=6.17.5
 19	que	que	CCONJ	C-	_	4	cc	_	Ref=6.17.5
 20	ei	is	DET	Pd	Case=Dat|Number=Sing	21	det	_	Ref=6.17.5
 21	rei	res	NOUN	Nb	Case=Dat|Gender=Fem|Number=Sing	25	iobj	_	Ref=6.17.5
@@ -18153,7 +18153,7 @@
 4	et	et	CCONJ	C-	_	3	cc	_	Ref=1.11
 5	beluam	belua	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	3	conj	_	Ref=1.11
 6	hoc	hic	ADJ	Pd	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	Ref=1.11
-7	maxime	magis	ADV	Df	Degree=Sup	6	advmod	_	Ref=1.11
+7	maxime	magis	ADV	Df	Degree=Abs	6	advmod	_	Ref=1.11
 8	interest	intersum	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Ref=1.11
 9	quod	quod	SCONJ	G-	_	25	mark	_	Ref=1.11
 10	haec	hic	ADJ	Pd	Case=Nom|Gender=Fem|Number=Sing	25	nsubj	_	Ref=1.11
@@ -18382,7 +18382,7 @@
 11	esse	sum	AUX	V-	Tense=Pres|VerbForm=Inf|Voice=Act	14	cop	_	Ref=1.13
 12	naturae	natura	NOUN	Nb	Case=Dat|Gender=Fem|Number=Sing	14	iobj	_	Ref=1.13
 13	hominis	homo	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	Ref=1.13
-14	aptissimum	aptus	ADJ	A-	Case=Acc|Degree=Sup|Gender=Neut|Number=Sing	3	csubj:pass	_	Ref=1.13
+14	aptissimum	aptus	ADJ	A-	Case=Acc|Degree=Abs|Gender=Neut|Number=Sing	3	csubj:pass	_	Ref=1.13
 
 # source = De officiis, Book 1, section 13
 # text = Huic veri videndi cupiditati adiuncta est appetitio quaedam principatus ut nemini parere animus bene informatus a natura velit nisi praecipienti aut docenti aut utilitatis causa iuste et legitime imperanti
@@ -18704,19 +18704,19 @@
 1	Ut	ut	ADV	Df	_	29	advmod	_	LId=1|Ref=1.16
 2	enim	enim	ADV	Df	_	29	discourse	_	Ref=1.16
 3	quisque	quisque	ADJ	Px	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	Ref=1.16
-4	maxime	magis	ADV	Df	Degree=Sup	5	advmod	_	Ref=1.16
+4	maxime	magis	ADV	Df	Degree=Abs	5	advmod	_	Ref=1.16
 5	perspicit	perspicio	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	29	dislocated	_	Ref=1.16
 6	quid	quis	PRON	Pi	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	10	nsubj	_	Ref=1.16
 7	in	in	ADP	R-	_	8	case	_	Ref=1.16
 8	re	res	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	10	obl	_	Ref=1.16
 9	quaque	quisque	DET	Px	Case=Abl|Gender=Fem|Number=Sing	8	det	_	Ref=1.16
-10	verissimum	verus	ADJ	A-	Case=Nom|Degree=Sup|Gender=Neut|Number=Sing	5	ccomp	_	Ref=1.16
+10	verissimum	verus	ADJ	A-	Case=Nom|Degree=Abs|Gender=Neut|Number=Sing	5	ccomp	_	Ref=1.16
 11	sit	sum	AUX	V-	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	_	Ref=1.16
 12	qui	qui	PRON	Pr	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	17	nsubj	_	Ref=1.16
 13	que	que	CCONJ	C-	_	5	cc	_	Ref=1.16
-14	acutissime	acute	ADV	Df	Degree=Sup	17	advmod	_	Ref=1.16
+14	acutissime	acute	ADV	Df	Degree=Abs	17	advmod	_	Ref=1.16
 15	et	et	CCONJ	C-	_	14	cc	_	Ref=1.16
-16	celerrime	celeriter	ADV	Df	Degree=Sup	14	conj	_	Ref=1.16
+16	celerrime	celeriter	ADV	Df	Degree=Abs	14	conj	_	Ref=1.16
 17	potest	possum	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	Ref=1.16
 18	et	et	CCONJ	C-	_	19	cc	_	Ref=1.16
 19	videre	video	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	17	xcomp	_	Ref=1.16
@@ -18724,9 +18724,9 @@
 21	explicare	explico	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	19	conj	_	Ref=1.16
 22	rationem	ratio	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	19	obj	_	Ref=1.16
 23	is	is	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	nsubj	_	Ref=1.16
-24	prudentissimus	prudens	ADJ	A-	Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	28	xcomp	_	Ref=1.16
+24	prudentissimus	prudens	ADJ	A-	Case=Nom|Degree=Abs|Gender=Masc|Number=Sing	28	xcomp	_	Ref=1.16
 25	et	et	CCONJ	C-	_	24	cc	_	Ref=1.16
-26	sapientissimus	sapiens	ADJ	A-	Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	24	conj	_	Ref=1.16
+26	sapientissimus	sapiens	ADJ	A-	Case=Nom|Degree=Abs|Gender=Masc|Number=Sing	24	conj	_	Ref=1.16
 27	rite	rite	ADV	Df	_	28	advmod	_	Ref=1.16
 28	haberi	habeo	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Pass	29	xcomp	_	Ref=1.16
 29	solet	soleo	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Ref=1.16
@@ -18871,7 +18871,7 @@
 16	veri	verum	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	Ref=1.18
 17	cognitione	cognitio	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	18	obl	_	Ref=1.18
 18	consistit	consisto	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	acl	_	Ref=1.18
-19	maxime	magis	ADV	Df	Degree=Sup	21	advmod	_	Ref=1.18
+19	maxime	magis	ADV	Df	Degree=Abs	21	advmod	_	Ref=1.18
 20	naturam	natura	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	21	obj	_	Ref=1.18
 21	attingit	attingo	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Ref=1.18
 22	humanam	humanus	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	Ref=1.18

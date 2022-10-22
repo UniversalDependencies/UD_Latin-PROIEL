@@ -40,9 +40,9 @@
     <feat name="Case" value="Gen" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">10891</feat><!-- eius, dei, eorum, domini, Christi, Iesu, hominis, omnium, hominum, cuius -->
     <feat name="Case" value="Nom" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">30510</feat><!-- qui, quae, ego, Iesus, quod, tu, ipse, omnes, deus, quis -->
     <feat name="Case" value="Voc" upos="ADJ,DET,NOUN,PRON,PROPN,VERB">685</feat><!-- domine, fratres, viri, magister, pater, fili, mi, rex, hypocritae, Iesu -->
+    <feat name="Degree" value="Abs" upos="ADJ,ADV">711</feat><!-- maxime, plurimum, minime, maximum, maxima, diligentissime, maximo, carissimi, optime, optimo -->
     <feat name="Degree" value="Cmp" upos="ADJ,ADV">1500</feat><!-- magis, minus, plus, amplius, maior, prius, melius, facilius, longius, seniores -->
     <feat name="Degree" value="Pos" upos="ADJ,ADV">10504</feat><!-- multa, magna, multi, multis, magno, publica, bonum, saepe, valde, longe -->
-    <feat name="Degree" value="Sup" upos="ADJ,ADV">711</feat><!-- maxime, plurimum, minime, maximum, maxima, diligentissime, maximo, carissimi, optime, optimo -->
     <feat name="Gender" value="Fem" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">25948</feat><!-- quae, quam, qua, eam, suam, re, rebus, res, causa, ea -->
     <feat name="Gender" value="Fem,Masc" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">1474</feat><!-- omnes, vobis, me, nemo, omnem, omnis, ego, vos, diebus, tibi -->
     <feat name="Gender" value="Fem,Neut" upos="ADJ,DET,PRON">6</feat><!-- omnibus, extremis, inconsutilis, quae, te -->
