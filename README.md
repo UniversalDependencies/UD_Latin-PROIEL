@@ -20,11 +20,14 @@ Dag T. T. Haug and Marius L. Jøhndal. 2008. 'Creating a Parallel Treebank of th
 
 ## Changelog
 
+* 2022-11-15 UD 2.11
+  * Degree=Sup has been renamed to Degree=Abs in the Latin treebanks.
 * 2022-05-15 UD 2.10
   * MISC ref= changed to Ref= to match other UD treebanks.
-
-V2.8 Possessive ADJ changed to DET as in other Latin treebanks.
-V2.0 The treebank was converted to UDv2 and the data splits were changed.
+* 2021-05-15 UD 2.8
+  * Possessive ADJ changed to DET as in other Latin treebanks.
+* 2017-03-01 UD 2.0
+  * The treebank was converted to UDv2 and the data splits were changed.
 
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v1.2
