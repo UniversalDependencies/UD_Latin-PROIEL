@@ -735,9 +735,9 @@
 14	Dei	deus	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	ref=MATT_5.34
 15	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	cop	_	ref=MATT_5.34
 16	ne	ne	ADV	Df	Polarity=Neg	19	advmod	_	ref=MATT_5.35
-17	que	que	CCONJ	C-	_	11	orphan	_	ref=MATT_5.35
+17	que	que	CCONJ	C-	_	11	cc	_	ref=MATT_5.35
 18	per	per	ADP	R-	_	19	case	_	ref=MATT_5.35
-19	terram	terra	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	11	orphan	_	ref=MATT_5.35
+19	terram	terra	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	11	conj	_	ref=MATT_5.35
 20	quia	quia	SCONJ	G-	_	21	mark	_	ref=MATT_5.35
 21	scabillum	scabillum	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	19	orphan	_	ref=MATT_5.35
 22	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	cop	_	ref=MATT_5.35
@@ -746,7 +746,7 @@
 25	ne	ne	ADV	Df	Polarity=Neg	28	advmod	_	ref=MATT_5.35
 26	que	que	CCONJ	C-	_	11	cc	_	ref=MATT_5.35
 27	per	per	ADP	R-	_	28	case	_	ref=MATT_5.35
-28	Hierosolymam	Hierosolyma	PROPN	Ne	Case=Acc|Gender=Fem|Number=Sing	11	orphan	_	ref=MATT_5.35
+28	Hierosolymam	Hierosolyma	PROPN	Ne	Case=Acc|Gender=Fem|Number=Sing	11	conj	_	ref=MATT_5.35
 29	quia	quia	SCONJ	G-	_	30	mark	_	ref=MATT_5.35
 30	civitas	civitas	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	28	orphan	_	ref=MATT_5.35
 31	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	30	cop	_	ref=MATT_5.35
@@ -757,7 +757,7 @@
 36	per	per	ADP	R-	_	37	case	_	ref=MATT_5.36
 37	caput	caput	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	39	obl	_	ref=MATT_5.36
 38	tuum	tuus	DET	Ps	Case=Acc|Gender=Neut|Number=Sing|Person=2|Poss=Yes	37	det	_	ref=MATT_5.36
-39	iuraveris	iuro	VERB	V-	Aspect=Perf|Mood=Sub|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	11	orphan	_	ref=MATT_5.36
+39	iuraveris	iuro	VERB	V-	Aspect=Perf|Mood=Sub|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	11	conj	_	ref=MATT_5.36
 40	quia	quia	SCONJ	G-	_	42	mark	_	ref=MATT_5.36
 41	non	non	ADV	Df	Polarity=Neg	42	advmod	_	ref=MATT_5.36
 42	potes	possum	VERB	V-	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	39	advcl	_	ref=MATT_5.36
@@ -2253,14 +2253,14 @@
 11	vir	vir	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	ref=LUKE_5.12
 12	plenus	plenus	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	ref=LUKE_5.12
 13	lepra	lepra	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	12	obl	_	ref=LUKE_5.12
-14	et	et	CCONJ	C-	_	11	orphan	_	ref=LUKE_5.12
+14	et	et	CCONJ	C-	_	11	cc	_	ref=LUKE_5.12
 15	videns	video	VERB	V-	Case=Nom|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	21	advcl	_	ref=LUKE_5.12
 16	Iesum	Iesus	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	15	obj	_	ref=LUKE_5.12
 17	et	et	CCONJ	C-	_	15	cc	_	ref=LUKE_5.12
 18	procidens	procido	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	15	conj	_	ref=LUKE_5.12
 19	in	in	ADP	R-	_	20	case	_	ref=LUKE_5.12
 20	faciem	facies	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	18	obl	_	ref=LUKE_5.12
-21	rogavit	rogo	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	11	orphan	_	ref=LUKE_5.12
+21	rogavit	rogo	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	11	conj	_	ref=LUKE_5.12
 22	eum	is	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	obj	_	ref=LUKE_5.12
 23	dicens	dico	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	21	advcl	_	ref=LUKE_5.12
 
@@ -17147,7 +17147,7 @@
 29	impetus	impetus	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	25	conj	_	ref=3.13.6
 30	ventorum	ventus	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	29	nmod	_	ref=3.13.6
 31	sustineri	sustineo	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Pass	25	orphan	_	ref=3.13.6
-32	ac	atque	CCONJ	C-	_	25	orphan	_	ref=3.13.6
+32	ac	atque	CCONJ	C-	_	25	cc	_	ref=3.13.6
 33	tanta	tantus	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	34	amod	_	ref=3.13.6
 34	onera	onus	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	41	nsubj	_	ref=3.13.6
 35	navium	navis	NOUN	Nb	Case=Gen|Gender=Fem|Number=Plur	34	nmod	_	ref=3.13.6
@@ -17156,7 +17156,7 @@
 38	non	non	ADV	Df	Polarity=Neg	39	advmod	_	ref=3.13.6
 39	satis	satis	ADV	Df	Degree=Pos	40	advmod	_	ref=3.13.6
 40	commode	commode	ADV	Df	Degree=Pos	36	advmod	_	ref=3.13.6
-41	posse	possum	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	25	orphan	_	ref=3.13.6
+41	posse	possum	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	25	conj	_	ref=3.13.6
 42	arbitrabantur	arbitror	VERB	V-	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	17	advcl	_	ref=3.13.6
 
 # source = Commentarii belli Gallici, Caes., Gall. 3.13

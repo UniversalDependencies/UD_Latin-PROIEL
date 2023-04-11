@@ -12430,10 +12430,10 @@
 42	quotiens	quotiens	ADV	Dq	PronType=Rel	43	orphan	_	ref=1.14.3
 43	coniugem	coniunx	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	49	acl	_	ref=1.14.3
 44	quotiens	quotiens	ADV	Dq	PronType=Rel	45	orphan	_	ref=1.14.3
-45	domum	domus	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	43	orphan	_	ref=1.14.3
+45	domum	domus	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	43	conj	_	ref=1.14.3
 46	quotiens	quotiens	ADV	Dq	PronType=Rel	48	advcl	_	ref=1.14.3
 47	patriam	patria	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	48	obj	_	ref=1.14.3
-48	videret	video	VERB	V-	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	43	orphan	_	ref=1.14.3
+48	videret	video	VERB	V-	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	43	conj	_	ref=1.14.3
 49	totiens	totie(n)s	ADV	Df	_	53	advmod	_	ref=1.14.3
 50	se	se	PRON	Pk	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	53	nsubj	_	ref=1.14.3
 51	beneficium	beneficium	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	53	obj	_	ref=1.14.3
@@ -15425,7 +15425,7 @@
 15	quid	quis	PRON	Pi	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	17	obj	_	ref=5.18.4
 16	nos	nos	PRON	Pp	Case=Nom|Gender=Masc|Number=Plur|Person=1|PronType=Prs	17	nsubj	_	ref=5.18.4
 17	agamus	ago	VERB	V-	Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	14	orphan	_	ref=5.18.4
-18	et	et	CCONJ	C-	_	14	orphan	_	ref=5.18.4
+18	et	et	CCONJ	C-	_	14	cc	_	ref=5.18.4
 19	nos	nos	PRON	Pp	Case=Nom|Gender=Masc|Number=Plur|Person=1|PronType=Prs	28	nsubj	_	ref=5.18.4
 20	quid	quis	PRON	Pi	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	22	obj	_	ref=5.18.4
 21	tu	tu	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=2|PronType=Prs	22	nsubj	_	ref=5.18.4
@@ -15435,7 +15435,7 @@
 25	acturus	ago	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Fut|VerbForm=Part|Voice=Act	22	conj	_	ref=5.18.4
 26	sis	sum	AUX	V-	Mood=Sub|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	25	aux	_	ref=5.18.4
 27	scire	scio	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	28	xcomp	_	ref=5.18.4
-28	possimus	possum	VERB	V-	Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	14	orphan	_	ref=5.18.4
+28	possimus	possum	VERB	V-	Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	14	conj	_	ref=5.18.4
 
 # source = Epistulae ad Atticum, Book 5, letter 18
 # text = ego tui Bruti rem sic ago ut suam ipse non ageret
