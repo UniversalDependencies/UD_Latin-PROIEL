@@ -4593,7 +4593,7 @@
 # text = et illae sunt quae testimonium perhibent de me
 # sent_id = 18754
 1	et	et	CCONJ	C-	_	6	cc	_	ref=JOHN_5.39
-2	illae	ille	PRON	Pd	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	ref=JOHN_5.39
+2	illae	ille	PRON	Pd	Case=Nom|Gender=Fem|Number=Plur	6	nsubj:outer	_	ref=JOHN_5.39
 3	sunt	sum	AUX	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	ref=JOHN_5.39
 4	quae	qui	PRON	Pr	Case=Nom|Gender=Fem|Number=Plur|PronType=Rel	6	nsubj	_	ref=JOHN_5.39
 5	testimonium	testimonium	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	ref=JOHN_5.39
@@ -6519,7 +6519,7 @@
 # text = nonne hic est qui expugnabat in Hierusalem eos qui invocabant nomen istud
 # sent_id = 23921
 1	nonne	nonne	ADV	Du	PronType=Int	5	discourse	_	ref=ACTS_9.21
-2	hic	hic	PRON	Pd	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	ref=ACTS_9.21
+2	hic	hic	PRON	Pd	Case=Nom|Gender=Masc|Number=Sing	5	nsubj:outer	_	ref=ACTS_9.21
 3	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	ref=ACTS_9.21
 4	qui	qui	PRON	Pr	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	5	nsubj	_	ref=ACTS_9.21
 5	expugnabat	expugno	VERB	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=ACTS_9.21
@@ -8031,7 +8031,7 @@
 6	et	et	CCONJ	C-	_	7	cc	_	ref=ACTS_10.42
 7	testificari	testificor	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Pass	4	conj	_	ref=ACTS_10.42
 8	quia	quia	SCONJ	G-	_	12	mark	_	ref=ACTS_10.42
-9	ipse	ipse	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj:pass	_	ref=ACTS_10.42
+9	ipse	ipse	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj:outer	_	ref=ACTS_10.42
 10	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	cop	_	ref=ACTS_10.42
 11	qui	qui	PRON	Pr	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	12	nsubj:pass	_	ref=ACTS_10.42
 12	constitutus	constituo	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	ccomp	_	ref=ACTS_10.42
@@ -9128,7 +9128,7 @@
 # text = et facies eius sicut sol lucet in virtute sua
 # sent_id = 33488
 1	et	et	CCONJ	C-	_	6	cc	_	ref=REV_1.16
-2	facies	facies	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	ref=REV_1.16
+2	facies	facies	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	6	nsubj:outer	_	ref=REV_1.16
 3	eius	is	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	det	_	ref=REV_1.16
 4	sicut	sicut	ADV	Dq	PronType=Rel	6	advcl	_	ref=REV_1.16
 5	sol	sol	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	ref=REV_1.16

@@ -3695,7 +3695,7 @@
 # source = Jerome's Vulgate, Luke 16
 # text = vos estis qui iustificatis vos coram hominibus
 # sent_id = 17640
-1	vos	vos	PRON	Pp	Case=Nom|Gender=Masc|Number=Plur|Person=2|PronType=Prs	4	nsubj	_	ref=LUKE_16.15
+1	vos	vos	PRON	Pp	Case=Nom|Gender=Masc|Number=Plur|Person=2|PronType=Prs	4	nsubj:outer	_	ref=LUKE_16.15
 2	estis	sum	AUX	V-	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	ref=LUKE_16.15
 3	qui	qui	PRON	Pr	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	4	nsubj	_	ref=LUKE_16.15
 4	iustificatis	iustifico	VERB	V-	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=LUKE_16.15
@@ -4838,7 +4838,7 @@
 # source = Jerome's Vulgate, John 6
 # text = panis enim Dei est qui descendit de caelo et dat vitam mundo
 # sent_id = 18821
-1	panis	panis	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	ref=JOHN_6.33
+1	panis	panis	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	6	nsubj:outer	_	ref=JOHN_6.33
 2	enim	enim	ADV	Df	_	6	discourse	_	ref=JOHN_6.33
 3	Dei	deus	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	ref=JOHN_6.33
 4	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	ref=JOHN_6.33
@@ -5527,7 +5527,7 @@
 # source = Jerome's Vulgate, John 6
 # text = spiritus est qui vivificat
 # sent_id = 18876
-1	spiritus	spiritus	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	ref=JOHN_6.64
+1	spiritus	spiritus	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	4	nsubj:outer	_	ref=JOHN_6.64
 2	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	ref=JOHN_6.64
 3	qui	qui	PRON	Pr	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	4	nsubj	_	ref=JOHN_6.64
 4	vivificat	vivifico	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=JOHN_6.64
@@ -5559,7 +5559,7 @@
 # sent_id = 18879
 1	sed	sed	CCONJ	C-	_	8	cc	_	ref=JOHN_6.65
 2	sunt	sum	AUX	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	_	ref=JOHN_6.65
-3	quidam	quidam	PRON	Px	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	ref=JOHN_6.65
+3	quidam	quidam	PRON	Px	Case=Nom|Gender=Masc|Number=Plur	8	nsubj:outer	_	ref=JOHN_6.65
 4	ex	ex	ADP	R-	_	5	case	_	ref=JOHN_6.65
 5	vobis	vos	PRON	Pp	Case=Abl|Gender=Masc|Number=Plur|Person=2|PronType=Prs	3	nmod	_	ref=JOHN_6.65
 6	qui	qui	PRON	Pr	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	8	nsubj	_	ref=JOHN_6.65
@@ -6604,7 +6604,7 @@
 # source = Jerome's Vulgate, Acts 7
 # text = hic est qui fuit in ecclesia in solitudine cum angelo qui loquebatur ei in monte Sina et cum patribus nostris
 # sent_id = 23774
-1	hic	hic	PRON	Pd	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	ref=ACTS_7.38
+1	hic	hic	PRON	Pd	Case=Nom|Gender=Masc|Number=Sing	6	nsubj:outer	_	ref=ACTS_7.38
 2	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	ref=ACTS_7.38
 3	qui	qui	PRON	Pr	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	6	nsubj	_	ref=ACTS_7.38
 4	fuit	sum	AUX	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	cop	_	ref=ACTS_7.38
