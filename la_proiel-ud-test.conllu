@@ -504,7 +504,7 @@
 3	lumen	lumen	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	ref=MATT_6.23
 4	quod	qui	PRON	Pr	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	6	nsubj	_	ref=MATT_6.23
 5	in	in	ADP	R-	_	6	case	_	ref=MATT_6.23
-6	te	tu	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=2|PronType=Prs	3	det	_	ref=MATT_6.23
+6	te	tu	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=2|PronType=Prs	3	acl	_	ref=MATT_6.23
 7	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	ref=MATT_6.23
 8	tenebrae	tenebrae	NOUN	Nb	Case=Nom|Gender=Fem|Number=Plur	11	advcl	_	ref=MATT_6.23
 9	sunt	sum	AUX	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	_	ref=MATT_6.23
@@ -2180,7 +2180,7 @@
 14	his	hic	PRON	Pd	Case=Dat|Gender=Masc|Number=Plur	13	obl:arg	_	ref=LUKE_6.4
 15	qui	qui	PRON	Pr	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	17	nsubj	_	ref=LUKE_6.4
 16	cum	cum	ADP	R-	_	17	case	_	ref=LUKE_6.4
-17	ipso	ipse	PRON	Pp	Case=Abl|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	det	_	ref=LUKE_6.4
+17	ipso	ipse	PRON	Pp	Case=Abl|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	acl	_	ref=LUKE_6.4
 18	erant	sum	AUX	V-	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	17	cop	_	ref=LUKE_6.4
 19	quos	qui	PRON	Pr	Case=Acc|Gender=Masc|Number=Plur|PronType=Rel	22	obj	_	ref=LUKE_6.4
 20	non	non	ADV	Df	Polarity=Neg	21	advmod	_	ref=LUKE_6.4
@@ -4429,7 +4429,7 @@
 16	iterum	iterum	ADV	Df	_	15	advmod	_	ref=JOHN_6.15
 17	in	in	ADP	R-	_	18	case	_	ref=JOHN_6.15
 18	montem	mons	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	15	obl	_	ref=JOHN_6.15
-19	ipse	ipse	PRON	Pd	Case=Nom|Gender=Masc|Number=Sing	15	parataxis	_	ref=JOHN_6.15
+19	ipse	ipse	PRON	Pd	Case=Nom|Gender=Masc|Number=Sing	15	advcl	_	ref=JOHN_6.15
 20	solus	solus	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	19	orphan	_	ref=JOHN_6.15
 
 # source = Jerome's Vulgate, John 6
@@ -5057,7 +5057,7 @@
 4	Iesus	Iesus	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	0	root	_	ref=JOHN_6.42
 5	filius	filius	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	4	appos	_	ref=JOHN_6.42
 6	Ioseph	Ioseph	PROPN	Ne	_	5	nmod	_	ref=JOHN_6.42
-7	cuius	qui	PRON	Pr	Case=Gen|Gender=Masc|Number=Sing|PronType=Rel	10	det	_	ref=JOHN_6.42
+7	cuius	qui	PRON	Pr	Case=Gen|Gender=Masc|Number=Sing|PronType=Rel	10	acl	_	ref=JOHN_6.42
 8	nos	nos	PRON	Pp	Case=Nom|Gender=Masc|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	ref=JOHN_6.42
 9	novimus	nosco	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	4	acl	_	ref=JOHN_6.42
 10	patrem	pater	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	9	obj	_	ref=JOHN_6.42
@@ -8588,7 +8588,7 @@
 7	fur	fur	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	5	advcl:cmp	_	ref=REV_3.3
 8	et	et	CCONJ	C-	_	9	cc	_	ref=REV_3.3
 9	nescies	nescio	VERB	V-	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	5	conj	_	ref=REV_3.3
-10	qua	qui	PRON	Pr	Case=Abl|Gender=Fem|Number=Sing|PronType=Rel	11	det	_	ref=REV_3.3
+10	qua	qui	PRON	Pr	Case=Abl|Gender=Fem|Number=Sing|PronType=Rel	11	acl	_	ref=REV_3.3
 11	hora	hora	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	12	advcl	_	ref=REV_3.3
 12	veniam	venio	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	9	ccomp	_	ref=REV_3.3
 13	ad	ad	ADP	R-	_	14	case	_	ref=REV_3.3
@@ -10243,7 +10243,7 @@
 13	macrum	macer	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	9	conj	_	ref=1.5.6
 14	uel	vel	CCONJ	C-	_	15	cc	_	ref=1.5.6
 15	frigidum	frigidus	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	13	conj	_	ref=1.5.6
-16	qui	qui	PRON	Pr	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	17	det	_	ref=1.5.6
+16	qui	qui	PRON	Pr	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	17	acl	_	ref=1.5.6
 17	ager	ager	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	ref=1.5.6
 18	pestiferi	pestifer	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	ref=1.5.6
 19	more	mos	NOUN	Nb	Case=Abl|Gender=Masc|Number=Sing	20	obl	_	ref=1.5.6
@@ -10648,7 +10648,7 @@
 # source = Opus agriculturae, III. De proscindendis agris et iungendis bubus uel arandi disciplina
 # text = Quae forma tunc seruanda est cum semen accipiet
 # sent_id = 160276
-1	Quae	qui	PRON	Pr	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	2	det	_	ref=2.3.3
+1	Quae	qui	PRON	Pr	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	2	acl	_	ref=2.3.3
 2	forma	forma	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	ref=2.3.3
 3	tunc	tunc	ADV	Df	_	4	advmod	_	ref=2.3.3
 4	seruanda	servo	VERB	V-	Case=Nom|Gender=Fem|Number=Sing|VerbForm=Gdv	0	root	_	ref=2.3.3
@@ -10736,7 +10736,7 @@
 4	ne	ne	ADV	Df	Polarity=Neg	6	advmod	_	ref=2.13.1
 5	c	que	CCONJ	C-	_	6	cc	_	ref=2.13.1
 6	amarum	amarus	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	conj	_	ref=2.13.1
-7	quod	qui	PRON	Pr	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	8	det	_	ref=2.13.1
+7	quod	qui	PRON	Pr	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	8	acl	_	ref=2.13.1
 8	uitium	vitium	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	ref=2.13.1
 9	sapore	sapor	NOUN	Nb	Case=Abl|Gender=Masc|Number=Sing	10	nsubj:pass	_	ref=2.13.1
 10	corrupto	corrumpo	VERB	V-	Aspect=Perf|Case=Abl|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	advcl	_	ref=2.13.1
@@ -11303,7 +11303,7 @@
 # source = Epistulae ad Atticum, Book 1, letter 13
 # text = quibus epistulis sum equidem abs te lacessitus ad rescribendum sed idcirco sum tardior quod non invenio fidelem tabellarium
 # sent_id = 76044
-1	quibus	qui	PRON	Pr	Case=Abl|Number=Plur|PronType=Rel	2	det	_	ref=1.13.1
+1	quibus	qui	PRON	Pr	Case=Abl|Number=Plur|PronType=Rel	2	acl	_	ref=1.13.1
 2	epistulis	epistula	NOUN	Nb	Case=Abl|Gender=Fem|Number=Plur	7	advcl	_	ref=1.13.1
 3	sum	sum	AUX	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux:pass	_	ref=1.13.1
 4	equidem	equidem	ADV	Df	_	7	discourse	_	ref=1.13.1
@@ -12284,7 +12284,7 @@
 8	a	ab	ADP	R-	_	9	case	_	ref=1.14.1
 9	praetore	praetor	NOUN	Nb	Case=Abl|Gender=Masc|Number=Sing	10	obl:agent	_	ref=1.14.1
 10	legi	lego	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Pass	4	ccomp	_	ref=1.14.1
-11	quo	qui	PRON	Pr	Case=Abl|Gender=Masc,Neut|Number=Sing|PronType=Rel	12	det	_	ref=1.14.1
+11	quo	qui	PRON	Pr	Case=Abl|Gender=Masc,Neut|Number=Sing|PronType=Rel	12	acl	_	ref=1.14.1
 12	consilio	consilium	NOUN	Nb	Case=Abl|Gender=Neut|Number=Sing	15	obl:arg	_	ref=1.14.1
 13	idem	idem	DET	Pd	Case=Nom|Gender=Masc|Number=Plur	14	det	_	ref=1.14.1
 14	praetor	praetor	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	ref=1.14.1
@@ -12457,7 +12457,7 @@
 6	varie	varie	ADV	Df	Degree=Pos	14	advmod	_	ref=1.14.3
 7	meis	meus	DET	Ps	Case=Abl|Number=Plur|Person=1|Poss=Yes	8	det	_	ref=1.14.3
 8	orationibus	oratio	NOUN	Nb	Case=Abl|Gender=Fem|Number=Plur	14	obl	_	ref=1.14.3
-9	quarum	qui	PRON	Pr	Case=Gen|Gender=Fem|Number=Plur|PronType=Rel	11	det	_	ref=1.14.3
+9	quarum	qui	PRON	Pr	Case=Gen|Gender=Fem|Number=Plur|PronType=Rel	11	acl	_	ref=1.14.3
 10	tu	tu	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=2|PronType=Prs	11	nsubj	_	ref=1.14.3
 11	Aristarchus	Aristarchus	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	8	acl	_	ref=1.14.3
 12	es	sum	AUX	V-	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	ref=1.14.3
@@ -13305,7 +13305,7 @@
 # text = Caecilium quibus rebus possum tueor diligenter
 # sent_id = 76879
 1	Caecilium	Caecilius	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	ref=2.20.1
-2	quibus	qui	PRON	Pr	Case=Abl|Number=Plur|PronType=Rel	3	det	_	ref=2.20.1
+2	quibus	qui	PRON	Pr	Case=Abl|Number=Plur|PronType=Rel	3	acl	_	ref=2.20.1
 3	rebus	res	NOUN	Nb	Case=Abl|Gender=Fem|Number=Plur	4	advcl	_	ref=2.20.1
 4	possum	possum	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	5	advcl	_	ref=2.20.1
 5	tueor	tueor	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	ref=2.20.1
@@ -14552,11 +14552,11 @@
 3	litterae	littera	NOUN	Nb	Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	ref=3.19.2
 4	numquam	numquam	ADV	Df	_	8	advmod	_	ref=3.19.2
 5	in	in	ADP	R-	_	7	case	_	ref=3.19.2
-6	tantam	tantus	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	nmod	_	ref=3.19.2
+6	tantam	tantus	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	ref=3.19.2
 7	spem	spes	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	ref=3.19.2
 8	adduxerunt	adduco	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=3.19.2
 9	quantam	quantus	PRON	Pr	Case=Acc|Gender=Fem|Number=Sing|PronType=Rel	10	orphan	_	ref=3.19.2
-10	aliorum	alius	DET	Px	Case=Gen|Gender=Masc|Number=Plur	6	det	_	ref=3.19.2
+10	aliorum	alius	PRON	Px	Case=Gen|Gender=Masc|Number=Plur	6	acl	_	ref=3.19.2
 
 # source = Epistulae ad Atticum, Book 3, letter 19
 # text = ac tamen mea spes etiam tenuior semper fuit quam tuae litterae
@@ -14582,12 +14582,12 @@
 4	coeptum	coepi	VERB	V-	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	16	advcl	_	ref=3.19.2
 5	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux:pass	_	ref=3.19.2
 6	agi	ago	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Pass	4	xcomp	_	ref=3.19.2
-7	quoquo	quisquis	PRON	Pr	Case=Abl|Gender=Masc,Neut|Number=Sing|PronType=Rel	8	det	_	ref=3.19.2
+7	quoquo	quisquis	PRON	Pr	Case=Abl|Gender=Masc,Neut|Number=Sing|PronType=Rel	8	acl	_	ref=3.19.2
 8	modo	modus	NOUN	Nb	Case=Abl|Gender=Masc|Number=Sing	9	advcl	_	ref=3.19.2
 9	coeptum	coepi	VERB	V-	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	advcl	_	ref=3.19.2
 10	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux:pass	_	ref=3.19.2
 11	et	et	CCONJ	C-	_	14	cc	_	ref=3.19.2
-12	quacumque	quicumque	PRON	Pr	Case=Abl|Gender=Fem|Number=Sing|PronType=Rel	14	det	_	ref=3.19.2
+12	quacumque	quicumque	PRON	Pr	Case=Abl|Gender=Fem|Number=Sing|PronType=Rel	14	acl	_	ref=3.19.2
 13	de	de	ADP	R-	_	14	case	_	ref=3.19.2
 14	causa	causa	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	8	conj	_	ref=3.19.2
 15	non	non	ADV	Df	Polarity=Neg	16	advmod	_	ref=3.19.2
@@ -14796,7 +14796,7 @@
 15	putat	puto	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	conj	_	ref=4.7.1
 16	sibi	se	PRON	Pk	Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	17	obl:arg	_	ref=4.7.1
 17	licere	licet	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	15	ccomp	_	ref=4.7.1
-18	quod	qui	PRON	Pr	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	14	det	_	ref=4.7.1
+18	quod	qui	PRON	Pr	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	14	acl	_	ref=4.7.1
 19	equitibus	eques	NOUN	Nb	Case=Dat|Gender=Masc|Number=Plur	18	orphan	_	ref=4.7.1
 20	Romanis	Romanus	ADJ	A-	Case=Dat|Degree=Pos|Number=Plur	19	amod	_	ref=4.7.1
 
@@ -14821,7 +14821,7 @@
 8	multis	multus	ADJ	A-	Case=Abl|Degree=Pos|Number=Plur	9	amod	_	ref=4.7.2
 9	annis	annus	NOUN	Nb	Case=Abl|Gender=Masc|Number=Plur	13	obl	_	ref=4.7.2
 10	civis	civis	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	ref=4.7.2
-11	nemo	nemo	DET	Px	Case=Nom|Gender=Fem,Masc|Number=Sing	10	det	_	ref=4.7.2
+11	nemo	nemo	PRON	Px	Case=Nom|Gender=Fem,Masc|Number=Sing	10	acl	_	ref=4.7.2
 12	erat	sum	AUX	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	13	aux	_	ref=4.7.2
 13	mortuus	morior	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	conj	_	ref=4.7.2
 14	qui	qui	PRON	Pr	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	11	acl	_	ref=4.7.2
@@ -15066,7 +15066,7 @@
 # source = Epistulae ad Atticum, Book 5, letter 18
 # text = quas litteras si Romae es videbis putes ne reddendas et multa immo omnia quorum κεφάλαιον ne quid inter caesa et porrecta ut aiunt oneris mihi addatur aut temporis
 # sent_id = 85790
-1	quas	qui	PRON	Pr	Case=Acc|Gender=Fem|Number=Plur|PronType=Rel	2	det	_	ref=5.18.1
+1	quas	qui	PRON	Pr	Case=Acc|Gender=Fem|Number=Plur|PronType=Rel	2	acl	_	ref=5.18.1
 2	litteras	littera	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	9	nsubj	_	ref=5.18.1
 3	si	si	SCONJ	G-	_	4	mark	_	ref=5.18.1
 4	Romae	Roma	PROPN	Ne	Case=Gen|Gender=Fem|Number=Sing	6	advcl	_	ref=5.18.1
@@ -15947,7 +15947,7 @@
 # source = Commentarii belli Gallici, Caes., Gall. 2.4
 # text = qua ex re fieri uti earum rerum memoria magnam sibi auctoritatem magnos que spiritus in re militari sumerent
 # sent_id = 52974
-1	qua	qui	PRON	Pr	Case=Abl|Gender=Fem|Number=Sing|PronType=Rel	3	det	_	ref=2.4.3
+1	qua	qui	PRON	Pr	Case=Abl|Gender=Fem|Number=Sing|PronType=Rel	3	acl	_	ref=2.4.3
 2	ex	ex	ADP	R-	_	3	case	_	ref=2.4.3
 3	re	res	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	4	advcl	_	ref=2.4.3
 4	fieri	fio	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Pass	0	root	_	ref=2.4.3
@@ -16317,7 +16317,7 @@
 # source = Commentarii belli Gallici, Caes., Gall. 2.5
 # text = Quae res et latus unum castrorum ripis fluminis muniebat et post eum quae erant tuta ab hostibus reddebat et commeatus ab Remis reliquis que civitatibus ut sine periculo ad eum portari possent efficiebat
 # sent_id = 52991
-1	Quae	qui	PRON	Pr	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	2	det	_	ref=2.5.5
+1	Quae	qui	PRON	Pr	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	2	acl	_	ref=2.5.5
 2	res	res	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	ref=2.5.5
 3	et	et	CCONJ	C-	_	9	cc	_	ref=2.5.5
 4	latus	latus	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	9	obj	_	ref=2.5.5
@@ -16875,7 +16875,7 @@
 # source = Commentarii belli Gallici, Caes., Gall. 3.14
 # text = Quae quidem res ad negotium conficiendum maximae fuit oportunitati
 # sent_id = 53228
-1	Quae	qui	PRON	Pr	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	3	det	_	ref=3.14.13
+1	Quae	qui	PRON	Pr	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	3	acl	_	ref=3.14.13
 2	quidem	quidem	ADV	Df	_	9	discourse	_	ref=3.14.13
 3	res	res	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	ref=3.14.13
 4	ad	ad	ADP	R-	_	6	case	_	ref=3.14.13
@@ -16918,7 +16918,7 @@
 # source = Commentarii belli Gallici, Caes., Gall. 3.15
 # text = Quo proelio bellum Venetorum totius que orae maritimae confectum est
 # sent_id = 53229
-1	Quo	qui	PRON	Pr	Case=Abl|Gender=Masc,Neut|Number=Sing|PronType=Rel	2	det	_	ref=3.15.1
+1	Quo	qui	PRON	Pr	Case=Abl|Gender=Masc,Neut|Number=Sing|PronType=Rel	2	acl	_	ref=3.15.1
 2	proelio	proelium	NOUN	Nb	Case=Abl|Gender=Neut|Number=Sing	9	advcl	_	ref=3.15.1
 3	bellum	bellum	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	9	nsubj:pass	_	ref=3.15.1
 4	Venetorum	Veneti	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	ref=3.15.1
@@ -17342,7 +17342,7 @@
 13	confirmatio	confirmatio	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	11	conj	_	ref=3.16.6
 14	inopia	inopia	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	11	conj	_	ref=3.16.6
 15	cibariorum	cibarium	NOUN	Nb	Case=Gen|Gender=Neut|Number=Plur	14	nmod	_	ref=3.16.6
-16	cui	qui	PRON	Pr	Case=Dat|Number=Sing|PronType=Rel	17	det	_	ref=3.16.6
+16	cui	qui	PRON	Pr	Case=Dat|Number=Sing|PronType=Rel	17	acl	_	ref=3.16.6
 17	rei	res	NOUN	Nb	Case=Dat|Gender=Fem|Number=Sing	23	obl:arg	_	ref=3.16.6
 18	parum	parum	ADV	Df	Degree=Pos	19	advmod	_	ref=3.16.6
 19	diligenter	diligenter	ADV	Df	Degree=Pos	23	advmod	_	ref=3.16.6
@@ -17394,7 +17394,7 @@
 # source = Commentarii belli Gallici, Caes., Gall. 3.16
 # text = Qua re concessa laeti ut explorata victoria sarmentis virgultis que collectis quibus fossas Romanorum compleant ad castra pergunt
 # sent_id = 53248
-1	Qua	qui	PRON	Pr	Case=Abl|Gender=Fem|Number=Sing|PronType=Rel	2	det	_	ref=3.16.8
+1	Qua	qui	PRON	Pr	Case=Abl|Gender=Fem|Number=Sing|PronType=Rel	2	acl	_	ref=3.16.8
 2	re	res	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	3	nsubj:pass	_	ref=3.16.8
 3	concessa	concedo	VERB	V-	Aspect=Perf|Case=Abl|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	18	advcl	_	ref=3.16.8
 4	laeti	laetus	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	18	advmod	_	ref=3.16.8
@@ -17480,7 +17480,7 @@
 # source = Commentarii belli Gallici, Caes., Gall. 4.14
 # text = Quorum timor cum fremitu et concursu significaretur milites nostri pristini diei perfidia incitati in castra inruperunt
 # sent_id = 53369
-1	Quorum	qui	PRON	Pr	Case=Gen|Gender=Masc|Number=Plur|PronType=Rel	2	det	_	ref=4.14.3
+1	Quorum	qui	PRON	Pr	Case=Gen|Gender=Masc|Number=Plur|PronType=Rel	2	acl	_	ref=4.14.3
 2	timor	timor	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	7	nsubj:pass	_	ref=4.14.3
 3	cum	cum	SCONJ	G-	_	7	mark	_	ref=4.14.3
 4	fremitu	fremitus	NOUN	Nb	Case=Abl|Gender=Masc|Number=Sing	7	obl	_	ref=4.14.3
@@ -17500,7 +17500,7 @@
 # source = Commentarii belli Gallici, Caes., Gall. 4.14
 # text = Quo loco qui celeriter arma capere potuerunt paulisper nostris restiterunt atque inter carros impedimenta que proelium commiserunt
 # sent_id = 53370
-1	Quo	qui	PRON	Pr	Case=Abl|Gender=Masc,Neut|Number=Sing|PronType=Rel	2	det	_	ref=4.14.4
+1	Quo	qui	PRON	Pr	Case=Abl|Gender=Masc,Neut|Number=Sing|PronType=Rel	2	acl	_	ref=4.14.4
 2	loco	locus	NOUN	Nb	Case=Abl|Gender=Masc|Number=Sing	10	advcl	_	ref=4.14.4
 3	qui	qui	PRON	Pr	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	7	nsubj	_	ref=4.14.4
 4	celeriter	celeriter	ADV	Df	Degree=Pos	6	advmod	_	ref=4.14.4
@@ -17649,7 +17649,7 @@
 4	que	que	CCONJ	C-	_	2	cc	_	ref=4.15.5
 5	Gallorum	Galli	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	ref=4.15.5
 6	veriti	vereor	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	15	advcl	_	ref=4.15.5
-7	quorum	qui	PRON	Pr	Case=Gen|Gender=Masc|Number=Plur|PronType=Rel	8	det	_	ref=4.15.5
+7	quorum	qui	PRON	Pr	Case=Gen|Gender=Masc|Number=Plur|PronType=Rel	8	acl	_	ref=4.15.5
 8	agros	ager	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	9	obj	_	ref=4.15.5
 9	vexaverant	vexo	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pqp|VerbForm=Fin|Voice=Act	5	acl	_	ref=4.15.5
 10	remanere	remaneo	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	14	xcomp	_	ref=4.15.5
@@ -18310,7 +18310,7 @@
 # source = De officiis, Book 1, section 12
 # text = quae cura exsuscitat etiam animos et maiores ad rem gerendam facit
 # sent_id = 86056
-1	quae	qui	PRON	Pr	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	2	det	_	ref=1.12
+1	quae	qui	PRON	Pr	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	2	acl	_	ref=1.12
 2	cura	cura	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	ref=1.12
 3	exsuscitat	exsuscito	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=1.12
 4	etiam	etiam	ADV	Df	_	3	discourse	_	ref=1.12
@@ -18483,7 +18483,7 @@
 # source = De officiis, Book 1, section 14
 # text = quam similitudinem natura ratio que ab oculis ad animum transferens multo etiam magis pulchritudinem constantiam ordinem in consiliis factis que conservandam putat cavet que ne quid indecore effeminate ve faciat tum in omnibus et opinionibus et factis ne quid libidinose aut faciat aut cogitet
 # sent_id = 86065
-1	quam	qui	PRON	Pr	Case=Acc|Gender=Fem|Number=Sing|PronType=Rel	2	det	_	ref=1.14
+1	quam	qui	PRON	Pr	Case=Acc|Gender=Fem|Number=Sing|PronType=Rel	2	acl	_	ref=1.14
 2	similitudinem	similitudo	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	ref=1.14
 3	natura	natura	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	22	nsubj	_	ref=1.14
 4	ratio	ratio	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	3	conj	_	ref=1.14
@@ -18531,7 +18531,7 @@
 # source = De officiis, Book 1, section 14
 # text = Quibus ex rebus conflatur et efficitur id quod quaerimus honestum quod etiamsi nobilitatum non sit tamen honestum sit quod que vere dicimus etiamsi a nullo laudetur natura esse laudabile
 # sent_id = 86066
-1	Quibus	qui	PRON	Pr	Case=Abl|Number=Plur|PronType=Rel	3	det	_	ref=1.14
+1	Quibus	qui	PRON	Pr	Case=Abl|Number=Plur|PronType=Rel	3	acl	_	ref=1.14
 2	ex	ex	ADP	R-	_	3	case	_	ref=1.14
 3	rebus	res	NOUN	Nb	Case=Abl|Gender=Fem|Number=Plur	4	advcl	_	ref=1.14
 4	conflatur	conflo	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	ref=1.14
@@ -18937,7 +18937,7 @@
 # source = De officiis, Book 1, section 18
 # text = quod vitium effugere qui volet omnes autem velle debent adhibebit ad considerandas res et tempus et diligentiam
 # sent_id = 86080
-1	quod	qui	PRON	Pr	Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	2	det	_	ref=1.18
+1	quod	qui	PRON	Pr	Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	2	acl	_	ref=1.18
 2	vitium	vitium	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	ref=1.18
 3	effugere	effugio	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	5	xcomp	_	ref=1.18
 4	qui	qui	PRON	Pr	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	5	nsubj	_	ref=1.18
@@ -18983,7 +18983,7 @@
 # source = De officiis, Book 1, section 19
 # text = Quibus vitiis declinatis quod in rebus honestis et cognitione dignis operae curae que ponetur id iure laudabitur ut in astrologia Gaium Sulpicium audivimus in geometria Sextium Pompeium ipsi cognovimus multos in dialecticis plures in iure civili quae omnes artes in veri investigatione versantur
 # sent_id = 86082
-1	Quibus	qui	PRON	Pr	Case=Abl|Number=Plur|PronType=Rel	2	det	_	ref=1.19
+1	Quibus	qui	PRON	Pr	Case=Abl|Number=Plur|PronType=Rel	2	acl	_	ref=1.19
 2	vitiis	vitium	NOUN	Nb	Case=Abl|Gender=Neut|Number=Plur	3	nsubj:pass	_	ref=1.19
 3	declinatis	declino	VERB	V-	Aspect=Perf|Case=Abl|Gender=Neut|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	17	advcl	_	ref=1.19
 4	quod	qui	PRON	Pr	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	14	nsubj:pass	_	ref=1.19
@@ -19019,7 +19019,7 @@
 34	in	in	ADP	R-	_	35	case	_	ref=1.19
 35	iure	ius	NOUN	Nb	Case=Abl|Gender=Neut|Number=Sing	23	conj	_	ref=1.19
 36	civili	civilis	ADJ	A-	Case=Abl|Degree=Pos|Number=Sing	35	amod	_	ref=1.19
-37	quae	qui	PRON	Pr	Case=Nom|Gender=Fem|Number=Plur|PronType=Rel	39	det	_	ref=1.19
+37	quae	qui	PRON	Pr	Case=Nom|Gender=Fem|Number=Plur|PronType=Rel	39	acl	_	ref=1.19
 38	omnes	omnis	DET	Px	Case=Nom|Gender=Fem,Masc|Number=Plur	39	det	_	ref=1.19
 39	artes	ars	NOUN	Nb	Case=Nom|Gender=Fem|Number=Plur	43	nsubj:pass	_	ref=1.19
 40	in	in	ADP	R-	_	42	case	_	ref=1.19
