@@ -12569,8 +12569,8 @@
 3	mihi	ego	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=1|PronType=Prs	4	orphan	_	ref=1.14.4
 4	περίοδοι	greek.expression	VERB	F-	_	0	root	_	ref=1.14.4
 5	si	si	SCONJ	G-	_	6	mark	_	ref=1.14.4
-6	καμπαὶ	greek.expression		F-	_	4	conj	_	ref=1.14.4
-7	ἐνθυμήματα	greek.expression		F-	_	6	conj	_	ref=1.14.4
+6	καμπαὶ	greek.expression	X	F-	_	4	conj	_	ref=1.14.4
+7	ἐνθυμήματα	greek.expression	X	F-	_	6	conj	_	ref=1.14.4
 8	si	si	SCONJ	G-	_	10	mark	_	ref=1.14.4
 9	κατασκευαὶ	greek.expression	NOUN	F-	_	10	nsubj	_	ref=1.14.4
 10	suppeditaverunt	suppedito	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	ref=1.14.4
@@ -12965,11 +12965,11 @@
 12	quod	quod	SCONJ	G-	_	13	mark	_	ref=1.14.6
 13	imperitus	imperitus	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	conj	_	ref=1.14.6
 14	quod	quod	SCONJ	G-	_	15	mark	_	ref=1.14.6
-15	ἀπρακτότατος	greek.expression		F-	_	8	conj	_	ref=1.14.6
+15	ἀπρακτότατος	greek.expression	X	F-	_	8	conj	_	ref=1.14.6
 16	sed	sed	CCONJ	C-	_	19	cc	_	ref=1.14.6
 17	voluntate	voluntas	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	19	obl	_	ref=1.14.6
 18	ita	ita	ADV	Df	_	19	advmod	_	ref=1.14.6
-19	καχέκτης	greek.expression		F-	_	6	conj	_	ref=1.14.6
+19	καχέκτης	greek.expression	X	F-	_	6	conj	_	ref=1.14.6
 20	ut	ut	SCONJ	G-	_	33	mark	_	ref=1.14.6
 21	Pompeium	Pompeius	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	32	obj	_	ref=1.14.6
 22	post	post	ADP	R-	_	24	case	_	ref=1.14.6
@@ -13177,7 +13177,7 @@
 8	et	et	CCONJ	C-	_	11	cc	_	ref=1.15.1
 9	praeter	praeter	ADP	R-	_	10	case	_	ref=1.15.1
 10	ceteros	ceterus	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	11	advmod	_	ref=1.15.1
-11	φιλέλληνες	greek.expression		F-	_	5	conj	_	ref=1.15.1
+11	φιλέλληνες	greek.expression	X	F-	_	5	conj	_	ref=1.15.1
 12	et	et	CCONJ	C-	_	15	cc	_	ref=1.15.1
 13	sumus	sum	AUX	V-	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	ref=1.15.1
 14	et	et	CCONJ	C-	_	15	cc	_	ref=1.15.1

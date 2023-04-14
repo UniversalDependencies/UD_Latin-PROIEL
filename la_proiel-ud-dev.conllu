@@ -11877,7 +11877,7 @@
 # sent_id = 76023
 1	σκήψεις	greek.expression	VERB	F-	_	0	root	_	ref=1.12.1
 2	atque	atque	CCONJ	C-	_	3	cc	_	ref=1.12.1
-3	ἀναβολαί	greek.expression		F-	_	1	conj	_	ref=1.12.1
+3	ἀναβολαί	greek.expression	X	F-	_	1	conj	_	ref=1.12.1
 
 # source = Epistulae ad Atticum, Book 1, letter 12
 # text = sed nescio an ταὐτόματον ἡμῶν
@@ -12862,7 +12862,7 @@
 5	nimium	nimium	ADV	Df	_	8	advmod	_	ref=2.19.1
 6	τῷ	greek.expression	ADJ	F-	_	7	amod	_	ref=2.19.1
 7	καλῷ	greek.expression	NOUN	F-	_	8	obl	_	ref=2.19.1
-8	προσπέπονθα	greek.expression		F-	_	3	conj	_	ref=2.19.1
+8	προσπέπονθα	greek.expression	X	F-	_	3	conj	_	ref=2.19.1
 
 # source = Epistulae ad Atticum, Book 2, letter 19
 # text = scito nihil umquam fuisse tam infame tam turpe tam peraeque omnibus generibus ordinibus aetatibus offensum quam hunc statum qui nunc est magis me hercule quam vellem non modo quam putarem
