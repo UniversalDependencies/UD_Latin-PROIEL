@@ -174,8 +174,8 @@
 # source = Jerome's Vulgate, Matthew 5
 # text = quod si sal evanuerit in quo sallietur ad nihilum valet ultra nisi ut mittatur foras et conculcetur ab hominibus
 # sent_id = 12862
-1	quod	qui	PRON	Pr	Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	2	aux	_	ref=MATT_5.13
-2	si	si	SCONJ	G-	_	4	mark	_	ref=MATT_5.13
+1	quod	qui	PRON	Pr	Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	4	mark	_	ref=MATT_5.13
+2	si	si	SCONJ	G-	_	1	fixed	_	ref=MATT_5.13
 3	sal	sal	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	ref=MATT_5.13
 4	evanuerit	evanesco	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	10	advcl	_	ref=MATT_5.13
 5	in	in	ADP	R-	_	6	case	_	ref=MATT_5.13
@@ -571,8 +571,8 @@
 # source = Jerome's Vulgate, Matthew 5
 # text = quod si oculus tuus dexter scandalizat te erue eum et proice abs te
 # sent_id = 12894
-1	quod	qui	PRON	Pr	Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	2	aux	_	ref=MATT_5.29
-2	si	si	SCONJ	G-	_	6	mark	_	ref=MATT_5.29
+1	quod	qui	PRON	Pr	Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	6	mark	_	ref=MATT_5.29
+2	si	si	SCONJ	G-	_	1	fixed	_	ref=MATT_5.29
 3	oculus	oculus	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	ref=MATT_5.29
 4	tuus	tuus	DET	Ps	Case=Nom|Gender=Masc|Number=Sing|Person=2|Poss=Yes	3	det	_	ref=MATT_5.29
 5	dexter	dexter	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	ref=MATT_5.29
