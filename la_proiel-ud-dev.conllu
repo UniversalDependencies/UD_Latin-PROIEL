@@ -8806,7 +8806,7 @@
 4	et	et	CCONJ	C-	_	6	cc	_	ref=REV_1.3
 5	qui	qui	PRON	Pr	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	6	nsubj	_	ref=REV_1.3
 6	audiunt	audio	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	ref=REV_1.3
-7	verba	verbum	NOUN	Nb	Case=Nom|Gender=Neut|Number=Plur	6	nsubj	_	ref=REV_1.3
+7	verba	verbum	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	6	obj	_	ref=REV_1.3
 8	prophetiae	prophetia	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	ref=REV_1.3
 9	et	et	CCONJ	C-	_	10	cc	_	ref=REV_1.3
 10	servant	servo	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	ref=REV_1.3
@@ -9382,9 +9382,9 @@
 9	de	de	ADP	R-	_	10	case	_	ref=REV_2.5
 10	loco	locus	NOUN	Nb	Case=Abl|Gender=Masc|Number=Sing	6	obl	_	ref=REV_2.5
 11	suo	suus	DET	Pt	Case=Abl|Gender=Masc|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	10	det	_	ref=REV_2.5
-12	nisi	nisi	ADV	Df	_	6	advmod	_	ref=REV_2.5
+12	nisi	nisi	SCONJ	G-	_	14	mark	_	ref=REV_2.5
 13	paenitentiam	paenitentia	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	ref=REV_2.5
-14	egeris	ago	AUX	V-	Aspect=Perf|Mood=Sub|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	12	aux	_	ref=REV_2.5
+14	egeris	ago	VERB	V-	Aspect=Perf|Mood=Sub|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	6	advcl	_	ref=REV_2.5
 
 # source = Jerome's Vulgate, Revelation 2
 # text = sed hoc habes quia odisti facta Nicolaitarum quae et ego odi
@@ -16365,7 +16365,7 @@
 5	citeriore	citerior	ADJ	A-	Case=Abl|Degree=Cmp|Number=Sing	6	amod	_	ref=2.1.1
 6	Gallia	Gallia	PROPN	Ne	Case=Abl|Gender=Fem|Number=Sing	15	advcl	_	ref=2.1.1
 7	ita	ita	ADV	Df	_	6	advmod	_	ref=2.1.1
-8	uti	ut	SCONJ	G-	_	10	obl	_	ref=2.1.1
+8	uti	ut	ADV	Dq	PronType=Rel	10	advcl	_	ref=2.1.1
 9	supra	supra	ADV	Df	Degree=Pos	10	advmod	_	ref=2.1.1
 10	demonstravimus	demonstro	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	15	parataxis	_	ref=2.1.1
 11	crebri	creber	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	14	amod	_	ref=2.1.1
@@ -16411,7 +16411,7 @@
 1	primum	primum	ADV	Df	_	3	advmod	_	ref=2.1.2
 2	quod	quod	SCONJ	G-	_	3	mark	_	ref=2.1.2
 3	vererentur	vereor	VERB	V-	Aspect=Imp|Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	ref=2.1.2
-4	ne	ne	ADV	Df	Polarity=Neg	3	ccomp	_	ref=2.1.2
+4	ne	ne	SCONJ	G-	_	12	mark	_	ref=2.1.2
 5	omni	omnis	DET	Px	Case=Abl|Number=Sing	7	det	_	ref=2.1.2
 6	pacata	paco	VERB	V-	Aspect=Perf|Case=Abl|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	advcl	_	ref=2.1.2
 7	Gallia	Gallia	PROPN	Ne	Case=Abl|Gender=Fem|Number=Sing	6	nsubj:pass	_	ref=2.1.2
@@ -16419,7 +16419,7 @@
 9	eos	is	PRON	Pp	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	12	obl	_	ref=2.1.2
 10	exercitus	exercitus	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	12	nsubj:pass	_	ref=2.1.2
 11	noster	noster	DET	Ps	Case=Nom|Gender=Masc|Number=Sing|Person=1|Poss=Yes	10	det	_	ref=2.1.2
-12	adduceretur	adduco	AUX	V-	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	4	aux	_	ref=2.1.2
+12	adduceretur	adduco	VERB	V-	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	3	ccomp	_	ref=2.1.2
 
 # source = Commentarii belli Gallici, Caes., Gall. 2.1
 # text = deinde quod ab non nullis Gallis sollicitarentur partim qui ut Germanos diutius in Gallia versari noluerant ita populi Romani exercitum hiemare atque inveterascere in Gallia moleste ferebant partim qui mobilitate et levitate animi novis imperiis studebant

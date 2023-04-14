@@ -1178,7 +1178,7 @@
 4	Iohannem	Iohannes	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	ref=MARK_6.16
 5	hic	hic	PRON	Pd	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	ref=MARK_6.16
 6	a	ab	ADP	R-	_	7	case	_	ref=MARK_6.16
-7	mortuis	mortuus	ADJ	A-	Case=Abl|Degree=Pos|Gender=Masc|Number=Plur	8	advmod	_	ref=MARK_6.16
+7	mortuis	mortuus	ADJ	A-	Case=Abl|Degree=Pos|Gender=Masc|Number=Plur	8	obl	_	ref=MARK_6.16
 8	resurrexit	resurgo	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=MARK_6.16
 
 # source = Jerome's Vulgate, Mark 6
