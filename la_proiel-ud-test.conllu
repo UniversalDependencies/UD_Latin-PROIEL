@@ -14815,7 +14815,7 @@
 2	Metello	Metellus	PROPN	Ne	Case=Abl|Gender=Masc|Number=Sing	0	root	_	ref=4.7.2
 3	οὐχ	greek.expression	VERB	F-	_	2	ccomp	_	ref=4.7.2
 4	ὁσίη	greek.expression	X	F-	_	3	flat:foreign	_	ref=4.7.2
-5	φθιμένοισιν	greek.expression		F-	_	3	orphan	_	ref=4.7.2
+5	φθιμένοισιν	greek.expression	NOUN	F-	_	3	orphan	_	ref=4.7.2
 6	sed	sed	CCONJ	C-	_	13	cc	_	ref=4.7.2
 7	tamen	tamen	ADV	Df	_	13	discourse	_	ref=4.7.2
 8	multis	multus	ADJ	A-	Case=Abl|Degree=Pos|Number=Plur	9	amod	_	ref=4.7.2
