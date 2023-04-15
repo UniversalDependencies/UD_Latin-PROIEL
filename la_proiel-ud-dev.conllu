@@ -2570,8 +2570,8 @@
 # text = ut autem sciatis quia Filius hominis potestatem habet in terra dimittere peccata
 # sent_id = 16625
 1	ut	ut	SCONJ	G-	_	3	mark	_	ref=LUKE_5.24
-2	autem	autem	ADV	Df	_	3	discourse	_	ref=LUKE_5.24
-3	sciatis	scio	VERB	V-	Mood=Sub|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=LUKE_5.24
+2	autem	autem	ADV	Df	_	0	root	_	ref=LUKE_5.24
+3	sciatis	scio	VERB	V-	Mood=Sub|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	ref=LUKE_5.24
 4	quia	quia	SCONJ	G-	_	8	mark	_	ref=LUKE_5.24
 5	Filius	filius	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	ref=LUKE_5.24
 6	hominis	homo	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	ref=LUKE_5.24
@@ -9671,8 +9671,8 @@
 # source = Jerome's Vulgate, Revelation 2
 # text = si quo minus venio tibi cito et pugnabo cum illis in gladio oris mei
 # sent_id = 33530
-1	si	si	SCONJ	G-	_	2	mark	_	ref=REV_2.16
-2	quo	quominus	ADV	Df	_	4	advcl	_	ref=REV_2.16
+1	si	si	SCONJ	G-	_	4	advcl	_	ref=REV_2.16
+2	quo	quominus	ADV	Df	_	1	fixed	_	ref=REV_2.16
 3	minus	minus	ADV	Df	_	2	fixed	_	ref=REV_2.16
 4	venio	venio	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=REV_2.16
 5	tibi	tu	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=2|PronType=Prs	4	obl:arg	_	ref=REV_2.16
@@ -14686,10 +14686,10 @@
 13	a	ab	ADP	R-	_	14	case	_	ref=4.14.2
 14	Gaio	Gaius	PROPN	Ne	Case=Abl|Gender=Masc|Number=Sing	10	conj	_	ref=4.14.2
 15	Caesare	Caesar	PROPN	Ne	Case=Abl|Gender=Masc|Number=Sing	14	flat:name	_	ref=4.14.2
-16	et	et	CCONJ	C-	_	18	cc	_	ref=4.14.2
-17	si	si	SCONJ	G-	_	18	mark	_	ref=4.14.2
-18	quid	quis	PRON	Px	Case=Acc|Gender=Neut|Number=Sing	7	conj	_	ref=4.14.2
-19	forte	forte	ADV	Df	_	18	advmod	_	ref=4.14.2
+16	et	et	CCONJ	C-	_	17	cc	_	ref=4.14.2
+17	si	si	SCONJ	G-	_	7	conj	_	ref=4.14.2
+18	quid	quis	PRON	Px	Case=Acc|Gender=Neut|Number=Sing	17	obj	_	ref=4.14.2
+19	forte	forte	ADV	Df	_	17	fixed	_	ref=4.14.2
 20	de	de	ADP	R-	_	21	case	_	ref=4.14.2
 21	comitiis	comitium	NOUN	Nb	Case=Abl|Gender=Neut|Number=Plur	18	nmod	_	ref=4.14.2
 22	de	de	ADP	R-	_	23	case	_	ref=4.14.2
