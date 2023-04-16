@@ -1642,7 +1642,7 @@
 1	dimitte	dimitto	VERB	V-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=MARK_6.36
 2	illos	ille	PRON	Pd	Case=Acc|Gender=Masc|Number=Plur	1	obj	_	ref=MARK_6.36
 3	ut	ut	SCONJ	G-	_	10	mark	_	ref=MARK_6.36
-4	euntes	eo	VERB	V-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	10	advcl	_	ref=MARK_6.36
+4	euntes	eo	VERB	V-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	10	advcl	_	ref=MARK_6.36|LId=1
 5	in	in	ADP	R-	_	7	case	_	ref=MARK_6.36
 6	proximas	proximus	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	ref=MARK_6.36
 7	villas	villa	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	4	obl	_	ref=MARK_6.36
@@ -1679,7 +1679,7 @@
 # source = Jerome's Vulgate, Mark 6
 # text = euntes emamus denariis ducentis panes et dabimus eis manducare
 # sent_id = 10695
-1	euntes	eo	VERB	V-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	2	advcl	_	ref=MARK_6.37
+1	euntes	eo	VERB	V-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	2	advcl	_	ref=MARK_6.37|LId=1
 2	emamus	emo	VERB	V-	Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=MARK_6.37
 3	denariis	denarius	NOUN	Nb	Case=Abl|Gender=Masc|Number=Plur	2	obl	_	ref=MARK_6.37
 4	ducentis	ducenti	NUM	Ma	Case=Abl|Gender=Masc|Number=Plur	3	nummod	_	ref=MARK_6.37
@@ -1706,7 +1706,7 @@
 # source = Jerome's Vulgate, Mark 6
 # text = ite et videte
 # sent_id = 10698
-1	ite	eo	VERB	V-	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=MARK_6.38
+1	ite	eo	VERB	V-	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=MARK_6.38|LId=1
 2	et	et	CCONJ	C-	_	3	cc	_	ref=MARK_6.38
 3	videte	video	VERB	V-	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	ref=MARK_6.38
 
@@ -4082,7 +4082,7 @@
 3	quis	quis	PRON	Px	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	ref=LUKE_16.30
 4	ex	ex	ADP	R-	_	5	case	_	ref=LUKE_16.30
 5	mortuis	mortuus	ADJ	A-	Case=Abl|Degree=Pos|Gender=Masc|Number=Plur	3	nmod	_	ref=LUKE_16.30
-6	ierit	eo	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	10	advcl	_	ref=LUKE_16.30
+6	ierit	eo	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	10	advcl	_	ref=LUKE_16.30|LId=1
 7	ad	ad	ADP	R-	_	8	case	_	ref=LUKE_16.30
 8	eos	is	PRON	Pp	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	obl	_	ref=LUKE_16.30
 9	paenitentiam	paenitentia	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	ref=LUKE_16.30
@@ -4544,7 +4544,7 @@
 11	ad	ad	ADP	R-	_	12	case	_	ref=JOHN_6.21
 12	terram	terra	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	1	conj	_	ref=JOHN_6.21
 13	quam	qui	PRON	Pr	Case=Acc|Gender=Fem|Number=Sing|PronType=Rel	14	obl:arg	_	ref=JOHN_6.21
-14	ibant	eo	VERB	V-	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	12	acl	_	ref=JOHN_6.21
+14	ibant	eo	VERB	V-	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	12	acl	_	ref=JOHN_6.21|LId=1
 
 # source = Jerome's Vulgate, John 6
 # text = altera die turba quae stabat trans mare vidit quia navicula alia non erat ibi nisi una et quia non introisset cum discipulis suis Iesus in navem sed soli discipuli eius abissent
@@ -5663,7 +5663,7 @@
 1	Domine	dominus	NOUN	Nb	Case=Voc|Gender=Masc|Number=Sing	4	vocative	_	ref=JOHN_6.69
 2	ad	ad	ADP	R-	_	3	case	_	ref=JOHN_6.69
 3	quem	qui	PRON	Pi	Case=Acc|Gender=Masc|Number=Sing|PronType=Int	4	obl	_	ref=JOHN_6.69
-4	ibimus	eo	VERB	V-	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	ref=JOHN_6.69
+4	ibimus	eo	VERB	V-	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	ref=JOHN_6.69|LId=1
 
 # source = Jerome's Vulgate, John 6
 # text = verba vitae aeternae habes
@@ -7894,7 +7894,7 @@
 # sent_id = 23871
 1	et	et	CCONJ	C-	_	6	cc	_	ref=ACTS_8.36
 2	dum	dum	SCONJ	G-	_	3	mark	_	ref=ACTS_8.36
-3	irent	eo	VERB	V-	Aspect=Imp|Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	advcl	_	ref=ACTS_8.36
+3	irent	eo	VERB	V-	Aspect=Imp|Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	advcl	_	ref=ACTS_8.36|LId=1
 4	per	per	ADP	R-	_	5	case	_	ref=ACTS_8.36
 5	viam	via	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	3	obl	_	ref=ACTS_8.36
 6	venerunt	venio	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=ACTS_8.36
@@ -7968,7 +7968,7 @@
 # source = Jerome's Vulgate, Acts 8
 # text = ibat enim per viam suam gaudens
 # sent_id = 23879
-1	ibat	eo	VERB	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=ACTS_8.39
+1	ibat	eo	VERB	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=ACTS_8.39|LId=1
 2	enim	enim	ADV	Df	_	1	discourse	_	ref=ACTS_8.39
 3	per	per	ADP	R-	_	4	case	_	ref=ACTS_8.39
 4	viam	via	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	1	obl	_	ref=ACTS_8.39
@@ -13409,16 +13409,16 @@
 # sent_id = 81919
 1	addit	addo	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=2.20.2
 2	etiam	etiam	ADV	Df	_	1	discourse	_	ref=2.20.2
-3	se	se	PRON	Pk	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	5	nsubj:pass	_	ref=2.20.2
+3	se	se	PRON	Pk	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	5	nsubj	_	ref=2.20.2
 4	prius	prius	ADV	Df	Degree=Cmp	5	advmod	_	ref=2.20.2
-5	occisum	occido	VERB	V-	Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	1	ccomp	_	ref=2.20.2|LId=1
-6	iri	eo	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Pass	5	aux:pass	_	ref=2.20.2
+5	occisum	occido	VERB	V-	Case=Acc|VerbForm=Sup	1	ccomp	_	ref=2.20.2
+6	iri	eo	AUX	V-	Tense=Pres|VerbForm=Inf|Voice=Pass	5	aux	_	ref=2.20.2|LId=2
 7	ab	ab	ADP	R-	_	8	case	_	ref=2.20.2
 8	eo	is	PRON	Pp	Case=Abl|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obl:agent	_	ref=2.20.2
 9	quam	quam	ADV	Df	_	4	advmod	_	ref=2.20.2|LId=1
-10	me	ego	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=1|PronType=Prs	11	nsubj:pass	_	ref=2.20.2
-11	violatum	violo	VERB	V-	Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	9	ccomp	_	ref=2.20.2
-12	iri	eo	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Pass	11	aux:pass	_	ref=2.20.2
+10	me	ego	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	ref=2.20.2
+11	violatum	violo	VERB	V-	Case=Acc|VerbForm=Sup	9	ccomp	_	ref=2.20.2
+12	iri	eo	AUX	V-	Tense=Pres|VerbForm=Inf|Voice=Pass	11	aux	_	ref=2.20.2|LId=2
 
 # source = Epistulae ad Atticum, Book 2, letter 20
 # text = tractatur res
@@ -14251,7 +14251,7 @@
 20	impelli	impello	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Pass	19	xcomp	_	ref=2.21.5
 21	contionem	contio	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	19	nsubj	_	ref=2.21.5
 22	ut	ut	SCONJ	G-	_	23	mark	_	ref=2.21.5
-23	iret	eo	VERB	V-	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	20	advcl	_	ref=2.21.5
+23	iret	eo	VERB	V-	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	20	advcl	_	ref=2.21.5|LId=1
 24	ad	ad	ADP	R-	_	25	case	_	ref=2.21.5
 25	Bibulum	Bibulus	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	23	obl	_	ref=2.21.5
 
@@ -14459,7 +14459,7 @@
 9	videbatur	video	VERB	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	13	advcl	_	ref=3.19.1
 10	in	in	ADP	R-	_	11	case	_	ref=3.19.1
 11	Asiam	Asia	PROPN	Ne	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	ref=3.19.1
-12	ire	eo	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	13	xcomp	_	ref=3.19.1
+12	ire	eo	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	13	xcomp	_	ref=3.19.1|LId=1
 13	nolui	nolo	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=3.19.1
 14	quod	quod	SCONJ	G-	_	18	mark	_	ref=3.19.1
 15	et	et	CCONJ	C-	_	18	cc	_	ref=3.19.1
@@ -14982,7 +14982,7 @@
 19	te	tu	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=2|PronType=Prs	22	nsubj	_	ref=5.18.1
 20	in	in	ADP	R-	_	21	case	_	ref=5.18.1
 21	Epirum	Epirus	PROPN	Ne	Case=Acc|Gender=Fem|Number=Sing	22	obl	_	ref=5.18.1
-22	iturum	eo	VERB	V-	Case=Acc|Gender=Masc|Number=Sing|Tense=Fut|VerbForm=Part|Voice=Act	17	csubj:pass	_	ref=5.18.1
+22	iturum	eo	VERB	V-	Case=Acc|Gender=Masc|Number=Sing|Tense=Fut|VerbForm=Part|Voice=Act	17	csubj:pass	_	ref=5.18.1|LId=1
 23	circiter	circiter	ADP	R-	_	24	case	_	ref=5.18.1
 24	Kal.Sextil	calendar.expression	ADV	Df	_	22	advmod	_	ref=5.18.1
 
@@ -17321,7 +17321,7 @@
 13	esse	sum	AUX	V-	Tense=Pres|VerbForm=Inf|Voice=Act	11	aux	_	ref=3.16.5
 14	ad	ad	ADP	R-	_	15	case	_	ref=3.16.6
 15	castra	castra	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	16	obl	_	ref=3.16.6
-16	iri	eo	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Pass	17	xcomp	_	ref=3.16.6
+16	iri	eo	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Pass	17	xcomp	_	ref=3.16.6|LId=1
 17	oportere	oportet	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	11	conj	_	ref=3.16.6
 
 # source = Commentarii belli Gallici, Caes., Gall. 3.16

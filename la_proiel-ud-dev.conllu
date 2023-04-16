@@ -635,7 +635,7 @@
 9	totum	totus	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	ref=MATT_5.30
 10	corpus	corpus	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	ref=MATT_5.30
 11	tuum	tuus	DET	Ps	Case=Nom|Gender=Neut|Number=Sing|Person=2|Poss=Yes	10	det	_	ref=MATT_5.30
-12	eat	eo	VERB	V-	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	ccomp	_	ref=MATT_5.30
+12	eat	eo	VERB	V-	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	ccomp	_	ref=MATT_5.30|LId=1
 13	in	in	ADP	R-	_	14	case	_	ref=MATT_5.30
 14	gehennam	gehenna	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	ref=MATT_5.30
 
@@ -3348,7 +3348,7 @@
 # sent_id = 48187
 1	surgam	surgo	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	ref=LUKE_15.18
 2	et	et	CCONJ	C-	_	3	cc	_	ref=LUKE_15.18
-3	ibo	eo	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	1	conj	_	ref=LUKE_15.18
+3	ibo	eo	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	1	conj	_	ref=LUKE_15.18|LId=1
 4	ad	ad	ADP	R-	_	5	case	_	ref=LUKE_15.18
 5	patrem	pater	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	3	obl	_	ref=LUKE_15.18
 6	meum	meus	DET	Ps	Case=Acc|Gender=Masc|Number=Sing|Person=1|Poss=Yes	5	det	_	ref=LUKE_15.18
@@ -5174,7 +5174,7 @@
 # source = Jerome's Vulgate, Acts 5
 # text = ite et stantes loquimini in templo plebi omnia verba vitae huius
 # sent_id = 23655
-1	ite	eo	VERB	V-	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=ACTS_5.20
+1	ite	eo	VERB	V-	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=ACTS_5.20|LId=1
 2	et	et	CCONJ	C-	_	4	cc	_	ref=ACTS_5.20
 3	stantes	sto	VERB	V-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	4	advcl	_	ref=ACTS_5.20
 4	loquimini	loquor	VERB	V-	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Pass	1	conj	_	ref=ACTS_5.20
@@ -5670,7 +5670,7 @@
 1	et	et	CCONJ	C-	_	4	cc	_	ref=ACTS_5.41
 2	illi	ille	PRON	Pd	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	ref=ACTS_5.41
 3	quidem	quidem	ADV	Df	_	2	discourse	_	ref=ACTS_5.41
-4	ibant	eo	VERB	V-	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=ACTS_5.41
+4	ibant	eo	VERB	V-	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=ACTS_5.41|LId=1
 5	gaudentes	gaudeo	VERB	V-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	4	advcl	_	ref=ACTS_5.41
 6	a	ab	ADP	R-	_	7	case	_	ref=ACTS_5.41
 7	conspectu	conspectus	NOUN	Nb	Case=Abl|Gender=Masc|Number=Sing	4	obl	_	ref=ACTS_5.41
@@ -11129,7 +11129,7 @@
 36	die	dies	NOUN	Nb	Case=Abl|Gender=Masc|Number=Sing	39	obl	_	ref=1.10.1
 37	post	post	ADP	R-	_	38	case	_	ref=1.10.1
 38	meridiem	meridies	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	39	obl	_	ref=1.10.1
-39	iturum	eo	VERB	V-	Case=Acc|Gender=Masc|Number=Sing|Tense=Fut|VerbForm=Part|Voice=Act	32	ccomp	_	ref=1.10.1
+39	iturum	eo	VERB	V-	Case=Acc|Gender=Masc|Number=Sing|Tense=Fut|VerbForm=Part|Voice=Act	32	ccomp	_	ref=1.10.1|LId=1
 40	eum	is	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	39	nsubj	_	ref=1.10.1
 41	qui	qui	PRON	Pr	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	44	nsubj	_	ref=1.10.1
 42	ad	ad	ADP	R-	_	43	case	_	ref=1.10.1
