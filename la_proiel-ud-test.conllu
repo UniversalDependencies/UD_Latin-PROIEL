@@ -690,7 +690,7 @@
 # text = si autem faenum agri quod hodie est et cras in clibanum mittitur Deus sic vestit quanto magis vos minimae fidei
 # sent_id = 12984
 1	si	si	SCONJ	G-	_	15	mark	_	ref=MATT_6.30
-2	autem	autem	ADV	Df	_	0	root	_	ref=MATT_6.30
+2	autem	autem	ADV	Df	_	18	discourse	_	ref=MATT_6.30
 3	faenum	faenum	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	15	obj	_	ref=MATT_6.30
 4	agri	ager	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	ref=MATT_6.30
 5	quod	qui	PRON	Pr	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	7	nsubj	_	ref=MATT_6.30
@@ -703,10 +703,10 @@
 12	mittitur	mitto	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	7	conj	_	ref=MATT_6.30
 13	Deus	deus	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	ref=MATT_6.30
 14	sic	sic	ADV	Df	_	15	advmod	_	ref=MATT_6.30
-15	vestit	vestio	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	ref=MATT_6.30
+15	vestit	vestio	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	orphan	_	ref=MATT_6.30
 16	quanto	quanto	ADV	Du	PronType=Int	17	advmod	_	ref=MATT_6.30
-17	magis	magis	ADV	Df	Degree=Cmp	2	advmod	_	ref=MATT_6.30
-18	vos	vos	PRON	Pp	Case=Acc|Gender=Masc|Number=Plur|Person=2|PronType=Prs	2	obj	_	ref=MATT_6.30
+17	magis	magis	ADV	Df	Degree=Cmp	18	orphan	_	ref=MATT_6.30
+18	vos	vos	PRON	Pp	Case=Acc|Gender=Masc|Number=Plur|Person=2|PronType=Prs	0	root	_	ref=MATT_6.30
 19	minimae	parvus	ADJ	A-	Case=Gen|Degree=Sup|Gender=Fem|Number=Sing	20	amod	_	ref=MATT_6.30
 20	fidei	fides	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	18	appos	_	ref=MATT_6.30
 
@@ -847,9 +847,9 @@
 # source = Jerome's Vulgate, Mark 6
 # text = unde huic haec omnia
 # sent_id = 10628
-1	unde	unde	ADV	Du	PronType=Int	0	root	_	ref=MARK_6.2
-2	huic	hic	PRON	Pd	Case=Dat|Gender=Masc|Number=Sing	1	obl	_	ref=MARK_6.2
-3	haec	hic	PRON	Pd	Case=Nom|Gender=Neut|Number=Plur	1	nsubj	_	ref=MARK_6.2
+1	unde	unde	ADV	Du	PronType=Int	3	orphan	_	ref=MARK_6.2
+2	huic	hic	PRON	Pd	Case=Dat|Gender=Masc|Number=Sing	3	orphan	_	ref=MARK_6.2
+3	haec	hic	PRON	Pd	Case=Nom|Gender=Neut|Number=Plur	0	root	_	ref=MARK_6.2
 4	omnia	omnis	DET	Px	Case=Nom|Gender=Neut|Number=Plur	3	det	_	ref=MARK_6.2
 
 # source = Jerome's Vulgate, Mark 6
@@ -2065,7 +2065,7 @@
 2	quocumque	quocumque	ADV	Dq	PronType=Rel	3	advmod	_	ref=MARK_6.56
 3	introibat	introeo	VERB	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	13	advcl	_	ref=MARK_6.56
 4	in	in	ADP	R-	_	5	case	_	ref=MARK_6.56
-5	vicos	vicus	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	2	parataxis	_	ref=MARK_6.56
+5	vicos	vicus	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	2	appos	_	ref=MARK_6.56
 6	vel	vel	CCONJ	C-	_	8	cc	_	ref=MARK_6.56
 7	in	in	ADP	R-	_	8	case	_	ref=MARK_6.56
 8	villas	villa	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	5	conj	_	ref=MARK_6.56
@@ -2458,8 +2458,8 @@
 # source = Jerome's Vulgate, Luke 6
 # text = et turba discipulorum eius et multitudo copiosa plebis ab omni Iudaea et Hierusalem et maritimae Tyri et Sidonis qui venerunt ut audirent eum et sanarentur a languoribus suis
 # sent_id = 48097
-1	et	et	CCONJ	C-	_	0	root	_	ref=LUKE_6.17
-2	turba	turba	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	ref=LUKE_6.17
+1	et	et	CCONJ	C-	_	2	cc	_	ref=LUKE_6.17
+2	turba	turba	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	0	root	_	ref=LUKE_6.17
 3	discipulorum	discipulus	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	ref=LUKE_6.17
 4	eius	is	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	det	_	ref=LUKE_6.17
 5	et	et	CCONJ	C-	_	6	cc	_	ref=LUKE_6.17
@@ -2645,7 +2645,7 @@
 1	vae	vae	INTJ	I-	_	0	root	_	ref=LUKE_6.25
 2	vobis	vos	PRON	Pp	Case=Dat|Gender=Masc|Number=Plur|Person=2|PronType=Prs	1	obl:arg	_	ref=LUKE_6.25
 3	qui	qui	PRON	Pr	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	4	nsubj	_	ref=LUKE_6.25
-4	ridetis	rideo	VERB	V-	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl	_	ref=LUKE_6.25
+4	ridetis	rideo	VERB	V-	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	1	parataxis	_	ref=LUKE_6.25
 5	nunc	nunc	ADV	Df	_	4	advmod	_	ref=LUKE_6.25
 6	quia	quia	SCONJ	G-	_	7	mark	_	ref=LUKE_6.25
 7	lugebitis	lugeo	VERB	V-	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	1	advcl	_	ref=LUKE_6.25
@@ -3733,7 +3733,7 @@
 3	prophetae	propheta	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	1	conj	_	ref=LUKE_16.16
 4	usque	usque	ADV	Df	_	6	advmod	_	ref=LUKE_16.16
 5	ad	ad	ADP	R-	_	6	case	_	ref=LUKE_16.16
-6	Iohannem	Iohannes	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	1	obl	_	ref=LUKE_16.16
+6	Iohannem	Iohannes	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	1	orphan	_	ref=LUKE_16.16
 
 # source = Jerome's Vulgate, Luke 16
 # text = ex eo regnum Dei evangelizatur et omnis in illud vim facit
@@ -4429,7 +4429,7 @@
 16	iterum	iterum	ADV	Df	_	15	advmod	_	ref=JOHN_6.15
 17	in	in	ADP	R-	_	18	case	_	ref=JOHN_6.15
 18	montem	mons	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	15	obl	_	ref=JOHN_6.15
-19	ipse	ipse	PRON	Pd	Case=Nom|Gender=Masc|Number=Sing	15	advcl	_	ref=JOHN_6.15
+19	ipse	ipse	PRON	Pd	Case=Nom|Gender=Masc|Number=Sing	15	parataxis	_	ref=JOHN_6.15
 20	solus	solus	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	19	orphan	_	ref=JOHN_6.15
 
 # source = Jerome's Vulgate, John 6
@@ -5515,8 +5515,8 @@
 # text = si ergo videritis Filium hominis ascendentem ubi erat prius
 # sent_id = 18875
 1	si	si	SCONJ	G-	_	3	mark	_	ref=JOHN_6.63
-2	ergo	ergo	ADV	Df	_	0	root	_	ref=JOHN_6.63
-3	videritis	video	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	2	advcl	_	ref=JOHN_6.63
+2	ergo	ergo	ADV	Df	_	3	discourse	_	ref=JOHN_6.63
+3	videritis	video	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	ref=JOHN_6.63
 4	Filium	filius	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	ref=JOHN_6.63
 5	hominis	homo	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	ref=JOHN_6.63
 6	ascendentem	ascendo	VERB	V-	Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	3	xcomp	_	ref=JOHN_6.63
@@ -5951,17 +5951,17 @@
 # source = Jerome's Vulgate, Acts 7
 # text = et Isaac Iacob
 # sent_id = 23726
-1	et	et	CCONJ	C-	_	0	root	_	ref=ACTS_7.8
-2	Isaac	Isaac	PROPN	Ne	_	1	nsubj	_	ref=ACTS_7.8
-3	Iacob	Iacob	PROPN	Ne	_	1	obj	_	ref=ACTS_7.8
+1	et	et	CCONJ	C-	_	2	cc	_	ref=ACTS_7.8
+2	Isaac	Isaac	PROPN	Ne	_	0	root	_	ref=ACTS_7.8
+3	Iacob	Iacob	PROPN	Ne	_	2	orphan	_	ref=ACTS_7.8
 
 # source = Jerome's Vulgate, Acts 7
 # text = et Iacob duodecim patriarchas
 # sent_id = 23727
-1	et	et	CCONJ	C-	_	0	root	_	ref=ACTS_7.8
-2	Iacob	Iacob	PROPN	Ne	_	1	nsubj	_	ref=ACTS_7.8
+1	et	et	CCONJ	C-	_	2	cc	_	ref=ACTS_7.8
+2	Iacob	Iacob	PROPN	Ne	_	0	root	_	ref=ACTS_7.8
 3	duodecim	duodecim	NUM	Ma	_	4	nummod	_	ref=ACTS_7.8
-4	patriarchas	patriarcha	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	1	obj	_	ref=ACTS_7.8
+4	patriarchas	patriarcha	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	2	orphan	_	ref=ACTS_7.8
 
 # source = Jerome's Vulgate, Acts 7
 # text = et patriarchae aemulantes Ioseph vendiderunt in Aegyptum
@@ -6920,10 +6920,10 @@
 # text = sicut patres vestri et vos
 # sent_id = 23796
 1	sicut	sicut	ADV	Df	_	2	mark	_	ref=ACTS_7.51
-2	patres	pater	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	0	root	_	ref=ACTS_7.51
+2	patres	pater	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	5	orphan	_	ref=ACTS_7.51
 3	vestri	vester	DET	Ps	Case=Nom|Gender=Masc|Number=Plur|Person=2|Poss=Yes	2	det	_	ref=ACTS_7.51
 4	et	et	ADV	Df	_	5	discourse	_	ref=ACTS_7.51
-5	vos	vos	PRON	Pp	Case=Nom|Gender=Masc|Number=Plur|Person=2|PronType=Prs	2	nsubj	_	ref=ACTS_7.51
+5	vos	vos	PRON	Pp	Case=Nom|Gender=Masc|Number=Plur|Person=2|PronType=Prs	0	root	_	ref=ACTS_7.51
 
 # source = Jerome's Vulgate, Acts 7
 # text = quem prophetarum non sunt persecuti patres vestri
@@ -8119,7 +8119,7 @@
 # source = Jerome's Vulgate, Romans 2
 # text = his quidem qui secundum patientiam boni operis gloriam et honorem et incorruptionem quaerentibus vitam aeternam
 # sent_id = 224745
-1	his	hic	PRON	Pd	Case=Dat|Gender=Masc|Number=Plur	0	root	_	ref=ROM_2.7
+1	his	hic	PRON	Pd	Case=Dat|Gender=Masc|Number=Plur	14	orphan	_	ref=ROM_2.7
 2	quidem	quidem	ADV	Df	_	1	discourse	_	ref=ROM_2.7
 3	qui	qui	PRON	Pr	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	13	nsubj	_	ref=ROM_2.7
 4	secundum	secundum	ADP	R-	_	5	case	_	ref=ROM_2.7
@@ -8132,14 +8132,14 @@
 11	et	et	CCONJ	C-	_	12	cc	_	ref=ROM_2.7
 12	incorruptionem	incorruptio	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	8	conj	_	ref=ROM_2.7
 13	quaerentibus	quaero	VERB	V-	Case=Dat|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	1	acl	_	ref=ROM_2.7
-14	vitam	vita	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	ref=ROM_2.7
+14	vitam	vita	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	0	root	_	ref=ROM_2.7
 15	aeternam	aeternus	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	ref=ROM_2.7
 
 # source = Jerome's Vulgate, Romans 2
 # text = his autem qui ex contentione et qui non adquiescunt veritati credunt autem iniquitati ira et indignatio
 # sent_id = 224746
-1	his	hic	PRON	Pd	Case=Dat|Gender=Masc|Number=Plur	0	root	_	ref=ROM_2.8
-2	autem	autem	ADV	Df	_	1	discourse	_	ref=ROM_2.8
+1	his	hic	PRON	Pd	Case=Dat|Gender=Masc|Number=Plur	14	orphan	_	ref=ROM_2.8
+2	autem	autem	ADV	Df	_	14	discourse	_	ref=ROM_2.8
 3	qui	qui	PRON	Pr	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	5	nsubj	_	ref=ROM_2.8
 4	ex	ex	ADP	R-	_	5	case	_	ref=ROM_2.8
 5	contentione	contentio	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	1	acl	_	ref=ROM_2.8
@@ -8151,7 +8151,7 @@
 11	credunt	credo	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	conj	_	ref=ROM_2.8
 12	autem	autem	ADV	Df	_	11	discourse	_	ref=ROM_2.8
 13	iniquitati	iniquitas	NOUN	Nb	Case=Dat|Gender=Fem|Number=Sing	11	obl:arg	_	ref=ROM_2.8
-14	ira	ira	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	ref=ROM_2.8
+14	ira	ira	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	0	root	_	ref=ROM_2.8
 15	et	et	CCONJ	C-	_	16	cc	_	ref=ROM_2.8
 16	indignatio	indignatio	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	14	conj	_	ref=ROM_2.8
 
@@ -8163,7 +8163,7 @@
 3	angustia	angustia	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	ref=ROM_2.9
 4	in	in	ADP	R-	_	6	case	_	ref=ROM_2.9
 5	omnem	omnis	DET	Px	Case=Acc|Gender=Fem,Masc|Number=Sing	6	det	_	ref=ROM_2.9
-6	animam	anima	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	1	obl	_	ref=ROM_2.9
+6	animam	anima	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	1	orphan	_	ref=ROM_2.9
 7	hominis	homo	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	ref=ROM_2.9
 8	operantis	operor	VERB	V-	Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	7	acl	_	ref=ROM_2.9
 9	malum	malus	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	8	obj	_	ref=ROM_2.9
@@ -8182,7 +8182,7 @@
 5	et	et	CCONJ	C-	_	6	cc	_	ref=ROM_2.10
 6	pax	pax	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	ref=ROM_2.10
 7	omni	omnis	DET	Px	Case=Dat|Number=Sing	8	det	_	ref=ROM_2.10
-8	operanti	operor	VERB	V-	Case=Dat|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	1	obl:arg	_	ref=ROM_2.10
+8	operanti	operor	VERB	V-	Case=Dat|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	1	orphan	_	ref=ROM_2.10
 9	bonum	bonus	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	8	obj	_	ref=ROM_2.10
 10	Iudaeo	Iudaeus	ADJ	A-	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	8	appos	_	ref=ROM_2.10
 11	primum	primum	ADV	Df	_	10	advmod	_	ref=ROM_2.10
@@ -8270,10 +8270,10 @@
 # text = si autem tu Iudaeus cognominaris et requiescis in lege et gloriaris in Deo et nosti voluntatem et probas utiliora instructus per legem confidis te ipsum ducem esse caecorum lumen eorum qui in tenebris sunt eruditorem insipientium magistrum infantium habentem formam scientiae et veritatis in lege
 # sent_id = 26595
 1	si	si	SCONJ	G-	_	5	mark	_	ref=ROM_2.17
-2	autem	autem	ADV	Df	_	0	root	_	ref=ROM_2.17
+2	autem	autem	ADV	Df	_	5	discourse	_	ref=ROM_2.17
 3	tu	tu	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=2|PronType=Prs	5	nsubj:pass	_	ref=ROM_2.17
 4	Iudaeus	Iudaeus	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	xcomp	_	ref=ROM_2.17
-5	cognominaris	cognomino	VERB	V-	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Pass	2	advcl	_	ref=ROM_2.17
+5	cognominaris	cognomino	VERB	V-	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	ref=ROM_2.17
 6	et	et	CCONJ	C-	_	7	cc	_	ref=ROM_2.17
 7	requiescis	requiesco	VERB	V-	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	ref=ROM_2.17
 8	in	in	ADP	R-	_	9	case	_	ref=ROM_2.17
@@ -9217,25 +9217,25 @@
 # source = Jerome's Vulgate, Revelation 4
 # text = et super thronos viginti quattuor seniores sedentes circumamictos vestimentis albis
 # sent_id = 33603
-1	et	et	CCONJ	C-	_	0	root	_	ref=REV_4.4
+1	et	et	CCONJ	C-	_	6	cc	_	ref=REV_4.4
 2	super	super	ADP	R-	_	3	case	_	ref=REV_4.4
 3	thronos	thronus	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	7	obl	_	ref=REV_4.4
 4	viginti	viginti	NUM	Ma	_	6	nummod	_	ref=REV_4.4
 5	quattuor	quattuor	NUM	Ma	_	4	fixed	_	ref=REV_4.4
-6	seniores	senex	ADJ	A-	Case=Acc|Degree=Cmp|Gender=Masc|Number=Plur	1	obj	_	ref=REV_4.4
-7	sedentes	sedeo	VERB	V-	Case=Acc|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	1	advcl	_	ref=REV_4.4
-8	circumamictos	circumamictus	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	1	advmod	_	ref=REV_4.4
+6	seniores	senex	ADJ	A-	Case=Acc|Degree=Cmp|Gender=Masc|Number=Plur	0	root	_	ref=REV_4.4
+7	sedentes	sedeo	VERB	V-	Case=Acc|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	6	orphan	_	ref=REV_4.4
+8	circumamictos	circumamictus	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	6	orphan	_	ref=REV_4.4
 9	vestimentis	vestimentum	NOUN	Nb	Case=Abl|Gender=Neut|Number=Plur	8	obl	_	ref=REV_4.4
 10	albis	albus	ADJ	A-	Case=Abl|Degree=Pos|Gender=Neut|Number=Plur	9	amod	_	ref=REV_4.4
 
 # source = Jerome's Vulgate, Revelation 4
 # text = et in capitibus eorum coronas aureas
 # sent_id = 225129
-1	et	et	CCONJ	C-	_	0	root	_	ref=REV_4.4
+1	et	et	CCONJ	C-	_	5	cc	_	ref=REV_4.4
 2	in	in	ADP	R-	_	3	case	_	ref=REV_4.4
-3	capitibus	caput	NOUN	Nb	Case=Abl|Gender=Neut|Number=Plur	1	obl	_	ref=REV_4.4
+3	capitibus	caput	NOUN	Nb	Case=Abl|Gender=Neut|Number=Plur	5	orphan	_	ref=REV_4.4
 4	eorum	is	PRON	Pp	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	det	_	ref=REV_4.4
-5	coronas	corona	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	1	obj	_	ref=REV_4.4
+5	coronas	corona	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	0	root	_	ref=REV_4.4
 6	aureas	aureus	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	ref=REV_4.4
 
 # source = Jerome's Vulgate, Revelation 4
@@ -9254,10 +9254,10 @@
 # source = Jerome's Vulgate, Revelation 4
 # text = et septem lampades ardentes ante thronum quae sunt septem spiritus Dei
 # sent_id = 33605
-1	et	et	CCONJ	C-	_	0	root	_	ref=REV_4.5
+1	et	et	CCONJ	C-	_	3	cc	_	ref=REV_4.5
 2	septem	septem	NUM	Ma	_	3	nummod	_	ref=REV_4.5
-3	lampades	lampas	NOUN	Nb	Case=Nom|Gender=Fem|Number=Plur	1	nsubj	_	ref=REV_4.5
-4	ardentes	ardeo	VERB	V-	Case=Nom|Gender=Fem|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	1	advcl	_	ref=REV_4.5
+3	lampades	lampas	NOUN	Nb	Case=Nom|Gender=Fem|Number=Plur	0	root	_	ref=REV_4.5
+4	ardentes	ardeo	VERB	V-	Case=Nom|Gender=Fem|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	3	orphan	_	ref=REV_4.5
 5	ante	ante	ADP	R-	_	6	case	_	ref=REV_4.5
 6	thronum	thronus	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	4	obl	_	ref=REV_4.5
 7	quae	qui	PRON	Pr	Case=Nom|Gender=Fem|Number=Plur|PronType=Rel	10	nsubj	_	ref=REV_4.5
@@ -9282,16 +9282,16 @@
 # source = Jerome's Vulgate, Revelation 4
 # text = et in medio sedis et in circuitu sedis quattuor animalia plena oculis ante et retro
 # sent_id = 33607
-1	et	et	CCONJ	C-	_	0	root	_	ref=REV_4.6
+1	et	et	CCONJ	C-	_	10	cc	_	ref=REV_4.6
 2	in	in	ADP	R-	_	3	case	_	ref=REV_4.6
-3	medio	medius	ADJ	A-	Case=Abl|Degree=Pos|Gender=Neut|Number=Sing	1	advmod	_	ref=REV_4.6
+3	medio	medius	ADJ	A-	Case=Abl|Degree=Pos|Gender=Neut|Number=Sing	10	orphan	_	ref=REV_4.6
 4	sedis	sedes	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	ref=REV_4.6
 5	et	et	CCONJ	C-	_	7	cc	_	ref=REV_4.6
 6	in	in	ADP	R-	_	7	case	_	ref=REV_4.6
 7	circuitu	circuitus	NOUN	Nb	Case=Abl|Gender=Masc|Number=Sing	3	conj	_	ref=REV_4.6
 8	sedis	sedes	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	ref=REV_4.6
 9	quattuor	quattuor	NUM	Ma	_	10	nummod	_	ref=REV_4.6
-10	animalia	animal	NOUN	Nb	Case=Nom|Gender=Neut|Number=Plur	1	nsubj	_	ref=REV_4.6
+10	animalia	animal	NOUN	Nb	Case=Nom|Gender=Neut|Number=Plur	0	root	_	ref=REV_4.6
 11	plena	plenus	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	10	amod	_	ref=REV_4.6
 12	oculis	oculus	NOUN	Nb	Case=Abl|Gender=Masc|Number=Plur	11	obl	_	ref=REV_4.6
 13	ante	ante	ADV	Df	_	11	advmod	_	ref=REV_4.6
@@ -9582,8 +9582,8 @@
 # source = Jerome's Vulgate, Revelation 5
 # text = et ecce in medio throni et quattuor animalium et in medio seniorum agnum stantem tamquam occisum habentem cornua septem et oculos septem
 # sent_id = 33625
-1	et	et	CCONJ	C-	_	0	root	_	ref=REV_5.6
-2	ecce	ecce	INTJ	I-	_	1	discourse	_	ref=REV_5.6
+1	et	et	CCONJ	C-	_	13	cc	_	ref=REV_5.6
+2	ecce	ecce	INTJ	I-	_	13	discourse	_	ref=REV_5.6
 3	in	in	ADP	R-	_	4	case	_	ref=REV_5.6
 4	medio	medius	ADJ	A-	Case=Abl|Degree=Pos|Gender=Neut|Number=Sing	14	obl	_	ref=REV_5.6
 5	throni	thronus	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	ref=REV_5.6
@@ -9594,11 +9594,11 @@
 10	in	in	ADP	R-	_	11	case	_	ref=REV_5.6
 11	medio	medius	ADJ	A-	Case=Abl|Degree=Pos|Gender=Neut|Number=Sing	4	conj	_	ref=REV_5.6
 12	seniorum	senex	ADJ	A-	Case=Gen|Degree=Cmp|Gender=Masc|Number=Plur	11	nmod	_	ref=REV_5.6
-13	agnum	agnus	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	1	obj	_	ref=REV_5.6
-14	stantem	sto	VERB	V-	Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	1	advcl	_	ref=REV_5.6
+13	agnum	agnus	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	0	root	_	ref=REV_5.6
+14	stantem	sto	VERB	V-	Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	13	orphan	_	ref=REV_5.6
 15	tamquam	tamquam	ADV	Df	_	13	amod	_	ref=REV_5.6
 16	occisum	occido	VERB	V-	Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	15	acl	_	ref=REV_5.6|LId=1
-17	habentem	habeo	VERB	V-	Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	1	advcl	_	ref=REV_5.6
+17	habentem	habeo	VERB	V-	Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	13	orphan	_	ref=REV_5.6
 18	cornua	cornu	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	17	obj	_	ref=REV_5.6
 19	septem	septem	NUM	Ma	_	18	nummod	_	ref=REV_5.6
 20	et	et	CCONJ	C-	_	21	cc	_	ref=REV_5.6
@@ -9651,7 +9651,7 @@
 12	coram	coram	ADP	R-	_	13	case	_	ref=REV_5.8
 13	agno	agnus	NOUN	Nb	Case=Abl|Gender=Masc|Number=Sing	11	obl	_	ref=REV_5.8
 14	habentes	habeo	VERB	V-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	11	advcl	_	ref=REV_5.8
-15	singuli	singulus	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	14	parataxis	_	ref=REV_5.8
+15	singuli	singulus	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	14	appos	_	ref=REV_5.8
 16	citharas	cithara	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	14	obj	_	ref=REV_5.8
 17	et	et	CCONJ	C-	_	18	cc	_	ref=REV_5.8
 18	fialas	fiala	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	16	conj	_	ref=REV_5.8
@@ -9810,12 +9810,12 @@
 # source = Jerome's Vulgate, Revelation 5
 # text = sedenti in throno et agno benedictio et honor et gloria et potestas in saecula saeculorum
 # sent_id = 33640
-1	sedenti	sedeo	VERB	V-	Case=Dat|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	ref=REV_5.13
+1	sedenti	sedeo	VERB	V-	Case=Dat|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	6	orphan	_	ref=REV_5.13
 2	in	in	ADP	R-	_	3	case	_	ref=REV_5.13
 3	throno	thronus	NOUN	Nb	Case=Abl|Gender=Masc|Number=Sing	1	obl	_	ref=REV_5.13
 4	et	et	CCONJ	C-	_	5	cc	_	ref=REV_5.13
 5	agno	agnus	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	1	conj	_	ref=REV_5.13
-6	benedictio	benedictio	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	ref=REV_5.13
+6	benedictio	benedictio	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	0	root	_	ref=REV_5.13
 7	et	et	CCONJ	C-	_	8	cc	_	ref=REV_5.13
 8	honor	honor	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	6	conj	_	ref=REV_5.13
 9	et	et	CCONJ	C-	_	10	cc	_	ref=REV_5.13
@@ -9823,7 +9823,7 @@
 11	et	et	CCONJ	C-	_	12	cc	_	ref=REV_5.13
 12	potestas	potestas	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	6	conj	_	ref=REV_5.13
 13	in	in	ADP	R-	_	14	case	_	ref=REV_5.13
-14	saecula	saeculum	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	1	obl	_	ref=REV_5.13
+14	saecula	saeculum	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	6	orphan	_	ref=REV_5.13
 15	saeculorum	saeculum	NOUN	Nb	Case=Gen|Gender=Neut|Number=Plur	14	nmod	_	ref=REV_5.13
 
 # source = Jerome's Vulgate, Revelation 5
@@ -9924,42 +9924,42 @@
 # source = Opus agriculturae, V. De qualitate terrarum
 # text = ne macer sabulo sine admixtione terreni
 # sent_id = 224647
-1	ne	ne	ADV	Df	Polarity=Neg	0	root	_	ref=1.5.1
+1	ne	ne	ADV	Df	Polarity=Neg	3	advmod	_	ref=1.5.1
 2	macer	macer	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	ref=1.5.1
-3	sabulo	sabulo	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	ref=1.5.1
+3	sabulo	sabulo	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	0	root	_	ref=1.5.1
 4	sine	sine	ADP	R-	_	5	case	_	ref=1.5.1
-5	admixtione	admixtio	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	1	obl	_	ref=1.5.1
+5	admixtione	admixtio	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	3	orphan	_	ref=1.5.1
 6	terreni	terrenus	ADJ	A-	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	ref=1.5.1
 
 # source = Opus agriculturae, V. De qualitate terrarum
 # text = ne creta sola
 # sent_id = 224648
-1	ne	ne	ADV	Df	Polarity=Neg	0	root	_	ref=1.5.1
-2	creta	creta	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	ref=1.5.1
+1	ne	ne	ADV	Df	Polarity=Neg	2	advmod	_	ref=1.5.1
+2	creta	creta	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	0	root	_	ref=1.5.1
 3	sola	solus	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	ref=1.5.1
 
 # source = Opus agriculturae, V. De qualitate terrarum
 # text = ne harenae squallentes
 # sent_id = 224649
-1	ne	ne	ADV	Df	Polarity=Neg	0	root	_	ref=1.5.1
-2	harenae	(h)arena	NOUN	Nb	Case=Nom|Gender=Fem|Number=Plur	1	nsubj	_	ref=1.5.1
+1	ne	ne	ADV	Df	Polarity=Neg	2	advmod	_	ref=1.5.1
+2	harenae	(h)arena	NOUN	Nb	Case=Nom|Gender=Fem|Number=Plur	0	root	_	ref=1.5.1
 3	squallentes	squaleo	VERB	V-	Case=Nom|Gender=Fem,Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	2	acl	_	ref=1.5.1
 
 # source = Opus agriculturae, V. De qualitate terrarum
 # text = ne ieiuna glarea
 # sent_id = 224650
-1	ne	ne	ADV	Df	Polarity=Neg	0	root	_	ref=1.5.1
+1	ne	ne	ADV	Df	Polarity=Neg	3	advmod	_	ref=1.5.1
 2	ieiuna	ieiunus	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	ref=1.5.1
-3	glarea	glarea	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	ref=1.5.1
+3	glarea	glarea	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	0	root	_	ref=1.5.1
 
 # source = Opus agriculturae, V. De qualitate terrarum
 # text = ne aurosi pulueris lapidosa macies
 # sent_id = 224651
-1	ne	ne	ADV	Df	Polarity=Neg	0	root	_	ref=1.5.1
+1	ne	ne	ADV	Df	Polarity=Neg	5	advmod	_	ref=1.5.1
 2	aurosi	aurosus	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	ref=1.5.1
 3	pulueris	pulvis	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	ref=1.5.1
 4	lapidosa	lapidosus	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	ref=1.5.1
-5	macies	macies	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	ref=1.5.1
+5	macies	macies	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	0	root	_	ref=1.5.1
 
 # source = Opus agriculturae, V. De qualitate terrarum
 # text = ne salsa uel amara ne uliginosa terra
@@ -10170,7 +10170,7 @@
 4	genera	genus	NOUN	Nb	Case=Nom|Gender=Neut|Number=Plur	6	nsubj	_	ref=1.5.6
 5	terrarum	terra	NOUN	Nb	Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	ref=1.5.6
 6	plurima	multus	ADJ	A-	Case=Nom|Degree=Sup|Gender=Neut|Number=Plur	32	advcl	_	ref=1.5.6
-7	ut	ut	ADV	Df	_	6	parataxis	_	ref=1.5.6|LId=3
+7	ut	ut	ADV	Df	_	6	appos	_	ref=1.5.6|LId=3
 8	pinguis	pinguis	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	appos	_	ref=1.5.6
 9	aut	aut	CCONJ	C-	_	10	cc	_	ref=1.5.6
 10	macra	macer	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	conj	_	ref=1.5.6
@@ -10696,7 +10696,7 @@
 14	quod	qui	PRON	Pr	Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	19	nsubj	_	ref=2.5.1
 15	tunc	tunc	ADV	Df	_	17	advmod	_	ref=2.5.1
 16	prope	prope	ADV	Df	Degree=Pos	17	advmod	_	ref=2.5.1
-17	necesse	necesse	ADV	Df	_	8	advcl	_	ref=2.5.1
+17	necesse	necesse	ADV	Df	_	8	parataxis	_	ref=2.5.1
 18	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	cop	_	ref=2.5.1
 19	euenire	evenio	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	17	csubj	_	ref=2.5.1
 
@@ -10741,7 +10741,7 @@
 9	sapore	sapor	NOUN	Nb	Case=Abl|Gender=Masc|Number=Sing	10	nsubj:pass	_	ref=2.13.1
 10	corrupto	corrumpo	VERB	V-	Aspect=Perf|Case=Abl|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	advcl	_	ref=2.13.1
 11	uina	vinum	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	12	obj	_	ref=2.13.1
-12	contristat	contristo	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	ref=2.13.1
+12	contristat	contristo	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	_	ref=2.13.1
 
 # source = Opus agriculturae, XIII. De solo et caelo et loco pangendis uineis congruenti et ea, quae illuc pertinet, disciplina
 # text = Caelum mediocris qualitatis tepidum tamen magis quam frigidum siccum potius quam nimis imbridum
@@ -10892,8 +10892,8 @@
 # source = Opus agriculturae, XIII. De solo et caelo et loco pangendis uineis congruenti et ea, quae illuc pertinet, disciplina
 # text = Item loca ad quae de cacuminibus terra decurrit uel ualles quas fluminum saturabit adgestio
 # sent_id = 160338
-1	Item	item	ADV	Df	_	0	root	_	ref=2.13.3
-2	loca	locus	NOUN	Nb	Case=Nom|Gender=Neut|Number=Plur	1	nsubj	_	ref=2.13.3
+1	Item	item	ADV	Df	_	2	advmod	_	ref=2.13.3
+2	loca	locus	NOUN	Nb	Case=Nom|Gender=Neut|Number=Plur	0	root	_	ref=2.13.3
 3	ad	ad	ADP	R-	_	4	case	_	ref=2.13.3
 4	quae	qui	PRON	Pr	Case=Acc|Gender=Neut|Number=Plur|PronType=Rel	8	obl	_	ref=2.13.3
 5	de	de	ADP	R-	_	6	case	_	ref=2.13.3
@@ -10910,11 +10910,11 @@
 # source = Opus agriculturae, XIII. De solo et caelo et loco pangendis uineis congruenti et ea, quae illuc pertinet, disciplina
 # text = sed hoc in his locis quae gelu et nebulis infesta esse non possunt
 # sent_id = 160339
-1	sed	sed	CCONJ	C-	_	0	root	_	ref=2.13.3
-2	hoc	hic	PRON	Pd	Case=Nom|Gender=Neut|Number=Sing	1	nsubj	_	ref=2.13.3
+1	sed	sed	CCONJ	C-	_	2	cc	_	ref=2.13.3
+2	hoc	hic	PRON	Pd	Case=Nom|Gender=Neut|Number=Sing	0	root	_	ref=2.13.3
 3	in	in	ADP	R-	_	5	case	_	ref=2.13.3
 4	his	hic	DET	Pd	Case=Abl|Gender=Neut|Number=Plur	5	det	_	ref=2.13.3
-5	locis	locum	NOUN	Nb	Case=Abl|Gender=Neut|Number=Plur	1	obl	_	ref=2.13.3
+5	locis	locum	NOUN	Nb	Case=Abl|Gender=Neut|Number=Plur	2	orphan	_	ref=2.13.3
 6	quae	qui	PRON	Pr	Case=Nom|Gender=Neut|Number=Plur|PronType=Rel	13	nsubj	_	ref=2.13.3
 7	gelu	gelus	NOUN	Nb	Case=Abl|Gender=Masc|Number=Sing	10	obl	_	ref=2.13.3
 8	et	et	CCONJ	C-	_	9	cc	_	ref=2.13.3
@@ -11048,8 +11048,8 @@
 # source = Opus agriculturae, XIII. De solo et caelo et loco pangendis uineis congruenti et ea, quae illuc pertinet, disciplina
 # text = calidis septemtrionalem
 # sent_id = 224749
-1	calidis	calidus	ADJ	A-	Case=Abl|Degree=Pos|Gender=Neut|Number=Plur	0	root	_	ref=2.13.6
-2	septemtrionalem	septemtrionalis	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	1	obj	_	ref=2.13.6
+1	calidis	calidus	ADJ	A-	Case=Abl|Degree=Pos|Gender=Neut|Number=Plur	2	orphan	_	ref=2.13.6
+2	septemtrionalem	septemtrionalis	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	ref=2.13.6
 
 # source = Opus agriculturae, XIII. De solo et caelo et loco pangendis uineis congruenti et ea, quae illuc pertinet, disciplina
 # text = Quod si hoc est uitium melius in aquilonem uel fauonium uineta dirigimus
@@ -11247,7 +11247,7 @@
 # sent_id = 82318
 1	unam	unus	NUM	Ma	Case=Acc|Gender=Fem|Number=Sing	0	root	_	ref=1.13.1
 2	a	ab	ADP	R-	_	3	case	_	ref=1.13.1
-3	Marco	Marcus	PROPN	Ne	Case=Abl|Gender=Masc|Number=Sing	1	obl	_	ref=1.13.1
+3	Marco	Marcus	PROPN	Ne	Case=Abl|Gender=Masc|Number=Sing	1	orphan	_	ref=1.13.1
 4	Cornelio	Cornelius	PROPN	Ne	Case=Abl|Gender=Masc|Number=Sing	3	flat:name	_	ref=1.13.1
 5	quam	qui	PRON	Pr	Case=Acc|Gender=Fem|Number=Sing|PronType=Rel	11	obj	_	ref=1.13.1
 6	Tribus	Tres	PROPN	Ne	Case=Abl|Gender=Fem|Number=Plur	11	obl	_	ref=1.13.1
@@ -11794,8 +11794,8 @@
 # source = Epistulae ad Atticum, Book 1, letter 13
 # text = quid multa
 # sent_id = 76061
-1	quid	quis	PRON	Pi	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	0	root	_	ref=1.13.3
-2	multa	multus	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	1	obj	_	ref=1.13.3
+1	quid	quis	PRON	Pi	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	2	orphan	_	ref=1.13.3
+2	multa	multus	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	0	root	_	ref=1.13.3
 
 # source = Epistulae ad Atticum, Book 1, letter 13
 # text = vereor ne haec neglecta a bonis defensa ab improbis magnorum rei publicae malorum causa sit
@@ -12080,10 +12080,10 @@
 # source = Epistulae ad Atticum, Book 1, letter 13
 # text = quid id ad me
 # sent_id = 76078
-1	quid	quis	PRON	Pi	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	0	root	_	ref=1.13.6
-2	id	is	PRON	Pp	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	ref=1.13.6
+1	quid	quis	PRON	Pi	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	2	orphan	_	ref=1.13.6
+2	id	is	PRON	Pp	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	root	_	ref=1.13.6
 3	ad	ad	ADP	R-	_	4	case	_	ref=1.13.6
-4	me	ego	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=1|PronType=Prs	1	obl	_	ref=1.13.6
+4	me	ego	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=1|PronType=Prs	2	orphan	_	ref=1.13.6
 
 # source = Epistulae ad Atticum, Book 1, letter 13
 # text = inquies
@@ -12101,7 +12101,7 @@
 6	nos	nos	PRON	Pp	Case=Nom|Gender=Masc|Number=Plur|Person=1|PronType=Prs	9	nsubj:pass	_	ref=1.13.6
 7	bene	bene	ADV	Df	Degree=Pos	8	advmod	_	ref=1.13.6
 8	emisse	emo	VERB	V-	Aspect=Perf|Tense=Past|VerbForm=Inf|Voice=Act	9	xcomp	_	ref=1.13.6
-9	iudicati	iudico	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	1	advcl	_	ref=1.13.6
+9	iudicati	iudico	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	1	orphan	_	ref=1.13.6
 10	sumus	sum	AUX	V-	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux:pass	_	ref=1.13.6
 11	et	et	CCONJ	C-	_	14	cc	_	ref=1.13.6
 12	homines	homo	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	ref=1.13.6
@@ -12157,7 +12157,7 @@
 5	Messalla	FIXME	PROPN	Ne	Case=Abl|Gender=Masc|Number=Sing	4	flat:name	_	ref=1.13.6
 6	Marco	Marcus	PROPN	Ne	Case=Abl|Gender=Masc|Number=Sing	4	conj	_	ref=1.13.6
 7	Pisone	Piso	PROPN	Ne	Case=Abl|Gender=Masc|Number=Sing	6	flat:name	_	ref=1.13.6
-8	consulibus	consul	NOUN	Nb	Case=Abl|Gender=Masc|Number=Plur	1	advcl	_	ref=1.13.6
+8	consulibus	consul	NOUN	Nb	Case=Abl|Gender=Masc|Number=Plur	1	orphan	_	ref=1.13.6
 
 # source = Epistulae ad Atticum, Book 1, letter 14
 # text = vereor ne putidum sit scribere ad te quam sim occupatus sed tamen ita distinebar ut huic vix tantulae epistulae tempus habuerim atque id ereptum e summis occupationibus
@@ -12288,7 +12288,7 @@
 12	consilio	consilium	NOUN	Nb	Case=Abl|Gender=Neut|Number=Sing	15	obl:arg	_	ref=1.14.1
 13	idem	idem	DET	Pd	Case=Nom|Gender=Masc|Number=Plur	14	det	_	ref=1.14.1
 14	praetor	praetor	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	ref=1.14.1
-15	uteretur	utor	VERB	V-	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	10	advcl	_	ref=1.14.1
+15	uteretur	utor	VERB	V-	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	10	parataxis	_	ref=1.14.1
 
 # source = Epistulae ad Atticum, Book 1, letter 14
 # text = id autem erat de Clodiana religione ab senatu constitutum
@@ -12443,8 +12443,8 @@
 # source = Epistulae ad Atticum, Book 1, letter 14
 # text = quid multa
 # sent_id = 76096
-1	quid	quis	PRON	Pi	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	0	root	_	ref=1.14.3
-2	multa	multus	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	1	obj	_	ref=1.14.3
+1	quid	quis	PRON	Pi	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	2	orphan	_	ref=1.14.3
+2	multa	multus	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	0	root	_	ref=1.14.3
 
 # source = Epistulae ad Atticum, Book 1, letter 14
 # text = totum hunc locum quem ego varie meis orationibus quarum tu Aristarchus es soleo pingere de flamma de ferro nosti illas ληκύθους valde graviter pertexuit
@@ -12564,7 +12564,7 @@
 # source = Epistulae ad Atticum, Book 1, letter 14
 # text = si umquam mihi περίοδοι si καμπαὶ ἐνθυμήματα si κατασκευαὶ suppeditaverunt illo tempore
 # sent_id = 76103
-1	si	si	SCONJ	G-	_	0	root	_	ref=1.14.4
+1	si	si	SCONJ	G-	_	12	orphan	_	ref=1.14.4
 2	umquam	umquam	ADV	Df	_	1	advmod	_	ref=1.14.4
 3	mihi	ego	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=1|PronType=Prs	1	obl:arg	_	ref=1.14.4
 4	περίοδοι	greek.expression	NOUN	F-	_	1	nsubj	_	ref=1.14.4
@@ -12575,13 +12575,13 @@
 9	κατασκευαὶ	greek.expression	NOUN	F-	_	10	nsubj	_	ref=1.14.4
 10	suppeditaverunt	suppedito	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	ref=1.14.4
 11	illo	ille	DET	Pd	Case=Abl|Gender=Masc,Neut|Number=Sing	12	det	_	ref=1.14.4
-12	tempore	tempus	NOUN	Nb	Case=Abl|Gender=Neut|Number=Sing	1	obl	_	ref=1.14.4
+12	tempore	tempus	NOUN	Nb	Case=Abl|Gender=Neut|Number=Sing	0	root	_	ref=1.14.4
 
 # source = Epistulae ad Atticum, Book 1, letter 14
 # text = quid multa
 # sent_id = 76104
-1	quid	quis	PRON	Pi	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	0	root	_	ref=1.14.4
-2	multa	multus	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	1	obj	_	ref=1.14.4
+1	quid	quis	PRON	Pi	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	2	orphan	_	ref=1.14.4
+2	multa	multus	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	0	root	_	ref=1.14.4
 
 # source = Epistulae ad Atticum, Book 1, letter 14
 # text = clamores
@@ -13766,12 +13766,12 @@
 # text = de re publica quid ego tibi subtiliter
 # sent_id = 76905
 1	de	de	ADP	R-	_	2	case	_	ref=2.21.1
-2	re	res	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	0	root	_	ref=2.21.1
+2	re	res	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	5	orphan	_	ref=2.21.1
 3	publica	publicus	ADJ	A-	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	ref=2.21.1
-4	quid	quis	PRON	Pi	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	2	obl	_	ref=2.21.1
-5	ego	ego	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	ref=2.21.1
-6	tibi	tu	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=2|PronType=Prs	2	obl:arg	_	ref=2.21.1
-7	subtiliter	subtiliter	ADV	Df	Degree=Pos	2	advmod	_	ref=2.21.1
+4	quid	quis	PRON	Pi	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	5	orphan	_	ref=2.21.1
+5	ego	ego	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	0	root	_	ref=2.21.1
+6	tibi	tu	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=2|PronType=Prs	5	orphan	_	ref=2.21.1
+7	subtiliter	subtiliter	ADV	Df	Degree=Pos	5	orphan	_	ref=2.21.1
 
 # source = Epistulae ad Atticum, Book 2, letter 21
 # text = tota periit atque hoc est miserior quam reliquisti quod tum videbatur eius modi dominatio civitatem oppressisse quae iucunda esset multitudini bonis autem ita molesta ut tamen sine pernicie
@@ -14127,7 +14127,7 @@
 16	ut	ut	SCONJ	G-	_	19	mark	_	ref=2.21.4
 17	exhauriri	exhaurio	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Pass	19	xcomp	_	ref=2.21.4
 18	nulla	nullus	DET	Px	Case=Abl|Gender=Fem|Number=Sing	20	det	_	ref=2.21.4
-19	posset	possum	VERB	V-	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	13	advcl	_	ref=2.21.4
+19	posset	possum	VERB	V-	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	13	parataxis	_	ref=2.21.4
 20	iniuria	iniuria	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	17	obl	_	ref=2.21.4
 
 # source = Epistulae ad Atticum, Book 2, letter 21
@@ -14803,17 +14803,17 @@
 # source = Epistulae ad Atticum, Book 4, letter 7
 # text = nam Terentius suo iure
 # sent_id = 77570
-1	nam	nam	ADV	Df	_	0	root	_	ref=4.7.1
-2	Terentius	Terentius	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	ref=4.7.1
+1	nam	nam	ADV	Df	_	2	discourse	_	ref=4.7.1
+2	Terentius	Terentius	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	0	root	_	ref=4.7.1
 3	suo	suus	DET	Pt	Case=Abl|Gender=Masc,Neut|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	4	det	_	ref=4.7.1
-4	iure	ius	NOUN	Nb	Case=Abl|Gender=Neut|Number=Sing	1	obl	_	ref=4.7.1
+4	iure	ius	NOUN	Nb	Case=Abl|Gender=Neut|Number=Sing	2	orphan	_	ref=4.7.1
 
 # source = Epistulae ad Atticum, Book 4, letter 7
 # text = de Metello οὐχ ὁσίη φθιμένοισιν sed tamen multis annis civis nemo erat mortuus qui quidem
 # sent_id = 77571
 1	de	de	ADP	R-	_	2	case	_	ref=4.7.2
 2	Metello	Metellus	PROPN	Ne	Case=Abl|Gender=Masc|Number=Sing	0	root	_	ref=4.7.2
-3	οὐχ	greek.expression	VERB	F-	_	2	ccomp	_	ref=4.7.2
+3	οὐχ	greek.expression	NOUN	F-	_	2	orphan	_	ref=4.7.2
 4	ὁσίη	greek.expression	X	F-	_	3	flat:foreign	_	ref=4.7.2
 5	φθιμένοισιν	greek.expression	NOUN	F-	_	3	orphan	_	ref=4.7.2
 6	sed	sed	CCONJ	C-	_	13	cc	_	ref=4.7.2
@@ -15163,7 +15163,7 @@
 2	igitur	igitur	ADV	Df	_	1	discourse	_	ref=5.18.2
 3	si	si	SCONJ	G-	_	5	mark	_	ref=5.18.2
 4	es	sum	AUX	V-	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	ref=5.18.2
-5	Romae	Roma	PROPN	Ne	Case=Gen|Gender=Fem|Number=Sing	1	advcl	_	ref=5.18.2
+5	Romae	Roma	PROPN	Ne	Case=Gen|Gender=Fem|Number=Sing	1	orphan	_	ref=5.18.2
 
 # source = Epistulae ad Atticum, Book 5, letter 18
 # text = sin abes aut etiam si ades haec negotia sic se habent
@@ -15400,10 +15400,10 @@
 1	tu	tu	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	ref=5.18.4
 2	si	si	SCONJ	G-	_	4	mark	_	ref=5.18.4
 3	es	sum	AUX	V-	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	ref=5.18.4
-4	Romae	Roma	PROPN	Ne	Case=Gen|Gender=Fem|Number=Sing	0	root	_	ref=5.18.4
+4	Romae	Roma	PROPN	Ne	Case=Gen|Gender=Fem|Number=Sing	7	orphan	_	ref=5.18.4
 5	ut	ut	ADV	Dq	PronType=Rel	6	advcl	_	ref=5.18.4
-6	soles	soleo	VERB	V-	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	_	ref=5.18.4
-7	diligentissime	diligenter	ADV	Df	Degree=Sup	4	advmod	_	ref=5.18.4
+6	soles	soleo	VERB	V-	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	7	orphan	_	ref=5.18.4
+7	diligentissime	diligenter	ADV	Df	Degree=Sup	0	root	_	ref=5.18.4
 
 # source = Epistulae ad Atticum, Book 5, letter 18
 # text = si in Epiro mitte tamen ad nos de tuis aliquem tabellarium ut et tu quid nos agamus et nos quid tu agas quid que acturus sis scire possimus
@@ -16116,8 +16116,8 @@
 # source = Commentarii belli Gallici, Caes., Gall. 2.4
 # text = totidem Nervios qui maxime feri inter ipsos habeantur longissime que absint
 # sent_id = 52982
-1	totidem	totidem	ADV	Df	_	0	root	_	ref=2.4.7
-2	Nervios	Nervii	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	1	nsubj	_	ref=2.4.7
+1	totidem	totidem	ADV	Df	_	2	orphan	_	ref=2.4.7
+2	Nervios	Nervii	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	0	root	_	ref=2.4.7
 3	qui	qui	PRON	Pr	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	8	nsubj:pass	_	ref=2.4.7
 4	maxime	magis	ADV	Df	Degree=Sup	5	advmod	_	ref=2.4.7
 5	feri	ferus	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	8	xcomp	_	ref=2.4.7
@@ -16132,26 +16132,26 @@
 # text = quindecim milia Atrebates Ambianos decem milia Morinos viginti quinque milia Menapios septem milia Caletos decem milia Veliocasses et Viromanduos totidem Atuatucos undeviginti milia
 # sent_id = 52983
 1	quindecim	quindecim	NUM	Ma	_	2	nummod	_	ref=2.4.9
-2	milia	mille	NUM	Ma	Case=Acc|Gender=Neut|Number=Plur	0	root	_	ref=2.4.9
-3	Atrebates	Atrebates	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	2	nsubj	_	ref=2.4.9
-4	Ambianos	Ambiani	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	2	conj	_	ref=2.4.9
+2	milia	mille	NUM	Ma	Case=Acc|Gender=Neut|Number=Plur	3	orphan	_	ref=2.4.9
+3	Atrebates	Atrebates	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	0	root	_	ref=2.4.9
+4	Ambianos	Ambiani	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	3	conj	_	ref=2.4.9
 5	decem	decem	NUM	Ma	_	6	nummod	_	ref=2.4.9
 6	milia	mille	NUM	Ma	Case=Acc|Gender=Neut|Number=Plur	4	orphan	_	ref=2.4.9
-7	Morinos	Morini	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	2	conj	_	ref=2.4.9
+7	Morinos	Morini	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	3	conj	_	ref=2.4.9
 8	viginti	viginti	NUM	Ma	_	10	nummod	_	ref=2.4.9
 9	quinque	quinque	NUM	Ma	_	8	fixed	_	ref=2.4.9
 10	milia	mille	NUM	Ma	Case=Acc|Gender=Neut|Number=Plur	7	orphan	_	ref=2.4.9
-11	Menapios	Menapii	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	2	conj	_	ref=2.4.9
+11	Menapios	Menapii	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	3	conj	_	ref=2.4.9
 12	septem	septem	NUM	Ma	_	13	nummod	_	ref=2.4.9
 13	milia	mille	NUM	Ma	Case=Acc|Gender=Neut|Number=Plur	11	orphan	_	ref=2.4.9
-14	Caletos	Caleti	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	2	conj	_	ref=2.4.9
+14	Caletos	Caleti	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	3	conj	_	ref=2.4.9
 15	decem	decem	NUM	Ma	_	16	nummod	_	ref=2.4.9
 16	milia	mille	NUM	Ma	Case=Acc|Gender=Neut|Number=Plur	14	orphan	_	ref=2.4.9
-17	Veliocasses	Veliocasses	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	2	conj	_	ref=2.4.9
+17	Veliocasses	Veliocasses	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	3	conj	_	ref=2.4.9
 18	et	et	CCONJ	C-	_	19	cc	_	ref=2.4.9
 19	Viromanduos	Viromandui	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	17	conj	_	ref=2.4.9
 20	totidem	totidem	ADV	Df	_	17	orphan	_	ref=2.4.9
-21	Atuatucos	Atuatuci	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	2	conj	_	ref=2.4.9
+21	Atuatucos	Atuatuci	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	3	conj	_	ref=2.4.9
 22	undeviginti	undeviginti	NUM	Ma	_	23	nummod	_	ref=2.4.9
 23	milia	mille	NUM	Ma	Case=Acc|Gender=Neut|Number=Plur	21	orphan	_	ref=2.4.9
 
@@ -16772,7 +16772,7 @@
 20	omnis	omnis	DET	Px	Case=Gen|Number=Sing	21	det	_	ref=3.14.8
 21	exercitus	exercitus	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	18	conj	_	ref=3.14.8
 22	res	res	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	23	nsubj:pass	_	ref=3.14.8
-23	gerebatur	gero	VERB	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	13	advcl	_	ref=3.14.8
+23	gerebatur	gero	VERB	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	13	parataxis	_	ref=3.14.8
 24	ut	ut	SCONJ	G-	_	30	mark	_	ref=3.14.8
 25	nullum	nullus	DET	Px	Case=Nom|Gender=Neut|Number=Sing	28	det	_	ref=3.14.8
 26	paulo	paulo	ADV	Df	_	27	advmod	_	ref=3.14.8
@@ -17965,8 +17965,8 @@
 # text = Post hunc Apollinem et Martem et Iovem et Minervam
 # sent_id = 54013
 1	Post	post	ADP	R-	_	2	case	_	ref=6.17.1
-2	hunc	hic	PRON	Pd	Case=Acc|Gender=Masc|Number=Sing	0	root	_	ref=6.17.1
-3	Apollinem	Apollo	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	ref=6.17.1|LId=1
+2	hunc	hic	PRON	Pd	Case=Acc|Gender=Masc|Number=Sing	3	orphan	_	ref=6.17.1
+3	Apollinem	Apollo	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	0	root	_	ref=6.17.1|LId=1
 4	et	et	CCONJ	C-	_	5	cc	_	ref=6.17.1
 5	Martem	Mars	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	3	conj	_	ref=6.17.1
 6	et	et	CCONJ	C-	_	7	cc	_	ref=6.17.1
