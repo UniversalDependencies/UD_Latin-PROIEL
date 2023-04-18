@@ -9669,22 +9669,21 @@
 3	age	ago	VERB	V-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=REV_2.16
 
 # source = Jerome's Vulgate, Revelation 2
-# text = si quo minus venio tibi cito et pugnabo cum illis in gladio oris mei
+# text = si quominus venio tibi cito et pugnabo cum illis in gladio oris mei
 # sent_id = 33530
-1	si	si	SCONJ	G-	_	4	advcl	_	ref=REV_2.16
-2	quo	quominus	ADV	Df	_	1	fixed	_	ref=REV_2.16
-3	minus	minus	ADV	Df	_	2	fixed	_	ref=REV_2.16
-4	venio	venio	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=REV_2.16
-5	tibi	tu	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=2|PronType=Prs	4	obl:arg	_	ref=REV_2.16
-6	cito	cito	ADV	Df	Degree=Pos	4	advmod	_	ref=REV_2.16
-7	et	et	CCONJ	C-	_	8	cc	_	ref=REV_2.16
-8	pugnabo	pugno	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	4	conj	_	ref=REV_2.16
-9	cum	cum	ADP	R-	_	10	case	_	ref=REV_2.16
-10	illis	ille	PRON	Pd	Case=Abl|Gender=Masc|Number=Plur	8	obl	_	ref=REV_2.16
-11	in	in	ADP	R-	_	12	case	_	ref=REV_2.16
-12	gladio	gladius	NOUN	Nb	Case=Abl|Gender=Masc|Number=Sing	8	obl	_	ref=REV_2.16
-13	oris	os	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	ref=REV_2.16|LId=1
-14	mei	meus	PRON	Ps	Case=Nom|Gender=Masc|Number=Plur|Person=1|Poss=Yes	13	nmod	_	ref=REV_2.16
+1	si	si	SCONJ	G-	_	3	advcl	_	ref=REV_2.16
+2	quominus	quominus	ADV	Df	_	1	fixed	_	ref=REV_2.16
+3	venio	venio	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=REV_2.16
+4	tibi	tu	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=2|PronType=Prs	3	obl:arg	_	ref=REV_2.16
+5	cito	cito	ADV	Df	Degree=Pos	3	advmod	_	ref=REV_2.16
+6	et	et	CCONJ	C-	_	7	cc	_	ref=REV_2.16
+7	pugnabo	pugno	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	3	conj	_	ref=REV_2.16
+8	cum	cum	ADP	R-	_	9	case	_	ref=REV_2.16
+9	illis	ille	PRON	Pd	Case=Abl|Gender=Masc|Number=Plur	7	obl	_	ref=REV_2.16
+10	in	in	ADP	R-	_	11	case	_	ref=REV_2.16
+11	gladio	gladius	NOUN	Nb	Case=Abl|Gender=Masc|Number=Sing	7	obl	_	ref=REV_2.16
+12	oris	os	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	ref=REV_2.16|LId=1
+13	mei	meus	PRON	Ps	Case=Nom|Gender=Masc|Number=Plur|Person=1|Poss=Yes	12	nmod	_	ref=REV_2.16
 
 # source = Jerome's Vulgate, Revelation 2
 # text = qui habet aurem audiat quid Spiritus dicat ecclesiis
@@ -12238,28 +12237,27 @@
 17	novi	novus	ADJ	A-	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	15	nmod	_	ref=2.18.1
 
 # source = Epistulae ad Atticum, Book 2, letter 18
-# text = tenemur undique ne que iam quo minus serviamus recusamus sed mortem et eiectionem quasi maiora timemus quae multo sunt minora
+# text = tenemur undique ne que iam quominus serviamus recusamus sed mortem et eiectionem quasi maiora timemus quae multo sunt minora
 # sent_id = 76797
 1	tenemur	teneo	VERB	V-	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	ref=2.18.1
 2	undique	undique	ADV	Df	_	1	advmod	_	ref=2.18.1
-3	ne	ne	ADV	Df	Polarity=Neg	9	advmod	_	ref=2.18.1
-4	que	que	CCONJ	C-	_	9	cc	_	ref=2.18.1
-5	iam	iam	ADV	Df	_	9	advmod	_	ref=2.18.1
-6	quo	quominus	SCONJ	G-	_	8	mark	_	ref=2.18.1
-7	minus	minus	SCONJ	G-	_	6	fixed	_	ref=2.18.1
-8	serviamus	servio	VERB	V-	Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	9	ccomp	_	ref=2.18.1
-9	recusamus	recuso	VERB	V-	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	ref=2.18.1
-10	sed	sed	CCONJ	C-	_	16	cc	_	ref=2.18.1
-11	mortem	mors	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	16	obj	_	ref=2.18.1
-12	et	et	CCONJ	C-	_	13	cc	_	ref=2.18.1
-13	eiectionem	eiectio	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	11	conj	_	ref=2.18.1
-14	quasi	quasi	ADV	Df	_	16	advmod	_	ref=2.18.1
-15	maiora	magnus	ADJ	A-	Case=Acc|Degree=Cmp|Gender=Neut|Number=Plur	14	amod	_	ref=2.18.1
-16	timemus	timeo	VERB	V-	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	9	conj	_	ref=2.18.1
-17	quae	qui	PRON	Pr	Case=Nom|Gender=Neut|Number=Plur|PronType=Rel	20	nsubj	_	ref=2.18.1
-18	multo	multo	ADV	Df	_	20	advmod	_	ref=2.18.1
-19	sunt	sum	AUX	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	cop	_	ref=2.18.1
-20	minora	parvus	ADJ	A-	Case=Nom|Degree=Cmp|Gender=Neut|Number=Plur	11	acl	_	ref=2.18.1
+3	ne	ne	ADV	Df	Polarity=Neg	8	advmod	_	ref=2.18.1
+4	que	que	CCONJ	C-	_	8	cc	_	ref=2.18.1
+5	iam	iam	ADV	Df	_	8	advmod	_	ref=2.18.1
+6	quominus	quominus	SCONJ	G-	_	7	mark	_	ref=2.18.1
+7	serviamus	servio	VERB	V-	Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	8	ccomp	_	ref=2.18.1
+8	recusamus	recuso	VERB	V-	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	ref=2.18.1
+9	sed	sed	CCONJ	C-	_	15	cc	_	ref=2.18.1
+10	mortem	mors	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	ref=2.18.1
+11	et	et	CCONJ	C-	_	12	cc	_	ref=2.18.1
+12	eiectionem	eiectio	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	10	conj	_	ref=2.18.1
+13	quasi	quasi	ADV	Df	_	15	advmod	_	ref=2.18.1
+14	maiora	magnus	ADJ	A-	Case=Acc|Degree=Cmp|Gender=Neut|Number=Plur	13	amod	_	ref=2.18.1
+15	timemus	timeo	VERB	V-	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	ref=2.18.1
+16	quae	qui	PRON	Pr	Case=Nom|Gender=Neut|Number=Plur|PronType=Rel	19	nsubj	_	ref=2.18.1
+17	multo	multo	ADV	Df	_	19	advmod	_	ref=2.18.1
+18	sunt	sum	AUX	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	cop	_	ref=2.18.1
+19	minora	parvus	ADJ	A-	Case=Nom|Degree=Cmp|Gender=Neut|Number=Plur	10	acl	_	ref=2.18.1
 
 # source = Epistulae ad Atticum, Book 2, letter 18
 # text = atque hic status qui nunc est una voce omnium gemitur ne que verbo cuiusquam sublevatur
@@ -12551,7 +12549,7 @@
 16	ablegat	ablego	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	conj	_	ref=2.18.3
 
 # source = Epistulae ad Atticum, Book 2, letter 18
-# text = illa et munitior est et non impedit quo minus adsim quom velim
+# text = illa et munitior est et non impedit quominus adsim quom velim
 # sent_id = 81779
 1	illa	ille	PRON	Pd	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	ref=2.18.3
 2	et	et	CCONJ	C-	_	3	cc	_	ref=2.18.3
@@ -12560,11 +12558,10 @@
 5	et	et	CCONJ	C-	_	7	cc	_	ref=2.18.3
 6	non	non	ADV	Df	Polarity=Neg	7	advmod	_	ref=2.18.3
 7	impedit	impedio	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	ref=2.18.3
-8	quo	quominus	SCONJ	G-	_	10	mark	_	ref=2.18.3
-9	minus	minus	SCONJ	G-	_	8	fixed	_	ref=2.18.3
-10	adsim	adsum	VERB	V-	Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	7	ccomp	_	ref=2.18.3
-11	quom	cum	SCONJ	G-	_	12	mark	_	ref=2.18.3
-12	velim	volo	VERB	V-	Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	10	advcl	_	ref=2.18.3|LId=1
+8	quominus	quominus	SCONJ	G-	_	9	mark	_	ref=2.18.3
+9	adsim	adsum	VERB	V-	Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	7	ccomp	_	ref=2.18.3
+10	quom	cum	SCONJ	G-	_	11	mark	_	ref=2.18.3
+11	velim	volo	VERB	V-	Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	9	advcl	_	ref=2.18.3|LId=1
 
 # source = Epistulae ad Atticum, Book 2, letter 18
 # text = hanc ego teneo sed usurum me non puto
@@ -15662,7 +15659,7 @@
 11	amisisse	amitto	VERB	V-	Aspect=Perf|Tense=Past|VerbForm=Inf|Voice=Act	4	conj	_	ref=1.31.6
 
 # source = Commentarii belli Gallici, Caes., Gall. 1.31
-# text = Quibus proeliis calamitatibus que fractos qui et sua virtute et populi Romani hospitio atque amicitia plurimum ante in Gallia potuissent coactos esse Sequanis obsides dare nobilissimos civitatis et iure iurando civitatem obstringere sese ne que obsides repetituros ne que auxilium a populo Romano imploraturos ne que recusaturos quo minus perpetuo sub illorum dicione atque imperio essent
+# text = Quibus proeliis calamitatibus que fractos qui et sua virtute et populi Romani hospitio atque amicitia plurimum ante in Gallia potuissent coactos esse Sequanis obsides dare nobilissimos civitatis et iure iurando civitatem obstringere sese ne que obsides repetituros ne que auxilium a populo Romano imploraturos ne que recusaturos quominus perpetuo sub illorum dicione atque imperio essent
 # sent_id = 52768
 1	Quibus	qui	PRON	Pr	Case=Abl|Number=Plur|PronType=Rel	2	acl	_	ref=1.31.7
 2	proeliis	proelium	NOUN	Nb	Case=Abl|Gender=Neut|Number=Plur	5	advcl	_	ref=1.31.7
@@ -15711,15 +15708,14 @@
 45	ne	ne	ADV	Df	Polarity=Neg	47	advmod	_	ref=1.31.7
 46	que	que	CCONJ	C-	_	47	cc	_	ref=1.31.7
 47	recusaturos	recuso	VERB	V-	Case=Acc|Gender=Masc|Number=Plur|Tense=Fut|VerbForm=Part|Voice=Act	37	conj	_	ref=1.31.7
-48	quo	quominus	SCONJ	G-	_	53	mark	_	ref=1.31.7
-49	minus	minus	SCONJ	G-	_	48	fixed	_	ref=1.31.7
-50	perpetuo	perpetuus	ADJ	A-	Case=Abl|Degree=Pos|Gender=Masc,Neut|Number=Sing	53	amod	_	ref=1.31.7
-51	sub	sub	ADP	R-	_	53	case	_	ref=1.31.7
-52	illorum	ille	DET	Pd	Case=Gen|Gender=Masc|Number=Plur	53	det	_	ref=1.31.7
-53	dicione	dicio	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	47	ccomp	_	ref=1.31.7
-54	atque	atque	CCONJ	C-	_	55	cc	_	ref=1.31.7
-55	imperio	imperium	NOUN	Nb	Case=Abl|Gender=Neut|Number=Sing	53	conj	_	ref=1.31.7
-56	essent	sum	AUX	V-	Aspect=Imp|Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	53	cop	_	ref=1.31.7
+48	quominus	quominus	SCONJ	G-	_	52	mark	_	ref=1.31.7
+49	perpetuo	perpetuus	ADJ	A-	Case=Abl|Degree=Pos|Gender=Masc,Neut|Number=Sing	52	amod	_	ref=1.31.7
+50	sub	sub	ADP	R-	_	52	case	_	ref=1.31.7
+51	illorum	ille	DET	Pd	Case=Gen|Gender=Masc|Number=Plur	52	det	_	ref=1.31.7
+52	dicione	dicio	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	47	ccomp	_	ref=1.31.7
+53	atque	atque	CCONJ	C-	_	54	cc	_	ref=1.31.7
+54	imperio	imperium	NOUN	Nb	Case=Abl|Gender=Neut|Number=Sing	52	conj	_	ref=1.31.7
+55	essent	sum	AUX	V-	Aspect=Imp|Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	52	cop	_	ref=1.31.7
 
 # source = Commentarii belli Gallici, Caes., Gall. 1.31
 # text = Unum se esse ex omni civitate Haeduorum qui adduci non potuerit ut iuraret aut liberos suos obsides daret
