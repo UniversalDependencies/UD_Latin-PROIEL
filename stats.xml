@@ -98,9 +98,9 @@
     <dep name="det">9139</dep>
     <dep name="discourse">6934</dep>
     <dep name="dislocated">511</dep>
-    <dep name="fixed">719</dep>
+    <dep name="fixed">714</dep>
     <dep name="flat:foreign">68</dep>
-    <dep name="flat:name">592</dep>
+    <dep name="flat:name">597</dep>
     <dep name="mark">7005</dep>
     <dep name="nmod">7818</dep>
     <dep name="nsubj">16404</dep>
