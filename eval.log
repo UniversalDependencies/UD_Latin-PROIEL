@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 04abe686385f14a9a6f68784bd723a6b60ded594
+commit e9726a6a7d6913193d90edb45a4cb549235c5b16
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 00:14:39 2023 +0200
+Date:   Sat Nov 4 17:10:55 2023 +0100
 Evaluating the following revision of UD_Latin-PROIEL:
-commit 4b33860a2c484844492e4cc967a9ff7bbcf8be78
-Merge: 2dd46de 659bd9e
+commit a6d72ef814f9a897bac9cc43c0f35246236c71c0
+Merge: ee9d62a c523df0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 205566 of 205566 words (nodes).
 Size: min(0, log((N/1000)**2)) = 10.6515343005123.
@@ -20,19 +20,22 @@ Features: source of annotation (from README) factor is 0.8.
 Universal relations: 29 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Udapi:
-               TOTAL      16176
-Udapi: found 16176 bugs.
+               TOTAL      16091
+Udapi: found 16091 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 205566 words.
 Genres: found 2 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang la --max-err=10 UD_Latin-PROIEL/la_proiel-ud-dev.conllu
+[Line 14687 Sent 77691 Node 17]: [L3 Warning fixed-gap] Gaps in fixed expression [17, 19] 'si * forte'
+Warnings: 1
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang la --max-err=10 UD_Latin-PROIEL/la_proiel-ud-test.conllu
 [Line 8454 Sent 26606 Node 5]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'nsubj'.
 [Line 8461 Sent 26606 Node 12]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'nsubj'.
 [Line 8463 Sent 26606 Node 14]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'nsubj'.
 [Line 8472 Sent 26608 Node 4]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'nsubj'.
+[Line 11348 Sent 76046 Node 3]: [L3 Warning fixed-gap] Gaps in fixed expression [3, 5] 'quod * non'
 [Line 14818 Sent 77571 Node 5]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'orphan'.
-Warnings: 5
+Warnings: 6
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang la --max-err=10 UD_Latin-PROIEL/la_proiel-ud-train.conllu
 [Line 29492 Sent 11039 Node 6]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'dislocated'.
@@ -45,7 +48,7 @@ Warnings: 5
 [Line 98984 Sent 27129 Node 1]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'orphan'.
 [Line 98991 Sent 27130 Node 1]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'orphan'.
 ...suppressing further errors regarding Warning
-Warnings: 29
+Warnings: 35
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
@@ -54,8 +57,8 @@ Validity: 1
 (weight=0.256410256410256) * (score{size}=0.770983761752616) = 0.197688144039132
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.658823529411765) = 0.0506787330316742
-(weight=0.307692307692308) * (score{udapi}=0.213099442514813) = 0.065569059235327
+(weight=0.307692307692308) * (score{udapi}=0.217234367551054) = 0.0668413438618628
 (weight=0.0769230769230769) * (score{udeprels}=0.627027027027027) = 0.0482328482328482
-(TOTAL score=0.545577532653612) * (availability=1) * (validity=1) = 0.545577532653612
+(TOTAL score=0.546849817280148) * (availability=1) * (validity=1) = 0.546849817280148
 STARS = 2.5
-UD_Latin-PROIEL	0.545577532653612	2.5
+UD_Latin-PROIEL	0.546849817280148	2.5
