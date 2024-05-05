@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit e9726a6a7d6913193d90edb45a4cb549235c5b16
+commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Nov 4 17:10:55 2023 +0100
+Date:   Sun May 5 09:21:16 2024 +0200
 Evaluating the following revision of UD_Latin-PROIEL:
-commit a6d72ef814f9a897bac9cc43c0f35246236c71c0
-Merge: ee9d62a c523df0
+commit c95e840a520bc803656858e76b483d3480a9a6a4
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Mon Nov 6 12:36:52 2023 +0100
 Size: counted 205566 of 205566 words (nodes).
 Size: min(0, log((N/1000)**2)) = 10.6515343005123.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -25,8 +25,10 @@ Udapi: found 16091 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 205566 words.
 Genres: found 2 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang la --max-err=10 UD_Latin-PROIEL/la_proiel-ud-dev.conllu
+[Line 14575 Sent 77686 Node 9]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 14573 Sent 77686 Node 7]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 14687 Sent 77691 Node 17]: [L3 Warning fixed-gap] Gaps in fixed expression [17, 19] 'si * forte'
-Warnings: 1
+Warnings: 3
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang la --max-err=10 UD_Latin-PROIEL/la_proiel-ud-test.conllu
 [Line 8454 Sent 26606 Node 5]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'nsubj'.
@@ -34,8 +36,13 @@ Warnings: 1
 [Line 8463 Sent 26606 Node 14]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'nsubj'.
 [Line 8472 Sent 26608 Node 4]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'nsubj'.
 [Line 11348 Sent 76046 Node 3]: [L3 Warning fixed-gap] Gaps in fixed expression [3, 5] 'quod * non'
+[Line 11894 Sent 82339 Node 4]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 11893 Sent 82339 Node 3]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 14817 Sent 77571 Node 4]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 14816 Sent 77571 Node 3]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 14818 Sent 77571 Node 5]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'orphan'.
-Warnings: 6
+...suppressing further errors regarding Warning
+Warnings: 14
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang la --max-err=10 UD_Latin-PROIEL/la_proiel-ud-train.conllu
 [Line 29492 Sent 11039 Node 6]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'dislocated'.
@@ -47,8 +54,9 @@ Warnings: 6
 [Line 94851 Sent 26747 Node 10]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'dislocated'.
 [Line 98984 Sent 27129 Node 1]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'orphan'.
 [Line 98991 Sent 27130 Node 1]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'orphan'.
+[Line 98998 Sent 27131 Node 1]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'orphan'.
 ...suppressing further errors regarding Warning
-Warnings: 35
+Warnings: 161
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
