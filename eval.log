@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Latin-PROIEL:
-commit c95e840a520bc803656858e76b483d3480a9a6a4
+commit 599b5a52362f0af7de05dee248774a391c033232
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 6 12:36:52 2023 +0100
+Date:   Sun May 5 13:02:09 2024 +0200
 Size: counted 205566 of 205566 words (nodes).
 Size: min(0, log((N/1000)**2)) = 10.6515343005123.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -25,38 +25,42 @@ Udapi: found 16091 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 205566 words.
 Genres: found 2 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang la --max-err=10 UD_Latin-PROIEL/la_proiel-ud-dev.conllu
+[Line 4393 Sent 18736 Node 16]: [L3 Warning leaf-det] 'det' not expected to have children (16:eius:det --> 18:misit:acl)
+[Line 4958 Sent 23640 Node 3]: [L3 Warning leaf-det] 'det' not expected to have children (3:eorum:det --> 5:sepelierunt:acl)
 [Line 14575 Sent 77686 Node 9]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 14573 Sent 77686 Node 7]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 14687 Sent 77691 Node 17]: [L3 Warning fixed-gap] Gaps in fixed expression [17, 19] 'si * forte'
-Warnings: 3
+[Line 14848 Sent 78243 Node 3]: [L3 Warning leaf-det] 'det' not expected to have children (3:aliud:det --> 9:posse:advcl)
+[Line 17917 Sent 54009 Node 2]: [L3 Warning leaf-det] 'det' not expected to have children (2:eorum:det --> 12:comprehensi:acl)
+Warnings: 7
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang la --max-err=10 UD_Latin-PROIEL/la_proiel-ud-test.conllu
+[Line 873 Sent 10629 Node 11]: [L3 Warning leaf-det] 'det' not expected to have children (11:tales:det --> 16:efficiuntur:acl)
+[Line 2955 Sent 16727 Node 1]: [L3 Warning leaf-det] 'det' not expected to have children (1:eadem:det --> 5:mensi:acl)
+[Line 4566 Sent 18799 Node 11]: [L3 Warning leaf-det] 'det' not expected to have children (11:alia:det --> 15:nisi:amod)
+[Line 4961 Sent 18830 Node 12]: [L3 Warning leaf-det] 'det' not expected to have children (12:eius:det --> 14:misit:acl)
+[Line 4973 Sent 18831 Node 5]: [L3 Warning leaf-det] 'det' not expected to have children (5:eius:det --> 7:misit:acl)
+[Line 4975 Sent 18831 Node 5]: [L3 Warning leaf-det] 'det' not expected to have children (5:eius:det --> 9:Patris:appos)
+[Line 8304 Sent 26595 Node 30]: [L3 Warning leaf-det] 'det' not expected to have children (30:eorum:det --> 33:tenebris:acl)
 [Line 8454 Sent 26606 Node 5]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'nsubj'.
 [Line 8461 Sent 26606 Node 12]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'nsubj'.
 [Line 8463 Sent 26606 Node 14]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'nsubj'.
-[Line 8472 Sent 26608 Node 4]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'nsubj'.
-[Line 11348 Sent 76046 Node 3]: [L3 Warning fixed-gap] Gaps in fixed expression [3, 5] 'quod * non'
-[Line 11894 Sent 82339 Node 4]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 11893 Sent 82339 Node 3]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 14817 Sent 77571 Node 4]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 14816 Sent 77571 Node 3]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 14818 Sent 77571 Node 5]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'orphan'.
 ...suppressing further errors regarding Warning
-Warnings: 14
+Warnings: 29
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang la --max-err=10 UD_Latin-PROIEL/la_proiel-ud-train.conllu
+[Line 140 Sent 12681 Node 7]: [L3 Warning leaf-det] 'det' not expected to have children (7:ea:det --> 10:Uriae:acl)
+[Line 16722 Sent 62970 Node 10]: [L3 Warning leaf-det] 'det' not expected to have children (10:eorum:det --> 13:occiderunt:acl)
+[Line 27622 Sent 10881 Node 4]: [L3 Warning leaf-det] 'det' not expected to have children (4:meus:det --> 5:carissimus:amod)
 [Line 29492 Sent 11039 Node 6]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'dislocated'.
+[Line 31248 Sent 11201 Node 6]: [L3 Warning leaf-det] 'det' not expected to have children (6:cuius:det --> 8:his:nmod)
+[Line 32220 Sent 11274 Node 6]: [L3 Warning leaf-det] 'det' not expected to have children (6:tales:det --> 9:fuerunt:acl)
+[Line 37055 Sent 16369 Node 30]: [L3 Warning leaf-det] 'det' not expected to have children (30:omnium:det --> 32:oderunt:acl)
+[Line 39427 Sent 16525 Node 2]: [L3 Warning leaf-det] 'det' not expected to have children (2:omnium:det --> 4:synagoga:nmod)
 [Line 41659 Sent 16896 Node 5]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'dislocated'.
-[Line 74415 Sent 19951 Node 22]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'orphan'.
-[Line 74418 Sent 19951 Node 25]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'orphan'.
-[Line 92529 Sent 57044 Node 5]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'dislocated'.
-[Line 94850 Sent 26747 Node 9]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'dislocated'.
-[Line 94851 Sent 26747 Node 10]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'dislocated'.
-[Line 98984 Sent 27129 Node 1]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'orphan'.
-[Line 98991 Sent 27130 Node 1]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'orphan'.
-[Line 98998 Sent 27131 Node 1]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'orphan'.
+[Line 44526 Sent 17137 Node 12]: [L3 Warning leaf-det] 'det' not expected to have children (12:eius:det --> 4:intraveritis:acl)
 ...suppressing further errors regarding Warning
-Warnings: 161
+Warnings: 267
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
