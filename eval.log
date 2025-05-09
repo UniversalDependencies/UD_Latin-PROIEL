@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
+commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 10 10:33:45 2024 +0100
+Date:   Fri May 9 21:07:42 2025 +0200
 Evaluating the following revision of UD_Latin-PROIEL:
-commit 599b5a52362f0af7de05dee248774a391c033232
+commit 6d7c717f6c9fa971c312fa2071016cbd5f2e6a41
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 13:02:09 2024 +0200
+Date:   Mon Nov 11 16:10:32 2024 +0100
 Size: counted 205566 of 205566 words (nodes).
 Size: min(0, log((N/1000)**2)) = 10.6515343005123.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -20,57 +20,95 @@ Features: source of annotation (from README) factor is 0.8.
 Universal relations: 29 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Udapi:
-               TOTAL      16091
-Udapi: found 16091 bugs.
+               TOTAL      15893
+Udapi: found 15893 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 205566 words.
-Genres: found 2 out of 17 known.
+Genres: found 2 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang la --max-err=10 UD_Latin-PROIEL/la_proiel-ud-dev.conllu
-[Line 4393 Sent 18736 Node 16]: [L3 Warning leaf-det] 'det' not expected to have children (16:eius:det --> 18:misit:acl)
-[Line 4958 Sent 23640 Node 3]: [L3 Warning leaf-det] 'det' not expected to have children (3:eorum:det --> 5:sepelierunt:acl)
-[Line 14575 Sent 77686 Node 9]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 14573 Sent 77686 Node 7]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 14687 Sent 77691 Node 17]: [L3 Warning fixed-gap] Gaps in fixed expression [17, 19] 'si * forte'
-[Line 14848 Sent 78243 Node 3]: [L3 Warning leaf-det] 'det' not expected to have children (3:aliud:det --> 9:posse:advcl)
-[Line 17917 Sent 54009 Node 2]: [L3 Warning leaf-det] 'det' not expected to have children (2:eorum:det --> 12:comprehensi:acl)
-Warnings: 7
-*** PASSED ***
+[Line 177 Sent 12862 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'quod si' does not have the 'ExtPos' feature
+[Line 177 Sent 12862 Node 1]: [L3 Syntax rel-upos-mark] 'mark' should not be 'PRON' word 'quod'
+[Line 574 Sent 12894 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'quod si' does not have the 'ExtPos' feature
+[Line 574 Sent 12894 Node 1]: [L3 Syntax rel-upos-mark] 'mark' should not be 'PRON' word 'quod'
+[Line 4393 Sent 18736 Node 16]: [L3 Syntax leaf-det] 'det' not expected to have children (16:eius:det --> 18:misit:acl)
+[Line 4958 Sent 23640 Node 3]: [L3 Syntax leaf-det] 'det' not expected to have children (3:eorum:det --> 5:sepelierunt:acl)
+[Line 9674 Sent 33530 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'si quominus' does not have the 'ExtPos' feature
+[Line 11381 Sent 76003 Node 11]: [L3 Warning fixed-without-extpos] Fixed expression 'iam pridem' does not have the 'ExtPos' feature
+[Line 11767 Sent 82289 Node 3]: [L3 Warning fixed-without-extpos] Fixed expression 'quem ad modum' does not have the 'ExtPos' feature
+[Line 12157 Sent 76038 Node 9]: [L3 Warning fixed-without-extpos] Fixed expression 'me hercule' does not have the 'ExtPos' feature
+[Line 12210 Sent 76042 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Kal Ianuariis' does not have the 'ExtPos' feature
+[Line 12626 Sent 76819 Node 3]: [L3 Warning fixed-without-extpos] Fixed expression 'manu misso' does not have the 'ExtPos' feature
+[Line 12629 Sent 76819 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'non nullis' does not have the 'ExtPos' feature
+[Line 12708 Sent 81785 Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'manu missum' does not have the 'ExtPos' feature
+...suppressing further errors regarding Warning
+[Line 14848 Sent 78243 Node 3]: [L3 Syntax leaf-det] 'det' not expected to have children (3:aliud:det --> 9:posse:advcl)
+[Line 17917 Sent 54009 Node 2]: [L3 Syntax leaf-det] 'det' not expected to have children (2:eorum:det --> 12:comprehensi:acl)
+Syntax errors: 6
+Warnings: 35
+*** FAILED *** with 6 errors
+Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang la --max-err=10 UD_Latin-PROIEL/la_proiel-ud-test.conllu
-[Line 873 Sent 10629 Node 11]: [L3 Warning leaf-det] 'det' not expected to have children (11:tales:det --> 16:efficiuntur:acl)
-[Line 2955 Sent 16727 Node 1]: [L3 Warning leaf-det] 'det' not expected to have children (1:eadem:det --> 5:mensi:acl)
-[Line 4566 Sent 18799 Node 11]: [L3 Warning leaf-det] 'det' not expected to have children (11:alia:det --> 15:nisi:amod)
-[Line 4961 Sent 18830 Node 12]: [L3 Warning leaf-det] 'det' not expected to have children (12:eius:det --> 14:misit:acl)
-[Line 4973 Sent 18831 Node 5]: [L3 Warning leaf-det] 'det' not expected to have children (5:eius:det --> 7:misit:acl)
-[Line 4975 Sent 18831 Node 5]: [L3 Warning leaf-det] 'det' not expected to have children (5:eius:det --> 9:Patris:appos)
-[Line 8304 Sent 26595 Node 30]: [L3 Warning leaf-det] 'det' not expected to have children (30:eorum:det --> 33:tenebris:acl)
+[Line 873 Sent 10629 Node 11]: [L3 Syntax leaf-det] 'det' not expected to have children (11:tales:det --> 16:efficiuntur:acl)
+[Line 2955 Sent 16727 Node 1]: [L3 Syntax leaf-det] 'det' not expected to have children (1:eadem:det --> 5:mensi:acl)
+[Line 4495 Sent 18795 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'viginti quinque' does not have the 'ExtPos' feature
+[Line 4566 Sent 18799 Node 11]: [L3 Syntax leaf-det] 'det' not expected to have children (11:alia:det --> 15:nisi:amod)
+[Line 4961 Sent 18830 Node 12]: [L3 Syntax leaf-det] 'det' not expected to have children (12:eius:det --> 14:misit:acl)
+[Line 4973 Sent 18831 Node 5]: [L3 Syntax leaf-det] 'det' not expected to have children (5:eius:det --> 7:misit:acl)
+[Line 4975 Sent 18831 Node 5]: [L3 Syntax leaf-det] 'det' not expected to have children (5:eius:det --> 9:Patris:appos)
+[Line 8304 Sent 26595 Node 30]: [L3 Syntax leaf-det] 'det' not expected to have children (30:eorum:det --> 33:tenebris:acl)
 [Line 8454 Sent 26606 Node 5]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'nsubj'.
 [Line 8461 Sent 26606 Node 12]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'nsubj'.
 [Line 8463 Sent 26606 Node 14]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'nsubj'.
+[Line 8472 Sent 26608 Node 4]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'nsubj'.
+[Line 9214 Sent 33602 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'viginti quattuor' does not have the 'ExtPos' feature
+[Line 9223 Sent 33603 Node 4]: [L3 Warning fixed-without-extpos] Fixed expression 'viginti quattuor' does not have the 'ExtPos' feature
+[Line 9404 Sent 33613 Node 19]: [L3 Warning fixed-without-extpos] Fixed expression 'viginti quattuor' does not have the 'ExtPos' feature
+[Line 9647 Sent 33629 Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'viginti quattuor' does not have the 'ExtPos' feature
+[Line 10535 Sent 160266 Node 7]: [L3 Warning fixed-without-extpos] Fixed expression 'centum uiginti' does not have the 'ExtPos' feature
 ...suppressing further errors regarding Warning
-Warnings: 29
-*** PASSED ***
+[Line 13029 Sent 76128 Node 9]: [L3 Syntax leaf-det] 'det' not expected to have children (9:neminem:det --> 8:Fufium:nmod)
+[Line 13163 Sent 76140 Node 10]: [L3 Syntax leaf-det] 'det' not expected to have children (10:ullius:det --> 11:nostrum:nmod)
+[Line 13838 Sent 76907 Node 5]: [L3 Syntax leaf-det] 'det' not expected to have children (5:illorum:det --> 12:perdiderunt:acl)
+...suppressing further errors regarding Syntax
+Syntax errors: 15
+Warnings: 52
+*** FAILED *** with 15 errors
+Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang la --max-err=10 UD_Latin-PROIEL/la_proiel-ud-train.conllu
-[Line 140 Sent 12681 Node 7]: [L3 Warning leaf-det] 'det' not expected to have children (7:ea:det --> 10:Uriae:acl)
-[Line 16722 Sent 62970 Node 10]: [L3 Warning leaf-det] 'det' not expected to have children (10:eorum:det --> 13:occiderunt:acl)
-[Line 27622 Sent 10881 Node 4]: [L3 Warning leaf-det] 'det' not expected to have children (4:meus:det --> 5:carissimus:amod)
+[Line 140 Sent 12681 Node 7]: [L3 Syntax leaf-det] 'det' not expected to have children (7:ea:det --> 10:Uriae:acl)
+[Line 11928 Sent 13796 Node 17]: [L3 Warning fixed-without-extpos] Fixed expression 'nonaginta novem' does not have the 'ExtPos' feature
+[Line 16722 Sent 62970 Node 10]: [L3 Syntax leaf-det] 'det' not expected to have children (10:eorum:det --> 13:occiderunt:acl)
+[Line 27622 Sent 10881 Node 4]: [L3 Syntax leaf-det] 'det' not expected to have children (4:meus:det --> 5:carissimus:amod)
+[Line 28556 Sent 10961 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'quod si' does not have the 'ExtPos' feature
+[Line 28556 Sent 10961 Node 1]: [L3 Syntax rel-upos-mark] 'mark' should not be 'PRON' word 'quod'
 [Line 29492 Sent 11039 Node 6]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'dislocated'.
-[Line 31248 Sent 11201 Node 6]: [L3 Warning leaf-det] 'det' not expected to have children (6:cuius:det --> 8:his:nmod)
-[Line 32220 Sent 11274 Node 6]: [L3 Warning leaf-det] 'det' not expected to have children (6:tales:det --> 9:fuerunt:acl)
-[Line 37055 Sent 16369 Node 30]: [L3 Warning leaf-det] 'det' not expected to have children (30:omnium:det --> 32:oderunt:acl)
-[Line 39427 Sent 16525 Node 2]: [L3 Warning leaf-det] 'det' not expected to have children (2:omnium:det --> 4:synagoga:nmod)
+[Line 30471 Sent 11125 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'quod si' does not have the 'ExtPos' feature
+[Line 30471 Sent 11125 Node 1]: [L3 Syntax rel-upos-mark] 'mark' should not be 'PRON' word 'quod'
+[Line 31248 Sent 11201 Node 6]: [L3 Syntax leaf-det] 'det' not expected to have children (6:cuius:det --> 8:his:nmod)
+[Line 32220 Sent 11274 Node 6]: [L3 Syntax leaf-det] 'det' not expected to have children (6:tales:det --> 9:fuerunt:acl)
+[Line 37055 Sent 16369 Node 30]: [L3 Syntax leaf-det] 'det' not expected to have children (30:omnium:det --> 32:oderunt:acl)
+[Line 37894 Sent 16427 Node 7]: [L3 Warning fixed-without-extpos] Fixed expression 'octoginta quattuor' does not have the 'ExtPos' feature
+[Line 39427 Sent 16525 Node 2]: [L3 Syntax leaf-det] 'det' not expected to have children (2:omnium:det --> 4:synagoga:nmod)
+[Line 41195 Sent 16857 Node 3]: [L3 Warning fixed-without-extpos] Fixed expression 'ex quo' does not have the 'ExtPos' feature
 [Line 41659 Sent 16896 Node 5]: [L3 Warning orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'dislocated'.
-[Line 44526 Sent 17137 Node 12]: [L3 Warning leaf-det] 'det' not expected to have children (12:eius:det --> 4:intraveritis:acl)
+[Line 44312 Sent 17119 Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'septuaginta duos' does not have the 'ExtPos' feature
+[Line 44526 Sent 17137 Node 12]: [L3 Syntax leaf-det] 'det' not expected to have children (12:eius:det --> 4:intraveritis:acl)
+[Line 44681 Sent 17147 Node 4]: [L3 Warning fixed-without-extpos] Fixed expression 'septuaginta duo' does not have the 'ExtPos' feature
+[Line 48200 Sent 17426 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'ex quo' does not have the 'ExtPos' feature
+...suppressing further errors regarding Syntax
 ...suppressing further errors regarding Warning
-Warnings: 267
-*** PASSED ***
-Validity: 1
+Syntax errors: 111
+Warnings: 553
+*** FAILED *** with 111 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
-(weight=0.0769230769230769) * (score{genres}=0.117647058823529) = 0.00904977375565611
+(weight=0.0769230769230769) * (score{genres}=0.111111111111111) = 0.00854700854700855
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
 (weight=0.256410256410256) * (score{size}=0.770983761752616) = 0.197688144039132
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.658823529411765) = 0.0506787330316742
-(weight=0.307692307692308) * (score{udapi}=0.217234367551054) = 0.0668413438618628
+(weight=0.307692307692308) * (score{udapi}=0.226866310576652) = 0.0698050186389698
 (weight=0.0769230769230769) * (score{udeprels}=0.627027027027027) = 0.0482328482328482
-(TOTAL score=0.546849817280148) * (availability=1) * (validity=1) = 0.546849817280148
-STARS = 2.5
-UD_Latin-PROIEL	0.546849817280148	2.5
+(TOTAL score=0.549310726848607) * (availability=1) * (validity=0.01) = 0.00549310726848607
+STARS = 0
+UD_Latin-PROIEL	0.00549310726848607	0
