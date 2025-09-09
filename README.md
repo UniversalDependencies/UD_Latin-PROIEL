@@ -33,6 +33,7 @@ Dag T. T. Haug and Marius L. Jøhndal. 2008. 'Creating a Parallel Treebank of th
 Data available since: UD v1.2
 License: CC BY-NC-SA 3.0
 Includes text: yes
+Parallel: no
 Genre: bible nonfiction
 Lemmas: converted from manual
 UPOS: converted from manual
