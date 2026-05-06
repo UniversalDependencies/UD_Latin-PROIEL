@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Latin-PROIEL:
-commit 9d3d1b0eab2644e69a1796e206d93d4ae22e386e
-Merge: 82a59e1 9f48ad7
+commit bc36b0223deeaa86d1a5aa48d464770863c0fc7b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 11 20:14:02 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'la_proiel'
 Language code (from CoNLL-U file name) = 'la'
@@ -25,82 +25,117 @@ Universal relations: 29 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Genres: found 2 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang la --max-err=10 UD_Latin-PROIEL/la_proiel-ud-dev.conllu
-[Line 21 Sent 12841]: [L3 Warning pron-det-without-prontype] The word 'suum' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 131 Sent 12858]: [L3 Warning pron-det-without-prontype] The word 'omne' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 147 Sent 12859]: [L3 Warning pron-det-without-prontype] The word 'vestra' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 177 Sent 12862]: [L3 Warning fixed-without-extpos] Fixed expression 'quod si' does not have the 'ExtPos' feature
-[Line 177 Sent 12862]: [L3 Syntax rel-upos-mark] 'mark' should not be 'PRON' ('quod')
-[Line 229 Sent 12865]: [L3 Warning pron-det-without-prontype] The word 'omnibus' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 241 Sent 12866]: [L3 Warning pron-det-without-prontype] The word 'vestra' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 246 Sent 12866]: [L3 Warning pron-det-without-prontype] The word 'vestra' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 252 Sent 12866]: [L3 Warning pron-det-without-prontype] The word 'vestrum' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 305 Sent 62914]: [L3 Warning pron-det-without-prontype] The word 'omnia' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 317 Sent 12871]: [L3 Warning pron-det-without-prontype] The word 'istis' is tagged 'DET' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-[Line 574 Sent 12894]: [L3 Syntax rel-upos-mark] 'mark' should not be 'PRON' ('quod')
-[Line 4393 Sent 18736]: [L3 Syntax leaf-det] 'det' not expected to have children (16:eius:det --> 18:misit:acl)
-[Line 4958 Sent 23640]: [L3 Syntax leaf-det] 'det' not expected to have children (3:eorum:det --> 5:sepelierunt:acl)
-[Line 14572 Sent 77686]: [L3 Syntax too-many-objects] Multiple direct objects [1, 5] ('illud', 'te') under the predicate 'rogo'.
-[Line 14848 Sent 78243]: [L3 Syntax leaf-det] 'det' not expected to have children (3:aliud:det --> 9:posse:advcl)
-[Line 14848 Sent 78243]: [L3 Syntax too-many-objects] Multiple direct objects [14, 16] ('gemitus', 'monstra') under the predicate 'posse'.
-[Line 17917 Sent 54009]: [L3 Syntax leaf-det] 'det' not expected to have children (2:eorum:det --> 12:comprehensi:acl)
-Syntax errors: 8
-Warnings: 1034
-*** FAILED *** with 8 errors
+[Line 21 Sent 12841]: [L3 WARNING pron-det-without-prontype] The word 'suum' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 131 Sent 12858]: [L3 WARNING pron-det-without-prontype] The word 'omne' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 147 Sent 12859]: [L3 WARNING pron-det-without-prontype] The word 'vestra' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 177 Sent 12862]: [L3 WARNING fixed-without-extpos] Fixed expression 'quod si' does not have the 'ExtPos' feature
+[Line 177 Sent 12862]: [L3 SYNTAX rel-upos-mark] 'mark' should not be 'PRON' ('quod')
+[Line 229 Sent 12865]: [L3 WARNING pron-det-without-prontype] The word 'omnibus' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 241 Sent 12866]: [L3 WARNING pron-det-without-prontype] The word 'vestra' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 246 Sent 12866]: [L3 WARNING pron-det-without-prontype] The word 'vestra' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 252 Sent 12866]: [L3 WARNING pron-det-without-prontype] The word 'vestrum' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 305 Sent 62914]: [L3 WARNING pron-det-without-prontype] The word 'omnia' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 317 Sent 12871]: [L3 WARNING pron-det-without-prontype] The word 'istis' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 337 Sent 12872]: [L3 WARNING pron-det-without-prontype] The word 'hic' is tagged 'PRON' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+[Line 574 Sent 12894]: [L3 WARNING fixed-without-extpos] Fixed expression 'quod si' does not have the 'ExtPos' feature
+[Line 574 Sent 12894]: [L3 SYNTAX rel-upos-mark] 'mark' should not be 'PRON' ('quod')
+[Line 4393 Sent 18736]: [L3 SYNTAX leaf-det] 'det' not expected to have children (16:eius:det --> 18:misit:acl)
+[Line 4958 Sent 23640]: [L3 SYNTAX leaf-det] 'det' not expected to have children (3:eorum:det --> 5:sepelierunt:acl)
+[Line 7930 Sent 24023]: [L3 SYNTAX obl-should-be-nmod] The parent (node [9] 'Iudaeam') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 9674 Sent 33530]: [L3 WARNING fixed-without-extpos] Fixed expression 'si quominus' does not have the 'ExtPos' feature
+[Line 11381 Sent 76003]: [L3 WARNING fixed-without-extpos] Fixed expression 'iam pridem' does not have the 'ExtPos' feature
+[Line 11767 Sent 82289]: [L3 WARNING fixed-without-extpos] Fixed expression 'quem ad modum' does not have the 'ExtPos' feature
+[Line 12157 Sent 76038]: [L3 WARNING fixed-without-extpos] Fixed expression 'me hercule' does not have the 'ExtPos' feature
+[Line 12210 Sent 76042]: [L3 WARNING fixed-without-extpos] Fixed expression 'Kal Ianuariis' does not have the 'ExtPos' feature
+[Line 12363 Sent 76804]: [L3 SYNTAX obl-should-be-nmod] The parent (node [5] 'κατὰ') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 12626 Sent 76819]: [L3 WARNING fixed-without-extpos] Fixed expression 'manu misso' does not have the 'ExtPos' feature
+[Line 12629 Sent 76819]: [L3 WARNING fixed-without-extpos] Fixed expression 'non nullis' does not have the 'ExtPos' feature
+[Line 12708 Sent 81785]: [L3 WARNING fixed-without-extpos] Fixed expression 'manu missum' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/SYNTAX
+[Line 14572 Sent 77686]: [L3 SYNTAX too-many-objects] Multiple direct objects [1, 5] ('illud', 'te') under the predicate 'rogo'.
+[Line 14848 Sent 78243]: [L3 SYNTAX leaf-det] 'det' not expected to have children (3:aliud:det --> 9:posse:advcl)
+[Line 14848 Sent 78243]: [L3 SYNTAX too-many-objects] Multiple direct objects [14, 16] ('gemitus', 'monstra') under the predicate 'posse'.
+[Line 17917 Sent 54009]: [L3 SYNTAX leaf-det] 'det' not expected to have children (2:eorum:det --> 12:comprehensi:acl)
+Warnings: 1031
+SYNTAX errors: 10
+*** FAILED *** with 10 errors
 Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang la --max-err=10 UD_Latin-PROIEL/la_proiel-ud-test.conllu
-[Line 7 Sent 12933]: [L3 Warning pron-det-without-prontype] The word 'vestram' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 25 Sent 12934]: [L3 Warning pron-det-without-prontype] The word 'vestrum' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 68 Sent 62928]: [L3 Warning pron-det-without-prontype] The word 'suam' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 79 Sent 12937]: [L3 Warning pron-det-without-prontype] The word 'tua' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 83 Sent 12937]: [L3 Warning pron-det-without-prontype] The word 'tua' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 87 Sent 12937]: [L3 Warning pron-det-without-prontype] The word 'tua' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 92 Sent 12937]: [L3 Warning pron-det-without-prontype] The word 'tuus' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 137 Sent 62929]: [L3 Warning pron-det-without-prontype] The word 'suam' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 149 Sent 12941]: [L3 Warning pron-det-without-prontype] The word 'tuum' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 153 Sent 12941]: [L3 Warning pron-det-without-prontype] The word 'tuo' is tagged 'DET' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-[Line 873 Sent 10629]: [L3 Syntax leaf-det] 'det' not expected to have children (11:tales:det --> 16:efficiuntur:acl)
-[Line 1609 Sent 10688]: [L3 Syntax too-many-objects] Multiple direct objects [16, 17] ('illos', 'multa') under the predicate 'docere'.
-[Line 2955 Sent 16727]: [L3 Syntax leaf-det] 'det' not expected to have children (1:eadem:det --> 5:mensi:acl)
-[Line 4566 Sent 18799]: [L3 Syntax leaf-det] 'det' not expected to have children (11:alia:det --> 15:nisi:amod)
-[Line 4961 Sent 18830]: [L3 Syntax leaf-det] 'det' not expected to have children (12:eius:det --> 14:misit:acl)
-[Line 4973 Sent 18831]: [L3 Syntax leaf-det] 'det' not expected to have children (5:eius:det --> 7:misit:acl)
-[Line 4975 Sent 18831]: [L3 Syntax leaf-det] 'det' not expected to have children (5:eius:det --> 9:Patris:appos)
-[Line 6334 Sent 23752]: [L3 Syntax too-many-objects] Multiple direct objects [2, 4] ('quid', 'alterutrum') under the predicate 'nocetis'.
-[Line 8304 Sent 26595]: [L3 Syntax leaf-det] 'det' not expected to have children (30:eorum:det --> 33:tenebris:acl)
-[Line 13029 Sent 76128]: [L3 Syntax leaf-det] 'det' not expected to have children (9:neminem:det --> 8:Fufium:nmod)
-...suppressing further errors regarding Syntax
-Syntax errors: 19
-Warnings: 977
-*** FAILED *** with 19 errors
+[Line 7 Sent 12933]: [L3 WARNING pron-det-without-prontype] The word 'vestram' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 25 Sent 12934]: [L3 WARNING pron-det-without-prontype] The word 'vestrum' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 68 Sent 62928]: [L3 WARNING pron-det-without-prontype] The word 'suam' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 79 Sent 12937]: [L3 WARNING pron-det-without-prontype] The word 'tua' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 83 Sent 12937]: [L3 WARNING pron-det-without-prontype] The word 'tua' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 87 Sent 12937]: [L3 WARNING pron-det-without-prontype] The word 'tua' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 92 Sent 12937]: [L3 WARNING pron-det-without-prontype] The word 'tuus' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 137 Sent 62929]: [L3 WARNING pron-det-without-prontype] The word 'suam' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 149 Sent 12941]: [L3 WARNING pron-det-without-prontype] The word 'tuum' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 153 Sent 12941]: [L3 WARNING pron-det-without-prontype] The word 'tuo' is tagged 'DET' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+[Line 873 Sent 10629]: [L3 SYNTAX leaf-det] 'det' not expected to have children (11:tales:det --> 16:efficiuntur:acl)
+[Line 1609 Sent 10688]: [L3 SYNTAX too-many-objects] Multiple direct objects [16, 17] ('illos', 'multa') under the predicate 'docere'.
+[Line 2955 Sent 16727]: [L3 SYNTAX leaf-det] 'det' not expected to have children (1:eadem:det --> 5:mensi:acl)
+[Line 4495 Sent 18795]: [L3 WARNING fixed-without-extpos] Fixed expression 'viginti quinque' does not have the 'ExtPos' feature
+[Line 4566 Sent 18799]: [L3 SYNTAX leaf-det] 'det' not expected to have children (11:alia:det --> 15:nisi:amod)
+[Line 4961 Sent 18830]: [L3 SYNTAX leaf-det] 'det' not expected to have children (12:eius:det --> 14:misit:acl)
+[Line 4973 Sent 18831]: [L3 SYNTAX leaf-det] 'det' not expected to have children (5:eius:det --> 7:misit:acl)
+[Line 4975 Sent 18831]: [L3 SYNTAX leaf-det] 'det' not expected to have children (5:eius:det --> 9:Patris:appos)
+[Line 6334 Sent 23752]: [L3 SYNTAX too-many-objects] Multiple direct objects [2, 4] ('quid', 'alterutrum') under the predicate 'nocetis'.
+[Line 8304 Sent 26595]: [L3 SYNTAX leaf-det] 'det' not expected to have children (30:eorum:det --> 33:tenebris:acl)
+[Line 8454 Sent 26606]: [L3 WARNING orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'nsubj'.
+[Line 8461 Sent 26606]: [L3 WARNING orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'nsubj'.
+[Line 8463 Sent 26606]: [L3 WARNING orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'nsubj'.
+[Line 8472 Sent 26608]: [L3 WARNING orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'nsubj'.
+[Line 9214 Sent 33602]: [L3 WARNING fixed-without-extpos] Fixed expression 'viginti quattuor' does not have the 'ExtPos' feature
+[Line 9223 Sent 33603]: [L3 WARNING fixed-without-extpos] Fixed expression 'viginti quattuor' does not have the 'ExtPos' feature
+[Line 9404 Sent 33613]: [L3 WARNING fixed-without-extpos] Fixed expression 'viginti quattuor' does not have the 'ExtPos' feature
+[Line 9647 Sent 33629]: [L3 WARNING fixed-without-extpos] Fixed expression 'viginti quattuor' does not have the 'ExtPos' feature
+[Line 10535 Sent 160266]: [L3 WARNING fixed-without-extpos] Fixed expression 'centum uiginti' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/SYNTAX
+[Line 11893 Sent 82339]: [L3 SYNTAX obl-should-be-nmod] The parent (node [2] 'ἐν') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+...suppressing further messages regarding ERROR/SYNTAX
+Warnings: 973
+SYNTAX errors: 23
+*** FAILED *** with 23 errors
 Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang la --max-err=10 UD_Latin-PROIEL/la_proiel-ud-train.conllu
-[Line 140 Sent 12681]: [L3 Syntax leaf-det] 'det' not expected to have children (7:ea:det --> 10:Uriae:acl)
-[Line 364 Sent 12708]: [L3 Warning pron-det-without-prontype] The word 'omnes' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 453 Sent 12714]: [L3 Warning pron-det-without-prontype] The word 'haec' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 477 Sent 12715]: [L3 Warning pron-det-without-prontype] The word 'tuam' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 517 Sent 12719]: [L3 Warning pron-det-without-prontype] The word 'suum' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 525 Sent 12720]: [L3 Warning pron-det-without-prontype] The word 'hoc' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 586 Sent 12723]: [L3 Warning pron-det-without-prontype] The word 'suam' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 598 Sent 12724]: [L3 Warning pron-det-without-prontype] The word 'suum' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 668 Sent 12729]: [L3 Warning pron-det-without-prontype] The word 'omnis' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 671 Sent 12729]: [L3 Warning pron-det-without-prontype] The word 'illo' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 678 Sent 12730]: [L3 Warning pron-det-without-prontype] The word 'omnes' is tagged 'DET' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-[Line 2339 Sent 13009]: [L3 Syntax too-many-objects] Multiple direct objects [7, 12] ('quem', 'panem') under the predicate 'petierit'.
-[Line 14566 Sent 14018]: [L3 Syntax too-many-objects] Multiple direct objects [2, 6] ('vos', 'sermonem') under the predicate 'interrogabo'.
-[Line 16722 Sent 62970]: [L3 Syntax leaf-det] 'det' not expected to have children (10:eorum:det --> 13:occiderunt:acl)
-[Line 21350 Sent 14573]: [L3 Syntax too-many-objects] Multiple direct objects [6, 7] ('eum', 'clamydem') under the predicate 'exuerunt'.
-[Line 24902 Sent 10478]: [L3 Syntax too-many-objects] Multiple direct objects [3, 6] ('eos', 'multa') under the predicate 'docebat'.
-[Line 25068 Sent 10492]: [L3 Syntax too-many-objects] Multiple direct objects [6, 14] ('eum', 'parabolas') under the predicate 'interrogaverunt'.
-[Line 26130 Sent 10753]: [L3 Syntax too-many-objects] Multiple direct objects [9, 12] ('eum', 'parabolam') under the predicate 'interrogabant'.
-[Line 27622 Sent 10881]: [L3 Syntax leaf-det] 'det' not expected to have children (4:meus:det --> 5:carissimus:amod)
-[Line 28556 Sent 10961]: [L3 Syntax rel-upos-mark] 'mark' should not be 'PRON' ('quod')
-...suppressing further errors regarding Syntax
-Syntax errors: 154
-Warnings: 12682
-*** FAILED *** with 154 errors
+[Line 140 Sent 12681]: [L3 SYNTAX leaf-det] 'det' not expected to have children (7:ea:det --> 10:Uriae:acl)
+[Line 364 Sent 12708]: [L3 WARNING pron-det-without-prontype] The word 'omnes' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 453 Sent 12714]: [L3 WARNING pron-det-without-prontype] The word 'haec' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 477 Sent 12715]: [L3 WARNING pron-det-without-prontype] The word 'tuam' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 517 Sent 12719]: [L3 WARNING pron-det-without-prontype] The word 'suum' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 525 Sent 12720]: [L3 WARNING pron-det-without-prontype] The word 'hoc' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 586 Sent 12723]: [L3 WARNING pron-det-without-prontype] The word 'suam' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 598 Sent 12724]: [L3 WARNING pron-det-without-prontype] The word 'suum' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 668 Sent 12729]: [L3 WARNING pron-det-without-prontype] The word 'omnis' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 671 Sent 12729]: [L3 WARNING pron-det-without-prontype] The word 'illo' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 678 Sent 12730]: [L3 WARNING pron-det-without-prontype] The word 'omnes' is tagged 'DET' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+[Line 2339 Sent 13009]: [L3 SYNTAX too-many-objects] Multiple direct objects [7, 12] ('quem', 'panem') under the predicate 'petierit'.
+[Line 11928 Sent 13796]: [L3 WARNING fixed-without-extpos] Fixed expression 'nonaginta novem' does not have the 'ExtPos' feature
+[Line 14566 Sent 14018]: [L3 SYNTAX too-many-objects] Multiple direct objects [2, 6] ('vos', 'sermonem') under the predicate 'interrogabo'.
+[Line 16722 Sent 62970]: [L3 SYNTAX leaf-det] 'det' not expected to have children (10:eorum:det --> 13:occiderunt:acl)
+[Line 21350 Sent 14573]: [L3 SYNTAX too-many-objects] Multiple direct objects [6, 7] ('eum', 'clamydem') under the predicate 'exuerunt'.
+[Line 21645 Sent 14600]: [L3 SYNTAX obl-should-be-nmod] The parent (node [4] 'sabacthani') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 24902 Sent 10478]: [L3 SYNTAX too-many-objects] Multiple direct objects [3, 6] ('eos', 'multa') under the predicate 'docebat'.
+[Line 25068 Sent 10492]: [L3 SYNTAX too-many-objects] Multiple direct objects [6, 14] ('eum', 'parabolas') under the predicate 'interrogaverunt'.
+[Line 26130 Sent 10753]: [L3 SYNTAX too-many-objects] Multiple direct objects [9, 12] ('eum', 'parabolam') under the predicate 'interrogabant'.
+[Line 27622 Sent 10881]: [L3 SYNTAX leaf-det] 'det' not expected to have children (4:meus:det --> 5:carissimus:amod)
+[Line 28556 Sent 10961]: [L3 WARNING fixed-without-extpos] Fixed expression 'quod si' does not have the 'ExtPos' feature
+...suppressing further messages regarding ERROR/SYNTAX
+[Line 29492 Sent 11039]: [L3 WARNING orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'dislocated'.
+[Line 30471 Sent 11125]: [L3 WARNING fixed-without-extpos] Fixed expression 'quod si' does not have the 'ExtPos' feature
+[Line 37894 Sent 16427]: [L3 WARNING fixed-without-extpos] Fixed expression 'octoginta quattuor' does not have the 'ExtPos' feature
+[Line 41195 Sent 16857]: [L3 WARNING fixed-without-extpos] Fixed expression 'ex quo' does not have the 'ExtPos' feature
+[Line 41659 Sent 16896]: [L3 WARNING orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'dislocated'.
+[Line 44312 Sent 17119]: [L3 WARNING fixed-without-extpos] Fixed expression 'septuaginta duos' does not have the 'ExtPos' feature
+[Line 44681 Sent 17147]: [L3 WARNING fixed-without-extpos] Fixed expression 'septuaginta duo' does not have the 'ExtPos' feature
+[Line 48200 Sent 17426]: [L3 WARNING fixed-without-extpos] Fixed expression 'ex quo' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/SYNTAX
+Warnings: 12646
+SYNTAX errors: 182
+*** FAILED *** with 182 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.111111111111111) * (score{features}=0.8) = 0.0888888888888889
