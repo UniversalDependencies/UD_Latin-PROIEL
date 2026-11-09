@@ -135797,7 +135797,7 @@
 # source = Jerome's Vulgate, Titus 1
 # text = Paulus servus Dei apostolus autem Iesu Christi secundum fidem electorum Dei et agnitionem veritatis quae secundum pietatem est in spem vitae aeternae quam promisit qui non mentitur Deus ante tempora saecularia
 # sent_id = 30985
-# parallel_id = bible/tit-1-1
+# parallel_id = bible/titus-1-1
 1	Paulus	Paulus	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	0	root	_	Ref=TIT_1.1
 2	servus	servus	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	Ref=TIT_1.1
 3	Dei	deus	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	Ref=TIT_1.1
@@ -135833,7 +135833,7 @@
 # source = Jerome's Vulgate, Titus 1
 # text = manifestavit autem temporibus suis verbum suum in praedicatione quae credita est mihi secundum praeceptum salvatoris nostri Dei
 # sent_id = 30986
-# parallel_id = bible/tit-1-3
+# parallel_id = bible/titus-1-3
 1	manifestavit	manifesto	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Ref=TIT_1.3
 2	autem	autem	ADV	Df	_	1	discourse	_	Ref=TIT_1.3
 3	temporibus	tempus	NOUN	Nb	Case=Abl|Gender=Neut|Number=Plur	1	obl	_	Ref=TIT_1.3
@@ -135855,7 +135855,7 @@
 # source = Jerome's Vulgate, Titus 1
 # text = Tito dilecto filio secundum communem fidem
 # sent_id = 50030
-# parallel_id = bible/tit-1-4/part1
+# parallel_id = bible/titus-1-4/part1
 1	Tito	Titus	PROPN	Ne	Case=Dat|Gender=Masc|Number=Sing	0	root	_	Ref=TIT_1.4
 2	dilecto	dilectus	ADJ	A-	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	Ref=TIT_1.4
 3	filio	filius	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	1	appos	_	Ref=TIT_1.4
@@ -135866,7 +135866,7 @@
 # source = Jerome's Vulgate, Titus 1
 # text = gratia et pax a Deo Patre et Christo Iesu salvatore nostro
 # sent_id = 50031
-# parallel_id = bible/tit-1-4/part2
+# parallel_id = bible/titus-1-4/part2
 1	gratia	gratia	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	0	root	_	Ref=TIT_1.4
 2	et	et	CCONJ	C-	_	3	cc	_	Ref=TIT_1.4
 3	pax	pax	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	Ref=TIT_1.4
@@ -135882,7 +135882,7 @@
 # source = Jerome's Vulgate, Titus 1
 # text = huius rei gratia reliqui te Cretae ut ea quae desunt corrigas et constituas per civitates presbyteros sicut ego tibi disposui si quis sine crimine est unius uxoris vir filios habens fideles non in accusatione luxuriae aut non subditos
 # sent_id = 30988
-# parallel_id = bible/tit-1-5
+# parallel_id = bible/titus-1-5
 1	huius	hic	DET	Pd	Case=Gen|Gender=Fem|Number=Sing	2	det	_	Ref=TIT_1.5
 2	rei	res	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	Ref=TIT_1.5
 3	gratia	gratia	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	4	obl	_	Ref=TIT_1.5
@@ -135925,7 +135925,7 @@
 # source = Jerome's Vulgate, Titus 1
 # text = oportet enim episcopum sine crimine esse sicut Dei dispensatorem
 # sent_id = 30989
-# parallel_id = bible/tit-1-7/part1
+# parallel_id = bible/titus-1-7/part1
 1	oportet	oportet	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Ref=TIT_1.7
 2	enim	enim	ADV	Df	_	1	discourse	_	Ref=TIT_1.7
 3	episcopum	episcopus	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	5	nsubj	_	Ref=TIT_1.7
@@ -135939,7 +135939,7 @@
 # source = Jerome's Vulgate, Titus 1
 # text = non superbum non iracundum non vinolentum non percussorem non turpilucri cupidum
 # sent_id = 30990
-# parallel_id = bible/tit-1-7/part2
+# parallel_id = bible/titus-1-7/part2
 1	non	non	ADV	Df	Polarity=Neg	2	advmod	_	Ref=TIT_1.7
 2	superbum	superbus	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	Ref=TIT_1.7
 3	non	non	ADV	Df	Polarity=Neg	4	advmod	_	Ref=TIT_1.7
@@ -135955,7 +135955,7 @@
 # source = Jerome's Vulgate, Titus 1
 # text = sed hospitalem benignum sobrium iustum sanctum continentem
 # sent_id = 30991
-# parallel_id = bible/tit-1-8
+# parallel_id = bible/titus-1-8
 1	sed	sed	CCONJ	C-	_	2	cc	_	Ref=TIT_1.8
 2	hospitalem	hospitalis	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	Ref=TIT_1.8
 3	benignum	benignus	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	2	conj	_	Ref=TIT_1.8
@@ -135967,7 +135967,7 @@
 # source = Jerome's Vulgate, Titus 1
 # text = amplectentem eum qui secundum doctrinam est fidelem sermonem ut potens sit et exhortari in doctrina sana et eos qui contradicunt arguere
 # sent_id = 225248
-# parallel_id = bible/tit-1-9
+# parallel_id = bible/titus-1-9
 1	amplectentem	amplector	VERB	V-	Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	Ref=TIT_1.9
 2	eum	is	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	det	_	Ref=TIT_1.9
 3	qui	qui	PRON	Pr	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	5	nsubj	_	Ref=TIT_1.9
@@ -135993,7 +135993,7 @@
 # source = Jerome's Vulgate, Titus 1
 # text = sunt enim multi et inoboedientes vaniloqui et seductores
 # sent_id = 30993
-# parallel_id = bible/tit-1-10/part1
+# parallel_id = bible/titus-1-10/part1
 1	sunt	sum	AUX	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	Ref=TIT_1.10
 2	enim	enim	ADV	Df	_	3	discourse	_	Ref=TIT_1.10
 3	multi	multus	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	0	root	_	Ref=TIT_1.10
@@ -136006,7 +136006,7 @@
 # source = Jerome's Vulgate, Titus 1
 # text = maxime qui de circumcisione sunt
 # sent_id = 30994
-# parallel_id = bible/tit-1-10/part2
+# parallel_id = bible/titus-1-10/part2
 1	maxime	magis	ADV	Df	Degree=Sup	4	orphan	_	Ref=TIT_1.10
 2	qui	qui	PRON	Pr	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	4	nsubj	_	Ref=TIT_1.10
 3	de	de	ADP	R-	_	4	case	_	Ref=TIT_1.10
@@ -136016,7 +136016,7 @@
 # source = Jerome's Vulgate, Titus 1
 # text = quos oportet redargui
 # sent_id = 30995
-# parallel_id = bible/tit-1-11/part1
+# parallel_id = bible/titus-1-11/part1
 1	quos	qui	PRON	Pr	Case=Acc|Gender=Masc|Number=Plur|PronType=Rel	3	obj	_	Ref=TIT_1.11
 2	oportet	oportet	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Ref=TIT_1.11
 3	redargui	redarguo	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Pass	2	xcomp	_	Ref=TIT_1.11
@@ -136024,7 +136024,7 @@
 # source = Jerome's Vulgate, Titus 1
 # text = qui universas domos subvertunt docentes quae non oportet turpis lucri gratia
 # sent_id = 30996
-# parallel_id = bible/tit-1-11/part2
+# parallel_id = bible/titus-1-11/part2
 1	qui	qui	PRON	Pr	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	4	nsubj	_	Ref=TIT_1.11
 2	universas	universus	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	Ref=TIT_1.11
 3	domos	domus	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	4	obj	_	Ref=TIT_1.11
@@ -136040,7 +136040,7 @@
 # source = Jerome's Vulgate, Titus 1
 # text = dixit quidam ex illis proprius ipsorum propheta
 # sent_id = 30997
-# parallel_id = bible/tit-1-12/part1
+# parallel_id = bible/titus-1-12/part1
 1	dixit	dico	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Ref=TIT_1.12
 2	quidam	quidam	PRON	Px	Case=Nom|Gender=Masc|Number=Plur	1	nsubj	_	Ref=TIT_1.12
 3	ex	ex	ADP	R-	_	4	case	_	Ref=TIT_1.12
@@ -136052,7 +136052,7 @@
 # source = Jerome's Vulgate, Titus 1
 # text = Cretenses semper mendaces malae bestiae ventres pigri
 # sent_id = 30998
-# parallel_id = bible/tit-1-12/part2
+# parallel_id = bible/titus-1-12/part2
 1	Cretenses	Cretenses	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	Ref=TIT_1.12
 2	semper	semper	ADV	Df	_	3	advmod	_	Ref=TIT_1.12
 3	mendaces	mendax	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	0	root	_	Ref=TIT_1.12
@@ -136064,7 +136064,7 @@
 # source = Jerome's Vulgate, Titus 1
 # text = testimonium hoc verum est
 # sent_id = 30999
-# parallel_id = bible/tit-1-13/part1
+# parallel_id = bible/titus-1-13/part1
 1	testimonium	testimonium	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	Ref=TIT_1.13
 2	hoc	hic	DET	Pd	Case=Nom|Gender=Neut|Number=Sing	1	det	_	Ref=TIT_1.13
 3	verum	verus	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	Ref=TIT_1.13
@@ -136073,7 +136073,7 @@
 # source = Jerome's Vulgate, Titus 1
 # text = quam ob causam increpa illos dure ut sani sint in fide non intendentes iudaicis fabulis et mandatis hominum aversantium se a veritate
 # sent_id = 31000
-# parallel_id = bible/tit-1-13/part2
+# parallel_id = bible/titus-1-13/part2
 1	quam	qui	PRON	Pr	Case=Acc|Gender=Fem|Number=Sing|PronType=Rel	3	acl	_	Ref=TIT_1.13
 2	ob	ob	ADP	R-	_	3	case	_	Ref=TIT_1.13
 3	causam	causa	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	4	advcl	_	Ref=TIT_1.13
@@ -136100,7 +136100,7 @@
 # source = Jerome's Vulgate, Titus 1
 # text = omnia munda mundis
 # sent_id = 31001
-# parallel_id = bible/tit-1-15/part1
+# parallel_id = bible/titus-1-15/part1
 1	omnia	omnis	PRON	Px	Case=Nom|Gender=Neut|Number=Plur	2	nsubj	_	Ref=TIT_1.15
 2	munda	mundus	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	0	root	_	Ref=TIT_1.15
 3	mundis	mundus	ADJ	A-	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	2	obl:arg	_	Ref=TIT_1.15
@@ -136108,7 +136108,7 @@
 # source = Jerome's Vulgate, Titus 1
 # text = coinquinatis autem et infidelibus nihil mundum sed inquinatae sunt eorum et mens et conscientia
 # sent_id = 31002
-# parallel_id = bible/tit-1-15/part2
+# parallel_id = bible/titus-1-15/part2
 1	coinquinatis	coinquinatus	ADJ	A-	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	6	obl:arg	_	Ref=TIT_1.15
 2	autem	autem	ADV	Df	_	6	discourse	_	Ref=TIT_1.15
 3	et	et	CCONJ	C-	_	4	cc	_	Ref=TIT_1.15
@@ -136127,7 +136127,7 @@
 # source = Jerome's Vulgate, Titus 1
 # text = confitentur se nosse Deum
 # sent_id = 50032
-# parallel_id = bible/tit-1-16/part1
+# parallel_id = bible/titus-1-16/part1
 1	confitentur	confiteor	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	Ref=TIT_1.16
 2	se	se	PRON	Pk	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	3	nsubj	_	Ref=TIT_1.16
 3	nosse	nosco	VERB	V-	Aspect=Perf|Tense=Past|VerbForm=Inf|Voice=Act	1	ccomp	_	Ref=TIT_1.16
@@ -136136,7 +136136,7 @@
 # source = Jerome's Vulgate, Titus 1
 # text = factis autem negant cum sunt abominati et incredibiles et ad omne opus bonum reprobi
 # sent_id = 50033
-# parallel_id = bible/tit-1-16/part2
+# parallel_id = bible/titus-1-16/part2
 1	factis	factum	NOUN	Nb	Case=Abl|Gender=Neut|Number=Plur	3	obl	_	Ref=TIT_1.16
 2	autem	autem	ADV	Df	_	3	discourse	_	Ref=TIT_1.16
 3	negant	nego	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Ref=TIT_1.16
@@ -136155,7 +136155,7 @@
 # source = Jerome's Vulgate, Titus 3
 # text = admone illos principibus et potestatibus subditos esse dicto oboedire ad omne opus bonum paratos esse
 # sent_id = 31005
-# parallel_id = bible/tit-3-1
+# parallel_id = bible/titus-3-1
 1	admone	admoneo	VERB	V-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Ref=TIT_3.1
 2	illos	ille	PRON	Pd	Case=Acc|Gender=Masc|Number=Plur	6	nsubj	_	Ref=TIT_3.1
 3	principibus	princeps	NOUN	Nb	Case=Dat|Gender=Masc|Number=Plur	6	obl:arg	_	Ref=TIT_3.1
@@ -136175,7 +136175,7 @@
 # source = Jerome's Vulgate, Titus 3
 # text = neminem blasphemare non litigiosos esse modestos omnem ostendentes mansuetudinem ad omnes homines
 # sent_id = 31006
-# parallel_id = bible/tit-3-2
+# parallel_id = bible/titus-3-2
 1	neminem	nemo	PRON	Px	Case=Acc|Gender=Fem,Masc|Number=Sing	2	obj	_	Ref=TIT_3.2
 2	blasphemare	blasphemo	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	0	root	_	Ref=TIT_3.2
 3	non	non	ADV	Df	Polarity=Neg	4	advmod	_	Ref=TIT_3.2
@@ -136192,7 +136192,7 @@
 # source = Jerome's Vulgate, Titus 3
 # text = eramus enim et nos aliquando insipientes increduli errantes servientes desideriis et voluptatibus variis in malitia et invidia agentes odibiles odientes invicem
 # sent_id = 31007
-# parallel_id = bible/tit-3-3
+# parallel_id = bible/titus-3-3
 1	eramus	sum	AUX	V-	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	6	cop	_	Ref=TIT_3.3
 2	enim	enim	ADV	Df	_	6	discourse	_	Ref=TIT_3.3
 3	et	et	ADV	Df	_	4	discourse	_	Ref=TIT_3.3
@@ -136218,7 +136218,7 @@
 # source = Jerome's Vulgate, Titus 3
 # text = cum autem benignitas et humanitas apparuit salvatoris nostri Dei non ex operibus iustitiae quae fecimus nos sed secundum suam misericordiam salvos nos fecit per lavacrum regenerationis et renovationis Spiritus Sancti quem effudit in nos abunde per Iesum Christum salvatorem nostrum ut iustificati gratia ipsius heredes simus secundum spem vitae aeternae
 # sent_id = 31008
-# parallel_id = bible/tit-3-4
+# parallel_id = bible/titus-3-4
 1	cum	cum	SCONJ	G-	_	6	mark	_	Ref=TIT_3.4
 2	autem	autem	ADV	Df	_	23	discourse	_	Ref=TIT_3.4
 3	benignitas	benignitas	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	Ref=TIT_3.4
@@ -136273,7 +136273,7 @@
 # source = Jerome's Vulgate, Titus 3
 # text = fidelis sermo est
 # sent_id = 31010
-# parallel_id = bible/tit-3-8/part1
+# parallel_id = bible/titus-3-8/part1
 1	fidelis	fidelis	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	Ref=TIT_3.8
 2	sermo	sermo	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	0	root	_	Ref=TIT_3.8
 3	est	sum	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	Ref=TIT_3.8
@@ -136281,7 +136281,7 @@
 # source = Jerome's Vulgate, Titus 3
 # text = et de his volo te confirmare ut curent bonis operibus praeesse qui credunt Deo
 # sent_id = 31011
-# parallel_id = bible/tit-3-8/part2
+# parallel_id = bible/titus-3-8/part2
 1	et	et	CCONJ	C-	_	4	cc	_	Ref=TIT_3.8
 2	de	de	ADP	R-	_	3	case	_	Ref=TIT_3.8
 3	his	hic	PRON	Pd	Case=Abl|Number=Plur	6	obl	_	Ref=TIT_3.8
@@ -136300,7 +136300,7 @@
 # source = Jerome's Vulgate, Titus 3
 # text = haec sunt bona et utilia hominibus
 # sent_id = 31013
-# parallel_id = bible/tit-3-8/part3
+# parallel_id = bible/titus-3-8/part3
 1	haec	hic	PRON	Pd	Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	Ref=TIT_3.8
 2	sunt	sum	AUX	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	Ref=TIT_3.8
 3	bona	bonus	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	0	root	_	Ref=TIT_3.8
@@ -136311,7 +136311,7 @@
 # source = Jerome's Vulgate, Titus 3
 # text = stultas autem quaestiones et genealogias et contentiones et pugnas legis devita
 # sent_id = 31014
-# parallel_id = bible/tit-3-9/part1
+# parallel_id = bible/titus-3-9/part1
 1	stultas	stultus	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	Ref=TIT_3.9
 2	autem	autem	ADV	Df	_	11	discourse	_	Ref=TIT_3.9
 3	quaestiones	quaestio	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	11	obj	_	Ref=TIT_3.9
@@ -136327,7 +136327,7 @@
 # source = Jerome's Vulgate, Titus 3
 # text = sunt enim inutiles et vanae
 # sent_id = 31015
-# parallel_id = bible/tit-3-9/part2
+# parallel_id = bible/titus-3-9/part2
 1	sunt	sum	AUX	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	Ref=TIT_3.9
 2	enim	enim	ADV	Df	_	3	discourse	_	Ref=TIT_3.9
 3	inutiles	inutilis	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	0	root	_	Ref=TIT_3.9
@@ -136337,7 +136337,7 @@
 # source = Jerome's Vulgate, Titus 3
 # text = hereticum hominem post unam et secundam correptionem devita sciens quia subversus est qui eius modi est et delinquit proprio iudicio condemnatus
 # sent_id = 31016
-# parallel_id = bible/tit-3-10
+# parallel_id = bible/titus-3-10
 1	hereticum	haereticus	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc,Neut|Number=Sing	2	amod	_	Ref=TIT_3.10
 2	hominem	homo	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	8	obj	_	Ref=TIT_3.10
 3	post	post	ADP	R-	_	4	case	_	Ref=TIT_3.10
@@ -136363,7 +136363,7 @@
 # source = Jerome's Vulgate, Titus 3
 # text = cum misero ad te Arteman aut Tychicum festina ad me venire Nicopolim
 # sent_id = 31018
-# parallel_id = bible/tit-3-12/part1
+# parallel_id = bible/titus-3-12/part1
 1	cum	cum	SCONJ	G-	_	2	mark	_	Ref=TIT_3.12
 2	misero	mitto	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	8	advcl	_	Ref=TIT_3.12
 3	ad	ad	ADP	R-	_	4	case	_	Ref=TIT_3.12
@@ -136380,7 +136380,7 @@
 # source = Jerome's Vulgate, Titus 3
 # text = ibi enim statui hiemare
 # sent_id = 31019
-# parallel_id = bible/tit-3-12/part2
+# parallel_id = bible/titus-3-12/part2
 1	ibi	ibi	ADV	Df	_	4	advmod	_	Ref=TIT_3.12
 2	enim	enim	ADV	Df	_	3	discourse	_	Ref=TIT_3.12
 3	statui	statuo	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Ref=TIT_3.12
@@ -136389,7 +136389,7 @@
 # source = Jerome's Vulgate, Titus 3
 # text = Zenan legis peritum et Apollo sollicite praemitte ut nihil illis desit
 # sent_id = 31020
-# parallel_id = bible/tit-3-13
+# parallel_id = bible/titus-3-13
 1	Zenan	Zenas	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	Ref=TIT_3.13
 2	legis	lex	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	3	obl	_	Ref=TIT_3.13
 3	peritum	peritus	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	Ref=TIT_3.13
@@ -136405,7 +136405,7 @@
 # source = Jerome's Vulgate, Titus 3
 # text = discant autem et nostri bonis operibus praeesse ad usus necessarios ut non sint infructuosi
 # sent_id = 31021
-# parallel_id = bible/tit-3-14
+# parallel_id = bible/titus-3-14
 1	discant	disco	VERB	V-	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Ref=TIT_3.14
 2	autem	autem	ADV	Df	_	1	discourse	_	Ref=TIT_3.14
 3	et	et	ADV	Df	_	4	discourse	_	Ref=TIT_3.14
@@ -136424,7 +136424,7 @@
 # source = Jerome's Vulgate, Titus 3
 # text = salutant te qui me cum sunt omnes
 # sent_id = 31023
-# parallel_id = bible/tit-3-15/part1
+# parallel_id = bible/titus-3-15/part1
 1	salutant	saluto	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Ref=TIT_3.15
 2	te	tu	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=2|PronType=Prs	1	obj	_	Ref=TIT_3.15
 3	qui	qui	PRON	Pr	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	4	nsubj	_	Ref=TIT_3.15
@@ -136436,7 +136436,7 @@
 # source = Jerome's Vulgate, Titus 3
 # text = saluta qui nos amant in fide
 # sent_id = 31024
-# parallel_id = bible/tit-3-15/part2
+# parallel_id = bible/titus-3-15/part2
 1	saluta	saluto	VERB	V-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Ref=TIT_3.15
 2	qui	qui	PRON	Pr	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	4	nsubj	_	Ref=TIT_3.15
 3	nos	nos	PRON	Pp	Case=Acc|Gender=Masc|Number=Plur|Person=1|PronType=Prs	4	obj	_	Ref=TIT_3.15
@@ -136447,7 +136447,7 @@
 # source = Jerome's Vulgate, Titus 3
 # text = gratia Dei cum omnibus vobis
 # sent_id = 31025
-# parallel_id = bible/tit-3-15/part3
+# parallel_id = bible/titus-3-15/part3
 1	gratia	gratia	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	Ref=TIT_3.15
 2	Dei	deus	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	Ref=TIT_3.15
 3	cum	cum	ADP	R-	_	5	case	_	Ref=TIT_3.15
@@ -136457,13 +136457,13 @@
 # source = Jerome's Vulgate, Titus 3
 # text = amen
 # sent_id = 31026
-# parallel_id = bible/tit-3-15/part4
+# parallel_id = bible/titus-3-15/part4
 1	amen	amen	INTJ	I-	_	0	root	_	Ref=TIT_3.15
 
 # source = Jerome's Vulgate, Philemon 1
 # text = Paulus vinctus Iesu Christi et Timotheus frater Philemoni dilecto et adiutori nostro et Appiae sorori et Archippo commilitoni nostro et ecclesiae quae in domo tua est
 # sent_id = 31045
-# parallel_id = bible/philem-1-1
+# parallel_id = bible/phlm-1-1
 1	Paulus	Paulus	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	0	root	_	Ref=PHILEM_1.1
 2	vinctus	vinctus	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	Ref=PHILEM_1.1
 3	Iesu	Iesus	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	Ref=PHILEM_1.1
@@ -136494,7 +136494,7 @@
 # source = Jerome's Vulgate, Philemon 1
 # text = gratia vobis et pax a Deo Patre nostro et Domino Iesu Christo
 # sent_id = 31046
-# parallel_id = bible/philem-1-3
+# parallel_id = bible/phlm-1-3
 1	gratia	gratia	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	Ref=PHILEM_1.3
 2	vobis	vos	PRON	Pp	Case=Dat|Gender=Masc|Number=Plur|Person=2|PronType=Prs	0	root	_	Ref=PHILEM_1.3
 3	et	et	CCONJ	C-	_	4	cc	_	Ref=PHILEM_1.3
@@ -136511,7 +136511,7 @@
 # source = Jerome's Vulgate, Philemon 1
 # text = gratias ago Deo meo semper memoriam tui faciens in orationibus meis audiens caritatem tuam et fidem quam habes in Domino Iesu et in omnes sanctos
 # sent_id = 31047
-# parallel_id = bible/philem-1-4
+# parallel_id = bible/phlm-1-4
 1	gratias	gratia	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	Ref=PHILEM_1.4
 2	ago	ago	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Ref=PHILEM_1.4
 3	Deo	deus	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	2	obl:arg	_	Ref=PHILEM_1.4
@@ -136541,7 +136541,7 @@
 # source = Jerome's Vulgate, Philemon 1
 # text = ut communicatio fidei tuae evidens fiat in agnitione omnis boni in nobis in Christo Iesu
 # sent_id = 31048
-# parallel_id = bible/philem-1-6
+# parallel_id = bible/phlm-1-6
 1	ut	ut	SCONJ	G-	_	6	mark	_	Ref=PHILEM_1.6
 2	communicatio	communicatio	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	Ref=PHILEM_1.6
 3	fidei	fides	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	Ref=PHILEM_1.6
@@ -136561,7 +136561,7 @@
 # source = Jerome's Vulgate, Philemon 1
 # text = gaudium enim magnum habui et consolationem in caritate tua quia viscera sanctorum requieverunt per te frater
 # sent_id = 31049
-# parallel_id = bible/philem-1-7
+# parallel_id = bible/phlm-1-7
 1	gaudium	gaudium	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	4	obj	_	Ref=PHILEM_1.7
 2	enim	enim	ADV	Df	_	4	discourse	_	Ref=PHILEM_1.7
 3	magnum	magnus	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	1	amod	_	Ref=PHILEM_1.7
@@ -136582,7 +136582,7 @@
 # source = Jerome's Vulgate, Philemon 1
 # text = propter quod multam fiduciam habentes in Christo Iesu imperandi tibi quod ad rem pertinet propter caritatem
 # sent_id = 31051
-# parallel_id = bible/philem-1-8
+# parallel_id = bible/phlm-1-8
 1	propter	propter	ADP	R-	_	2	case	_	Ref=PHILEM_1.8
 2	quod	qui	PRON	Pr	Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	0	root	_	Ref=PHILEM_1.8
 3	multam	multus	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	Ref=PHILEM_1.8
@@ -136603,7 +136603,7 @@
 # source = Jerome's Vulgate, Philemon 1
 # text = obsecro te de meo filio quem genui in vinculis Onesimo qui tibi aliquando inutilis fuit nunc autem et tibi et mihi utilis quem remisi
 # sent_id = 31053
-# parallel_id = bible/philem-1-10
+# parallel_id = bible/phlm-1-10
 1	obsecro	obsecro	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Ref=PHILEM_1.10
 2	te	tu	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=2|PronType=Prs	1	obj	_	Ref=PHILEM_1.10
 3	de	de	ADP	R-	_	5	case	_	Ref=PHILEM_1.10
@@ -136632,7 +136632,7 @@
 # source = Jerome's Vulgate, Philemon 1
 # text = tu autem illum id est mea viscera suscipe
 # sent_id = 31054
-# parallel_id = bible/philem-1-12
+# parallel_id = bible/phlm-1-12
 1	tu	tu	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=2|PronType=Prs	8	nsubj	_	Ref=PHILEM_1.12
 2	autem	autem	ADV	Df	_	8	discourse	_	Ref=PHILEM_1.12
 3	illum	ille	PRON	Pd	Case=Acc|Gender=Masc|Number=Sing	8	obj	_	Ref=PHILEM_1.12
@@ -136645,7 +136645,7 @@
 # source = Jerome's Vulgate, Philemon 1
 # text = quem ego volueram me cum detinere ut pro te mihi ministraret in vinculis evangelii
 # sent_id = 31055
-# parallel_id = bible/philem-1-13
+# parallel_id = bible/phlm-1-13
 1	quem	qui	PRON	Pr	Case=Acc|Gender=Masc|Number=Sing|PronType=Rel	6	obj	_	Ref=PHILEM_1.13
 2	ego	ego	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Ref=PHILEM_1.13
 3	volueram	volo	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pqp|VerbForm=Fin|Voice=Act	0	root	_	LId=1|Ref=PHILEM_1.13
@@ -136664,7 +136664,7 @@
 # source = Jerome's Vulgate, Philemon 1
 # text = sine consilio autem tuo nihil volui facere uti ne velut ex necessitate bonum tuum esset sed voluntarium
 # sent_id = 31056
-# parallel_id = bible/philem-1-14
+# parallel_id = bible/phlm-1-14
 1	sine	sine	ADP	R-	_	2	case	_	Ref=PHILEM_1.14
 2	consilio	consilium	NOUN	Nb	Case=Abl|Gender=Neut|Number=Sing	6	obl	_	Ref=PHILEM_1.14
 3	autem	autem	ADV	Df	_	6	discourse	_	Ref=PHILEM_1.14
@@ -136686,7 +136686,7 @@
 # source = Jerome's Vulgate, Philemon 1
 # text = forsitan enim ideo discessit ad horam a te ut aeternum illum reciperes
 # sent_id = 31057
-# parallel_id = bible/philem-1-15
+# parallel_id = bible/phlm-1-15
 1	forsitan	forsitan	ADV	Df	_	4	advmod	_	Ref=PHILEM_1.15
 2	enim	enim	ADV	Df	_	4	discourse	_	Ref=PHILEM_1.15
 3	ideo	ideo	ADV	Df	_	4	advmod	_	Ref=PHILEM_1.15
@@ -136703,7 +136703,7 @@
 # source = Jerome's Vulgate, Philemon 1
 # text = quanto autem magis tibi et in carne et in Domino
 # sent_id = 31059
-# parallel_id = bible/philem-1-16
+# parallel_id = bible/phlm-1-16
 1	quanto	quanto	ADV	Dq	PronType=Rel	3	advcl	_	Ref=PHILEM_1.16
 2	autem	autem	ADV	Df	_	4	discourse	_	Ref=PHILEM_1.16
 3	magis	magis	ADV	Df	Degree=Cmp	4	orphan	_	Ref=PHILEM_1.16
@@ -136718,7 +136718,7 @@
 # source = Jerome's Vulgate, Philemon 1
 # text = si ergo habes me socium suscipe illum sicut me
 # sent_id = 31060
-# parallel_id = bible/philem-1-17
+# parallel_id = bible/phlm-1-17
 1	si	si	SCONJ	G-	_	3	mark	_	Ref=PHILEM_1.17
 2	ergo	ergo	ADV	Df	_	3	discourse	_	Ref=PHILEM_1.17
 3	habes	habeo	VERB	V-	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	_	Ref=PHILEM_1.17
@@ -136732,7 +136732,7 @@
 # source = Jerome's Vulgate, Philemon 1
 # text = si autem aliquid nocuit tibi aut debet hoc mihi inputa
 # sent_id = 31061
-# parallel_id = bible/philem-1-18
+# parallel_id = bible/phlm-1-18
 1	si	si	SCONJ	G-	_	4	mark	_	Ref=PHILEM_1.18
 2	autem	autem	ADV	Df	_	4	discourse	_	Ref=PHILEM_1.18
 3	aliquid	aliquis	PRON	Px	Case=Acc|Gender=Neut|Number=Sing	4	obj	_	Ref=PHILEM_1.18
@@ -136747,7 +136747,7 @@
 # source = Jerome's Vulgate, Philemon 1
 # text = ego Paulus scripsi mea manu
 # sent_id = 31062
-# parallel_id = bible/philem-1-19/part1
+# parallel_id = bible/phlm-1-19/part1
 1	ego	ego	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Ref=PHILEM_1.19
 2	Paulus	Paulus	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	Ref=PHILEM_1.19
 3	scripsi	scribo	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Ref=PHILEM_1.19
@@ -136757,7 +136757,7 @@
 # source = Jerome's Vulgate, Philemon 1
 # text = ego reddam ut non dicam tibi quod et te ipsum mihi debes
 # sent_id = 31063
-# parallel_id = bible/philem-1-19/part2
+# parallel_id = bible/phlm-1-19/part2
 1	ego	ego	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	Ref=PHILEM_1.19
 2	reddam	reddo	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	Ref=PHILEM_1.19
 3	ut	ut	SCONJ	G-	_	5	mark	_	Ref=PHILEM_1.19
@@ -136774,14 +136774,14 @@
 # source = Jerome's Vulgate, Philemon 1
 # text = ita frater
 # sent_id = 31064
-# parallel_id = bible/philem-1-20/part1
+# parallel_id = bible/phlm-1-20/part1
 1	ita	ita	ADV	Df	_	0	root	_	Ref=PHILEM_1.20
 2	frater	frater	NOUN	Nb	Case=Voc|Gender=Masc|Number=Sing	1	vocative	_	Ref=PHILEM_1.20
 
 # source = Jerome's Vulgate, Philemon 1
 # text = ego te fruar in Domino
 # sent_id = 31065
-# parallel_id = bible/philem-1-20/part2
+# parallel_id = bible/phlm-1-20/part2
 1	ego	ego	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Ref=PHILEM_1.20
 2	te	tu	PRON	Pp	Case=Abl|Gender=Masc|Number=Sing|Person=2|PronType=Prs	3	obl:arg	_	Ref=PHILEM_1.20
 3	fruar	fruor	VERB	V-	Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	Ref=PHILEM_1.20
@@ -136791,7 +136791,7 @@
 # source = Jerome's Vulgate, Philemon 1
 # text = refice viscera mea in Domino
 # sent_id = 31066
-# parallel_id = bible/philem-1-20/part3
+# parallel_id = bible/phlm-1-20/part3
 1	refice	reficio	VERB	V-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Ref=PHILEM_1.20
 2	viscera	viscera	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	1	obj	_	Ref=PHILEM_1.20
 3	mea	meus	DET	Ps	Case=Acc|Gender=Neut|Number=Plur|Person=1|Poss=Yes	2	det	_	Ref=PHILEM_1.20
@@ -136801,7 +136801,7 @@
 # source = Jerome's Vulgate, Philemon 1
 # text = confidens oboedientia tua scripsi tibi sciens quoniam et super id quod dico facies
 # sent_id = 31067
-# parallel_id = bible/philem-1-21
+# parallel_id = bible/phlm-1-21
 1	confidens	confido	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	4	advcl	_	Ref=PHILEM_1.21
 2	oboedientia	oboedientia	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	1	obl:arg	_	Ref=PHILEM_1.21
 3	tua	tuus	DET	Ps	Case=Abl|Gender=Fem|Number=Sing|Person=2|Poss=Yes	2	det	_	Ref=PHILEM_1.21
@@ -136819,7 +136819,7 @@
 # source = Jerome's Vulgate, Philemon 1
 # text = simul autem et para mihi hospitium
 # sent_id = 31069
-# parallel_id = bible/philem-1-22/part1
+# parallel_id = bible/phlm-1-22/part1
 1	simul	simul	ADV	Df	_	4	advmod	_	Ref=PHILEM_1.22
 2	autem	autem	ADV	Df	_	4	discourse	_	Ref=PHILEM_1.22
 3	et	et	ADV	Df	_	4	discourse	_	Ref=PHILEM_1.22
@@ -136830,7 +136830,7 @@
 # source = Jerome's Vulgate, Philemon 1
 # text = nam spero per orationes vestras donari me vobis
 # sent_id = 31070
-# parallel_id = bible/philem-1-22/part2
+# parallel_id = bible/phlm-1-22/part2
 1	nam	nam	ADV	Df	_	2	discourse	_	Ref=PHILEM_1.22
 2	spero	spero	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Ref=PHILEM_1.22
 3	per	per	ADP	R-	_	4	case	_	Ref=PHILEM_1.22
@@ -136843,7 +136843,7 @@
 # source = Jerome's Vulgate, Philemon 1
 # text = salutat te Epaphras concaptivus meus in Christo Iesu Marcus Aristarchus Demas Lucas adiutores mei
 # sent_id = 31071
-# parallel_id = bible/philem-1-23
+# parallel_id = bible/phlm-1-23
 1	salutat	saluto	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Ref=PHILEM_1.23
 2	te	tu	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=2|PronType=Prs	1	obj	_	Ref=PHILEM_1.23
 3	Epaphras	Epaphras	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	Ref=PHILEM_1.23
@@ -136862,7 +136862,7 @@
 # source = Jerome's Vulgate, Philemon 1
 # text = gratia Domini nostri Iesu Christi cum spiritu vestro
 # sent_id = 31072
-# parallel_id = bible/philem-1-25/part1
+# parallel_id = bible/phlm-1-25/part1
 1	gratia	gratia	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	Ref=PHILEM_1.25
 2	Domini	dominus	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	Ref=PHILEM_1.25
 3	nostri	noster	DET	Ps	Case=Gen|Gender=Masc|Number=Sing|Person=1|Poss=Yes	2	det	_	Ref=PHILEM_1.25
@@ -136875,7 +136875,7 @@
 # source = Jerome's Vulgate, Philemon 1
 # text = amen
 # sent_id = 31073
-# parallel_id = bible/philem-1-25/part2
+# parallel_id = bible/phlm-1-25/part2
 1	amen	amen	INTJ	I-	_	0	root	_	Ref=PHILEM_1.25
 
 # source = Jerome's Vulgate, Hebrews 1
